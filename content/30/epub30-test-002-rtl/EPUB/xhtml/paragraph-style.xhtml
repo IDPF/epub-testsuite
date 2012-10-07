@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xml:lang="ja">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="../css/base_v.css" />
+        <title>段落整形：paragraph style</title>
+    </head>
+    <body class="normalpage">
+        <h2 class="chapter">段落整形：paragraph style</h2>
+        <p>ここでは、段落整形の確認を行う。</p>
+        <p>This section contains tests for display of paragraph adjustment rules.</p>
+        <section id="paragraph-rtl-010" class="ctest">
+        <h3 class="section">字下げ（Line Head Indent）</h3>
+        <p><span class="desc_v">この行の後に、２文字の字下げをしています。</span></p>
+        <div class="start_2em">
+            <p>　この会見の後、シャーロック・ホームズは、しっかり考えこんでしまった。そしてこの後二三日の間、彼はたびたび手帳から、例の記号の画かれてある紙片を取り出しては、長いこと熱心に見つめているのであった。その後二週間ばかりの間、彼はそのことを、<ruby>&#x566f;<rt>おくび</rt></ruby>にも出さなかったが、ふとある日の午後、私が外出しようとしているところを呼び止めた。</p>
+            <p>「ワトソン君、出ないでいる方がよかろうと思われるんだがね」</p>
+            <p>「なぜ？」</p>
+            <p>「今朝ヒルトン・キューピットから電報が来たのだ。そらあの舞踏人形のヒルトン・キューピットを知っているだろう。彼は一時二十分にリバプール街に着くと云っているのだ。で、もうやがてここに見えるだろうと思うのさ。その電報を綜合すると、どうも何か重大な新らしい出来事があったように思われるのだ」</p>
+            <p>　やがてまもなく、二輪馬車が全速力で、停車場から我等のノーフォークの紳士を乗せて、来たのであった。大変悩み衰えているらしく、目は疲れており、額には皺を寄せていた。</p>
+            <p class="right">（コナン・ドイル「暗号舞踊人の謎」より）</p>
+        </div>
+        </section>
+        <div class="expected-img">
+            <p>expected display image</p>
+            <img src="../img/expected-line-head-indent.png" class="block" alt="line head indent expected image" />
+        </div>
+        <section id="paragraph-rtl-020" class="ctest">
+        <h3 class="section">インデント・箇条書き（Line Head Indent at the Beginning of Paragraphs）</h3>
+        <p><span class="desc_v">この行の後に、６文字の行頭インデントをしています。</span><br /></p>
+        <div class="indent_history">
+            <p>一八九二年　芥川龍之介、東京市京橋区入船町（現中央区明石町）に生まれる。</p>
+            <p>一九一四年　一高同期の菊池寛・久米正雄らと共に同人誌『新思潮』（第３次）を刊行。作家活動を開始する。</p>
+            <p>一九一五年　「羅生門」を発表。</p>
+        </div>
+        </section>
+        <div class="expected-img">
+            <p>expected display image</p>
+            <img src="../img/expected-first-line-head-indent.png" class="block" alt="first line head indent expected image" />
+        </div>
+        <section id="paragraph-rtl-030" class="ctest">
+        <h3 class="section">アライメント（行揃え）（Line Alignment）</h3>
+        <p><span class="desc">次の行は中央揃えです。</span><br /></p>
+        <p class="center">中央揃え</p>
+        <p><span class="desc">次の行は右揃えです。縦書きの場合、下揃えになります。</span><br /></p>
+        <p class="right">下揃え</p>
+        </section>
+        <div class="expected-img">
+            <p>expected display image</p>
+            <img src="../img/expected-alignment.png" class="block" alt="alignment expected image" />
+        </div>
+    </body>
+</html>
