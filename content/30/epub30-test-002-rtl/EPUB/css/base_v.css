@@ -220,7 +220,8 @@ img.pagenation {
   -epub-text-orientation:upright;
 }
 .sideways {
-  -epub-text-orientation:sideways;
+  -webkit-text-orientation:sideways;
+  -epub-text-orientation:rotate-right;
 }
 
 .gothic {
