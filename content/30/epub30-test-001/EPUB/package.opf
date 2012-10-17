@@ -14,7 +14,10 @@
 	  <meta refines="#creator" property="file-as">Gylling, Markus</meta>
 	  <meta refines="#creator3" property="role" scheme="marc:relators" id="role">aut</meta>
 	  <meta refines="#creator" property="file-as">Koike, Toshiaki</meta>
+<<<<<<< HEAD
 	  <meta refines="#creator" property="alternate-script" xml:lang="ja">小池利明</meta>
+=======
+>>>>>>> 6987fe0e34afd8ad30c9d6312a0486eaff1a3337
       <dc:language>en</dc:language>
       <dc:language>jp</dc:language>
       <meta property="dcterms:modified">2012-10-17T15:11:00Z</meta>
