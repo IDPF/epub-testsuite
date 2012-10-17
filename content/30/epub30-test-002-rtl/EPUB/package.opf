@@ -1,60 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uid">
    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
-      <dc:identifier id="uid">code.google.com.epub-samples.epub30-multitest-001-ppd-rtl</dc:identifier>
-      <dc:title>EPUB 3.0 MultiTest Suite: Document 02 page-progression-direction:rtl [UNDER CONSTRUCTION]</dc:title>
-      <!-- repeat creator element for all contributors -->
-      <dc:creator>Markus Gylling</dc:creator>
-      <dc:creator>Vincent Gros</dc:creator>
-      <dc:creator>Toshiaki Koike</dc:creator>
+      <dc:identifier id="uid">com.github.epub-testsuite.epub30-test-002</dc:identifier>
+      <dc:title id="title">EPUB 3.0 Test Suite: Document 002 page-progression-direction:rtl [UNDER CONSTRUCTION]</dc:title>
+	  <meta refines="title" property="title-type">main</meta>
+      <!-- repeat creator element for all contributors Document 02 page-progression-direction:rtl-->
+      <dc:creator id="creator1">Markus Gylling</dc:creator>
+      <dc:creator id="creator2">Vincent Gros</dc:creator>
+      <dc:creator id="creator3">Toshiaki Koike</dc:creator>
+	  <meta refines="#creator2" property="role" scheme="marc:relators" id="role">aut</meta>
+	  <meta refines="#creator" property="file-as">Gros, Vincent</meta>
+	  <meta refines="#creator1" property="role" scheme="marc:relators" id="role">aut</meta>
+	  <meta refines="#creator" property="file-as">Gylling, Markus</meta>
+	  <meta refines="#creator3" property="role" scheme="marc:relators" id="role">aut</meta>
+	  <meta refines="#creator" property="file-as">Koike, Toshiaki</meta>
+	  <meta refines="#creator" property="alternate-script" xml:lang="ja">小池利明</meta>
       <dc:language>en</dc:language>
       <dc:language>jp</dc:language>
-      <meta property="dcterms:modified">2012-10-07T01:50:00Z</meta>
-            
-      <!-- 
-                  
-       This is one of the documents in the EPUB3 multitest suite. 
-       
-       This particular document focuses on human-evaluated binary (pass/fail) 
-       tests in a reflowable context. Tests for fixed-layout content and 
-       other individual tests that require a dedicated epub file are available 
-       in additional sibling documents. 
-                                                                              
-       Included tests are of two types: A) required and B) optional 
-       Reading System functionality. While the tests in category A are the
-       ones used for "formal" specification conformance testing, the tests in 
-       category B are included since they nevertheless provide useful information. 
-              
-       This document and its siblings use markup conventions to provide easy 
-       navigation and clarity, and to allow the automated generation of a results 
-       form template.
-       
-       Following the markup conventions, the process for adding a new test is:
-       
-        1) Locate the, or create a new, content document to contain the test 
-            (note that content docs are themed by functionality areas)     
-        
-        2) Add a wrapper element with an ID and class='ctest' (for required RS
-            functionality) or class='otest' (for optional RS functionality) 
-        
-        3) Echo the ID value given in 2 above in a descendant element text node 
-            with class 'test-id'
-        
-        4) Add the human readable description of the test intent inside the wrapper. 
-            Give the element the class 'desc'. The description typically has the form 
-            "Test whether [feature] is supported"
-        
-        5) Add the evaluation criteria for the test pass/fail states inside the wrapper 
-            This typically has the form "If [observable or invokable condition], the 
-            test passes".
-         
-        6) Add a link to the test in the navigation document. Note that the Navigation 
-            Document serves as the self-documenting list of available tests. Each test, 
-            regardless of whether it is required or optional, is linked to from the 
-            nav doc using the wrapper ID mentioned above.
-
-       -->
-      
+      <meta property="dcterms:modified">2012-10-17T15:20:00Z</meta>
    </metadata>
    <manifest>
    <!-- frontmatter -->
