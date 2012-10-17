@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+.multicol {
+  -webkit-column-count: 3;
+  column-count: 3;
+  
+  -webkit-column-gap: 1em;
+  column-gap: 1em;
+  
+  -webkit-column-rule: thin solid black;
+  column-rule: thin solid black;
+  
+  -webkit-column-fill: balance;
+  column-fill: balance;
+  
+    
+}

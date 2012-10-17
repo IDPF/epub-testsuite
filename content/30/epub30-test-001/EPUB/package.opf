@@ -8,16 +8,16 @@
       <dc:creator id="creator1">Markus Gylling</dc:creator>
       <dc:creator id="creator2">Vincent Gros</dc:creator>
       <dc:creator id="creator3">Toshiaki Koike</dc:creator>
-	  <meta refines="#creator2" property="role" scheme="marc:relators" id="role">aut</meta>
-	  <meta refines="#creator" property="file-as">Gros, Vincent</meta>
-	  <meta refines="#creator1" property="role" scheme="marc:relators" id="role">aut</meta>
-	  <meta refines="#creator" property="file-as">Gylling, Markus</meta>
-	  <meta refines="#creator3" property="role" scheme="marc:relators" id="role">aut</meta>
-	  <meta refines="#creator" property="file-as">Koike, Toshiaki</meta>
-	  <meta refines="#creator" property="alternate-script" xml:lang="ja">小池利明</meta>
+	  <meta refines="#creator1" property="role" scheme="marc:relators">aut</meta>
+	  <meta refines="#creator1" property="file-as">Gylling, Markus</meta>
+	  <meta refines="#creator2" property="role" scheme="marc:relators">aut</meta>
+	  <meta refines="#creator2" property="file-as">Gros, Vincent</meta>
+	  <meta refines="#creator3" property="role" scheme="marc:relators">aut</meta>
+	  <meta refines="#creator3" property="file-as">Koike, Toshiaki</meta>
+	  <meta refines="#creator3" property="alternate-script" xml:lang="ja">小池利明</meta>
       <dc:language>en</dc:language>
       <dc:language>jp</dc:language>
-      <meta property="dcterms:modified">2012-10-17T15:11:00Z</meta>
+      <meta property="dcterms:modified">2012-10-17T16:45:00Z</meta>
    </metadata>
    <manifest>
    <!-- frontmatter -->
@@ -27,31 +27,32 @@
 	<!-- xhtml -->
       <item href="xhtml/content-xhtml-001.xhtml" id="xhtml-001" media-type="application/xhtml+xml"/>
       <item href="xhtml/content-xhtml-002.xhtml" id="xhtml-002" media-type="application/xhtml+xml" properties="switch"/>
-      <item href="xhtml/content-xhtml-003.xhtml" id="xhtml-003" media-type="application/xhtml+xml" />
+      <item href="xhtml/content-xhtml-003.xhtml" id="xhtml-003" media-type="application/xhtml+xml"/>
 	<!-- svg -->  
       <item href="xhtml/content-svg-001.xhtml" id="xhtml-svg-001" media-type="application/xhtml+xml"/>
-	  <item href="xhtml/content-svg-002.xhtml" id="xhtml-svg-002" properties="svg" media-type="application/xhtml+xml"/>
-	  <item href="xhtml/content-svg-003.xhtml" id="xhtml-svg-003" properties="svg" media-type="application/xhtml+xml"/>
-	  <item href="xhtml/content-svg-004.xhtml" id="xhtml-svg-004" properties="svg" media-type="application/xhtml+xml"/>
+	  <item href="xhtml/content-svg-002.xhtml" id="xhtml-svg-002" media-type="application/xhtml+xml" properties="svg"/>
+	  <item href="xhtml/content-svg-003.xhtml" id="xhtml-svg-003" media-type="application/xhtml+xml" properties="svg"/>
+	  <item href="xhtml/content-svg-004.xhtml" id="xhtml-svg-004" media-type="application/xhtml+xml" properties="svg"/>
       <item href="svg/content-svg-001.svg" id="svg-001" media-type="image/svg+xml"/>
 	  <item href="svg/content-svg-002.svg" id="svg-002" media-type="image/svg+xml"/>
 	  <item href="svg/content-svg-003.svg" id="svg-003" media-type="image/svg+xml"/>
 	  <item href="svg/content-svg-004.svg" id="svg-004" media-type="image/svg+xml"/>
 	<!-- layout -->
       <item href="xhtml/styling-xhtml-001.xhtml" id="css-001" media-type="application/xhtml+xml"/>
+	  <item href="xhtml/styling-xhtml-002.xhtml" id="css-002" media-type="application/xhtml+xml"/>
 	<!-- fonts -->
       <item href="xhtml/fonts-001.xhtml" id="fonts-001" media-type="application/xhtml+xml" />
 	<!-- scripting -->
       <item href="xhtml/scripting-001.xhtml" id="scr-001" media-type="application/xhtml+xml"/>
-      <item href="xhtml/scripting-002.xhtml" id="scr-002" media-type="application/xhtml+xml properties="scripted"/>	
+      <item href="xhtml/scripting-002.xhtml" id="scr-002" media-type="application/xhtml+xml" properties="scripted"/>	
     <!-- media overlays --> 
       <item href="xhtml/mo-001.xhtml" id="mo-001" media-type="application/xhtml+xml"/>
-    
    <!-- secondary files -->
 	<!-- css -->
       <item href="css/base.css" media-type="text/css" id="css"/>
 	  <item href="css/svg.css" media-type="text/css" id="css-svg"/>
       <item href="css/fonts.css" media-type="text/css" id="css-fonts"/>
+	  <item href="css/styling.css" media-type="text/css" id="css-styling"/>
 	<!-- images -->
 	  <item href="img/circle.jpg" id="img-001" media-type="image/jpeg"/>
 	<!-- fonts -->
@@ -65,7 +66,6 @@
       <item id="mp3-1" href="audio/allison64.mp3" media-type="audio/mpeg"/>
       <item id="mp4-1" href="audio/allison64.mp4" media-type="audio/mp4"/>       
    </manifest>
-    
    <spine>
       <itemref idref="front"/>
       <itemref idref="nav" linear="no"/>
@@ -81,6 +81,7 @@
 	  <itemref idref="svg-003"/>
 	  <itemref idref="svg-004"/>
       <itemref idref="css-001"/>
+	  <itemref idref="css-002"/>
       <itemref idref="fonts-001"/>
       <itemref idref="scr-001"/>
       <itemref idref="scr-002"/>
