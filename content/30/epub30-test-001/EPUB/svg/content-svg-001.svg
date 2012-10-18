@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" width="100%" height="100%" viewBox="0 0 480 360" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg version="1.1" width="100%" height="100%" viewBox="0 0 480 260" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>SVG-001</title>
 	<desc>A simple circle with its description</desc>
 	<g>
@@ -13,7 +13,7 @@
         </style>
       </defs>
     </defs>
-		<text font-size="20" fill="black" x="5" y="60"><tspan class="test-id">svg-310</tspan> A simple shape, into SVG directly in spine</text>
+		<text font-size="20" fill="black" x="5" y="60"><tspan class="test-id" fill="grey">svg-310</tspan> A simple shape, into SVG directly in spine</text>
 		<rect x="4" y="40" width="75" height="25" fill="none" stroke="red"/>
 		<g>
 			<circle cx="50" cy="110" r="40" />
@@ -26,6 +26,6 @@
 			<text x="30" y="225" class="fallback">If the black circle does not appear above or before this paragraph,</text>
 			<text x="30" y="240" class="fallback">the test fails.</text>
 		</g>
-		<rect x="1" y="1" width="478" height="358" fill="none" stroke="#000000"/>
+		<rect x="1" y="1" width="478" height="258" fill="none" stroke="#000000"/>
 	</g>
 </svg>
