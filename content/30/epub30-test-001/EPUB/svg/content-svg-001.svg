@@ -1,19 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet href="../css/base.css" type="text/css"?>
-<?xml-stylesheet href="../css/svg.css" type="text/css"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="300" height="350">
+<svg version="1.1" width="100%" height="100%" viewBox="0 0 480 360" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>SVG-001</title>
-	<desc>A simple circle</desc>
+	<desc>A simple circle with its description</desc>
 	<g>
-		<circle cx="50" cy="50" r="40" style="fill:#AAA"/>  
-		<text x="30" y="150" class="ctest"><tspan class="test-id">svg-310</tspan></text>
-		<text x="30" y="180">A simple shape, with <tspan class="code">SVG</tspan> code</text>
-		<text x="30" y="195">directly in spine</text>
-		<text x="30" y="225" class="desc">Test whether the <tspan class="code">SVG</tspan> code for</text>
-		<text x="30" y="240" class="desc">a simple vector shape is supported</text> 
-		<text x="30" y="255" class="desc">when <tspan class="code">SVG</tspan> is directly in the spine.</text>
-		<text x="30" y="285" class="fallback">If the black circle does not appear</text> 
-		<text x="30" y="300" class="fallback">above or before this paragraph,</text>
-		<text x="30" y="315" class="fallback">the test fails.</text>
+		<text font-size="30" fill="black" x="5" y="30">SVG: Shapes using vectors</text>
+	</g>
+	<g id="svg-310" class="ctest">
+	<defs>
+      <defs>
+        <style type="text/css">
+			g {font-family:arial,helvetica,sans-serif;}
+        </style>
+      </defs>
+    </defs>
+		<text font-size="20" fill="black" x="5" y="60"><tspan class="test-id">svg-310</tspan> A simple shape, into SVG directly in spine</text>
+		<rect x="4" y="40" width="75" height="25" fill="none" stroke="red"/>
+		<g>
+			<circle cx="50" cy="110" r="40" />
+		</g>
+		<g font-size="15">
+			<text x="30" y="180" class="desc">Test whether the SVG code for a simple vector shape is supported</text>
+			<text x="30" y="195" class="desc">when SVG is directly in the spine.</text>
+		</g>
+		<g font-size="15">
+			<text x="30" y="225" class="fallback">If the black circle does not appear above or before this paragraph,</text>
+			<text x="30" y="240" class="fallback">the test fails.</text>
+		</g>
+		<rect x="1" y="1" width="478" height="358" fill="none" stroke="#000000"/>
 	</g>
 </svg>
