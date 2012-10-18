@@ -1,32 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet href="../css/base.css" type="text/css"?>
-<?xml-stylesheet href="../css/svg.css" type="text/css"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="300">
-	<title>SVG-003</title>
-    <desc>Textual Content</desc>
-	<text x="2" y="20">First text line using SVG</text>
-	<text x="30" y="100">Second text line using SVG</text>
-	<text x="80" y="200">Third and last text line using SVG</text>
-	<text x="100" y="280">This
-		<tspan dy="-2">i</tspan>
-		<tspan dy="-3">s</tspan>
-		<tspan dy="-4"></tspan>
-		<tspan dy="-5">a</tspan>
-		<tspan dy="-6"> </tspan>
-		<tspan dy="-8">v</tspan>
-		<tspan dy="-9">e</tspan>
-		<tspan dy="-8">e</tspan>
-		<tspan dy="-7">e</tspan>
-		<!-- -59 -->
-		<tspan dy="9">r</tspan>
-		<tspan dy="10">y</tspan>
-		<tspan dy="9"></tspan>
-		<tspan dy="8">b</tspan>
-		<tspan dy="7">i</tspan>
-		<tspan dy="6">i</tspan>
-		<tspan dy="5">i</tspan>
-		<tspan dy="3">g</tspan>
-		<tspan dy="2"> </tspan>
-		<!-- +59 -->
-	wave.</text>
+<svg version="1.1" width="100%" height="100%" viewBox="0 0 480 260" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>SVG-003</title>
+	<desc>Text positioned and transformed with its description</desc>
+	<g>
+		<text font-size="30" fill="black" x="5" y="30">SVG: textual content</text>
+	</g>
+	<g id="svg-510" class="ctest">
+	<defs>
+      <defs>
+        <style type="text/css">
+			g {font-family:arial,helvetica,sans-serif;}
+        </style>
+      </defs>
+    </defs>
+		<text font-size="20" fill="black" x="5" y="60"><tspan class="test-id" fill="grey">svg-510</tspan> Text positioned and transformed</text>
+		<rect x="4" y="40" width="75" height="25" fill="none" stroke="red"/>
+		<g>
+			<text x="60" y="140">This
+				<tspan dy="-2">i</tspan>
+				<tspan dy="-3">s</tspan>
+				<tspan dy="-4"></tspan>
+				<tspan dy="-5">a</tspan>
+				<tspan dy="-6"> </tspan>
+				<tspan dy="-8">v</tspan>
+				<tspan dy="-9">e</tspan>
+				<tspan dy="-8">e</tspan>
+				<tspan dy="-7">e</tspan>
+				<!-- -59 -->
+				<tspan dy="9">r</tspan>
+				<tspan dy="10">y</tspan>
+				<tspan dy="9"></tspan>
+				<tspan dy="8">b</tspan>
+				<tspan dy="7">i</tspan>
+				<tspan dy="6">i</tspan>
+				<tspan dy="5">i</tspan>
+				<tspan dy="3">g</tspan>
+				<tspan dy="2"> </tspan>
+				<!-- +59 -->
+			wave.</text>
+		</g>
+		<g font-size="15">
+			<text x="30" y="180" class="desc">Test whether the SVG code for transformed text is supported</text>
+			<text x="30" y="195" class="desc">when SVG is directly in the spine.</text>
+		</g>
+		<g font-size="15">
+			<text x="30" y="225" class="fallback">If the text does not appear or if the "wave-style" does not appear,</text>
+			<text x="30" y="240" class="fallback">the test fails.</text>
+		</g>
+		<rect x="1" y="1" width="478" height="258" fill="none" stroke="#000000"/>
+	</g>
 </svg>

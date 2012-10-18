@@ -17,7 +17,7 @@
 	  <meta refines="#creator3" property="alternate-script" xml:lang="ja">小池利明</meta>
       <dc:language>en</dc:language>
       <dc:language>jp</dc:language>
-      <meta property="dcterms:modified">2012-10-17T19:10:00Z</meta>
+      <meta property="dcterms:modified">2012-10-18T17:45:00Z</meta>
    </metadata>
    <manifest>
    <!-- frontmatter -->
@@ -78,9 +78,9 @@
 	  <itemref idref="xhtml-svg-003"/>
 	  <itemref idref="xhtml-svg-004"/>
       <itemref idref="svg-001"/>
-<!-- 	  <itemref idref="svg-002"/>
+	  <itemref idref="svg-002"/>
 	  <itemref idref="svg-003"/>
-	  <itemref idref="svg-004"/> -->
+	  <itemref idref="svg-004"/>
       <itemref idref="css-001"/>
 	  <itemref idref="css-002"/>
       <itemref idref="fonts-001"/>
