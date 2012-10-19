@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uid">
+   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <dc:identifier id="uid">com.github.epub-testsuite.epub30-test-003-mo</dc:identifier>
+      <dc:title id="title">EPUB 3.0 Test Suite: Document 003, Media Overlays [UNDER CONSTRUCTION]</dc:title>
+	  <meta refines="title" property="title-type">main</meta>
+      <!-- repeat creator element for all contributors -->
+      <dc:creator id="creator1">Marisa DeMeglio</dc:creator>
+	  <meta refines="#creator1" property="role" scheme="marc:relators">aut</meta>
+	  <meta refines="#creator1" property="file-as">DeMeglio, Marisa</meta>
+	  
+      <meta property="media:duration" refines="#smil-1">00:01:29.542</meta>
+      <meta property="media:duration" refines="#smil-2">00:00:57.496</meta>
+      <meta property="media:duration" refines="#smil-3">00:15:06.046</meta>
+      <meta property="media:duration">00:17:33.084</meta>
+      
+      <dc:language>en</dc:language>
+      <meta property="dcterms:modified">2012-10-19T11:47:29Z</meta>
+      <meta property="media:active-class">-epub-media-overlay-active</meta>
+   </metadata>
+   <manifest>
+       
+      <!-- navigation -->
+      <item href="xhtml/nav.xhtml" id="nav" media-type="application/xhtml+xml" properties="nav"/>
+   
+   	  <!-- xhtml -->
+      <item id="xhtml-001" href="xhtml/intro.xhtml" media-type="application/xhtml+xml"/>
+      <item id="xhtml-002" href="xhtml/basic_tests.xhtml" media-type="application/xhtml+xml" media-overlay="smil-1"/>
+      <item id="xhtml-003" href="xhtml/navigation_tests.xhtml"  media-type="application/xhtml+xml" media-overlay="smil-2"/>
+      <item id="xhtml-004" href="xhtml/more_navigation_tests.xhtml" media-type="application/xhtml+xml" media-overlay="smil-3"/>
+      <item id="xhtml-005" href="xhtml/end.xhtml" media-type="application/xhtml+xml"/>
+	
+      <!-- css -->
+      <item href="css/base.css" media-type="text/css" id="css"/>
+	  
+      <!-- audio -->
+      <item id="mp3-1" href="audio/basic_tests.mp3" media-type="audio/mpeg"/>
+      <item id="mp3-2" href="audio/navigation_tests.mp3" media-type="audio/mpeg"/>
+      <item id="mp3-3" href="audio/more_navigation_tests.mp3" media-type="audio/mpeg"/>
+      <item id="mp3-4" href="audio/mobydick_001_002_melville.mp4" media-type="audio/mp4"/>
+       
+      <!-- media overlays -->
+      <item id="smil-1" href="mo/basic_tests.smil" media-type="application/smil+xml"/>
+      <item id="smil-2" href="mo/navigation_tests.smil" media-type="application/smil+xml"/>
+      <item id="smil-3" href="mo/more_navigation_tests.smil" media-type="application/smil+xml"/>
+       
+   </manifest>
+   <spine>
+      <itemref idref="nav" linear="no"/>
+      <itemref idref="xhtml-001"/>
+      <itemref idref="xhtml-002"/>
+      <itemref idref="xhtml-003"/>
+      <itemref idref="xhtml-004"/>
+      <itemref idref="xhtml-005"/>
+   </spine>
+</package>
