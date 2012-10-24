@@ -17,7 +17,7 @@
 	  <meta refines="#creator3" property="alternate-script" xml:lang="ja">小池利明</meta>
       <dc:language>en</dc:language>
       <dc:language>jp</dc:language>
-      <meta property="dcterms:modified">2012-10-18T17:45:00Z</meta>
+      <meta property="dcterms:modified">2012-10-24T12:00:00Z</meta>
    </metadata>
    <manifest>
    <!-- frontmatter -->
@@ -86,6 +86,6 @@
       <itemref idref="fonts-001"/>
       <itemref idref="scr-001"/>
       <itemref idref="scr-002"/>
-      <itemref idref="mo-001"/>
+      <!-- <itemref idref="mo-001"/> -->
    </spine>
 </package>
