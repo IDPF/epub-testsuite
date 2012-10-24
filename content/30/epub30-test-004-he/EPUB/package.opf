@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uid">
    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
-      <dc:identifier id="uid">com.github.epub-testsuite.epub30-test-003-he</dc:identifier>
+      <dc:identifier id="uid">com.github.epub-testsuite.epub30-test-004-he</dc:identifier>
       <dc:title id="title">EPUB 3.0 Test Suite: Herbrew / Arabic [UNDER CONSTRUCTION]</dc:title>
 	  <meta refines="title" property="title-type">main</meta>
       <!-- repeat creator element for all contributors -->
@@ -20,7 +20,7 @@
 	  <meta refines="#creator4" property="alternate-script" xml:lang="ja">小池利明</meta>
       <dc:language>en</dc:language>
       <dc:language>he</dc:language>
-      <meta property="dcterms:modified">2012-10-24T12:33:00Z</meta>
+      <meta property="dcterms:modified">2012-10-24T22:20:00Z</meta>
    </metadata>
    <manifest>
    <!-- frontmatter -->
@@ -51,9 +51,8 @@
 	  <item id="DejaVuSans-Bold" href="fonts/DejaVuSans-Bold.ttf" media-type="application/x-font-ttf" />
 	  <item id="DejaVuSans-BoldOblique" href="fonts/DejaVuSans-BoldOblique.ttf" media-type="application/x-font-ttf" />
 	  <item id="pdheb" href="fonts/pdheb.ttf" media-type="application/x-font-ttf" />
-
    </manifest>
-   <spine>
+   <spine page-progression-direction="rtl">
       <itemref idref="front"/>
       <itemref idref="nav" linear="no"/>
       <itemref idref="navtest"/>
