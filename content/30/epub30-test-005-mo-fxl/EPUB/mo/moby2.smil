@@ -1,0 +1,14 @@
+<smil xmlns="http://www.w3.org/ns/SMIL" xmlns:epub="http://www.idpf.org/2007/ops" version="3.0">
+    <body>
+        <seq id="mobyexcerpt" epub:textref="../xhtml/moby2.xhtml#mobyexcerpt">
+            <par id="para4">
+                <text src="../xhtml/moby2.xhtml#c01p0004"/>
+                <audio src="../audio/mobydick_001_002_melville.mp4" clipBegin="0:03:02.000" clipEnd="0:03:45.500"/>
+            </par>
+            <par id="para5">
+                <text src="../xhtml/moby2.xhtml#c01p0005"/>
+                <audio src="../audio/mobydick_001_002_melville.mp4" clipBegin="0:03:45.500" clipEnd="0:04:29.300"/>
+            </par>
+        </seq>
+    </body>
+</smil>
