@@ -6,7 +6,7 @@
 		<script>
 			<![CDATA[
 				var param = new Array();
-				var qs = (window.location.href != null && window.location.href != '' && window.location.href.indexOf('?') > 0) ? window.location.href.split('?')[1] : '';
+				var qs = (window.location.href.indexOf('?') > 0) ? window.location.href.split('?')[1] : '';
 				var args = qs.split('&');
 				
 				for(var i = 0; i < args.length; i++)
