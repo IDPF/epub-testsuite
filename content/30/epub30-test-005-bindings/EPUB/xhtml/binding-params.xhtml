@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<link rel="stylesheet" type="text/css" href="../css/base.css"/>
+		<script>
+			<![CDATA[
+				var param = new Array();
+				var qs = (window.location.href != null && window.location.href != '') ? window.location.href.split("?")[1] : '';
+				var args = qs.split("&");
+				
+				for(var i = 0; i < args.length; i++)
+				{
+					var p = args[i].split('=');
+					param[p[0]] = p[1];
+				}
+				
+				function checkParams() {
+					if (param["success"] == "PASS") {
+						document.getElementById('binding02-result').innerText = param["success"];
+						document.getElementById('fail1').setAttribute('hidden', 'hiddden');
+					}
+					
+					else {
+						document.getElementById('qs').innerText = qs == '' ? '<no query string available>' : qs;
+						document.getElementById('fail1').setAttribute('hidden', 'hiddden');
+						document.getElementById('fail2').removeAttribute('hidden');
+					}
+				}
+			]]>
+		</script>
+	</head>
+	<body onload="checkParams()">
+		<p id="binding02-result">FAIL</p>
+		<p id="fail1">The scripted binding page was correctly called but scripting is not enabled.</p>
+		<p id="fail2" hidden="hidden">Scripting is enabled but the 'success' <code>param</code> in the original
+			<code>object</code> did not get passed through.  The query string passed to the page is: 
+			<span id="qs"/></p>
+	</body>
+</html>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head>
+		<link rel="stylesheet" type="text/css" href="../css/base.css"/>
+		<script type="text/javascript">
+			<![CDATA[
+			function checkScripting() {
+				document.getElementById('fail').setAttribute('hidden', 'hiddden');
+				document.getElementById('binding01-result').innerText = 'PASS';
+			}
+			]]>
+		</script>
+	</head>
+	<body onload="checkScripting()">
+		<p id="binding01-result">FAIL</p>
+		<p id="fail">The scripted binding page was correctly called but scripting is not enabled</p>
+	</body>
+</html>

@@ -9,10 +9,13 @@ use POSIX qw{strftime};
 
 
 my $now = strftime("%Y%m%d", localtime);
-
 my $pwd = getcwd();
-
 my $content_path = $pwd . '/content/30';
+
+unless (-d "$pwd/build") {
+  # create the build dir if not present
+  mkdir("$pwd/build");
+}
 
 opendir(my $dh, $content_path) || die "can't opendir $content_path: $!\n";
 my @dirs  = grep { /^[^.].*/ && -d "$content_path/$_" } readdir($dh);
