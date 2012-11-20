@@ -45,7 +45,11 @@
       <item href="xhtml/fonts-001.xhtml" id="fonts-001" media-type="application/xhtml+xml" />
 	<!-- scripting -->
       <item href="xhtml/scripting-001.xhtml" id="scr-001" media-type="application/xhtml+xml"/>
-      <item href="xhtml/scripting-002.xhtml" id="scr-002" media-type="application/xhtml+xml" properties="scripted"/>	
+      <item href="xhtml/scripting-002.xhtml" id="scr-002" media-type="application/xhtml+xml" properties="scripted"/>
+   	<!-- bindings --> 
+      <item href="xhtml/bindings-001.xhtml" id="bind-001" media-type="application/xhtml+xml"/>
+      <item href="xhtml/bindings-002.xhtml" id="bind-002" media-type="application/xhtml+xml" properties="scripted"/>
+      <item href="bindings/slideshow.xml" id="slideshow" media-type="application/x-demo-slideshow"/>
     <!-- media overlays --> 
       <item href="xhtml/mo-001.xhtml" id="mo-001" media-type="application/xhtml+xml"/>
    <!-- secondary files -->
@@ -86,6 +90,10 @@
       <itemref idref="fonts-001"/>
       <itemref idref="scr-001"/>
       <itemref idref="scr-002"/>
-      <!-- <itemref idref="mo-001"/> -->
+   	  <itemref idref="bind-001"/>
+   	  <!-- <itemref idref="mo-001"/> -->
    </spine>
+	<bindings>
+		<mediaType media-type="application/x-demo-slideshow" handler="bind-002"/>
+	</bindings>
 </package>
