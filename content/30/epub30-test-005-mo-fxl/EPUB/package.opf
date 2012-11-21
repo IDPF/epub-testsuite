@@ -15,12 +15,12 @@
       
       <meta property="rendition:layout">pre-paginated</meta>
       
-      <meta property="media:duration" refines="#smil-1">00:01:29.542</meta>
-      <meta property="media:duration" refines="#smil-2">00:00:57.496</meta>
-      <meta property="media:duration" refines="#smil-3">00:00:50.314</meta>
+      <meta property="media:duration" refines="#smil-1">00:01:15.336</meta>
+      <meta property="media:duration" refines="#smil-2">00:00:51.591</meta>
+      <meta property="media:duration" refines="#smil-3">00:00:51.996</meta>
       <meta property="media:duration" refines="#smil-4">00:02:32.732</meta>
       <meta property="media:duration" refines="#smil-5">00:01:27.300</meta>
-      <meta property="media:duration">00:07:17.384</meta>
+      <meta property="media:duration">00:06:58.955</meta>
    </metadata>
    <manifest>
        

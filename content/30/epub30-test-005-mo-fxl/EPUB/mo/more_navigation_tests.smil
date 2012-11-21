@@ -1,35 +1,28 @@
-<smil xmlns="http://www.w3.org/ns/SMIL" xmlns:epub="http://www.idpf.org/2007/ops" version="3.0">
-    <body>
-        <seq epub:textref="../xhtml/more_navigation_tests.xhtml" epub:type="bodymatter chapter">
-            <par>
-                <text src="../xhtml/more_navigation_tests.xhtml#t1"/>
-                <audio src="../audio/more_navigation_tests.mp3" clipBegin="0.000" clipEnd="1.950"/>
-            </par>
-
-            <par>
-                <text src="../xhtml/more_navigation_tests.xhtml#t2"/>
-                <audio src="../audio/more_navigation_tests.mp3" clipBegin="1.950" clipEnd="5.433"/>
-            </par>
-
-            <par>
-                <text src="../xhtml/more_navigation_tests.xhtml#t3"/>
-                <audio src="../audio/more_navigation_tests.mp3" clipBegin="5.433" clipEnd="32.461"/>
-            </par>
-
-            <par>
-                <text src="../xhtml/more_navigation_tests.xhtml#t4"/>
-                <audio src="../audio/more_navigation_tests.mp3" clipBegin="32.461" clipEnd="34.783"/>
-            </par>
-
-            <par>
-                <text src="../xhtml/more_navigation_tests.xhtml#t5"/>
-                <audio src="../audio/more_navigation_tests.mp3" clipBegin="34.783" clipEnd="43.096"/>
-            </par>
-            
-            <par>
-                <text src="../xhtml/more_navigation_tests.xhtml#t6"/>
-                <audio src="../audio/more_navigation_tests.mp3" clipBegin="43.096" clipEnd="50.314"/>
-            </par>
-         </seq>
-    </body>
+<smil xmlns:epub="http://www.idpf.org/2007/ops" xmlns="http://www.w3.org/ns/SMIL" version="3.0">
+  <body epub:textref="more_navigation_tests.xhtml">
+    <par>
+      <text src="../xhtml/more_navigation_tests.xhtml#mo-1"/>
+      <audio src="../audio/more_navigation_tests.mp3" clipBegin="00:00:00.000" clipEnd="00:00:01.595"/>
+    </par>
+    <par>
+      <text src="../xhtml/more_navigation_tests.xhtml#mo-2"/>
+      <audio src="../audio/more_navigation_tests.mp3" clipBegin="00:00:01.595" clipEnd="00:00:04.049"/>
+    </par>
+    <par>
+      <text src="../xhtml/more_navigation_tests.xhtml#mo-3"/>
+      <audio src="../audio/more_navigation_tests.mp3" clipBegin="00:00:04.049" clipEnd="00:00:25.262"/>
+    </par>
+    <par>
+      <text src="../xhtml/more_navigation_tests.xhtml#mo-4"/>
+      <audio src="../audio/more_navigation_tests.mp3" clipBegin="00:00:25.262" clipEnd="00:00:26.342"/>
+    </par>
+    <par>
+      <text src="../xhtml/more_navigation_tests.xhtml#mo-5"/>
+      <audio src="../audio/more_navigation_tests.mp3" clipBegin="00:00:26.342" clipEnd="00:00:33.769"/>
+    </par>
+    <par>
+      <text src="../xhtml/more_navigation_tests.xhtml#mo-6"/>
+      <audio src="../audio/more_navigation_tests.mp3" clipBegin="00:00:33.769" clipEnd="00:00:51.996"/>
+    </par>
+  </body>
 </smil>
