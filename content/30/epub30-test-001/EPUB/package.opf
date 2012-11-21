@@ -28,6 +28,7 @@
       <item href="xhtml/content-xhtml-001.xhtml" id="xhtml-001" media-type="application/xhtml+xml"/>
       <item href="xhtml/content-xhtml-002.xhtml" id="xhtml-002" media-type="application/xhtml+xml" properties="switch"/>
       <item href="xhtml/content-xhtml-003.xhtml" id="xhtml-003" media-type="application/xhtml+xml"/>
+      <item href="xhtml/content-xhtml-004.xhtml" id="xhtml-004" media-type="application/xhtml+xml" properties="switch"/>
 	<!-- svg -->  
       <item href="xhtml/content-svg-001.xhtml" id="xhtml-svg-001" media-type="application/xhtml+xml"/>
 	  <item href="xhtml/content-svg-002.xhtml" id="xhtml-svg-002" media-type="application/xhtml+xml" properties="svg"/>
@@ -77,6 +78,7 @@
       <itemref idref="xhtml-001"/>
       <itemref idref="xhtml-002"/>
       <itemref idref="xhtml-003"/>
+      <itemref idref="xhtml-004"/>
       <itemref idref="xhtml-svg-001"/>
 	  <itemref idref="xhtml-svg-002"/>
 	  <itemref idref="xhtml-svg-003"/>
