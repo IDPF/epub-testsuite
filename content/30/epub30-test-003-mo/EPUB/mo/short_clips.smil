@@ -1,0 +1,252 @@
+<smil xmlns:epub="http://www.idpf.org/2007/ops" xmlns="http://www.w3.org/ns/SMIL" version="3.0">
+  <body epub:textref="short_clips.xhtml">
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-1"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:00:00.000" clipEnd="00:00:01.194"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-2"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:00:01.194" clipEnd="00:00:04.926"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-3"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:00:04.926" clipEnd="00:00:07.611"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-4"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:00:07.611" clipEnd="00:00:12.233"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-5"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:00:12.233" clipEnd="00:00:12.527"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-6"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:00:12.527" clipEnd="00:00:12.967"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-7"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:00:12.967" clipEnd="00:00:13.435"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-8"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:00:13.435" clipEnd="00:00:13.871"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-9"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:00:13.871" clipEnd="00:00:14.200"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-10"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:00:14.200" clipEnd="00:00:14.638"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-11"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:00:14.638" clipEnd="00:00:15.117"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-12"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:00:15.117" clipEnd="00:00:15.550"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-13"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:00:15.550" clipEnd="00:00:15.909"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-14"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:00:15.909" clipEnd="00:00:16.409"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-15"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:00:16.409" clipEnd="00:00:16.883"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-16"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:00:16.883" clipEnd="00:00:17.291"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-17"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:00:17.291" clipEnd="00:00:17.701"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-18"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:00:17.701" clipEnd="00:00:22.006"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-19"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:00:22.006" clipEnd="00:00:31.805"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-20"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:00:31.805" clipEnd="00:00:32.098"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-21"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:00:32.098" clipEnd="00:00:32.539"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-22"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:00:32.539" clipEnd="00:00:33.006"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-23"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:00:33.006" clipEnd="00:00:33.442"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-24"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:00:33.442" clipEnd="00:00:33.771"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-25"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:00:33.771" clipEnd="00:00:34.209"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-26"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:00:34.209" clipEnd="00:00:34.689"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-27"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:00:34.689" clipEnd="00:00:35.121"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-28"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:00:35.121" clipEnd="00:00:35.480"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-29"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:00:35.480" clipEnd="00:00:35.980"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-30"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:00:35.980" clipEnd="00:00:36.454"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-31"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:00:36.454" clipEnd="00:00:36.862"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-32"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:00:36.862" clipEnd="00:00:37.272"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-33"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:00:37.272" clipEnd="00:00:38.912"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-34"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:00:38.912" clipEnd="00:00:43.613"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-35"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:00:43.613" clipEnd="00:00:57.539"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-36"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:00:57.539" clipEnd="00:00:57.833"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-37"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:00:57.833" clipEnd="00:00:58.273"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-38"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:00:58.273" clipEnd="00:00:58.741"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-39"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:00:58.741" clipEnd="00:00:59.177"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-40"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:00:59.177" clipEnd="00:00:59.506"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-41"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:00:59.506" clipEnd="00:00:59.944"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-42"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:00:59.944" clipEnd="00:01:00.423"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-43"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:01:00.423" clipEnd="00:01:00.856"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-44"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:01:00.856" clipEnd="00:01:01.215"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-45"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:01:01.215" clipEnd="00:01:01.715"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-46"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:01:01.715" clipEnd="00:01:02.189"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-47"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:01:02.189" clipEnd="00:01:02.597"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-48"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:01:02.597" clipEnd="00:01:03.007"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-49"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:01:03.007" clipEnd="00:01:03.412"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-50"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:01:03.412" clipEnd="00:01:03.732"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-51"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:01:03.732" clipEnd="00:01:04.198"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-52"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:01:04.198" clipEnd="00:01:04.719"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-53"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:01:04.719" clipEnd="00:01:05.142"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-54"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:01:05.142" clipEnd="00:01:05.574"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-55"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:01:05.574" clipEnd="00:01:06.036"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-56"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:01:06.036" clipEnd="00:01:06.487"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-57"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:01:06.487" clipEnd="00:01:06.936"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-58"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:01:06.936" clipEnd="00:01:07.645"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-59"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:01:07.645" clipEnd="00:01:08.121"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-60"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:01:08.121" clipEnd="00:01:08.620"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-61"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:01:08.620" clipEnd="00:01:09.063"/>
+    </par>
+    <par>
+      <text src="../xhtml/short_clips.xhtml#mo-62"/>
+      <audio src="../audio/short_clips.mp3" clipBegin="00:01:09.063" clipEnd="00:01:14.974"/>
+    </par>
+  </body>
+</smil>

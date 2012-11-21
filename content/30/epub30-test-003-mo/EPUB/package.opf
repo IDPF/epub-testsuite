@@ -9,11 +9,16 @@
 	  <meta refines="#creator1" property="role" scheme="marc:relators">aut</meta>
 	  <meta refines="#creator1" property="file-as">DeMeglio, Marisa</meta>
 	  
-      <meta property="media:duration" refines="#smil-1">00:01:15.160</meta>
+      <meta property="media:duration" refines="#smil-1">00:01:15.336</meta>
       <meta property="media:duration" refines="#smil-2">00:00:51.594</meta>
       <meta property="media:duration" refines="#smil-3">00:15:10.428</meta>
       <meta property="media:duration" refines="#smil-4">00:00:23.641</meta>
-      <meta property="media:duration">00:17:40.823</meta>
+      <meta property="media:duration" refines="#smil-5">00:00:10.104</meta>
+      <meta property="media:duration" refines="#smil-6">00:00:12.521</meta>
+      <meta property="media:duration" refines="#smil-7">00:01:14.974</meta>
+      <meta property="media:duration" refines="#smil-8">00:01:08.067</meta>
+      <meta property="media:duration" refines="#smil-9">00:00:19.734</meta>
+      <meta property="media:duration">00:20:46.399</meta>
       
       <dc:language>en</dc:language>
       <meta property="dcterms:modified">2012-11-01T17:53:29Z</meta>
@@ -30,6 +35,13 @@
       <item id="xhtml-003" href="xhtml/navigation_tests.xhtml"  media-type="application/xhtml+xml" media-overlay="smil-2"/>
       <item id="xhtml-004" href="xhtml/more_navigation_tests.xhtml" media-type="application/xhtml+xml" media-overlay="smil-3"/>
       <item id="xhtml-005" href="xhtml/clip_times_tests.xhtml" media-type="application/xhtml+xml" media-overlay="smil-4"/>
+      <item id="xhtml-006" href="xhtml/same_audio1.xhtml" media-type="application/xhtml+xml" media-overlay="smil-5"/>
+      <item id="xhtml-007" href="xhtml/same_audio2.xhtml" media-type="application/xhtml+xml" media-overlay="smil-6"/>
+      <item id="xhtml-008" href="xhtml/short_clips.xhtml" media-type="application/xhtml+xml" media-overlay="smil-7"/>
+      <item id="xhtml-009" href="xhtml/one_mo_multiple_chapters1.xhtml" media-type="application/xhtml+xml" media-overlay="smil-8"/>
+      <item id="xhtml-010" href="xhtml/one_mo_multiple_chapters2.xhtml" media-type="application/xhtml+xml" media-overlay="smil-8"/>
+      <item id="xhtml-011" href="xhtml-1/one_mo_multiple_chapters2.xhtml" media-type="application/xhtml+xml" media-overlay="smil-8"/>
+      <item id="xhtml-012" href="xhtml/path_resolution_audio_files.xhtml" media-type="application/xhtml+xml" media-overlay="smil-9"/>
       <item id="xhtml-last" href="xhtml/end.xhtml" media-type="application/xhtml+xml"/>
 	
       <!-- css -->
@@ -43,12 +55,24 @@
       <item id="mp3-5" href="audio/clip_times_tests1.mp3" media-type="audio/mpeg"/>
       <item id="mp3-6" href="audio/clip_times_tests2.mp3" media-type="audio/mpeg"/>
       <item id="mp3-7" href="audio/clip_times_tests3.mp3" media-type="audio/mpeg"/>
+      <item id="mp3-8" href="audio/same_audio.mp3" media-type="audio/mpeg"/>
+      <item id="mp3-9" href="audio/short_clips.mp3" media-type="audio/mpeg"/>
+      <item id="mp3-10" href="audio/one_mo_multiple_chapters1.mp3" media-type="audio/mpeg"/>
+      <item id="mp3-11" href="audio/one_mo_multiple_chapters2.mp3" media-type="audio/mpeg"/>
+      <item id="mp3-12" href="audio/one_mo_multiple_chapters3.mp3" media-type="audio/mpeg"/>
+      <item id="mp3-13" href="audio/path_resolution_audio_files.mp3" media-type="audio/mpeg"/>
+      <item id="mp3-14" href="audio-1/path_resolution_audio_files.mp3" media-type="audio/mpeg"/>
       
       <!-- media overlays -->
       <item id="smil-1" href="mo/basic_tests.smil" media-type="application/smil+xml"/>
       <item id="smil-2" href="mo/navigation_tests.smil" media-type="application/smil+xml"/>
       <item id="smil-3" href="mo/more_navigation_tests.smil" media-type="application/smil+xml"/>
       <item id="smil-4" href="mo/clip_times_tests.smil" media-type="application/smil+xml"/>
+      <item id="smil-5" href="mo/same_audio1.smil" media-type="application/smil+xml"/>
+      <item id="smil-6" href="mo/same_audio2.smil" media-type="application/smil+xml"/>
+      <item id="smil-7" href="mo/short_clips.smil" media-type="application/smil+xml"/>
+      <item id="smil-8" href="mo/one_mo_multiple_chapters.smil" media-type="application/smil+xml"/>
+      <item id="smil-9" href="mo/path_resolution_audio_files.smil" media-type="application/smil+xml"/>
        
    </manifest>
    <spine>
@@ -58,6 +82,13 @@
       <itemref idref="xhtml-003"/>
       <itemref idref="xhtml-004"/>
       <itemref idref="xhtml-005"/>
+      <itemref idref="xhtml-006"/>
+      <itemref idref="xhtml-007"/>
+      <itemref idref="xhtml-008"/>
+      <itemref idref="xhtml-009"/>
+      <itemref idref="xhtml-010"/>
+      <itemref idref="xhtml-011"/>
+      <itemref idref="xhtml-012"/>
       <itemref idref="xhtml-last"/>
    </spine>
 </package>

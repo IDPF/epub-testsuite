@@ -1,0 +1,40 @@
+<smil xmlns:epub="http://www.idpf.org/2007/ops" xmlns="http://www.w3.org/ns/SMIL" version="3.0">
+  <body epub:textref="one_mo_multiple_chapters1.xhtml">
+    <par>
+      <text src="../xhtml/one_mo_multiple_chapters1.xhtml#mo-1"/>
+      <audio src="../audio/one_mo_multiple_chapters1.mp3" clipBegin="00:00:00.000" clipEnd="00:00:02.776"/>
+    </par>
+    <par>
+      <text src="../xhtml/one_mo_multiple_chapters1.xhtml#mo-2"/>
+      <audio src="../audio/one_mo_multiple_chapters1.mp3" clipBegin="00:00:02.776" clipEnd="00:00:04.068"/>
+    </par>
+    <par>
+      <text src="../xhtml/one_mo_multiple_chapters1.xhtml#mo-3"/>
+      <audio src="../audio/one_mo_multiple_chapters1.mp3" clipBegin="00:00:04.068" clipEnd="00:00:09.882"/>
+    </par>
+    <par>
+      <text src="../xhtml/one_mo_multiple_chapters2.xhtml#mo-1"/>
+      <audio src="../audio/one_mo_multiple_chapters2.mp3" clipBegin="00:00:00.000" clipEnd="00:00:03.726"/>
+    </par>
+    <par>
+      <text src="../xhtml/one_mo_multiple_chapters2.xhtml#mo-2"/>
+      <audio src="../audio/one_mo_multiple_chapters2.mp3" clipBegin="00:00:03.726" clipEnd="00:00:05.923"/>
+    </par>
+    <par>
+      <text src="../xhtml/one_mo_multiple_chapters2.xhtml#mo-3"/>
+      <audio src="../audio/one_mo_multiple_chapters2.mp3" clipBegin="00:00:05.923" clipEnd="00:00:13.840"/>
+    </par>
+    <par>
+      <text src="../xhtml/one_mo_multiple_chapters2.xhtml#mo-4"/>
+      <audio src="../audio/one_mo_multiple_chapters2.mp3" clipBegin="00:00:13.840" clipEnd="00:00:45.902"/>
+    </par>
+    <par>
+      <text src="../xhtml-1/one_mo_multiple_chapters2.xhtml#path-resolution-test"/>
+      <audio src="../audio/one_mo_multiple_chapters3.mp3" clipBegin="00:00:00.000" clipEnd="00:00:01.527"/>
+    </par>
+    <par>
+      <text src="../xhtml-1/one_mo_multiple_chapters2.xhtml#mo-1"/>
+      <audio src="../audio/one_mo_multiple_chapters3.mp3" clipBegin="00:00:01.527" clipEnd="00:00:12.283"/>
+    </par>
+  </body>
+</smil>
