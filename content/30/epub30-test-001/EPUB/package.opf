@@ -71,6 +71,9 @@
 	<!-- audio -->
       <item id="mp3-1" href="audio/allison64.mp3" media-type="audio/mpeg"/>
       <item id="mp4-1" href="audio/allison64.mp4" media-type="audio/mp4"/>       
+   	<!-- video -->
+   	  <item id="webm-1" href="video/screencast.webm" media-type="audio/mpeg"/>
+   	  <item id="mp4-2" href="video/screencast.mp4" media-type="audio/mp4"/>       
    </manifest>
    <spine>
       <itemref idref="front"/>

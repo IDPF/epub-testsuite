@@ -7,7 +7,7 @@
     <body>
         
         <section id="audio-010" class="ctest">
-            <h2><span class="test-id">audio-010</span>The <code>audio</code> element (MP3)</h2>
+            <h2><span class="test-id">audio-010</span>The <code>audio</code> element: MP3</h2>
             
             <p class="desc">Test whether the HTML5 <code>audio</code> element is supported using <code>MP3</code> audio.</p>
 
@@ -15,12 +15,12 @@
                 If this text is shown, the audio element is not supported at all, and the test fails.
             </audio>
                         
-            <p>If the above audio can be played (a womans voice will be heard, beginning "a crime to sink your teeth into"), then the test passes.</p>
+            <p>If the above audio can be played (a woman's voice will be heard, beginning "a crime to sink your teeth into"), then the test passes.</p>
                         
         </section>
         
         <section id="audio-020" class="ctest">
-            <h2><span class="test-id">audio-020</span>The <code>audio</code> element (MP4 AAC LC)</h2>
+            <h2><span class="test-id">audio-020</span>The <code>audio</code> element: MP4 AAC LC</h2>
             
             <p class="desc">Test whether the HTML5 <code>audio</code> element is supported using <code>AAC LC</code> audio in an <code>MP4</code> container.</p>
             
@@ -28,9 +28,35 @@
                 If this text is shown, the audio element is not supported at all, and the test fails.
             </audio>
             
-            <p>If the above audio can be played (a womans voice will be heard, beginning "a crime to sink your teeth into"), then the test passes.</p>
+            <p>If the above audio can be played (a woman's voice will be heard, beginning "a crime to sink your teeth into"), then the test passes.</p>
             
         </section>
-        
+    	
+    	<section id="video-010" class="otest">
+    		<h2><span class="test-id">video-010</span>The <code>video</code> element: VP8</h2>
+    		
+    		<p class="desc">Test whether the HTML5 <code>video</code> element is supported using <code>WebM</code> video (VP8 video with Ogg Vorbis audio).</p>
+    		
+    		<video controls="" src="../video/screencast.webm" width="278" height="240">
+    			If this text is shown, the video element is not supported at all, and the test fails.
+    		</video>
+    		
+    		<p>If the above video can be played (a man's voice will be heard, beginning "Hi there, I quickly want to show you"), then the test passes.</p>
+    		
+    	</section>
+    	
+    	<section id="video-020" class="otest">
+    		<h2><span class="test-id">video-020</span>The <code>video</code> element: H.264</h2>
+    		
+    		<p class="desc">Test whether the HTML5 <code>video</code> element is supported using <code>MP4</code> video (H.264 video with AAC-LC audio).</p>
+    		
+    		<video controls="" src="../video/screencast.mp4" width="278" height="240">
+    			If this text is shown, the video element is not supported at all, and the test fails.
+    		</video>
+    		
+    		<p>If the above video can be played (a man's voice will be heard, beginning "Hi there, I quickly want to show you"), then the test passes.</p>
+    		
+    	</section>
+    	
     </body>
 </html>
