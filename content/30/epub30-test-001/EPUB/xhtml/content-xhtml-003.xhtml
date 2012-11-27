@@ -58,5 +58,84 @@
     		
     	</section>
     	
+    	<section id="video-030" class="otest">
+    		<h2><span class="test-id">video-030</span>The <code>video</code> element: posters</h2>
+    		
+    		<p class="desc">Test whether poster images are supported the HTML5 <code>video</code> element:</p>
+    		
+    		<video controls="" width="278" height="240" poster="../img/Skype_logo.png">
+    			<source src="../video/screencast.mp4" type="video/mp4"/>
+    			<source src="../video/screencast.webm" type="video/webm"/>
+    			If this text is shown, the video element is not supported at all, and the test fails.
+    		</video>
+    		
+    		<p>If the Skype logo appears above, then the test passes.</p>
+    		
+    	</section>
+    	
+    	<section id="video-040" class="otest">
+    		<h2><span class="test-id">video-040</span>The <code>video</code> element: Captions (WebVTT)</h2>
+    		
+    		<p class="desc">Test whether WebVTT captions are supported in the HTML5 <code>video</code> element:</p>
+    		
+    		<video controls="" width="278" height="240">
+    			<source src="../video/screencast.mp4" type="video/mp4"/>
+    			<source src="../video/screencast.webm" type="video/webm"/>
+    			<track kind="captions" src="../video/tracks/screencast.vtt" srclang="en" label="English" default="default"/>
+    			If this text is shown, the video element is not supported at all, and the test fails.
+    		</video>
+    		
+    		<p>If captions appear during the first 10s when video playback is started, or can be turned on from the player interface, then the test passes.</p>
+    		
+    	</section>
+    	
+    	<section id="video-050" class="otest">
+    		<h2><span class="test-id">video-050</span>The <code>video</code> element: Captions (TTML)</h2>
+    		
+    		<p class="desc">Test whether TTML captions are supported in the HTML5 <code>video</code> element:</p>
+    		
+    		<video controls="" width="278" height="240">
+    			<source src="../video/screencast.mp4" type="video/mp4"/>
+    			<source src="../video/screencast.webm" type="video/webm"/>
+    			<track kind="captions" src="../video/tracks/screencast.ttml" srclang="en" label="English" default="default"/>
+    			If this text is shown, the video element is not supported at all, and the test fails.
+    		</video>
+    		
+    		<p>If captions appear during the first 10s when video playback is started, or can be turned on from the player interface, then the test passes.</p>
+    		
+    	</section>
+    	
+    	<section id="video-060" class="otest">
+    		<h2><span class="test-id">video-060</span>The <code>video</code> element: Subtitles (WebVTT)</h2>
+    		
+    		<p class="desc">Test whether WebVTT subtitles are supported in the HTML5 <code>video</code> element:</p>
+    		
+    		<video controls="" width="278" height="240">
+    			<source src="../video/screencast.mp4" type="video/mp4"/>
+    			<source src="../video/screencast.webm" type="video/webm"/>
+    			<track kind="subtitles" src="../video/tracks/screencast.vtt" srclang="en" label="English" default="default"/>
+    			If this text is shown, the video element is not supported at all, and the test fails.
+    		</video>
+    		
+    		<p>If subtitles appear during the first 10s when video playback is started, or can be turned on from the player interface, then the test passes.</p>
+    		
+    	</section>
+    	
+    	<section id="video-070" class="otest">
+    		<h2><span class="test-id">video-070</span>The <code>video</code> element: Subtitles (TTML)</h2>
+    		
+    		<p class="desc">Test whether TTML subtitles are supported in the HTML5 <code>video</code> element:</p>
+    		
+    		<video controls="" width="278" height="240">
+    			<source src="../video/screencast.mp4" type="video/mp4"/>
+    			<source src="../video/screencast.webm" type="video/webm"/>
+    			<track kind="subtitles" src="../video/tracks/screencast.ttml" srclang="en" label="English" default="default"/>
+    			If this text is shown, the video element is not supported at all, and the test fails.
+    		</video>
+    		
+    		<p>If subtitles appear during the first 10s when video playback is started, or can be turned on from the player interface, then the test passes.</p>
+    		
+    	</section>
+    	
     </body>
 </html>

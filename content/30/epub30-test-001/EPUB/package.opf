@@ -61,7 +61,8 @@
 	  <item href="css/styling.css" media-type="text/css" id="css-styling"/>
 	<!-- images -->
 	  <item href="img/circle.jpg" id="img-001" media-type="image/jpeg"/>
-	<!-- fonts -->
+      <item href="img/Skype_logo.png" id="img-002" media-type="image/png"/>
+   	<!-- fonts -->
       <item id="font-woff" href="fonts/OldStandard-Regular.woff" media-type="application/font-woff"/>
       <item id="font-otf" href="fonts/OldStandard-Regular.otf" media-type="application/vnd.ms-opentype"/>
       <item id="font-ttf" href="fonts/OldStandard-Regular.ttf" media-type="application/vnd.ms-opentype"/>
@@ -74,6 +75,8 @@
    	<!-- video -->
    	  <item id="webm-1" href="video/screencast.webm" media-type="audio/mpeg"/>
    	  <item id="mp4-2" href="video/screencast.mp4" media-type="audio/mp4"/>       
+      <item id="vtt-2" href="video/tracks/screencast.vtt" media-type="text/vtt"/>       
+      <item id="ttml-2" href="video/tracks/screencast.ttml" media-type="application/ttml+xml"/>       
    </manifest>
    <spine>
       <itemref idref="front"/>
