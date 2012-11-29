@@ -43,3 +43,7 @@ dl.info dt {
     font-weight: bold;
     margin-bottom: 1em;
 }
+
+nav#toc ol {
+    list-style-type: none;
+}
