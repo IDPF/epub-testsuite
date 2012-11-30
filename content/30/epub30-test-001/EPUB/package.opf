@@ -8,6 +8,7 @@
       <dc:creator id="creator1">Markus Gylling</dc:creator>
       <dc:creator id="creator2">Vincent Gros</dc:creator>
       <dc:creator id="creator3">Toshiaki Koike</dc:creator>
+      <dc:creator id="creator4">Marisa DeMeglio</dc:creator>
 	  <meta refines="#creator1" property="role" scheme="marc:relators">aut</meta>
 	  <meta refines="#creator1" property="file-as">Gylling, Markus</meta>
 	  <meta refines="#creator2" property="role" scheme="marc:relators">aut</meta>
@@ -15,6 +16,9 @@
 	  <meta refines="#creator3" property="role" scheme="marc:relators">aut</meta>
 	  <meta refines="#creator3" property="file-as">Koike, Toshiaki</meta>
 	  <meta refines="#creator3" property="alternate-script" xml:lang="ja">小池利明</meta>
+      <meta refines="#creator4" property="role" scheme="marc:relators">aut</meta>
+	  <meta refines="#creator4" property="file-as">DeMeglio, Marisa</meta>
+      
       <dc:language>en</dc:language>
       <dc:language>jp</dc:language>
       <meta property="dcterms:modified">2012-11-29T22:00:00Z</meta>
@@ -52,6 +56,11 @@
 	<!-- scripting -->
       <item href="xhtml/scripting-001.xhtml" id="scr-001" media-type="application/xhtml+xml"/>
       <item href="xhtml/scripting-002.xhtml" id="scr-002" media-type="application/xhtml+xml" properties="scripted"/>
+      <item href="xhtml/scripting-003.xhtml" id="scr-003" media-type="application/xhtml+xml" properties="scripted"/>
+      <item href="xhtml/scripting-004.xhtml" id="scr-004" media-type="application/xhtml+xml" properties="scripted"/>
+      <item href="xhtml/scripting-005.xhtml" id="scr-005" media-type="application/xhtml+xml" properties="scripted"/>
+      <item href="xhtml/scripting-006.xhtml" id="scr-006" media-type="application/xhtml+xml" properties="scripted"/>
+      <item href="xhtml/scripting-006-inset.xhtml" id="scr-006-inset" media-type="application/xhtml+xml" properties="scripted"/>
    	<!-- bindings --> 
       <item href="xhtml/bindings-001.xhtml" id="bind-001" media-type="application/xhtml+xml"/>
       <item href="xhtml/bindings-002.xhtml" id="bind-002" media-type="application/xhtml+xml" properties="scripted"/>
@@ -109,6 +118,10 @@
       <itemref idref="fonts-001"/>
       <itemref idref="scr-001"/>
       <itemref idref="scr-002"/>
+      <itemref idref="scr-003"/>
+      <itemref idref="scr-004"/>
+      <itemref idref="scr-005"/>
+      <itemref idref="scr-006"/>
    	  <itemref idref="bind-001"/>
    	  <!-- <itemref idref="mo-001"/> -->
    </spine>

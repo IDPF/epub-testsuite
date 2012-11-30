@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="../css/base.css" />
+        <script type="text/javascript">  
+            <![CDATA[
+            
+            // NOTE: to run these tests standalone from Google Chrome, allow access to the file system
+            // using the startup flag '--allow-file-access-from-files'
+            
+            results = function () {
+                var requestFS = window.webkitRequestFileSystem || window.requestFileSystem;
+                if (!requestFS) {
+                    //bail out, all tests default to fail in the html
+                    return;
+                }
+                
+                document.getElementById('fs-010-result').innerHTML = 'PASS';
+                
+                // help organize the tests a bit with these structs
+                var temporaryTestInfo = {
+                    type: TEMPORARY,
+                    filename: "fs-test-temporary.txt",
+                    writeid: "fs-020-result",
+                    readid: "fs-030-result",
+                    text: "Lorem Ipsum"
+                };
+                
+                var persistentTestInfo = {
+                    type: TEMPORARY,
+                    filename: "fs-test-persistent.txt",
+                    writeid: "fs-040-result",
+                    readid: "fs-050-result",
+                    text: "Lorem Ipsum"
+                };
+                
+                // test the temporary storage
+                testReadWrite(temporaryTestInfo, function() {
+                   
+                    // now that the temporary storage tests are done,
+                    // test the persistent storage
+                    testReadWrite(persistentTestInfo, function() {
+                        console.log("File system tests complete.");
+                    })
+                });
+            };
+            
+            // a read/write test starts here
+            testReadWrite = function(testInfo, callback) {
+                // request a file system object
+                var requestFS = window.webkitRequestFileSystem || window.requestFileSystem;
+                requestFS(testInfo.type, 1024*1024, 
+                    function(fs) {
+                        // we have the FS object now. write to it, and when that's complete, 
+                        // read from it what we just wrote
+                        writeToFile(fs, testInfo, function() {
+                            doneWriting(fs);
+                        });
+                    },
+                    function() {
+                        console.log("Error requesting file system");
+                    });
+                
+                doneWriting = function(fs) {
+                    readFromFile(fs, testInfo, callback);
+                };            
+            };
+            
+            // create a file and write to it
+            writeToFile = function(fs, testInfo, callback) {
+                fs.root.getFile(testInfo.filename, {create: true}, function(fileEntry) {
+                    fileEntry.createWriter(function(writer) {
+                        var success = true;
+                        writer.onwriteend = function(e) {
+                            if (success) {
+                                console.log("Wrote to file: " + fileEntry.fullPath.toString())
+                                document.getElementById(testInfo.writeid).innerHTML = 'PASS';
+                            }
+                            callback();
+                        };
+                    
+                        writer.onerror = function(e) {
+                            success = false;
+                            console.log('Write failed: ' + e.toString());
+                        };
+                    
+                        var blob = new Blob([testInfo.text], {type: 'text/plain'});
+                        writer.write(blob);
+                    });
+                });             
+            };
+            
+            // read from a file and make sure its contents match what's in testInfo.text
+            readFromFile = function(fs, testInfo, callback) {
+                fs.root.getFile(testInfo.filename, {create: false   }, function(fileEntry) {
+                    fileEntry.file(function(file) {
+                       var reader = new FileReader();
+                       var success = true;
+                       
+                       reader.onloadend = function(e) {
+                           if (e.target.result == testInfo.text) {
+                               console.log("Read from file: " + fileEntry.fullPath.toString());
+                               document.getElementById(testInfo.readid).innerHTML = 'PASS';
+                           }
+                           callback();
+                       };
+                       
+                       reader.onerror = function(e) {
+                           success = false;
+                           console.log("Read failed: " + e.toString());
+                       };
+                       reader.readAsText(file);
+                    }); 
+                });
+            };
+            
+            //]]>
+        </script>
+    </head>
+    <body onload="results()">
+        <h1>Filesystem API</h1>
+        <p>This section contains tests for the <a
+                href="http://www.w3.org/TR/file-system-api/">Filesystem API</a>, including parts of the
+                <a href="http://www.w3.org/TR/file-writer-api/">File Writer API</a> and the 
+                <a href="http://www.w3.org/TR/FileAPI/">File API</a>.</p>
+
+        <section id="fs-010" class="otest">
+            <h2><span class="test-id">fs-010</span> Filesystem request</h2>
+            <p class="desc">Test whether <code>requestFileSystem</code> or <code>webkitRequestFileSystem</code> is supported.</p>
+            <p id="fs-010-result">FAIL</p>
+            <p>If the above paragraph reads "PASS", the test passes.</p>
+            <p><em>If the above paragraph reads "FAIL", then none of the remaining tests in this section
+                (<code>fs-*</code>) apply, and should be given the result <code>N/A</code>.</em></p>
+        </section>
+        
+        <p>The below tests only apply if the Reading System passed test <code>fs-010</code>.</p>
+
+        <section id="fs-020" class="otest">
+            <h2><span class="test-id">fs-020</span> Temporary storage: writing</h2>
+            <p class="desc">Test whether it is possible to write a file to temporary storage using the filesystem API.</p>
+            <p id="fs-020-result">FAIL</p>
+            <p>If the above paragraph reads "PASS", the test passes.</p>
+        </section>
+        
+        <section id="fs-030" class="otest">
+            <h2><span class="test-id">fs-030</span> Temporary storage: reading</h2>
+            <p class="desc">Test whether it is possible to read the file created in test <code>fs-020</code> from temporary storage using the filesystem API.</p>
+            <p id="fs-030-result">FAIL</p>
+            <p>If the above paragraph reads "PASS", the test passes.</p>
+            <p><em>If the above test (<code>fs-020</code>) failed, then this should be given the result <code>N/A</code>.</em></p>
+        </section>
+        
+        <section id="fs-040" class="otest">
+            <h2><span class="test-id">fs-040</span> Persistent storage: writing</h2>
+            <p class="desc">Test whether it is possible to write a file to persistent storage using the filesystem API.</p>
+            <p id="fs-040-result">FAIL</p>
+            <p>If the above paragraph reads "PASS", the test passes.</p>
+        </section>
+        
+        <section id="fs-050" class="otest">
+            <h2><span class="test-id">fs-050</span> Persistent storage: reading</h2>
+            <p class="desc">Test whether it is possible to read the file created in test <code>fs-040</code> from persistent storage using the filesystem API.</p>
+            <p id="fs-050-result">FAIL</p>
+            <p>If the above paragraph reads "PASS", the test passes.</p>
+            <p><em>If the above test (<code>fs-040</code>) failed, then this should be given the result <code>N/A</code>.</em></p>
+        </section>
+        
+    </body>
+</html>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="../css/base.css" />
+        <script type="text/javascript">  
+            <![CDATA[
+            // test entry point
+            results = function () {
+                var geo = navigator.geolocation;
+                if (!geo) {
+                    //bail out, all tests default to fail in the html
+                    return;
+                }
+                
+                document.getElementById('geo-010-result').innerHTML = 'PASS';
+                
+                var timeoutVal = 10 * 1000 * 1000;
+                  /*navigator.geolocation.getCurrentPosition(
+                    displayPosition, 
+                    displayError,
+                    
+                  );*/
+                
+                
+                navigator.geolocation.getCurrentPosition(
+                    function(position) {
+                        console.log("Lat: " + position.coords.latitude + ", Long: " + position.coords.longitude);
+                        document.getElementById('geo-020-result').innerHTML = 'PASS';
+                    }, 
+            
+                    function(error) {
+                        console.log("Error getting current position.");
+                    },
+                    {enableHighAccuracy: true, timeout: timeoutVal, maximumAge: 0}
+                );
+            };
+            
+            //]]>
+        </script>
+    </head>
+    <body onload="results()">
+        <h1>Geolocation</h1>
+        <p>This section contains tests for the <a
+                href="http://www.w3.org/TR/geolocation-API/">Geolocation</a> API.</p>
+
+        <section id="geo-010" class="otest">
+            <h2><span class="test-id">geo-010</span> The <code>Geolocation</code> object</h2>
+            <p class="desc">Test whether the <code>navigator.geolocation</code> field is
+                defined.</p>
+            <p id="geo-010-result">FAIL</p>
+            <p>If the above paragraph reads "PASS", the test passes.</p>
+            <p><em>If the above paragraph reads "FAIL", then none of the remaining tests in this section
+                (<code>geo-*</code>) apply, and should be given the result <code>N/A</code>.</em></p>
+        </section>
+        
+        <p>The below tests only apply if the Reading System passed test <code>geo-010</code>.</p>
+
+        <section id="geo-020" class="otest">
+            <h2><span class="test-id">geo-020</span> Finding current position</h2>
+            <p class="desc">Test whether it is possible to find the user's current position using the geolocation API.</p>
+            <p id="geo-020-result">FAIL</p>
+            <p>If the above paragraph reads "PASS", the test passes.</p>
+        </section>
+        
+        
+    </body>
+</html>
