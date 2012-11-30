@@ -332,10 +332,20 @@ public class FormBuilder extends Builder {
 			"table.tests tr.subcategory td {padding:0.05em 2em 0.05em 6em; font-size:85%; background-color:rgb(0,100,166); color:white}"+
 			"table.tests tr.top th {font-size:150%}"+
 			"table.tests tr td * {padding:0em; margin:0em}"+
+			"table#rsinfo {border:1px solid rgb(220,220,220)}" +
+			"table#rsinfo tr, table#rsinfo td {border:none}" + 
+			"table#rsinfo td.input {display:block;text-align:left}" +
+			"input{margin-left:5em;}" +
 			"</style></head><body>" +
 	        "<h1 class='title'>EPUB Reading System Test Suite " +
 	        "<span class='title-version'>version " + now + "</span></h1>" +
-	        "<form method='post' enctype='application/x-www-form-urlencoded' action='tbd'></form>" +
+	        "<form method='post' enctype='application/x-www-form-urlencoded' action='tbd'>" +
+	        "<table id='rsinfo'>" +
+	        "  <tr><td><label>Reading System:</label></td><td class='input'><input type='text'></input></td></tr>" +
+	        "  <tr><td><label>Reading System version: </label></td><td class='input'><input type='text'></input></td></tr>" +
+	        "  <tr><td><label>Submitter email: </label></td><td class='input'><input type='email'></input></td></tr>"+
+	        "</table><button>Submit results</button>"+
+	        "</form>" +
 			"</body></html>";
 
 	private Element TR_TD = XOMUtil.buildStr(TR_TD_STR).getRootElement();	
