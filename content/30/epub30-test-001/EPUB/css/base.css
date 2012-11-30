@@ -52,3 +52,11 @@ nav a {
 	text-decoration:none;
 	color:black;
 }
+
+.eval {
+	font-weight:bold;
+}
+
+.eval:before {
+	content:"→";
+}
