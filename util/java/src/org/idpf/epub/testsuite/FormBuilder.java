@@ -85,8 +85,7 @@ public class FormBuilder extends Builder {
 								
 			Element table = (Element)TABLE_TR_TH.copy();
 			form.appendChild(table);	
-						
-			
+									
 			String curCategory = "";			
 			for(Test test : coll.tests) {
 				
@@ -165,13 +164,6 @@ public class FormBuilder extends Builder {
 		}
 		
 		TestCollection populate() throws Exception {
-			/*
-			 * for each nav link:
-			 *  - get the link label (short desc)
-			 *  - resolve the link target, if a test 
-			 *    - get the test id, the test description (fulldesc) 
-			 *    	and the test type (ctest, otest)
-			 */
 			
 			Nodes navLinks = navDoc.getDocument().query("//x:li/x:a/@href", xpc);
 			for (int i = 0; i < navLinks.size(); i++) {
@@ -238,12 +230,9 @@ public class FormBuilder extends Builder {
 		Element resolve(String href) throws Exception {
 			
 			URI base = URI.create(navDoc.getBaseURI());
-			URI targetURI = base.resolve(href);
-			
-			String fragment = targetURI.getFragment(); 
-			
-			if(fragment == null) return null; //not a test link
-			
+			URI targetURI = base.resolve(href);			
+			String fragment = targetURI.getFragment(); 			
+			if(fragment == null) return null; //not a test link			
 			String docURI = targetURI.toString().replace("#"+fragment, "");
 			
 			if(curTargetDoc == null 
