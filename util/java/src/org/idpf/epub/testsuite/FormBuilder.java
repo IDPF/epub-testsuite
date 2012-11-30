@@ -9,6 +9,7 @@ import nu.xom.Attribute;
 import nu.xom.Document;
 import nu.xom.Element;
 import nu.xom.Elements;
+import nu.xom.Node;
 import nu.xom.Nodes;
 
 public class FormBuilder extends Builder {
@@ -86,7 +87,8 @@ public class FormBuilder extends Builder {
 			Element table = (Element)TABLE_TR_TH.copy();
 			form.appendChild(table);	
 									
-			String curCategory = "";			
+			String curCategory = "";
+			String curSubCategory = "";
 			for(Test test : coll.tests) {
 				
 				if(!test.category.equals(curCategory)) {
@@ -94,6 +96,13 @@ public class FormBuilder extends Builder {
 					cat.getFirstChildElement("td", XOMUtil.XHTML_NS).appendChild(test.category);
 					table.appendChild(cat);
 					curCategory = test.category;
+				}
+				
+				if(test.subcategory != null && !test.subcategory.equals(curSubCategory)) {
+					Element subcat = (Element)TR_SUBCAT.copy();
+					subcat.getFirstChildElement("td", XOMUtil.XHTML_NS).appendChild(test.subcategory);
+					table.appendChild(subcat);
+					curSubCategory = test.subcategory;
 				}
 				
 				Element tr = (Element)TR_TD.copy();
@@ -123,13 +132,15 @@ public class FormBuilder extends Builder {
 		String id;
 		TestType type;
 		String category;
+		String subcategory;
 				
-		Test(String shortDesc, Element longDesc, String id, TestType type, String category) {
+		Test(String shortDesc, Element longDesc, String id, TestType type, String category, String subcategory) {
 			this.shortDesc = shortDesc;
 			this.longDesc = longDesc;
 			this.id = id;
 			this.type = type;
 			this.category = category;
+			this.subcategory = subcategory; //may be null
 		}
 				
 		@Override
@@ -139,6 +150,8 @@ public class FormBuilder extends Builder {
 			sb.append("\t").append("shortdesc=" + this.shortDesc).append("\n");
 			sb.append("\t").append("longdesc=" + this.longDesc).append("\n");
 			sb.append("\t").append("type=" + this.type).append("\n");
+			sb.append("\t").append("category=" + this.category).append("\n");
+			sb.append("\t").append("subcategory=" + this.subcategory).append("\n");
 			sb.append("\n");
 			return sb.toString();
 		}
@@ -172,16 +185,43 @@ public class FormBuilder extends Builder {
 				String id;
 				TestType type;
 				String category = "";
+				String subcategory = null;
 				
 				Attribute href = (Attribute) navLinks.get(i);				
 				shortDesc = href.getParent().getValue().replaceAll("\\s+", " ");
 				
-				//category (parent li anchor value)
-				Element parentLi = XOMUtil.getAncestor((Element)href.getParent().getParent(), "li", XOMUtil.XHTML_NS);
-				if(parentLi != null) {
-					Element parentLiAnchor = parentLi.getFirstChildElement("a", XOMUtil.XHTML_NS);
-					category = parentLiAnchor.getValue().replaceAll("\\s+", " ");
+				//category 
+				Nodes cat = href.getParent().query("./ancestor::x:li[@class='category']/x:a/text()", xpc);
+				if(cat.size()>0) {				
+					category = cat.get(0).getValue().replaceAll("\\s+", " ");
 				}
+				
+				Nodes subcat = href.getParent().query("./ancestor::x:li[@class='subcategory']/x:span/text()", xpc);
+				if(subcat.size()>0) {				
+					subcategory = subcat.get(0).getValue().replaceAll("\\s+", " ");
+				} else {
+					subcategory = null;
+				}
+				
+//				Element parentLi = XOMUtil.getAncestor((Element)href.getParent().getParent(), "li", XOMUtil.XHTML_NS);
+//				if(parentLi != null) {
+//					Element parentLiAnchor = parentLi.getFirstChildElement("a", XOMUtil.XHTML_NS);
+//					if(parentLiAnchor!=null) {
+//						category = parentLiAnchor.getValue().replaceAll("\\s+", " ");	
+//					}
+//					
+//				}
+				
+//				//subcategory (parent ol prevsibling span with class subsect)
+//				Element parentOl = XOMUtil.getAncestor((Element)href.getParent().getParent(), "ol", XOMUtil.XHTML_NS);
+//				if(parentOl != null) {					
+//					int idx  = parentOl.getParent().indexOf(parentOl);
+//					if(idx > 0) {
+//						Node prevSibling = parentOl.getParent().getChild(idx-1);
+//						System.err.println(prevSibling.getClass().getSimpleName());
+//					}
+//					
+//				}
 				
 				Element target = null;
 				
@@ -213,7 +253,7 @@ public class FormBuilder extends Builder {
 						.equals("ctest") ? TestType.REQUIRED : TestType.OPTIONAL;				
 				longDesc = (Element)target.query(".//*[@class='desc']", xpc).get(0);
 				
-				tests.add(new Test(shortDesc, longDesc, id, type, category));
+				tests.add(new Test(shortDesc, longDesc, id, type, category, subcategory));
 			}
 						
 			return this;
@@ -288,6 +328,8 @@ public class FormBuilder extends Builder {
 			+ "</tr>";
 	private String TR_CAT_STR = "<tr class='category' xmlns='http://www.w3.org/1999/xhtml'>"
 			+"<td colspan='4'></td></tr>";
+	private String TR_SUBCAT_STR = "<tr class='subcategory' xmlns='http://www.w3.org/1999/xhtml'>"
+			+"<td colspan='4'></td></tr>";
 	private String DOC_ROOT_STR = "<?xml version='1.0'?><html xmlns='http://www.w3.org/1999/xhtml'>" +
 			"<head><meta charset='utf-8'/>" +
 			"<title>EPUB Reading System Test Suite version "+ now + "</title>" +
@@ -307,7 +349,8 @@ public class FormBuilder extends Builder {
 			"body{margin:3em;font-family:arial,verdana,sans-serif}" +	
 			"span.title-version {margin-left:3em;font-size:60%}"+
 			"td.type{font-variant:small-caps; font-size:80%}"+
-			"table.tests tr th, table.tests tr.category td {background-color:#005A9C; color:white} "+
+			"table.tests tr th, table.tests tr.category td {background-color:rgb(0,90,156); color:white} "+
+			"table.tests tr.subcategory td {padding:0.05em 2em 0.05em 6em; font-size:85%; background-color:rgb(0,100,166); color:white}"+
 			"table.tests tr.top th {font-size:150%}"+
 			"table.tests tr td * {padding:0em; margin:0em}"+
 			"</style></head><body>" +
@@ -317,7 +360,8 @@ public class FormBuilder extends Builder {
 			"</body></html>";
 
 	private Element TR_TD = XOMUtil.buildStr(TR_TD_STR).getRootElement();	
-	private Element TR_CAT = XOMUtil.buildStr(TR_CAT_STR).getRootElement();	
+	private Element TR_CAT = XOMUtil.buildStr(TR_CAT_STR).getRootElement();
+	private Element TR_SUBCAT = XOMUtil.buildStr(TR_SUBCAT_STR).getRootElement();
 	private Element TABLE_TR_TH = XOMUtil.buildStr(TABLE_TR_TH_STR).getRootElement();
 	private Element DOC_ROOT = XOMUtil.buildStr(DOC_ROOT_STR).getRootElement();
 	

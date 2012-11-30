@@ -44,6 +44,11 @@ dl.info dt {
     margin-bottom: 1em;
 }
 
-nav#toc ol {
+nav#toc ol  {
     list-style-type: none;
+}
+
+nav a {
+	text-decoration:none;
+	color:black;
 }
