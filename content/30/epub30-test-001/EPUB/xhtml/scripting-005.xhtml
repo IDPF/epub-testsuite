@@ -16,12 +16,6 @@
                 document.getElementById('geo-010-result').innerHTML = 'PASS';
                 
                 var timeoutVal = 10 * 1000 * 1000;
-                  /*navigator.geolocation.getCurrentPosition(
-                    displayPosition, 
-                    displayError,
-                    
-                  );*/
-                
                 
                 navigator.geolocation.getCurrentPosition(
                     function(position) {
