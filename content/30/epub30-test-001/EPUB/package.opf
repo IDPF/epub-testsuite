@@ -112,8 +112,8 @@
 	  <itemref idref="css-002"/>
 	  <itemref idref="css-003"/>
 	  <itemref idref="css-004"/>
-	  <!-- <itemref idref="css-005"/> -->
-	  <!-- <itemref idref="css-006"/> -->
+	  <itemref idref="css-005"/>
+	  <itemref idref="css-006"/>
 	  <!-- <itemref idref="css-007"/> -->
       <itemref idref="fonts-001"/>
       <itemref idref="scr-001"/>
