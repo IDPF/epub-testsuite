@@ -48,6 +48,6 @@ dl.info dt {
 
 .-epub-media-overlay-active {
     background-color: yellow;
-    foreground-color: black;
+    color: black;
 }
 
