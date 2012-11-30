@@ -202,29 +202,8 @@ public class FormBuilder extends Builder {
 				} else {
 					subcategory = null;
 				}
-				
-//				Element parentLi = XOMUtil.getAncestor((Element)href.getParent().getParent(), "li", XOMUtil.XHTML_NS);
-//				if(parentLi != null) {
-//					Element parentLiAnchor = parentLi.getFirstChildElement("a", XOMUtil.XHTML_NS);
-//					if(parentLiAnchor!=null) {
-//						category = parentLiAnchor.getValue().replaceAll("\\s+", " ");	
-//					}
-//					
-//				}
-				
-//				//subcategory (parent ol prevsibling span with class subsect)
-//				Element parentOl = XOMUtil.getAncestor((Element)href.getParent().getParent(), "ol", XOMUtil.XHTML_NS);
-//				if(parentOl != null) {					
-//					int idx  = parentOl.getParent().indexOf(parentOl);
-//					if(idx > 0) {
-//						Node prevSibling = parentOl.getParent().getChild(idx-1);
-//						System.err.println(prevSibling.getClass().getSimpleName());
-//					}
-//					
-//				}
-				
-				Element target = null;
-				
+								
+				Element target = null;				
 				try {
 					target = resolve(href.getValue());	
 				} catch (IllegalArgumentException e) {
