@@ -15,7 +15,7 @@ ol.dec-lead-0-list-type {list-style-type:decimal-leading-zero;}
 ol.georgian-list-type {list-style-type:georgian;}
 ol.hebrew-list-type {list-style-type:hebrew;}
 ol.none-list-type {list-style-type:none;}
-	/* Other list-style-type */
+	/* Other list-style-type values */
 		/* ol.upper-alpha-list-type {list-style-type:upper-alpha;} */
 		/* ol.lower-latin-list-type {list-style-type:lower-latin;} */
 		/* ol.lower-roman-list-type {list-style-type:lower-roman;} */
@@ -74,3 +74,28 @@ ul.outside-position-list {list-style-position:outside;}
   {p.min-device-width-200 {display:none;}}
 @media (max-device-width:2000px)
   {p.max-device-width-2000 {display:none;}}
+  
+/* CSS Text Level 3 */
+p.transform-uppercase {text-transform:uppercase;}
+p.transform-capitalize {text-transform:capitalize;}
+p.transform-lowercase {text-transform:lowercase;}
+
+/* Ruby Positionning */
+ruby.ruby-over {
+	display:ruby;
+   -epub-ruby-position:over;
+   -webkit-ruby-position:over;
+   ruby-position:over;
+}
+ruby.ruby-under {
+	display:ruby;
+   -epub-ruby-position:under;
+   -webkit-ruby-position:under;
+   ruby-position:under;
+}
+ruby.ruby-inter-character {
+	display:ruby;
+   -epub-ruby-position:inter-character;
+   -webkit-ruby-position:inter-character;
+   ruby-position:inter-character;
+}
