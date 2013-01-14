@@ -20,7 +20,8 @@
       <meta property="media:duration" refines="#smil-3">00:00:51.996</meta>
       <meta property="media:duration" refines="#smil-4">00:02:32.732</meta>
       <meta property="media:duration" refines="#smil-5">00:01:27.300</meta>
-      <meta property="media:duration">00:06:58.955</meta>
+      <meta property="media:duration" refines="#smil-6">00:00:55.826</meta>
+      <meta property="media:duration">00:07:54.781</meta>
    </metadata>
    <manifest>
        
@@ -34,7 +35,8 @@
       <item id="xhtml-004" href="xhtml/more_navigation_tests.xhtml" media-type="application/xhtml+xml" media-overlay="smil-3"/>
       <item id="xhtml-005" href="xhtml/moby1.xhtml" media-type="application/xhtml+xml" media-overlay="smil-4"/>
       <item id="xhtml-006" href="xhtml/moby2.xhtml" media-type="application/xhtml+xml" media-overlay="smil-5"/>
-      
+      <item id="xhtml-007" href="xhtml/one_mo_multiple_pages1.xhtml" media-type="application/xhtml+xml" media-overlay="smil-6"/>
+      <item id="xhtml-008" href="xhtml/one_mo_multiple_pages2.xhtml" media-type="application/xhtml+xml" media-overlay="smil-6"/>
       <item id="xhtml-last" href="xhtml/end.xhtml" media-type="application/xhtml+xml"/>
 	
       <!-- css -->
@@ -45,6 +47,7 @@
       <item id="mp3-2" href="audio/navigation_tests.mp3" media-type="audio/mpeg"/>
       <item id="mp3-3" href="audio/more_navigation_tests.mp3" media-type="audio/mpeg"/>
       <item id="mp3-4" href="audio/mobydick_001_002_melville.mp4" media-type="audio/mp4"/>
+      <item id="mp3-5" href="audio/one_mo_multiple_pages.mp3" media-type="audio/mpeg"/>
       
       <!-- media overlays -->
       <item id="smil-1" href="mo/basic_tests.smil" media-type="application/smil+xml"/>
@@ -52,6 +55,7 @@
       <item id="smil-3" href="mo/more_navigation_tests.smil" media-type="application/smil+xml"/>
       <item id="smil-4" href="mo/moby1.smil" media-type="application/smil+xml"/>
       <item id="smil-5" href="mo/moby2.smil" media-type="application/smil+xml"/>
+      <item id="smil-6" href="mo/one_mo_multiple_pages.smil" media-type="application/smil+xml"/>
        
    </manifest>
    <spine>
@@ -62,6 +66,8 @@
       <itemref idref="xhtml-004"/>
       <itemref idref="xhtml-005"/>
       <itemref idref="xhtml-006"/>
+      <itemref idref="xhtml-007"/>
+      <itemref idref="xhtml-008"/>
       <itemref idref="xhtml-last"/>
    </spine>
 </package>
