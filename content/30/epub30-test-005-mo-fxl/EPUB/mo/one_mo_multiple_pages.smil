@@ -1,0 +1,24 @@
+<smil xmlns:epub="http://www.idpf.org/2007/ops" xmlns="http://www.w3.org/ns/SMIL" version="3.0">
+  <body epub:textref="../xhtml/one_mo_multiple_pages1.xhtml">
+    <par>
+      <text src="../xhtml/one_mo_multiple_pages1.xhtml#mo-1"/>
+      <audio src="../audio/one_mo_multiple_pages.mp3" clipBegin="00:00:00.000" clipEnd="00:00:02.690"/>
+    </par>
+    <par>
+      <text src="../xhtml/one_mo_multiple_pages1.xhtml#mo-2"/>
+      <audio src="../audio/one_mo_multiple_pages.mp3" clipBegin="00:00:02.690" clipEnd="00:00:15.731"/>
+    </par>
+    <par>
+      <text src="../xhtml/one_mo_multiple_pages1.xhtml#mo-3"/>
+      <audio src="../audio/one_mo_multiple_pages.mp3" clipBegin="00:00:15.731" clipEnd="00:00:47.797"/>
+    </par>
+    <par>
+      <text src="../xhtml/one_mo_multiple_pages2.xhtml#mo-1"/>
+      <audio src="../audio/one_mo_multiple_pages.mp3" clipBegin="00:00:47.797" clipEnd="00:00:51.373"/>
+    </par>
+    <par>
+      <text src="../xhtml/one_mo_multiple_pages2.xhtml#mo-2"/>
+      <audio src="../audio/one_mo_multiple_pages.mp3" clipBegin="00:00:51.373" clipEnd="00:00:55.826"/>
+    </par>
+  </body>
+</smil>
