@@ -10,33 +10,71 @@
 			<ol>
 				<li id="front"><a href="front.xhtml">Front page</a></li>
 				<li id="nav"><a href="nav.xhtml">Table of Contents</a></li>
-
-				<li><a href="content-xhtml-001.xhtml">Content Documents: XHTML</a>
+				<li class="category"><a href="content-xhtml-001.xhtml">Content Documents: XHTML</a>
 					<ol>
-						<li><a href="content-xhtml-002.xhtml#switch-010">The
-									<code>epub:switch</code> element</a></li>
-						
-						<li><a href="content-xhtml-003.xhtml#audio-010">The
-							HTML5 <code>audio</code> element (MP3)</a></li>
-
-						<li><a href="content-xhtml-003.xhtml#audio-020">The
-							HTML5 <code>audio</code> element (AAC LC MP4)</a></li>
-
+						<li><a href="content-xhtml-002.xhtml#switch-010">The <code>epub:switch</code> element</a></li>
+						<!-- <li class="subcategory"><span>Audio and Video</span>
+							<ol> -->
+							<li><a href="content-xhtml-003.xhtml#audio-010">The HTML5 <code>audio</code> element: MP3</a></li>
+							<li><a href="content-xhtml-003.xhtml#audio-020">The HTML5 <code>audio</code> element: AAC LC MP4</a></li>
+							<li><a href="content-xhtml-003.xhtml#video-010">The HTML5 <code>video</code> element: VP8</a></li>
+							<li><a href="content-xhtml-003.xhtml#video-020">The HTML5 <code>video</code> element: H.264</a></li>
+							<li><a href="content-xhtml-003.xhtml#video-030">The HTML5 <code>video</code> element: Poster Images</a></li>
+							<li><a href="content-xhtml-003.xhtml#video-040">The HTML5 <code>video</code> element: Captions (WebVTT)</a></li>
+							<li><a href="content-xhtml-003.xhtml#video-050">The HTML5 <code>video</code> element: Captions (TTML)</a></li>
+							<li><a href="content-xhtml-003.xhtml#video-060">The HTML5 <code>video</code> element: Subtitles (WebVTT)</a></li>
+							<li><a href="content-xhtml-003.xhtml#video-070">The HTML5 <code>video</code> element: Subtitles (TTML)</a></li>
+							<!-- </ol>
+						</li> -->
+						<li><a href="content-xhtml-004.xhtml#nspfx-010"> Namespace prefix support</a></li>
 					</ol>
 				</li>
-
-				<li><a href="content-svg-001.xhtml">Content Documents: SVG in XHTML</a>
+				<li class="category"><a href="content-svg-001.xhtml">Content Documents: SVG in XHTML</a>
 					<ol>
-						<li><a href="content-svg-002.xhtml#svg-010">Shapes using vectors</a></li>
-						
-						<li><a href="content-svg-003.xhtml#svg-110">Textual content</a></li>
-
-						<li><a href="content-svg-004.xhtml#svg-210">Bitmap called using <code>SVG</code> code</a></li>
-
+						<!-- <li class="subcategory"><span>Shapes</span>
+							<ol> -->
+							<li><a href="content-svg-002.xhtml#svg-010">A circle</a></li>
+							<li><a href="content-svg-002.xhtml#svg-020">A rectangle transformed into diamond</a></li>
+							<li><a href="content-svg-002.xhtml#svg-030">A circle.svg file called by an <code>img</code> element</a></li>
+							<li><a href="content-svg-002.xhtml#svg-040">A circle.svg file called by an <code>object</code> element</a></li>
+							<li><a href="content-svg-002.xhtml#svg-050">A circle.svg file called as a <code>background-image</code> (CSS)</a></li>
+							<!-- </ol>
+							</li> -->
+						<!-- <li class="subcategory"><span>Text content</span>
+							<ol> -->
+							<!-- Styling -->
+							<li><a href="content-svg-003.xhtml#svg-110"><code>letter-spacing</code> attribute</a></li>
+							<li><a href="content-svg-003.xhtml#svg-111"><code>word-spacing</code> attribute</a></li>
+							<li><a href="content-svg-003.xhtml#svg-112"><code>font-size</code> attribute</a></li>
+							<li><a href="content-svg-003.xhtml#svg-113"><code>font-weight</code> attribute</a></li>
+							<li><a href="content-svg-003.xhtml#svg-114"><code>font-style</code> attribute</a></li>
+							<li><a href="content-svg-003.xhtml#svg-115"><code>text-decoration</code> attribute</a></li>
+							<!-- Positioning -->
+							<li><a href="content-svg-003.xhtml#svg-120">lines positioned using <code>text</code> element</a></li>
+							<li><a href="content-svg-003.xhtml#svg-121">words and characters positioned using <code>text</code> and <code>tspan</code> element</a></li>
+							<li><a href="content-svg-003.xhtml#svg-122">Text positioned using <code>path</code> element</a></li>
+							<li><a href="content-svg-003.xhtml#svg-123"><code>text</code> element with multiple values of <code>x</code> and <code>y</code></a></li>
+							<!-- Rotating -->
+							<li><a href="content-svg-003.xhtml#svg-130">Text rotated using <code>rotate</code> attribute</a></li>
+							<li><a href="content-svg-003.xhtml#svg-131">Text rotated by a <code>transform</code> attribute</a></li>
+							<!-- Fonts -->
+							<li><a href="content-svg-003.xhtml#svg-190">Embedded fonts: TTF</a></li>
+							<li><a href="content-svg-003.xhtml#svg-191">Embedded fonts: OTF</a></li>
+							<li><a href="content-svg-003.xhtml#svg-192">Embedded fonts: WOFF</a></li>
+							<li><a href="content-svg-003.xhtml#svg-193">Embedded fonts: TTF obfuscated</a></li>
+							<li><a href="content-svg-003.xhtml#svg-194">Embedded fonts: OTF obfuscated</a></li>
+							<li><a href="content-svg-003.xhtml#svg-195">Embedded fonts: WOFF obfuscated</a></li>
+							<!-- </ol>
+							</li> -->
+							<!-- <li class="subcategory"><span>Bitmap</span>
+							<ol> -->
+							<li><a href="content-svg-004.xhtml#svg-210">Bitmap called using
+										<code>image</code> element</a></li>
+							<!-- </ol>
+							</li> -->
 					</ol>
 				</li>
-
-				<li><a href="../svg/content-svg-001.svg">Content Documents: SVG directly in spine</a>
+				<li class="category"><a href="../svg/content-svg-001.svg">Content Documents: SVG directly in spine</a>
 					<ol>
 						<li><a href="../svg/content-svg-001.svg">A grey circle</a></li>
 						<li><a href="../svg/content-svg-002.svg">A black rectangle transformed in a diamond</a></li>
@@ -44,33 +82,57 @@
 						<li><a href="../svg/content-svg-004.svg">A bitmap called using <code>SVG</code></a></li>
 					</ol>
 				</li>
-
-				<li><a href="styling-xhtml-001.xhtml">Layout and Styling: XHTML</a>
+				<li class="category"><a href="styling-xhtml-001.xhtml">Layout and Styling: XHTML</a>
 					<ol>
-						<li><a href="styling-xhtml-002.xhtml">CSS Multi-Column Layout</a></li>
+						<li><a href="styling-xhtml-002.xhtml#style-010">The <code>list-style-type</code> property: circle marker</a></li>
+						<li><a href="styling-xhtml-002.xhtml#style-011">The <code>list-style-type</code> property: square marker</a></li>
+						<li><a href="styling-xhtml-002.xhtml#style-012">The <code>list-style-type</code> property: disc marker</a></li>
+						<li><a href="styling-xhtml-002.xhtml#style-020">The <code>list-style-type</code> property: upper-roman marker</a></li>
+						<li><a href="styling-xhtml-002.xhtml#style-021">The <code>list-style-type</code> property: upper-latin marker</a></li>
+						<li><a href="styling-xhtml-002.xhtml#style-022">The <code>list-style-type</code> property: lower-alpha marker</a></li>
+						<li><a href="styling-xhtml-002.xhtml#style-023">The <code>list-style-type</code> property: lower-greek marker</a></li>
+						<li><a href="styling-xhtml-002.xhtml#style-024">The <code>list-style-type</code> property: armenian marker</a></li>
+						<li><a href="styling-xhtml-002.xhtml#style-025">The <code>list-style-type</code> property: cjk-ideographic marker</a></li>
+						<li><a href="styling-xhtml-002.xhtml#style-026">The <code>list-style-type</code> property: decimal-leading-zero marker</a></li>
+						<li><a href="styling-xhtml-002.xhtml#style-027">The <code>list-style-type</code> property: georgian marker</a></li>
+						<li><a href="styling-xhtml-002.xhtml#style-028">The <code>list-style-type</code> property: hebrew marker</a></li>
+						<li><a href="styling-xhtml-002.xhtml#style-029">The <code>list-style-type</code> property: no marker (none)</a></li>
+						<li><a href="styling-xhtml-002.xhtml#style-030">Using an image as a marker</a></li>
+						<li><a href="styling-xhtml-002.xhtml#style-040">The <code>list-style-position</code> property set to inside</a></li>
+						<li><a href="styling-xhtml-002.xhtml#style-041">The <code>list-style-position</code> property set to outside</a></li>
+						<li><a href="styling-xhtml-002.xhtml#style-050">The HTML <code>start</code> element without <code>list-style-type</code> property</a></li>
+						<li><a href="styling-xhtml-002.xhtml#style-051">The HTML <code>start</code> element with a <code>list-style-type</code> property</a></li>
+						<li><a href="styling-xhtml-003.xhtml">CSS Multi-Column Layout</a></li>
+						<li><a href="styling-xhtml-004.xhtml#style-210">The <code>@media</code> rule set to all</a></li>
+						<li><a href="styling-xhtml-004.xhtml#style-210">The <code>@media</code> rule set to all</a></li>
+						<li><a href="styling-xhtml-004.xhtml#style-211">The <code>@media</code> rule set to screen</a></li>
+						<li><a href="styling-xhtml-004.xhtml#style-212">The <code>@media</code> rule set to handheld</a></li>
+						<li><a href="styling-xhtml-004.xhtml#style-213">The <code>@media</code> rule set to tv</a></li>
+						<li><a href="styling-xhtml-004.xhtml#style-220">The <code>@media</code> rule set to orientation:landscape</a></li>
+						<li><a href="styling-xhtml-004.xhtml#style-221">The <code>@media</code> rule set to orientation:portrait</a></li>
+						<li><a href="styling-xhtml-005.xhtml#style-310">The <code>text-transform</code> property (uppercase)</a></li>
+						<li><a href="styling-xhtml-005.xhtml#style-311">The <code>text-transform</code> property (capitalize)</a></li>
+						<li><a href="styling-xhtml-005.xhtml#style-312">The <code>text-transform</code> property (lowercase)</a></li>
+						<li><a href="styling-xhtml-006.xhtml#style-410">The <code>ruby</code> positioning (over)</a></li>
+						<li><a href="styling-xhtml-006.xhtml#style-411">The <code>ruby</code> positioning (under)</a></li>
+						<li><a href="styling-xhtml-006.xhtml#style-412">The <code>ruby</code> positioning (inter-character)</a></li>
+						<!-- <li><a href="styling-xhtml-007.xhtml">Display Property Values oeb-page-head and oeb-page-foot</a></li> -->
 					</ol>
 				</li>
-
-				<li><a href="fonts-001.xhtml">Fonts and Font Obfuscation</a>
+				<li class="category"><a href="fonts-001.xhtml">Fonts and Font Obfuscation</a>
 					<ol>
 						<li><a href="fonts-001.xhtml#fonts-010">Embedded fonts: TTF</a></li>
 						<li><a href="fonts-001.xhtml#fonts-020">Embedded fonts: OTF</a></li>
 						<li><a href="fonts-001.xhtml#fonts-030">Embedded fonts: WOFF</a></li>
-						<li><a href="fonts-001.xhtml#fonts-040">Embedded fonts: TTF
-							obfuscated</a></li>
-						<li><a href="fonts-001.xhtml#fonts-050">Embedded fonts: OTF
-							obfuscated</a></li>
-						<li><a href="fonts-001.xhtml#fonts-060">Embedded fonts: WOFF
-							obfuscated</a></li>
-						<li><a href="fonts-001.xhtml#fonts-070">Embedded fonts: Unicode-range
-								(TTF)</a></li>
-
+						<li><a href="fonts-001.xhtml#fonts-040">Embedded fonts: TTF obfuscated</a></li>
+						<li><a href="fonts-001.xhtml#fonts-050">Embedded fonts: OTF obfuscated</a></li>
+						<li><a href="fonts-001.xhtml#fonts-060">Embedded fonts: WOFF obfuscated</a></li>
+						<li><a href="fonts-001.xhtml#fonts-070">Embedded fonts: Unicode-range (TTF)</a></li>
 					</ol>
 				</li>
-
-
-				<li><a href="scripting-001.xhtml">Scripting and Interactivity</a>
+				<li class="category"><a href="scripting-001.xhtml">Scripting and Interactivity</a>
 					<ol>
+						<!-- Reading System Object -->
 						<li><a href="scripting-002.xhtml#rso-010">readingSystemObject: defined</a></li>
 						<li><a href="scripting-002.xhtml#rso-020">readingSystemObject: the name property</a></li>
 						<li><a href="scripting-002.xhtml#rso-030">readingSystemObject: the version property</a></li>
@@ -80,40 +142,56 @@
 						<li><a href="scripting-002.xhtml#rso-070">readingSystemObject: the touch-events feature</a></li>
 						<li><a href="scripting-002.xhtml#rso-080">readingSystemObject: the mouse-events feature</a></li>
 						<li><a href="scripting-002.xhtml#rso-090">readingSystemObject: the keyboard-events feature</a></li>
-						<li><a href="scripting-002.xhtml#rso-100">readingSystemObject: the spine-scripting feature</a></li>						
+						<li><a href="scripting-002.xhtml#rso-100">readingSystemObject: the spine-scripting feature</a></li>
+						<!-- XMLHttpRequest -->
+						<li><a href="scripting-003.xhtml#xhr-010">XMLHttpRequest: defined</a></li>
+						<li><a href="scripting-003.xhtml#xhr-020">XMLHttpRequest: reading a local file</a></li>
+						<li><a href="scripting-003.xhtml#xhr-030">XMLHttpRequest: reading a remote file</a></li>
+						<!-- File System -->
+						<li><a href="scripting-004.xhtml#fs-010">Filesystem: defined</a></li>
+						<li><a href="scripting-004.xhtml#fs-020">Filesystem: writing a temporary file</a></li>
+						<li><a href="scripting-004.xhtml#fs-030">Filesystem: reading a temporary file</a></li>
+						<li><a href="scripting-004.xhtml#fs-040">Filesystem: writing a persistent file</a></li>
+						<li><a href="scripting-004.xhtml#fs-050">Filesystem: reading a persistent file</a></li>
+						<!-- Geolocation -->
+						<li><a href="scripting-005.xhtml#geo-010">Geolocation: defined</a></li>
+						<li><a href="scripting-005.xhtml#geo-020">Geolocation: current position</a></li>
+						<!-- Scripting -->
+						<li><a href="scripting-006.xhtml#scr-010">Scripting contexts: spine-level</a></li>
+						<li><a href="scripting-006.xhtml#scr-020">Scripting contexts: container-constrained</a></li>
 					</ol>
 				</li>
-
+				<li class="category"><a href="bindings-001.xhtml#bindings">Bindings</a>
+					<ol>
+						<li><a href="bindings-001.xhtml#bindings-010">Bindings</a></li>
+					</ol>
+				</li>
+				<!--
 				<li><a href="mo-001.xhtml">Media Overlays</a>
 					<ol>
 						<li><a href="mo-001.xhtml">TODO</a></li>
-						<!-- TODO -->
+						TODO
 					</ol>
 				</li>
-
+				-->
 				<!--				
 				<li><span class="nav-wrapper">Text-to-speech</span>
 					<ol>
-						
 					</ol>			        
 				</li>
 				
 				<li><span class="nav-wrapper">Linking</span>
 					<ol>
-						
 					</ol>			        
 				</li>
 -->
-
 			</ol>
 		</nav>
-
 		<nav epub:type="landmarks" hidden="">
 			<h2>Guide</h2>
 			<ol>
 				<li><a epub:type="toc" href="#toc">Table of Contents</a></li>
 			</ol>
 		</nav>
-
 	</body>
 </html>

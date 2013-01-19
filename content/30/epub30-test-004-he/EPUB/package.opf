@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uid">
    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
-      <dc:identifier id="uid">com.github.epub-testsuite.epub30-test-003-he</dc:identifier>
-      <dc:title id="title">EPUB 3.0 Test Suite: Herbrew / Arabic [UNDER CONSTRUCTION]</dc:title>
+      <dc:identifier id="uid">com.github.epub-testsuite.epub30-test-004-he</dc:identifier>
+      <dc:title id="title">EPUB 3.0 Test Suite: Hebrew / Arabic [UNDER CONSTRUCTION]</dc:title>
 	  <meta refines="title" property="title-type">main</meta>
       <!-- repeat creator element for all contributors -->
       <dc:creator id="creator1">Ori Idan</dc:creator>
@@ -20,7 +20,7 @@
 	  <meta refines="#creator4" property="alternate-script" xml:lang="ja">小池利明</meta>
       <dc:language>en</dc:language>
       <dc:language>he</dc:language>
-      <meta property="dcterms:modified">2012-10-20T06:45:00Z</meta>
+      <meta property="dcterms:modified">2013-01-18T12:20:00Z</meta>
    </metadata>
    <manifest>
    <!-- frontmatter -->
@@ -36,9 +36,6 @@
    <!-- secondary files -->
 	<!-- css -->
       <item href="css/base.css" media-type="text/css" id="css"/>
-	  <item href="css/svg.css" media-type="text/css" id="css-svg"/>
-      <item href="css/fonts.css" media-type="text/css" id="css-fonts"/>
-	  <item href="css/styling.css" media-type="text/css" id="css-styling"/>
 	  <item href="css/default_he.css" media-type="text/css" id="css-he"/>
 	<!-- images -->
 	  <item href="img/heb1.png" id="heb1" media-type="image/png"/>
@@ -54,9 +51,8 @@
 	  <item id="DejaVuSans-Bold" href="fonts/DejaVuSans-Bold.ttf" media-type="application/x-font-ttf" />
 	  <item id="DejaVuSans-BoldOblique" href="fonts/DejaVuSans-BoldOblique.ttf" media-type="application/x-font-ttf" />
 	  <item id="pdheb" href="fonts/pdheb.ttf" media-type="application/x-font-ttf" />
-
    </manifest>
-   <spine>
+   <spine page-progression-direction="rtl">
       <itemref idref="front"/>
       <itemref idref="nav" linear="no"/>
       <itemref idref="navtest"/>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<link rel="stylesheet" type="text/css" href="../css/base.css" />
+	</head>
+	<body>
+		<section id="bindings">
+			<h1>Bindings</h1>
+			
+			<section id="bindings-010" class="otest">
+				<h2><span class="test-id">bindings-010</span> <code>bindings</code></h2>
+				<p class="desc">Tests whether bindings on <code>object</code>s are fully supported.</p>
+				<!-- 
+				<p>If the reading system has script support, is able to call the associated binding page, and 
+					the invoking file information is available in the query string along with the child paramater, 
+					a PASS message will be displayed.</p> -->
+				<p class='eval'>If the text "PASS" appears below, the test passes.</p>	
+				<object data="../bindings/slideshow.xml" type="application/x-demo-slideshow">
+					<param name="success" value="PASS"/>
+					<p id="bindings-support-result">FAIL</p>
+					<p>The slideshow binding was not called</p>
+				</object>
+			</section>
+		</section>
+	</body>
+</html>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="../css/base.css" />
+        <script type="text/javascript">  
+            <![CDATA[
+            // test entry point
+            results = function () {
+                document.getElementById('scr-010-result').innerHTML = 'PASS';
+            };
+            //]]>
+        </script>
+    </head>
+    <body onload="results()">
+        <h1>Scripting Contexts</h1>
+        <p>This section contains tests for scripting contexts.</p>
+
+        <section id="scr-010" class="otest">
+            <h2><span class="test-id">scr-010</span> Spine-level scripts</h2>
+            <p class="desc">Test whether spine-level scripts are supported.</p>
+            <p id="scr-010-result">FAIL</p>
+            <p class="eval">If the above paragraph reads "PASS", the test passes.</p>
+        </section>
+        
+        <section id="scr-020" class="otest">
+            <h2><span class="test-id">scr-020</span> Container-constrained scripts</h2>
+            <p class="desc">Test whether container-constrained scripts are supported.</p>
+            <iframe src="scripting-006-inset.xhtml"/>
+            <p class="eval">If the above paragraph reads "PASS", the test passes.</p>
+        </section>
+    </body>
+</html>

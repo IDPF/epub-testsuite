@@ -1,32 +1,24 @@
-<smil xmlns="http://www.w3.org/ns/SMIL" xmlns:epub="http://www.idpf.org/2007/ops" version="3.0">
-    <body>
-        <seq epub:textref="../xhtml/navigation_tests.xhtml" epub:type="bodymatter chapter">
-
-            <par>
-                <text src="../xhtml/navigation_tests.xhtml#t1"/>
-                <audio src="../audio/navigation_tests.mp3" clipBegin="0.000" clipEnd="1.718"/>
-            </par>
-
-            <par>
-                <text src="../xhtml/navigation_tests.xhtml#t2"/>
-                <audio src="../audio/navigation_tests.mp3" clipBegin="1.718" clipEnd="4.179"/>
-            </par>
-
-            <par>
-                <text src="../xhtml/navigation_tests.xhtml#t3"/>
-                <audio src="../audio/navigation_tests.mp3" clipBegin="4.179" clipEnd="16.118"/>
-            </par>
-
-            <par>
-                <text src="../xhtml/navigation_tests.xhtml#t4"/>
-                <audio src="../audio/navigation_tests.mp3" clipBegin="16.118" clipEnd="24.756"/>
-            </par>
-
-            <par>
-                <text src="../xhtml/navigation_tests.xhtml#t5"/>
-                <audio src="../audio/navigation_tests.mp3" clipBegin="24.756" clipEnd="57.496"/>
-            </par>
-
-        </seq>
-    </body>
+<smil xmlns:epub="http://www.idpf.org/2007/ops" xmlns="http://www.w3.org/ns/SMIL" version="3.0">
+  <body epub:textref="../xhtml/navigation_tests.xhtml">
+    <par>
+      <text src="../xhtml/navigation_tests.xhtml#mo-1"/>
+      <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:00.000" clipEnd="00:00:01.355"/>
+    </par>
+    <par>
+      <text src="../xhtml/navigation_tests.xhtml#mo-2"/>
+      <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:01.355" clipEnd="00:00:02.795"/>
+    </par>
+    <par>
+      <text src="../xhtml/navigation_tests.xhtml#mo-3"/>
+      <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:02.795" clipEnd="00:00:12.011"/>
+    </par>
+    <par>
+      <text src="../xhtml/navigation_tests.xhtml#mo-4"/>
+      <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:12.011" clipEnd="00:00:19.528"/>
+    </par>
+    <par>
+      <text src="../xhtml/navigation_tests.xhtml#mo-5"/>
+      <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:19.528" clipEnd="00:00:51.594"/>
+    </par>
+  </body>
 </smil>

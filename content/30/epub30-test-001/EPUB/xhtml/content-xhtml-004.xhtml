@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epb="http://www.idpf.org/2007/ops">
+    <head>        
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="../css/base.css" />
+    </head>
+    <body>
+        
+        <section id="nspfx-010" class="ctest">
+            <h2><span class="test-id">namespace-prefix-010</span> Namespace prefix support</h2>
+            
+            <p class="desc">This tests whether a namespace prefix
+                 other than <code>epub</code> is supported for use with <code>epub:switch</code>.</p>            
+
+            <epb:switch >
+                <epb:case required-namespace="http://www.example.com/unsupported/namespace">
+                    <element xmlns="http://www.example.com/unsupported/namespace">
+                        FAIL
+                    </element>
+                </epb:case>
+                <epb:default>
+                    <p id="fallback"  class="eval">
+                        If the text "FAIL" appears above or before this paragraph, the test fails.
+                    </p>
+                </epb:default>
+            </epb:switch>
+            
+        </section>
+        
+    </body>
+</html>

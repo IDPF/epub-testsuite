@@ -1,0 +1,30 @@
+<smil xmlns:epub="http://www.idpf.org/2007/ops" xmlns="http://www.w3.org/ns/SMIL" version="3.0">
+    <!-- note to self: total actual duration is 23.600s -->
+  <body>
+      <seq epub:textref="../xhtml/clip_times_tests.xhtml">
+        <par>
+          <text src="../xhtml/clip_times_tests.xhtml#mo-1"/>
+          <audio src="../audio/clip_times_tests1.mp3" clipBegin="0.000" clipEnd="0.923"/>
+        </par>
+        <par>
+          <text src="../xhtml/clip_times_tests.xhtml#mo-2"/>
+          <audio src="../audio/clip_times_tests1.mp3" clipBegin="0.923" clipEnd="3.516"/>
+        </par>
+        <par>
+          <text src="../xhtml/clip_times_tests.xhtml#mo-3"/>
+          <!-- clipBegin is missing on purpose -->
+          <audio src="../audio/clip_times_tests2.mp3" clipEnd="5.078"/>
+        </par>
+        <par>
+          <text src="../xhtml/clip_times_tests.xhtml#mo-4"/>
+          <!-- clipEnd is missing on purpose -->
+          <audio src="../audio/clip_times_tests2.mp3" clipBegin="5.078"/>
+        </par>
+        <par>
+            <text src="../xhtml/clip_times_tests.xhtml#mo-5"/>
+            <!-- clipEnd is too long on purpose -->
+            <audio src="../audio/clip_times_tests3.mp3" clipBegin="0.000" clipEnd="99.999"/>
+        </par>
+    </seq>
+  </body>
+</smil>

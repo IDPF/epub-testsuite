@@ -1,0 +1,24 @@
+<smil xmlns:epub="http://www.idpf.org/2007/ops" xmlns="http://www.w3.org/ns/SMIL" version="3.0">
+  <body epub:textref="navigation_tests.xhtml">
+    <par>
+      <text src="../xhtml/navigation_tests.xhtml#mo-1"/>
+      <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:00.000" clipEnd="00:00:01.355"/>
+    </par>
+    <par>
+      <text src="../xhtml/navigation_tests.xhtml#mo-2"/>
+      <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:01.355" clipEnd="00:00:02.795"/>
+    </par>
+    <par>
+      <text src="../xhtml/navigation_tests.xhtml#mo-3"/>
+      <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:02.795" clipEnd="00:00:12.011"/>
+    </par>
+    <par>
+      <text src="../xhtml/navigation_tests.xhtml#mo-4"/>
+      <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:12.011" clipEnd="00:00:19.528"/>
+    </par>
+    <par>
+      <text src="../xhtml/navigation_tests.xhtml#mo-5"/>
+      <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:19.528" clipEnd="00:00:51.591"/>
+    </par>
+  </body>
+</smil>

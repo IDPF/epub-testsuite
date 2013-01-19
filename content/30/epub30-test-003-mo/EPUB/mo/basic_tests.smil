@@ -1,80 +1,64 @@
-<smil xmlns="http://www.w3.org/ns/SMIL" xmlns:epub="http://www.idpf.org/2007/ops" version="3.0">
-    <body>
-        <seq epub:textref="../xhtml/basic_tests.xhtml" epub:type="bodymatter chapter">
-
-            <par>
-                <text src="../xhtml/basic_tests.xhtml#t1"/>
-                <audio src="../audio/basic_tests.mp3" clipBegin="0.000" clipEnd="1.393"/>
-            </par>
-
-            <par>
-                <text src="../xhtml/basic_tests.xhtml#t2"/>
-                <audio src="../audio/basic_tests.mp3" clipBegin="1.393" clipEnd="4.226"/>
-            </par>
-
-            <par>
-                <text src="../xhtml/basic_tests.xhtml#t3"/>
-                <audio src="../audio/basic_tests.mp3" clipBegin="4.226" clipEnd="22.012"/>
-            </par>
-
-            <par>
-                <text src="../xhtml/basic_tests.xhtml#t4"/>
-                <audio src="../audio/basic_tests.mp3" clipBegin="22.012" clipEnd="24.845"/>
-            </par>
-
-            <par>
-                <text src="../xhtml/basic_tests.xhtml#t5"/>
-                <audio src="../audio/basic_tests.mp3" clipBegin="24.845" clipEnd="33.343"/>
-            </par>
-
-            <par>
-                <text src="../xhtml/basic_tests.xhtml#t6"/>
-                <audio src="../audio/basic_tests.mp3" clipBegin="33.343" clipEnd="36.780"/>
-            </par>
-
-            <par>
-                <text src="../xhtml/basic_tests.xhtml#t7"/>
-                <audio src="../audio/basic_tests.mp3" clipBegin="36.780" clipEnd="47.461"/>
-            </par>
-
-            <par>
-                <text src="../xhtml/basic_tests.xhtml#t8"/>
-                <audio src="../audio/basic_tests.mp3" clipBegin="47.461" clipEnd="51.130"/>
-            </par>
-
-            <par>
-                <text src="../xhtml/basic_tests.xhtml#t9"/>
-                <audio src="../audio/basic_tests.mp3" clipBegin="51.130" clipEnd="60.743"/>
-            </par>
-
-            <par>
-                <text src="../xhtml/basic_tests.xhtml#t10"/>
-                <audio src="../audio/basic_tests.mp3" clipBegin="60.743" clipEnd="62.693"/>
-            </par>
-
-            <par>
-                <text src="../xhtml/basic_tests.xhtml#t11"/>
-                <audio src="../audio/basic_tests.mp3" clipBegin="62.693" clipEnd="69.659"/>
-            </par>
-
-            <par>
-                <text src="../xhtml/basic_tests.xhtml#t12"/>
-                <audio src="../audio/basic_tests.mp3" clipBegin="69.659" clipEnd="71.703"/>
-            </par>
-
-            <par>
-                <text src="../xhtml/basic_tests.xhtml#t13"/>
-                <audio src="../audio/basic_tests.mp3" clipBegin="71.703" clipEnd="80.248"/>
-            </par>
-
-            <par>
-                <text src="../xhtml/basic_tests.xhtml#t14"/>
-                <audio src="../audio/basic_tests.mp3" clipBegin="80.248" clipEnd="83.406"/>
-            </par>
-            <par>
-                <text src="../xhtml/basic_tests.xhtml#t15"/>
-                <audio src="../audio/basic_tests.mp3" clipBegin="83.406" clipEnd="89.542"/>
-            </par> 
-        </seq>
-    </body>
+<smil xmlns:epub="http://www.idpf.org/2007/ops" xmlns="http://www.w3.org/ns/SMIL" version="3.0">
+  <body epub:textref="../xhtml/basic_tests.xhtml">
+    <par>
+      <text src="../xhtml/basic_tests.xhtml#mo-1"/>
+      <audio src="../audio/basic_tests.mp3" clipBegin="00:00:00.000" clipEnd="00:00:01.063"/>
+    </par>
+    <par>
+      <text src="../xhtml/basic_tests.xhtml#mo-2"/>
+      <audio src="../audio/basic_tests.mp3" clipBegin="00:00:01.063" clipEnd="00:00:02.871"/>
+    </par>
+    <par>
+      <text src="../xhtml/basic_tests.xhtml#mo-3"/>
+      <audio src="../audio/basic_tests.mp3" clipBegin="00:00:02.871" clipEnd="00:00:19.539"/>
+    </par>
+    <par>
+      <text src="../xhtml/basic_tests.xhtml#mo-4"/>
+      <audio src="../audio/basic_tests.mp3" clipBegin="00:00:19.539" clipEnd="00:00:21.442"/>
+    </par>
+    <par>
+      <text src="../xhtml/basic_tests.xhtml#mo-5"/>
+      <audio src="../audio/basic_tests.mp3" clipBegin="00:00:21.442" clipEnd="00:00:28.725"/>
+    </par>
+    <par>
+      <text src="../xhtml/basic_tests.xhtml#mo-6"/>
+      <audio src="../audio/basic_tests.mp3" clipBegin="00:00:28.725" clipEnd="00:00:31.316"/>
+    </par>
+    <par>
+      <text src="../xhtml/basic_tests.xhtml#mo-7"/>
+      <audio src="../audio/basic_tests.mp3" clipBegin="00:00:31.316" clipEnd="00:00:40.966"/>
+    </par>
+    <par>
+      <text src="../xhtml/basic_tests.xhtml#mo-8"/>
+      <audio src="../audio/basic_tests.mp3" clipBegin="00:00:40.966" clipEnd="00:00:43.640"/>
+    </par>
+    <par>
+      <text src="../xhtml/basic_tests.xhtml#mo-9"/>
+      <audio src="../audio/basic_tests.mp3" clipBegin="00:00:43.640" clipEnd="00:00:52.017"/>
+    </par>
+    <par>
+      <text src="../xhtml/basic_tests.xhtml#mo-10"/>
+      <audio src="../audio/basic_tests.mp3" clipBegin="00:00:52.017" clipEnd="00:00:53.216"/>
+    </par>
+    <par>
+      <text src="../xhtml/basic_tests.xhtml#mo-11"/>
+      <audio src="../audio/basic_tests.mp3" clipBegin="00:00:53.216" clipEnd="00:00:59.014"/>
+    </par>
+    <par>
+      <text src="../xhtml/basic_tests.xhtml#mo-12"/>
+      <audio src="../audio/basic_tests.mp3" clipBegin="00:00:59.014" clipEnd="00:01:00.063"/>
+    </par>
+    <par>
+      <text src="../xhtml/basic_tests.xhtml#mo-13"/>
+      <audio src="../audio/basic_tests.mp3" clipBegin="00:01:00.063" clipEnd="00:01:07.787"/>
+    </par>
+    <par>
+      <text src="../xhtml/basic_tests.xhtml#mo-14"/>
+      <audio src="../audio/basic_tests.mp3" clipBegin="00:01:07.787" clipEnd="00:01:09.912"/>
+    </par>
+    <par>
+      <text src="../xhtml/basic_tests.xhtml#mo-15"/>
+      <audio src="../audio/basic_tests.mp3" clipBegin="00:01:09.912" clipEnd="00:01:15.336"/>
+    </par>
+  </body>
 </smil>

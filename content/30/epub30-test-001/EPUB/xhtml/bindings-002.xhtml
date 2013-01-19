@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<link rel="stylesheet" type="text/css" href="../css/base.css"/>
+		<script>
+			<![CDATA[
+				var param = new Array();
+				var qs = (location.href.indexOf('?') > 0) ? location.href.split('?')[1] : '';
+				var args = qs.split('&');
+				
+				for(var i = 0; i < args.length; i++)
+				{
+					var p = args[i].split('=');
+					param[p[0]] = p[1];
+				}
+				
+				function testBinding() {
+					
+					document.getElementById('fail1').setAttribute('hidden', 'hiddden');
+					
+					var pass = true;
+					
+					if (!('src' in param) || !('type' in param)) {
+						document.getElementById('fail2').removeAttribute('hidden');
+						pass = false;
+					}
+					
+					else {
+						if (param["src"].indexOf("slideshow.xml") < 0) {
+							document.getElementById('fail3').removeAttribute('hidden');
+							document.getElementById('src').innerText = param["src"];
+							pass = false;
+						}
+						
+						else {
+							if (!('success' in param) || param["success"] != "PASS") {
+								document.getElementById('fail4').removeAttribute('hidden');
+								pass = false;
+							}
+						}
+					}
+					
+					
+					if (pass) {
+						document.getElementById('bindings-support-result').innerText = 'PASS';
+					}
+					
+					else {
+						document.getElementById('failqs').removeAttribute('hidden');
+						document.getElementById('qs').innerText = (qs == '') ? '<no query string available>' : qs;
+					}
+				}
+			]]>
+		</script>
+	</head>
+	<body onload="testBinding()">
+		<p id="bindings-support-result">FAIL</p>
+		<p id="fail1">The binding page was correctly invoked but scripting is not enabled.</p>
+		<p id="fail2" hidden="hidden">The <code>data</code> or <code>type</code>
+			attribute from the bound <code>object</code> did not get passed through.</p>
+		<p id="fail3" hidden="hidden">The <code>data</code> attribute value '../bindings/slideshow.xml' does not
+			match the <code>src</code> parameter in the query string: <span id="src"/>.</p>
+		<p id="fail4" hidden="hidden">The 'success' <code>param</code> in the original
+			<code>object</code> did not get passed through.</p>
+		<p id="failqs" hidden="hidden">The query string passed to the page is: <span id="qs"/></p>
+	</body>
+</html>
