@@ -8,6 +8,7 @@
       <dc:creator id="creator1">Markus Gylling</dc:creator>
       <dc:creator id="creator2">Vincent Gros</dc:creator>
       <dc:creator id="creator3">Toshiaki Koike</dc:creator>
+      <dc:creator id="creator4">Ori Idan</dc:creator>
 	  <meta refines="#creator1" property="role" scheme="marc:relators">aut</meta>
 	  <meta refines="#creator1" property="file-as">Gylling, Markus</meta>
 	  <meta refines="#creator2" property="role" scheme="marc:relators">aut</meta>
@@ -15,9 +16,11 @@
 	  <meta refines="#creator3" property="role" scheme="marc:relators">aut</meta>
 	  <meta refines="#creator3" property="file-as">Koike, Toshiaki</meta>
 	  <meta refines="#creator3" property="alternate-script" xml:lang="ja">小池利明</meta>
+	  <meta refines="#creator4" property="role" scheme="marc:relators">aut</meta>
+	  <meta refines="#creator4" property="file-as">Ori Idan</meta>
       <dc:language>en</dc:language>
       <dc:language>jp</dc:language>
-      <meta property="dcterms:modified">2012-10-17T16:30:00Z</meta>
+      <meta property="dcterms:modified">2013-01-19T16:30:00Z</meta>
    </metadata>
    <manifest>
    <!-- frontmatter -->
