@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="bookid">
+<metadata xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<dc:rights>Creative commons 2.5 CC-BY-SA</dc:rights>
+<meta property="dcterms:rights">Creative commons 2.5 CC-BY-SA</meta>
+<dc:creator>Ori Idan</dc:creator>
+<meta property="dcterms:creator">Ori Idan</meta>
+<dc:language>en</dc:language>
+<meta property="dcterms:language">en</meta>
+<dc:subject>EPUB3 demo</dc:subject>
+<meta property="dcterms:subject">EPUB3 demo</meta>
+<dc:description>Demonstration of EPUB3 features, MathML, SVG and JavaScript Animation</dc:description>
+<meta property="dcterms:description">
+Demonstration of EPUB3 features, MathML, SVG and JavaScript Animation
+</meta>
+<dc:identifier id="bookid">demo1</dc:identifier>
+<meta property="dcterms:identifier">demo1</meta>
+<dc:title>EPUB3 demonstration</dc:title>
+<meta property="dcterms:title">EPUB3 demonstration</meta>
+<dc:publisher>Helicon books</dc:publisher>
+<meta property="dcterms:publisher">Helicon books</meta>
+<dc:date>2012-12-29</dc:date>
+<meta property="dcterms:modified">2012-12-29T12:45:50Z</meta>
+<meta name="cover" content="cover-image" />
+</metadata>
+<manifest>
+<item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+<item id="toc" properties="nav" href="toc.xhtml" media-type="application/xhtml+xml" />
+<item id="css" href="epub.css" media-type="text/css"/>
+<item id="css-jsxg" href="jsxgraph.css" media-type="text/css" />
+<item id="js-jsxg" href="jsxgraphcore.js" media-type="text/javascript"/>
+<item id="cover-image" href="demo-cover.png" media-type="image/png" />
+<item id="logo" href="logo.png" media-type="logo.png" />
+<item id="licenselogo" href="logo_ccbysa.png" media-type="image/png" />
+<item id="cover" href="cover.xhtml" media-type="application/xhtml+xml"/>
+<item id="animation" href="script.xhtml" media-type="application/xhtml+xml"/>
+<item id="mathml" href="mathml.xhtml" media-type="application/xhtml+xml"/>
+<item id="svg" href="svg.xhtml" media-type="application/xhtml+xml"/>
+</manifest>
+<spine page-progression-direction="ltr" toc="ncx">
+<itemref idref="cover" />
+<itemref idref="toc" />
+<itemref idref="animation" />
+<itemref idref="mathml" />
+<itemref idref="svg" />
+</spine>
+<guide>
+<reference href="cover.xhtml" type="cover" title="Cover"/>
+</guide>
+</package>
+

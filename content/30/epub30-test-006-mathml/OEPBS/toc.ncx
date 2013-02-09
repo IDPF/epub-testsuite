@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+<head>
+<meta name="dtb:uid" content="demo1"/>
+<meta name="dtb:depth" content="1"/>
+<meta name="dtb:totalPageCount" content="0"/>
+<meta name="dtb:maxPageNumber" content="0"/>
+</head>
+<docTitle>
+<text>EPUB3 demonstration</text>
+</docTitle>
+<docAuthor>
+<text>Ori Idan</text>
+</docAuthor>
+<navMap>
+<navPoint class="chapter" id="cover" playOrder="1">
+<navLabel>
+<text>Cover page</text>
+</navLabel>
+<content src="cover.xhtml" />
+</navPoint>
+<navPoint class="chapter" id="toc" playOrder="2">
+<navLabel>
+<text>Intro</text>
+</navLabel>
+<content src="toc.xhtml" />
+</navPoint>
+<navPoint class="chapter" id="animation" playOrder="3">
+<navLabel>
+<text>Animation</text>
+</navLabel>
+<content src="script.xhtml" />
+</navPoint>
+<navPoint class="chapter" id="mathml" playOrder="4">
+<navLabel>
+<text>MathML</text>
+</navLabel>
+<content src="mathml.xhtml" />
+</navPoint>
+<navPoint class="chapter" id="svg" playOrder="5">
+<navLabel>
+<text>SVG</text>
+</navLabel>
+<content src="svg.xhtml" />
+</navPoint>
+</navMap>
+</ncx>

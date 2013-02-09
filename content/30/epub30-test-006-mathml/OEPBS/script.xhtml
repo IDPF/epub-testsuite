@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xml:lang="en-us" lang="en-us" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+        <meta charset="utf-8"/> 
+<title>Scripting</title>
+        <link rel="stylesheet" type="text/css" href="epub.css"/>
+ <link rel="stylesheet" type="text/css" href="jsxgraph.css" />
+ <script type="text/javascript" src="jsxgraphcore.js"></script>
+</head>
+<body>
+<h2>JavaScript animation</h2>
+<h4>Using JSXGraph</h4>
+
+<div id='jxgbox' class='jxgbox' style='width:500px; height:500px;'></div><script type='text/javascript'>
+var brd = JXG.JSXGraph.initBoard('jxgbox',{boundingbox:[-1.5,1.5,1.5,-1.5], keepaspectratio:true, axis:true});
+var p = brd.create('point',[0,1],{face:'o', size:5, strokeColor:'red', fillOpacity:0.3, strokeOpacity: 0.3});
+brd.create('arrow',[[0,0],p],{strokeWidth:5, strokeOpacity:0.7, strokeColor:'blue'});
+
+var i = -1;
+setInterval(function(){p.moveTo([Math.sin(i*Math.PI*2/12),Math.cos(i*Math.PI*2/12)],800); i++; },1000);
+</script>
+
+</body>
+</html>
+

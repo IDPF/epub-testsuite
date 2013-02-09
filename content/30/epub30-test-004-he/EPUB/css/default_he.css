@@ -75,14 +75,12 @@ h3 {	font-family: 'Times New Roman', Times, serif, 'sans serif', 'DejaVu Sans';
 h4 { font-size: 105%;
 	font-family: 'Times New Roman', Times, serif, 'sans serif', 'DejaVu Sans';
 	text-align: center;
-	writing-mode: rl-tb;
 	font-weight: normal;
 }
 /*Used for regular centered text, or centered images*/
 h5 { font-size: 100%;
 	font-family: 'Times New Roman', Times, serif, 'sans serif', 'DejaVu Sans';
 	text-align: center;
-/*	writing-mode: rl-tb; */
 	font-weight: normal;
 }		
 
@@ -94,8 +92,6 @@ h5 { font-size: 100%;
 .regular {
 	font-family: 'Times New Roman', Times, serif, 'sans serif', 'DejaVu Sans';
 	font-size: 100%;
-/*	writing-mode: rl-tb;
-*/
 }
 
 .regularbold {
@@ -241,6 +237,4 @@ h5 { font-size: 100%;
 	font-family: 'Times New Roman', Times, serif, 'sans serif', 'DejaVu Sans';
 	font-size: 95%;
 }
-
-
 
