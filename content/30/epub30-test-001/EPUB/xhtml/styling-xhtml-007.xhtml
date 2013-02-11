@@ -6,11 +6,24 @@
 		<link rel="stylesheet" type="text/css" href="../css/styling.css" />
     </head>
     <body>
+    	<div>
+    		<p class="header">Headers and Footers</p>
+    		<p class="footer">Test Suite</p>
+    	</div>
         <section id="style-510" class="ctest">
-            <h2><span class="test-id">style-510</span>The <code>display</code> property values <code>oeb-page-head</code> and <code>oeb-page-foot</code></h2>
-            <p class="desc"></p>            
+        	<h2><span class="nature">[REQUIRED]</span> <span class="test-id">style-510</span> The <code>display</code> property: <code>oeb-page-head</code></h2>
+        	
+        	<p class="desc">Tests whether author-defined headers can be set.</p>            
 
-			<p id="fallback"></p>
+        	<p class="eval">If the header for this page reads "Headers and Footers", the test passes.</p>
         </section>
+    	
+    	<section id="style-520" class="ctest">
+    		<h2><span class="nature">[REQUIRED]</span> <span class="test-id">style-520</span> The <code>display</code> property: <code>oeb-page-foot</code></h2>
+    		
+    		<p class="desc">Tests whether author-defined footers can be set.</p>            
+    		
+    		<p class="eval">If the footer for this page reads "Test Suite", the test passes.</p>
+    	</section>
     </body>
 </html>

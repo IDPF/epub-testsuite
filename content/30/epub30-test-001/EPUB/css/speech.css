@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+.hidden {
+	display: none;
+	visibility: hidden;
+}
+
+@media speech {
+	.no-speak {
+		-epub-speak: none;
+		speak: none;
+	}
+	.speak {
+		-epub-speak: normal;
+		speak: normal;
+	}
+	.spell {
+		-epub-speak-as: spell-out;
+		speak-as: spell-out;
+	}
+	.digits {
+		-epub-speak-as: digits;
+		speak-as: digits;
+	}
+	.literal-punctuation {
+		-epub-speak-as: literal-punctuation;
+		speak-as: literal-punctuation;
+	}
+	.no-punctuation {
+		-epub-speak-as: no-punctuation;
+		speak-as: no-punctuation;
+	}
+}

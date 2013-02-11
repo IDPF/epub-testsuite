@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<lexicon
+	version="1.0"
+	alphabet="x-sampa"
+	xml:lang="en"
+	xmlns="http://www.w3.org/2005/01/pronunciation-lexicon">
+	<lexeme>
+		<grapheme>Bass</grapheme>
+		<phoneme>beIs</phoneme>
+	</lexeme>
+	<lexeme>
+		<grapheme>bass</grapheme>
+		<phoneme>b&amp;s</phoneme>
+	</lexeme>
+	<lexeme>
+		<grapheme>Daily</grapheme>
+		<phoneme>'wikli</phoneme>
+	</lexeme>
+</lexicon>

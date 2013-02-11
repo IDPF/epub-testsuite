@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<lexicon
+	version="1.0"
+	alphabet="foobar"
+	xml:lang="en"
+	xmlns="http://www.w3.org/2005/01/pronunciation-lexicon">
+	<lexeme>
+		<grapheme>Despair</grapheme>
+		<phoneme alphabet="x-sampa">dʒɔɪ</phoneme>
+		<phoneme alphabet="ipa">dZOI</phoneme>
+	</lexeme>
+</lexicon>

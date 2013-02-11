@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:ssml="http://www.w3.org/2001/10/synthesis" xmlns:epub="http://www.idpf.org/2007/ops" xml:lang="en" lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="../css/base.css" />
+		<link rel="stylesheet" type="text/css" href="../css/speech.css"/>
+		<link rel="pronunciation" type="application/pls+xml" href="../pls/en-ipa.xml" hreflang="en"/>
+		<link rel="pronunciation" type="application/pls+xml" href="../pls/en-x-sampa.xml" hreflang="en"/>
+		<link rel="pronunciation" type="application/pls+xml" href="../pls/en-mixed.xml" hreflang="en"/>
+		<link rel="pronunciation" type="application/pls+xml" href="../pls/fr-ipa.xml" hreflang="fr"/>
+		<link rel="pronunciation" type="application/pls+xml" href="../pls/fr-x-sampa.xml" hreflang="fr"/>
+	</head>
+	<body>
+		<section id="pls-010" class="otest">
+			<h2><span class="nature">[OPTIONAL]</span>
+				<span class="test-id">pls-010</span> PLS: IPA Support</h2>
+
+			<p class="desc">Tests whether PLS lexicons with IPA pronunciations are supported.</p>
+			
+			<p>Today</p>
+
+			<p class="eval">If the preceding word is pronounced "tomorrow", IPA lexicons are supported.</p>
+		</section>
+
+		<section id="pls-020" class="otest">
+			<h2><span class="nature">[OPTIONAL]</span>
+				<span class="test-id">pls-020</span> PLS: X-SAMPA Support</h2>
+			
+			<p class="desc">Tests whether PLS lexicons with X-SAMPA pronunciations are supported.</p>
+			
+			<p>Daily</p>
+			
+			<p class="eval">If the preceding word is pronounced "weekly", X-SAMPA lexicons are supported.</p>
+		</section>
+		
+		<section id="pls-030" class="otest">
+			<h2><span class="nature">[OPTIONAL]</span>
+				<span class="test-id">pls-030</span> PLS: Mixed Lexicon Support</h2>
+			
+			<p class="desc">Tests whether X-SAMPA and IPA pronunciations can be mixed in a
+				single lexicon file.</p>
+			
+			<p>Despair</p>
+			
+			<p class="eval">If the preceding word is pronounced "joy", mixed lexicons are supported.</p>
+		</section>
+		
+		<section id="pls-040" class="otest">
+			<h2><span class="nature">[OPTIONAL]</span>
+				<span class="test-id">pls-040</span> PLS: Multilingual Support</h2>
+			
+			<p class="desc">Tests whether PLS lexicons are supported for embedded languages.</p>
+			
+			<p>Comparing apples to <span xml:lang="fr" lang="fr">oranges</span>.</p>
+			
+			<p class="eval">If the preceding sentence is pronounced "comparing apples to apples" the test
+				passes, otherwise it fails.</p>
+		</section>
+		
+		<section id="pls-050" class="otest">
+			<h2><span class="nature">[OPTIONAL]</span>
+				<span class="test-id">pls-050</span> PLS: Case Sensitivity</h2>
+			
+			<p class="desc">Tests whether PLS lexicons entries are case sensitive.</p>
+			
+			<p>Bass not bass.</p>
+			
+			<p class="eval">If the preceding sentence is pronounced "comparing apples to apples" the test
+				passes, otherwise it fails.</p>
+		</section>
+		
+		<section id="ssml-010" class="otest">
+			<h2><span class="nature">[OPTIONAL]</span>
+				<span class="test-id">ssml-010</span> SSML: IPA Support</h2>
+			
+			<p class="desc">Tests whether SSML support for IPA pronunciations is available.</p>
+			
+			<p><span ssml:alphabet="ipa" ssml:ph="ˈmʌndeɪ">Friday</span></p>
+			
+			<p class="eval">If the word "Friday" is pronouned "Monday" the test
+				passes, otherwise it fails.</p>
+		</section>
+		
+		<section id="ssml-020" class="otest">
+			<h2><span class="nature">[OPTIONAL]</span>
+				<span class="test-id">speech-020</span> SSML: X-SAMPA Support</h2>
+			
+			<p class="desc">Tests whether SSML support for X-SAMPA pronunciations is available.</p>
+			
+			<p><span ssml:alphabet="x-sampa" ssml:ph="'mVndeI">Friday</span></p>
+			
+			<p class="eval">If the word "Friday" is pronouned "Monday" the test
+				passes, otherwise it fails.</p>
+		</section>
+		
+		<section id="speech-010" class="otest">
+			<h2><span class="nature">[OPTIONAL]</span>
+				<span class="test-id">speech-010</span> CSS3 Speech: <code>-epub-speak</code> none</h2>
+			
+			<p class="desc">Tests whether content styled using the <code>none</code> value is omitted from aural rendering.</p>
+			
+			<p class="no-speak">This paragraph should not be announced.</p>
+			
+			<p class="eval">If no text is announced after the description, the test passes. If the text "this paragraph should not 
+				be announced" is rendered, the test fails.</p>
+		</section>
+		
+		<section id="speech-020" class="otest">
+			<h2><span class="nature">[OPTIONAL]</span>
+				<span class="test-id">speech-020</span> CSS3 Speech: <code>-epub-speak</code> normal</h2>
+			
+			<p class="desc">Tests whether hidden content is announced when the <code>-epub-speak</code> property is set to <code>normal</code>.</p>
+			
+			<p class="hidden speak">I am a hidden paragraph.</p>
+			
+			<p class="eval">If no text is announced after the description, the test falis. I the text "I am a hidden paragraph" 
+				is rendered, the test fails.</p>
+		</section>
+		
+		<section id="speech-030" class="otest">
+			<h2><span class="nature">[OPTIONAL]</span>
+				<span class="test-id">speech-030</span> CSS3 Speech: <code>-epub-speak-as</code> spell</h2>
+			
+			<p class="desc">Tests support for speaking out letters in a word or acronym one at a time.</p>
+			
+			<p><span class="spell">water</span></p>
+			
+			<p class="eval">The test fails if the the word "water" is not spelled out one character at a time.</p>
+		</section>
+		
+		<section id="speech-040" class="otest">
+			<h2><span class="nature">[OPTIONAL]</span>
+				<span class="test-id">speech-040</span> CSS3 Speech: <code>-epub-speak-as</code> digits</h2>
+			
+			<p class="desc">Tests support for speaking out digits in a number one at a time.</p>
+			
+			<p><span class="digits">42</span></p>
+			
+			<p class="eval">If the numbers four and two are announced, the test passes. If the number forty-two is
+				announced, the test fails.</p>
+		</section>
+		
+		<section id="speech-050" class="otest">
+			<h2><span class="nature">[OPTIONAL]</span>
+				<span class="test-id">speech-050</span> CSS3 Speech: <code>-epub-speak-as</code> literal-punctuation</h2>
+			
+			<p class="desc">Tests support for speaking out digits in a number one at a time.</p>
+			
+			<pre><code class="literal-punctuation">for (var i = 0; i += 1; i++) { print 'hello' . ' ' . 'world'; }</code></pre>
+			
+			<p class="eval">If the semicolons, periods, parentheses, braces and quotation marks are announced in the
+				preceding line of code, the test passes.</p>
+		</section>
+		
+		<section id="speech-060" class="otest">
+			<h2><span class="nature">[OPTIONAL]</span>
+				<span class="test-id">speech-060</span> CSS3 Speech: <code>-epub-speak-as</code> no-punctuation</h2>
+			
+			<p class="desc">Tests support for speaking out digits in a number one at a time.</p>
+			
+			<pre><code class="no-punctuation">I said: here be dragons; there be The Killer Rabbit of Caerbannog</code></pre>
+			
+			<p class="eval">If the colon is not announced and no pause occurs after the semicolon, the test passes.</p>
+		</section>
+	</body>
+</html>

@@ -99,3 +99,15 @@ ruby.ruby-inter-character {
    -webkit-ruby-position:inter-character;
    ruby-position:inter-character;
 }
+
+.header, .footer {
+	display: none;
+}
+
+.header {
+	display: oeb-page-head;
+}
+
+.footer {
+	display: oeb-page-foot;
+}
