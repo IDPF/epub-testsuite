@@ -36,7 +36,6 @@
 		<item href="xhtml/content-xhtml-002.xhtml" id="xhtml-002" media-type="application/xhtml+xml" properties="switch"/>
 		<item href="xhtml/content-xhtml-003.xhtml" id="xhtml-003" media-type="application/xhtml+xml"/>
 		<item href="xhtml/content-xhtml-004.xhtml" id="xhtml-004" media-type="application/xhtml+xml" properties="svg"/>
-		<item href="xhtml/content-xhtml-005.xhtml" id="xhtml-005" media-type="application/xhtml+xml" properties="scripted"/>
 		<!-- mathml -->
 		<item href="xhtml/content-mathml-001.xhtml" id="xhtml-mathml-001" media-type="application/xhtml+xml"/>
 		<item href="xhtml/content-mathml-002.xhtml" id="xhtml-mathml-002" media-type="application/xhtml+xml" properties="switch mathml"/>
@@ -68,6 +67,11 @@
 		<item href="xhtml/scripting-005.xhtml" id="scr-005" media-type="application/xhtml+xml" properties="scripted"/>
 		<item href="xhtml/scripting-006.xhtml" id="scr-006" media-type="application/xhtml+xml" properties="scripted"/>
 		<item href="xhtml/scripting-006-inset.xhtml" id="scr-006-inset" media-type="application/xhtml+xml" properties="scripted"/>
+		<!-- canvas -->
+		<item href="xhtml/canvas-001.xhtml" id="canvas-001" media-type="application/xhtml+xml" properties="scripted"/>
+		<!-- forms -->
+		<!-- <item href="xhtml/forms-001.xhtml" id="forms-001" media-type="application/xhtml+xml" properties="scripted"/> -->
+		<item href="xhtml/forms-001.xhtml" id="forms-001" media-type="application/xhtml+xml"/>
 		<!-- tts -->  
 		<item href="xhtml/tts-001.xhtml" id="tts-001" media-type="application/xhtml+xml"/>
 		<item href="xhtml/tts-002.xhtml" id="tts-002" media-type="application/xhtml+xml"/>
@@ -86,6 +90,7 @@
 		<item href="img/circle.jpg" id="img-001" media-type="image/jpeg"/>
 		<item href="img/Skype_logo.png" id="img-002" media-type="image/png"/>
 		<item href="img/purple-aqua-square-bullet.gif" id="img-003" media-type="image/gif"/>
+		<item href="img/button.png" id="img-004" media-type="image/png"/>
 		<!-- fonts -->
 		<item id="font-woff" href="fonts/OldStandard-Regular.woff" media-type="application/font-woff"/>
 		<item id="font-otf" href="fonts/OldStandard-Regular.otf" media-type="application/vnd.ms-opentype"/>
@@ -116,7 +121,6 @@
 		<itemref idref="xhtml-001"/>
 		<itemref idref="xhtml-002"/>
 		<itemref idref="xhtml-003"/>
-		<itemref idref="xhtml-005"/>
 		<itemref idref="xhtml-004"/>
 		<itemref idref="xhtml-mathml-001"/>
 		<itemref idref="xhtml-mathml-002"/>
@@ -144,6 +148,8 @@
 		<itemref idref="scr-004"/>
 		<itemref idref="scr-005"/>
 		<itemref idref="scr-006"/>
+		<itemref idref="canvas-001"/>
+		<itemref idref="forms-001"/>
 		<itemref idref="tts-001"/>
 		<itemref idref="tts-002"/>
 		<itemref idref="bind-001"/>
