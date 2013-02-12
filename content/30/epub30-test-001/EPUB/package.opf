@@ -36,6 +36,8 @@
 		<item href="xhtml/content-xhtml-002.xhtml" id="xhtml-002" media-type="application/xhtml+xml" properties="switch"/>
 		<item href="xhtml/content-xhtml-003.xhtml" id="xhtml-003" media-type="application/xhtml+xml"/>
 		<item href="xhtml/content-xhtml-004.xhtml" id="xhtml-004" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="xhtml/content-xhtml-005.xhtml" id="xhtml-005" media-type="application/xhtml+xml"/>
+		<item href="xhtml/content-xhtml-005-inset.xhtml" id="xhtml-005-inset" media-type="application/xhtml+xml"/>
 		<!-- mathml -->
 		<item href="xhtml/content-mathml-001.xhtml" id="xhtml-mathml-001" media-type="application/xhtml+xml"/>
 		<item href="xhtml/content-mathml-002.xhtml" id="xhtml-mathml-002" media-type="application/xhtml+xml" properties="switch mathml"/>
@@ -72,6 +74,8 @@
 		<!-- forms -->
 		<!-- <item href="xhtml/forms-001.xhtml" id="forms-001" media-type="application/xhtml+xml" properties="scripted"/> -->
 		<item href="xhtml/forms-001.xhtml" id="forms-001" media-type="application/xhtml+xml"/>
+		<!-- <item href="xhtml/forms-002.xhtml" id="forms-002" media-type="application/xhtml+xml" properties="scripted"/> -->
+		<item href="xhtml/forms-002.xhtml" id="forms-002" media-type="application/xhtml+xml"/>
 		<!-- tts -->  
 		<item href="xhtml/tts-001.xhtml" id="tts-001" media-type="application/xhtml+xml"/>
 		<item href="xhtml/tts-002.xhtml" id="tts-002" media-type="application/xhtml+xml"/>
@@ -86,6 +90,7 @@
 		<item href="css/styling.css" media-type="text/css" id="css-styling"/>
 		<item href="css/math.css" media-type="text/css" id="css-math"/>
 		<item href="css/speech.css" media-type="text/css" id="css-speech"/>
+		<item href="css/forms.css" media-type="text/css" id="css-forms"/>
 		<!-- images -->
 		<item href="img/circle.jpg" id="img-001" media-type="image/jpeg"/>
 		<item href="img/Skype_logo.png" id="img-002" media-type="image/png"/>
@@ -122,6 +127,7 @@
 		<itemref idref="xhtml-002"/>
 		<itemref idref="xhtml-003"/>
 		<itemref idref="xhtml-004"/>
+		<itemref idref="xhtml-005"/>
 		<itemref idref="xhtml-mathml-001"/>
 		<itemref idref="xhtml-mathml-002"/>
 		<itemref idref="xhtml-svg-001"/>
@@ -150,6 +156,7 @@
 		<itemref idref="scr-006"/>
 		<itemref idref="canvas-001"/>
 		<itemref idref="forms-001"/>
+		<itemref idref="forms-002"/>
 		<itemref idref="tts-001"/>
 		<itemref idref="tts-002"/>
 		<itemref idref="bind-001"/>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xml:lang="en" lang="en">
+    <head>        
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="../css/base.css" />
+    	<link rel="stylesheet" type="text/css" href="../css/forms.css" />
+    </head>
+    <body>
+        
+        <section id="forms-210" class="otest">
+        	<h2><span class="nature">[OPTIONAL]</span> <span class="test-id">forms-210</span> The <code>button</code> element</h2>
+            
+            <p class="desc">Tests whether the HTML5 <code>button</code> element is supported.</p>
+        	
+        	<button>Test</button>
+
+            <p class="eval">If a button with the label "Test" is rendered immediately before this paragraph, the test passes.</p>
+        </section>
+    	
+    	<section id="forms-220" class="otest">
+    		<h2><span class="nature">[OPTIONAL]</span> <span class="test-id">forms-220</span> The <code>select</code> element: single option</h2>
+    		
+    		<p class="desc">Tests whether the HTML5 <code>select</code> element is supported for picking a single option.</p>
+    		
+    		<select>
+    			<option>lorem</option>
+    			<option>ipsum</option>
+    			<option>dolor</option>
+    		</select>
+    		
+    		<p class="eval">If a drop-down selection box with the options "lorem", "ipsum" and "dolor" is rendered immediately before this paragraph, the test passes.</p>
+    	</section>
+    	
+    	<section id="forms-230" class="otest">
+    		<h2><span class="nature">[OPTIONAL]</span> <span class="test-id">forms-230</span> The <code>select</code> element: multiple options</h2>
+    		
+    		<p class="desc">Tests whether the HTML5 <code>select</code> element is supported for picking multiple options.</p>
+    		
+    		<select multiple="multiple">
+    			<option>lorem</option>
+    			<option>ipsum</option>
+    			<option>dolor</option>
+    		</select>
+    		
+    		<p class="eval">If a selection box allowing any or all of options "lorem", "ipsum" and "dolor" to be selected is rendered immediately 
+    			before this paragraph, the test passes.</p>
+    	</section>
+    	
+    	<section id="forms-240" class="otest">
+    		<h2><span class="nature">[OPTIONAL]</span> <span class="test-id">forms-240</span> The <code>optgroup</code> element</h2>
+    		
+    		<p class="desc">Tests whether the HTML5 <code>optgroup</code> element is supported for grouping options under a common heading.</p>
+    		
+    		<select>
+    			<optgroup label="Latin">
+    				<option>lorem</option>
+    				<option>ipsum</option>
+    				<option>dolor</option>
+    			</optgroup>
+    		</select>
+    		
+    		<p class="eval">If the non-selectable heading "Latin" groups the options "lorem", "ipsum" and "dolor" in the preceding
+    			selection box, the test passes.</p>
+    	</section>
+    	
+    	<section id="forms-250" class="otest">
+    		<h2><span class="nature">[OPTIONAL]</span> <span class="test-id">forms-250</span> The <code>datalist</code> element</h2>
+    		
+    		<p class="desc">Tests whether the HTML5 <code>datalist</code> element for predefining options is supported.</p>
+    		
+    		<input type="text" list="options"/>
+    		<datalist id="options">
+    			<option>lorem</option>
+    			<option>ipsum</option>
+    			<option>dolor</option>
+    		</datalist>
+    		
+    		<p class="eval">If, when activating the preceding text box, the options "lorem", "ipsum" and "dolor" are made available for selection, the test passes.
+    			If the three options are visible as text below the selection box, the test fails.</p>
+    	</section>
+    	
+    	<section id="forms-260" class="otest">
+    		<h2><span class="nature">[OPTIONAL]</span> <span class="test-id">forms-260</span> The <code>textarea</code> element</h2>
+    		
+    		<p class="desc">Tests whether the HTML5 <code>textarea</code> element is supported.</p>
+    		
+    		<textarea rows="5" cols="40"/>
+    		
+    		<p class="eval">If a 40 column by 5 row text area precedes this paragraph, the test passes.</p>
+    	</section>
+    	
+    	<section id="forms-270" class="otest">
+    		<h2><span class="nature">[OPTIONAL]</span> <span class="test-id">forms-270</span> The <code>progress</code> element</h2>
+    		
+    		<p class="desc">Tests whether the HTML5 <code>progress</code> element is supported.</p>
+    		
+    		<progress max="100" value="33"/>
+    		
+    		<p class="eval">If a progress bar precedes this paragraph, the test passes.</p>
+    	</section>
+    	
+    	<section id="forms-280" class="otest">
+    		<h2><span class="nature">[OPTIONAL]</span> <span class="test-id">forms-280</span> The <code>meter</code> element</h2>
+    		
+    		<p class="desc">Tests whether the HTML5 <code>meter</code> element is supported.</p>
+    		
+    		<meter min="0" max="100" value="75"></meter>
+    		
+    		<p class="eval">If a meter bar precedes this paragraph, the test passes.</p>
+    	</section>
+    	
+     </body>
+</html>
