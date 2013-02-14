@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xml:lang="ja">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="../css/base_v.css" />
+        <title>text-style-rtl-020</title>
+    </head>
+    <body class="normalpage">
+        <section id="text-style-rtl-020" class="ctest">
+        <h2 class="chapter"><span class="test-id">text-style-rtl-020</span>縦書き時の欧文の書体指定／Latin font family in vertical text</h2>
+        <div class="desc_v">
+            <p class="desc">テスト内容：縦書き時の欧文の書体指定がサポートされているか。縦書きでは欧文の文字列は右90度回転して表示されます。
+            <br />Test whether designated "font family" elements for latin letters and European numerals are reflected properly in vertical writing. Latin letters and European numerals are displayed as rotated 90 degrees clockwise in vertical writing.</p>
+            <p class="eval">→次の「表示」の内容が「期待される表示」と同じであれば合格。
+            <br />→If "Rendered text" looks similar to the following "Expected display image", then the test passes.</p>
+        <p><br /></p>
+            <div>表示／Rendered text
+                <div class="rentxt">
+                    <p>
+                    <span class="serif_italic">serif italic strings.</span><br />
+                    <span class="serif_bold">serif bold strings.</span><br />
+                    <span class="serif_italic_bold">serif italic bold strings.</span><br />
+                    <span class="sansserif_italic">sans-serif italic strings.</span><br />
+                    <span class="sansserif_bold">sans-serif bold strings.</span><br />
+                    <span class="sansserif_italic_bold">sans-serif italic bold strings.</span><br />
+                    </p>
+                </div>
+            </div>
+            <div>期待される表示／Expected display image
+                <div class="expimg">
+                    <img src="../img/expected-latin-font.png" class="block" alt="latin font family in vertical text expected image" />
+                </div>
+            </div>
+        </div>
+        </section>
+    </body>
+</html>
