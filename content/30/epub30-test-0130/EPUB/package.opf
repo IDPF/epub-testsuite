@@ -20,7 +20,8 @@
 	  <meta refines="#creator4" property="file-as">Ori Idan</meta>
       <dc:language>en</dc:language>
       <dc:language>jp</dc:language>
-      <meta property="dcterms:modified">2013-02-14T13:00:00Z</meta>
+      <dc:language>he</dc:language>
+      <meta property="dcterms:modified">2013-02-14T14:00:00Z</meta>
    </metadata>
    <manifest>
 		<!-- frontmatter -->
