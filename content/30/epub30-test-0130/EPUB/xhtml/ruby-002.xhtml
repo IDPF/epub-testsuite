@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xml:lang="ja">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="../css/base_v.css" />
+        <title>ruby-rtl-010</title>
+    </head>
+    <body class="normalpage">
+        <section id="ruby-rtl-010" class="ctest">
+        <h2 class="chapter"><span class="test-id">ruby-rtl-010</span>ルビ表示／Ruby</h2>
+        <div class="desc_v">
+            <p class="desc">テスト内容：縦書きで、ルビ表示がサポートされているか。ここでは代表的な3種類のルビをテストする：モノルビ、熟語ルビ、グループルビ
+            <br />Test whether ruby display is supported in Japanese vertical writing. The test includes 3 common types of ruby display; mono-ruby (モノルビ), Jukugo-ruby (熟語ルビ), group-ruby (グループルビ)</p>
+            <p class="eval">→次の「表示」の内容が「期待される表示」と同じであれば合格。
+            <br />→If "Rendered text" looks similar to the following "Expected display image", then the test passes.</p>
+        <p><br /></p>
+            <div>表示／Rendered text
+                <div class="rentxt">
+                    <p>モノルビ：<ruby>表<rt>ひょう</rt></ruby></p>
+                    <p>熟語ルビ：<ruby>虞<rt>ぐ</rt>美<rt>び</rt>人<rt>じん</rt>草<rt>そう</rt></ruby></p>
+                    <p>グループルビ：<ruby>福音伝道者<rt>エヴァンジェリスト</rt></ruby></p>
+                </div>
+            </div>
+            <div>期待される表示／Expected display image
+                <div class="expimg">
+                    <img src="../img/expected-ruby.png" class="block" alt="ruby expected image" />
+                </div>
+            </div>
+        </div>
+        </section>
+    </body>
+</html>

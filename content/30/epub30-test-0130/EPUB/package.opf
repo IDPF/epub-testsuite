@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uid">
    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
-      <dc:identifier id="uid">com.github.epub-testsuite.epub30-test-002</dc:identifier>
-      <dc:title id="title">EPUB 3.0 Test Suite: Document 002 page-progression-direction:rtl [UNDER CONSTRUCTION]</dc:title>
+      <dc:identifier id="uid">com.github.epub-testsuite.epub30-test-0130</dc:identifier>
+      <dc:title id="title">EPUB 3.0 Test Suite: Document 0130 page-progression-direction:rtl [UNDER CONSTRUCTION]</dc:title>
 	  <meta refines="title" property="title-type">main</meta>
       <!-- repeat creator element for all contributors -->
       <dc:creator id="creator1">Markus Gylling</dc:creator>
@@ -20,27 +20,60 @@
 	  <meta refines="#creator4" property="file-as">Ori Idan</meta>
       <dc:language>en</dc:language>
       <dc:language>jp</dc:language>
-      <meta property="dcterms:modified">2013-01-19T16:30:00Z</meta>
+      <meta property="dcterms:modified">2013-02-14T13:00:00Z</meta>
    </metadata>
    <manifest>
    <!-- frontmatter -->
    <item href="xhtml/front-svg.xhtml" id="front" properties="svg" media-type="application/xhtml+xml"/>
    <item href="xhtml/about.xhtml" id="about" media-type="application/xhtml+xml"/>
-   <item href="xhtml/toc.xhtml" id="toc" media-type="application/xhtml+xml"/>
    <item href="xhtml/navigation.xhtml" id="nav" properties="nav" media-type="application/xhtml+xml"/>
 
    <!-- bodymatter -->
    <!-- xhtml -->
-   <item href="xhtml/pagenation.xhtml" id="pagenation" media-type="application/xhtml+xml"/>
-   <item href="xhtml/pagenation-expected-img.xhtml" id="pagenation-expected-img" media-type="application/xhtml+xml"/>
-   <item href="xhtml/headings.xhtml" id="headings" media-type="application/xhtml+xml"/>
-   <item href="xhtml/links.xhtml" id="links" media-type="application/xhtml+xml"/>
-   <item href="xhtml/character.xhtml" id="character" media-type="application/xhtml+xml"/>
-   <item href="xhtml/paragraph-style.xhtml" id="paragraph-style" media-type="application/xhtml+xml"/>
-   <item href="xhtml/ruby.xhtml" id="ruby" media-type="application/xhtml+xml"/>
-   <item href="xhtml/text-style.xhtml" id="text-style" media-type="application/xhtml+xml"/>
-   <item href="xhtml/images.xhtml" id="images" media-type="application/xhtml+xml"/>
-   <item href="xhtml/multi-column.xhtml" id="multi-column" media-type="application/xhtml+xml"/>
+   <item href="xhtml/text-direction-001.xhtml" id="text-direction-001" media-type="application/xhtml+xml"/>
+   <item href="xhtml/text-direction-002.xhtml" id="text-direction-002" media-type="application/xhtml+xml"/>
+   <item href="xhtml/text-direction-003.xhtml" id="text-direction-003" media-type="application/xhtml+xml"/>
+   <item href="xhtml/text-direction-004.xhtml" id="text-direction-004" media-type="application/xhtml+xml"/>
+   <item href="xhtml/text-direction-005.xhtml" id="text-direction-005" media-type="application/xhtml+xml"/>
+   <item href="xhtml/headings-001.xhtml" id="headings-001" media-type="application/xhtml+xml"/>
+   <item href="xhtml/headings-002.xhtml" id="headings-002" media-type="application/xhtml+xml"/>
+   <item href="xhtml/headings-003.xhtml" id="headings-003" media-type="application/xhtml+xml"/>
+   <item href="xhtml/headings-004.xhtml" id="headings-004" media-type="application/xhtml+xml"/>
+   <item href="xhtml/headings-005.xhtml" id="headings-005" media-type="application/xhtml+xml"/>
+   <item href="xhtml/link-001.xhtml" id="link-001" media-type="application/xhtml+xml"/>
+   <item href="xhtml/link-002.xhtml" id="link-002" media-type="application/xhtml+xml"/>
+   <item href="xhtml/link-003.xhtml" id="link-003" media-type="application/xhtml+xml"/>
+   <item href="xhtml/link-004.xhtml" id="link-004" media-type="application/xhtml+xml"/>
+   <item href="xhtml/character-001.xhtml" id="character-001" media-type="application/xhtml+xml"/>
+   <item href="xhtml/character-002.xhtml" id="character-002" media-type="application/xhtml+xml"/>
+   <item href="xhtml/character-003.xhtml" id="character-003" media-type="application/xhtml+xml"/>
+   <item href="xhtml/character-004.xhtml" id="character-004" media-type="application/xhtml+xml"/>
+   <item href="xhtml/character-005.xhtml" id="character-005" media-type="application/xhtml+xml"/>
+   <item href="xhtml/character-006.xhtml" id="character-006" media-type="application/xhtml+xml"/>
+   <item href="xhtml/character-007.xhtml" id="character-007" media-type="application/xhtml+xml"/>
+   <item href="xhtml/character-008.xhtml" id="character-008" media-type="application/xhtml+xml"/>
+   <item href="xhtml/character-009.xhtml" id="character-009" media-type="application/xhtml+xml"/>
+   <item href="xhtml/paragraph-style-001.xhtml" id="paragraph-style-001" media-type="application/xhtml+xml"/>
+   <item href="xhtml/paragraph-style-002.xhtml" id="paragraph-style-002" media-type="application/xhtml+xml"/>
+   <item href="xhtml/paragraph-style-003.xhtml" id="paragraph-style-003" media-type="application/xhtml+xml"/>
+   <item href="xhtml/paragraph-style-004.xhtml" id="paragraph-style-004" media-type="application/xhtml+xml"/>
+   <item href="xhtml/ruby-001.xhtml" id="ruby-001" media-type="application/xhtml+xml"/>
+   <item href="xhtml/ruby-002.xhtml" id="ruby-002" media-type="application/xhtml+xml"/>
+   <item href="xhtml/ruby-003.xhtml" id="ruby-003" media-type="application/xhtml+xml"/>
+   <item href="xhtml/text-style-001.xhtml" id="text-style-001" media-type="application/xhtml+xml"/>
+   <item href="xhtml/text-style-002.xhtml" id="text-style-002" media-type="application/xhtml+xml"/>
+   <item href="xhtml/text-style-003.xhtml" id="text-style-003" media-type="application/xhtml+xml"/>
+   <item href="xhtml/text-style-004.xhtml" id="text-style-004" media-type="application/xhtml+xml"/>
+   <item href="xhtml/text-style-005.xhtml" id="text-style-005" media-type="application/xhtml+xml"/>
+   <item href="xhtml/text-style-006.xhtml" id="text-style-006" media-type="application/xhtml+xml"/>
+   <item href="xhtml/images-001.xhtml" id="images-001" media-type="application/xhtml+xml"/>
+   <item href="xhtml/images-002.xhtml" id="images-002" media-type="application/xhtml+xml"/>
+   <item href="xhtml/images-003.xhtml" id="images-003" media-type="application/xhtml+xml"/>
+   <item href="xhtml/images-004.xhtml" id="images-004" media-type="application/xhtml+xml"/>
+   <item href="xhtml/images-005.xhtml" id="images-005" media-type="application/xhtml+xml"/>
+   <item href="xhtml/images-006.xhtml" id="images-006" media-type="application/xhtml+xml"/>
+   <item href="xhtml/multi-column-001.xhtml" id="multi-column-001" media-type="application/xhtml+xml"/>
+   <item href="xhtml/multi-column-002.xhtml" id="multi-column-002" media-type="application/xhtml+xml"/>
 
    <!-- secondary files -->
    <!-- css -->
@@ -50,14 +83,17 @@
    <!-- images -->
    <!--expected images-->
    <item id="cover" href="img/cover.jpg" properties="cover-image" media-type="image/jpeg"/>
+   <item id="expected-pagenation-00" href="img/expected-pagenation-00.png" media-type="image/png"/>
    <item id="expected-pagenation-01" href="img/expected-pagenation-01.png" media-type="image/png"/>
    <item id="expected-pagenation-02" href="img/expected-pagenation-02.png" media-type="image/png"/>
    <item id="expected-pagenation-03" href="img/expected-pagenation-03.png" media-type="image/png"/>
    <item id="expected-pagenation-04" href="img/expected-pagenation-04.png" media-type="image/png"/>
    <item id="expected-pagenation-05" href="img/expected-pagenation-05.png" media-type="image/png"/>
+   <item id="expected-pagenation-10" href="img/expected-pagenation-10.png" media-type="image/png"/>
    <item id="expected-headings-01" href="img/expected-headings-01.png" media-type="image/png"/>
    <item id="expected-headings-02" href="img/expected-headings-02.png" media-type="image/png"/>
    <item id="expected-headings-03" href="img/expected-headings-03.png" media-type="image/png"/>
+   <item id="expected-headings-04" href="img/expected-headings-04.png" media-type="image/png"/>
    <item id="expected-character-v-bracket" href="img/expected-character-v-bracket.png" media-type="image/png"/>
    <item id="expected-character-v-punctuation-marks" href="img/expected-character-v-punctuation-marks.png" media-type="image/png"/>
    <item id="expected-character-v-box-drawings" href="img/expected-character-v-box-drawings.png" media-type="image/png"/>
@@ -80,10 +116,11 @@
    <item id="expected-inline-image" href="img/expected-inline-image.png" media-type="image/png"/>
    <item id="expected-block-image" href="img/expected-block-image.png" media-type="image/png"/>
    <item id="expected-floating-image" href="img/expected-floating-image.png" media-type="image/png"/>
+   <item id="expected-figcaption" href="img/expected-figcaption.png" media-type="image/png"/>
    <item id="expected-multi-column" href="img/expected-multi-column.png" media-type="image/png"/>
-   
+   <item id="link_a" href="img/link_a.png" media-type="image/png"/>
    <!--contents images-->
-   <item id="gooddesign" href="img/gooddesign.png" media-type="image/png"/>
+   <item id="u20bb7" href="img/u20bb7.png" media-type="image/png"/>
    <item id="fig1317_05" href="img/fig1317_05.png" media-type="image/png"/>
    <item id="fig45340_01" href="img/fig45340_01.png" media-type="image/png"/>
    <item id="fig1317_01" href="img/fig1317_01.png" media-type="image/png"/>
@@ -93,20 +130,52 @@
    <!-- audio -->
    
    </manifest>
-    
    <spine page-progression-direction="rtl">
       <itemref idref="front"/>
       <itemref idref="about"/>
-      <itemref idref="toc"/>
-      <itemref idref="pagenation"/>
-      <itemref idref="pagenation-expected-img"/>
-      <itemref idref="headings"/>
-      <itemref idref="links"/>
-      <itemref idref="character"/>
-      <itemref idref="paragraph-style"/>
-      <itemref idref="ruby"/>
-      <itemref idref="text-style"/>
-      <itemref idref="images"/>
-      <itemref idref="multi-column"/>
+      <itemref idref="text-direction-001"/>
+      <itemref idref="text-direction-002"/>
+      <itemref idref="text-direction-003"/>
+      <itemref idref="text-direction-004"/>
+      <itemref idref="text-direction-005"/>
+      <itemref idref="headings-001"/>
+      <itemref idref="headings-002"/>
+      <itemref idref="headings-003"/>
+      <itemref idref="headings-004"/>
+      <itemref idref="headings-005"/>
+      <itemref idref="link-001"/>
+      <itemref idref="link-002"/>
+      <itemref idref="link-003"/>
+      <itemref idref="link-004"/>
+      <itemref idref="character-001"/>
+      <itemref idref="character-002"/>
+      <itemref idref="character-003"/>
+      <itemref idref="character-004"/>
+      <itemref idref="character-005"/>
+      <itemref idref="character-006"/>
+      <itemref idref="character-007"/>
+      <itemref idref="character-008"/>
+      <itemref idref="character-009"/>
+      <itemref idref="paragraph-style-001"/>
+      <itemref idref="paragraph-style-002"/>
+      <itemref idref="paragraph-style-003"/>
+      <itemref idref="paragraph-style-004"/>
+      <itemref idref="ruby-001"/>
+      <itemref idref="ruby-002"/>
+      <itemref idref="ruby-003"/>
+      <itemref idref="text-style-001"/>
+      <itemref idref="text-style-002"/>
+      <itemref idref="text-style-003"/>
+      <itemref idref="text-style-004"/>
+      <itemref idref="text-style-005"/>
+      <itemref idref="text-style-006"/>
+      <itemref idref="images-001"/>
+      <itemref idref="images-002"/>
+      <itemref idref="images-003"/>
+      <itemref idref="images-004"/>
+      <itemref idref="images-005"/>
+      <itemref idref="images-006"/>
+      <itemref idref="multi-column-001"/>
+      <itemref idref="multi-column-002"/>
    </spine>
 </package>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xml:lang="ja">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="../css/base_v.css" />
+        <title>text-style-rtl-010</title>
+    </head>
+    <body class="normalpage">
+        <section id="text-style-rtl-010" class="ctest">
+        <h2 class="chapter"><span class="test-id">text-style-rtl-010</span>書体指定／Font family</h2>
+        <div class="desc_v">
+            <p class="desc">テスト内容：縦書きで、書体指定がサポートされているか。表示（"Rendered text"）の文中に複数の異なる書体指定を含んでいる。
+            <br />Test whether designated "font family" elements are reflected properly in Japanese vertical writing. The "Rendered text" includes several different font family elements.</p>
+            <p class="eval">→次の「表示」の内容が「期待される表示」と同じであれば合格。
+            <br />→If "Rendered text" looks similar to the following "Expected display image", then the test passes.</p>
+        <p><br /></p>
+            <div>表示／Rendered text
+                <div class="rentxt">
+                    <p>本文は、明朝指定です。ここで書体を<span class="gothic">ゴシック体に変更します</span>。次にサイズを<span class="small">やや小さく</span>しています。次に、<span class="go_small_red">ゴシック、やや小さく、赤</span>に変更します。<br /></p>
+                </div>
+            </div>
+            <div>期待される表示／Expected display image
+                <div class="expimg">
+                    <img src="../img/expected-fontfamily.png" class="block" alt="font family expected image" />
+                </div>
+            </div>
+        </div>
+        </section>
+    </body>
+</html>

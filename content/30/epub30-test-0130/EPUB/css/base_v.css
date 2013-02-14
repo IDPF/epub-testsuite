@@ -53,10 +53,23 @@ dl.info dt {
   margin-left: 1em;
 }
 
-.desc_v {
+/* .desc_v {
   border: 1px solid gray;
   margin: 0.5em;
   padding: 0.5em;
+} */
+
+.desc {
+  border: 1px solid gray;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+.eval {
+  border: 1px dotted #666666;
+  margin: 0.5em;
+  padding: 0.5em;
+  font-weight: bold;
 }
 
 /* contents style */
@@ -155,6 +168,9 @@ h3.section {
 .start_2em {
   padding-top:2em;
 }
+.start_4em {
+  padding-top:4em;
+}
 .indent_history {
   padding-top:6em;
   text-indent:-6em;
@@ -164,6 +180,19 @@ h3.section {
   -epub-column-gap: 2em;
   -webkit-column-count: 2;
   -webkit-column-gap: 2em;
+}
+
+.rentxt {
+  border: 1px solid gray;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+.expimg {
+  border: 1px solid gray;
+  background-color: #dddddd;
+/*  margin: 0.5em;*/
+  padding: 0.5em;
 }
 
 .expected-img {
@@ -220,8 +249,8 @@ img.pagenation {
   -epub-text-orientation:upright;
 }
 .sideways {
-  -webkit-text-orientation:sideways;
   -epub-text-orientation:rotate-right;
+  -webkit-text-orientation:sideways;
 }
 
 .gothic {
@@ -263,6 +292,8 @@ img.pagenation {
 }
 .sideline_v {
   text-decoration: overline;
+  text-underline-position: under left;
+  -webkit-text-underline-position:under left;
 }
 .filled_sesame {
   -epub-text-emphasis-style: filled sesame;
@@ -341,6 +372,7 @@ img.right {
 }
 .caption {
   -epub-writing-mode:horizontal-tb;
+  text-align:center;
   font-family: sans-serif;
   font-size:80%;
 }
