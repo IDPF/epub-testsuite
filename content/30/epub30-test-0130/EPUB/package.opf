@@ -93,13 +93,13 @@
 		<!-- images -->
 		<!--expected images-->
 		<item id="cover" href="img/cover.jpg" properties="cover-image" media-type="image/jpeg"/>
-		<item id="expected-pagenation-00" href="img/expected-pagenation-00.png" media-type="image/png"/>
-		<item id="expected-pagenation-01" href="img/expected-pagenation-01.png" media-type="image/png"/>
-		<item id="expected-pagenation-02" href="img/expected-pagenation-02.png" media-type="image/png"/>
-		<item id="expected-pagenation-03" href="img/expected-pagenation-03.png" media-type="image/png"/>
-		<item id="expected-pagenation-04" href="img/expected-pagenation-04.png" media-type="image/png"/>
-		<item id="expected-pagenation-05" href="img/expected-pagenation-05.png" media-type="image/png"/>
-		<item id="expected-pagenation-10" href="img/expected-pagenation-10.png" media-type="image/png"/>
+		<item id="expected-pagination-00" href="img/expected-pagination-00.png" media-type="image/png"/>
+		<item id="expected-pagination-01" href="img/expected-pagination-01.png" media-type="image/png"/>
+		<item id="expected-pagination-02" href="img/expected-pagination-02.png" media-type="image/png"/>
+		<item id="expected-pagination-03" href="img/expected-pagination-03.png" media-type="image/png"/>
+		<item id="expected-pagination-04" href="img/expected-pagination-04.png" media-type="image/png"/>
+		<item id="expected-pagination-05" href="img/expected-pagination-05.png" media-type="image/png"/>
+		<item id="expected-pagination-10" href="img/expected-pagination-10.png" media-type="image/png"/>
 		<item id="expected-headings-01" href="img/expected-headings-01.png" media-type="image/png"/>
 		<item id="expected-headings-02" href="img/expected-headings-02.png" media-type="image/png"/>
 		<item id="expected-headings-03" href="img/expected-headings-03.png" media-type="image/png"/>
