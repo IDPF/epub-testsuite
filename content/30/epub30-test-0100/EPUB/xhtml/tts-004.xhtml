@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:ssml="http://www.w3.org/2001/10/synthesis" xmlns:epub="http://www.idpf.org/2007/ops" xml:lang="en" lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="../css/base.css" />
+		<link rel="stylesheet" type="text/css" href="../css/speech.css"/>
+	</head>
+	<body>
+		<section id="tts-speech">
+			<h2>CSS3 Speech</h2>
+			<section id="tts-speech-speak">
+				<h3>The <code>-epub-speak</code> property</h3>
+				<section id="speech-010" class="otest">
+					<h4><span class="nature">[OPTIONAL]</span>
+						<span class="test-id">speech-010</span> <code>none</code></h4>
+					
+					<p class="desc">Tests whether content styled using the <code>none</code> value is omitted from aural rendering.</p>
+					
+					<p class="no-speak">This paragraph should not be announced.</p>
+					
+					<p class="eval">If no text is announced after the description, the test passes. If the text "this paragraph should not 
+						be announced" is rendered, the test fails.</p>
+				</section>
+				
+				<section id="speech-020" class="otest">
+					<h4><span class="nature">[OPTIONAL]</span>
+						<span class="test-id">speech-020</span> <code>normal</code></h4>
+					
+					<p class="desc">Tests whether hidden content is announced when the <code>-epub-speak</code> property is set to <code>normal</code>.</p>
+					
+					<p class="hidden speak">I am a hidden paragraph.</p>
+					
+					<p class="eval">If no text is announced after the description, the test falis. I the text "I am a hidden paragraph" 
+						is rendered, the test fails.</p>
+				</section>
+			</section>
+			
+			<section id="tts-speech-speak-as">
+				<h3>The <code>-epub-speak-as</code> property</h3>
+				<section id="speech-030" class="otest">
+					<h4><span class="nature">[OPTIONAL]</span>
+						<span class="test-id">speech-030</span> <code>spell</code></h4>
+					
+					<p class="desc">Tests support for speaking out letters in a word or acronym one at a time.</p>
+					
+					<p><span class="spell">water</span></p>
+					
+					<p class="eval">The test fails if the the word "water" is not spelled out one character at a time.</p>
+				</section>
+				
+				<section id="speech-040" class="otest">
+					<h4><span class="nature">[OPTIONAL]</span>
+						<span class="test-id">speech-040</span> <code>digits</code></h4>
+					
+					<p class="desc">Tests support for speaking out digits in a number one at a time.</p>
+					
+					<p><span class="digits">42</span></p>
+					
+					<p class="eval">If the numbers four and two are announced, the test passes. If the number forty-two is
+						announced, the test fails.</p>
+				</section>
+				
+				<section id="speech-050" class="otest">
+					<h4><span class="nature">[OPTIONAL]</span>
+						<span class="test-id">speech-050</span> <code>literal-punctuation</code></h4>
+					
+					<p class="desc">Tests support for speaking out digits in a number one at a time.</p>
+					
+					<pre><code class="literal-punctuation">for (var i = 0; i += 1; i++) { print 'hello' . ' ' . 'world'; }</code></pre>
+					
+					<p class="eval">If the semicolons, periods, parentheses, braces and quotation marks are announced in the
+						preceding line of code, the test passes.</p>
+				</section>
+				
+				<section id="speech-060" class="otest">
+					<h4><span class="nature">[OPTIONAL]</span>
+						<span class="test-id">speech-060</span> <code>no-punctuation</code></h4>
+					
+					<p class="desc">Tests support for speaking out digits in a number one at a time.</p>
+					
+					<pre><code class="no-punctuation">I said: here be dragons; there be The Killer Rabbit of Caerbannog</code></pre>
+					
+					<p class="eval">If the colon is not announced and no pause occurs after the semicolon, the test passes.</p>
+				</section>
+			</section>
+		</section>
+	</body>
+</html>

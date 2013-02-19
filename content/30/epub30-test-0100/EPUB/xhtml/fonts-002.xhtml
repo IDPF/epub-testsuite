@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="../css/base.css" />
+        <link rel="stylesheet" type="text/css" href="../css/fonts.css" />
+    </head>
+    <body>
+    	<section id="fonts-xhtml">
+    		<h2>XHTML</h2>
+    		<section id="fonts-010" class="ctest">
+    			<h3><span class="nature">[REQUIRED]</span> <span class="test-id">fonts-010</span> TTF</h3>
+    			<p class="desc">Tests whether embedded fonts using the OpenType format with TrueType outlines are
+    				supported.</p>
+    			<p class="eval ttf">If this paragraph is rendered in a different font than the preceding,
+    				the test passes.</p>
+    		</section>
+    		
+    		<section id="fonts-020" class="ctest">
+    			<h3><span class="nature">[REQUIRED]</span> <span class="test-id">fonts-020</span> OTF</h3>
+    			<p class="desc">Tests whether embedded fonts using the OpenType format with PostScript outlines (also called
+    				OpenType-CFF) are supported.</p>
+    			<p class="eval cff">If this paragraph is rendered in a different font than the preceding,
+    				the test passes.</p>
+    		</section>
+    		
+    		<section id="fonts-030" class="ctest">
+    			<h3><span class="nature">[REQUIRED]</span> <span class="test-id">fonts-030</span> WOFF</h3>
+    			<p class="desc">Tests whether embedded fonts using the WOFF format are supported.</p>
+    			<p class="eval woff">If this paragraph is rendered in a different font than the preceding,
+    				the test passes.</p>
+    		</section>
+    		
+    		<section id="fonts-040" class="ctest">
+    			<h3><span class="nature">[REQUIRED]</span> <span class="test-id">fonts-040</span> TTF Obfuscated</h3>
+    			<p class="desc">Tests whether embedded obfuscated fonts using the OpenType format with TrueType
+    				outlines are supported.</p>
+    			<p class="eval ttf-obf">If this paragraph is rendered in a different font than the preceding,
+    				the test passes.</p>
+    		</section>
+    		
+    		<section id="fonts-050" class="ctest">
+    			<h3><span class="nature">[REQUIRED]</span> <span class="test-id">fonts-050</span> OTF Obfuscated</h3>
+    			<p class="desc">Tests whether embedded obfuscated fonts using the OpenType format with PostScript
+    				outlines (also called OpenType-CFF) are supported.</p>
+    			<p class="eval cff-obf">If this paragraph is rendered in a different font than the preceding,
+    				the test passes.</p>
+    		</section>
+    		
+    		<section id="fonts-060" class="ctest">
+    			<h3><span class="nature">[REQUIRED]</span> <span class="test-id">fonts-060</span> WOFF Obfuscated</h3>
+    			<p class="desc">Tests whether embedded obfuscated fonts using the WOFF format are supported.</p>
+    			<p class="eval woff-obf">If this paragraph is rendered in a different font than the preceding,
+    				the test passes.</p>
+    		</section>
+    		
+    		<section id="fonts-070" class="ctest">
+    			<h3><span class="nature">[REQUIRED]</span> <span class="test-id">fonts-070</span> Unicode-range (TTF)</h3>
+    			<p class="desc">Tests whether the CSS Fonts Level 3 <code>unicode-range</code> property is supported (using a TTF embedded font).</p>
+    			<ul>
+    				<li>ABἔψιλονCD</li>
+    				<li class="unicode-range">ABἔψιλονCD</li>
+    			</ul>            
+    			<p class="eval">If each entry in the preceding list is in a different font, the test passes.</p>
+    		</section>
+    	</section>
+    </body>
+</html>

@@ -1,46 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xml:lang="en" lang="en">
-    <head>        
+    <head>
         <meta charset="utf-8" />
         <link rel="stylesheet" type="text/css" href="../css/base.css" />
     </head>
     <body>
-        
-        <section id="canvas-010" class="ctest">
-        	<h2><span class="nature">[REQUIRED]</span> <span class="test-id">canvas-010</span> The <code>canvas</code> element</h2>
-            
-            <p class="desc">Tests whether the HTML5 <code>canvas</code> element is supported.</p>
-
-            <canvas width="50" height="50">
-            	<p>FAIL</p>
-            </canvas>
-            
-            <p class="eval">If the preceding paragraph reads "FAIL", the test fails.</p>
+        <section id="canvas">
+        	<h2>Canvas</h2>
+        	<section id="canvas-010" class="ctest">
+        		<h3><span class="nature">[REQUIRED]</span> <span class="test-id">canvas-010</span> Support</h3>
+        		
+        		<p class="desc">Tests whether the HTML5 <code>canvas</code> element is supported.</p>
+        		
+        		<canvas width="50" height="50">
+        			<p>FAIL</p>
+        		</canvas>
+        		
+        		<p class="eval">If the preceding paragraph reads "FAIL", the test fails.</p>
+        		
+        		<p class="conditional">If this test fails, mark <code>N/A</code> for all subsequent <code>canvas-</code> tests in this section.</p>
+        	</section>
         	
-        	<p class="conditional">If this test fails, mark <code>N/A</code> for all subsequent <code>canvas-</code> tests in this section.</p>
+        	<section id="canvas-020" class="otest">
+        		<h3><span class="nature">[OPTIONAL]</span> <span class="test-id">canvas-020</span> Scripting</h3>
+        		
+        		<p class="desc">Tests whether scripting of the <code>canvas</code> element is supported.</p>
+        		
+        		<canvas id="canvas01" width="50" height="50">
+        			<p>FAIL</p>
+        		</canvas>
+        		
+        		<script>
+					var canvas = document.getElementById("canvas01");
+					var context = canvas.getContext("2d");
+					context.clearRect(0, 0, canvas.width, canvas.height);
+					context.arc(25, 25, 25, 0 , 2 * Math.PI, false);
+					context.fillStyle = 'black';
+					context.fill();
+    			</script>
+        		
+        		<p class="eval">If a black circle is rendered, the test passes.</p>
+        	</section>
         </section>
-    	
-    	<section id="canvas-020" class="otest">
-    		<h2><span class="nature">[OPTIONAL]</span> <span class="test-id">canvas-020</span> The <code>canvas</code> element: scripting</h2>
-    		
-    		<p class="desc">Tests whether scripting of the <code>canvas</code> element is supported.</p>
-    		
-    		<canvas id="canvas01" width="50" height="50">
-    			<p>FAIL</p>
-    		</canvas>
-    		
-    		<script>
-				var canvas = document.getElementById("canvas01");
-				var context = canvas.getContext("2d");
-				context.clearRect(0, 0, canvas.width, canvas.height);
-				context.arc(25, 25, 25, 0 , 2 * Math.PI, false);
-				context.fillStyle = 'black';
-				context.fill();
-    		</script>
-    		
-    		<p class="eval">If a black circle is rendered, the test passes.</p>
-    	</section>
-    	
     </body>
 </html>

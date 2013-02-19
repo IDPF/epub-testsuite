@@ -1,15 +1,63 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-    <head>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xml:lang="en" lang="en">
+    <head>        
         <meta charset="utf-8" />
         <link rel="stylesheet" type="text/css" href="../css/base.css" />
     </head>
     <body>
-        <h1>Content Documents: Fallbacks</h1>
-
-        <p>This section contains tests for XHTML fallback mechanisms.</p>
-
-        
+        <section id="fallbacks">
+        	<h2>Fallbacks</h2>
+        	
+        	<section id="fallbacks-manifest">
+        		<h3>Manifest</h3>
+        		<section id="fallback-010" class="ctest">
+        			<h4><span class="nature">[REQUIRED]</span> <span class="test-id">fallback-010</span> Image fallbacks</h4>
+        			
+        			<p class="desc">Tests whether manifest fallbacks for non-core image media types are supported.</p>
+        			
+        			<img src="../img/nonimage.xyz" alt="test"/>
+        			
+        			<p class="eval">If an image of a checkmark is rendered before this paragraph, the test passes.</p>
+        		</section>
+        		
+        		<section id="fallback-020" class="ctest">
+        			<h4><span class="nature">[REQUIRED]</span> <span class="test-id">fallback-020</span> Inline frame fallbacks</h4>
+        			
+        			<p class="desc">Tests whether manifest fallbacks for non-core media types used in <code>iframe</code>s are supported.</p>
+        			
+        			<iframe src="../img/nonimage.xyz"/>
+        			
+        			<p class="eval">If an image of a checkmark is rendered before this paragraph, the test passes.</p>
+        		</section>
+        		
+        		<section id="fallback-030" class="ctest">
+        			<h4><span class="nature">[REQUIRED]</span> <span class="test-id">fallback-030</span> Embed fallbacks</h4>
+        			
+        			<p class="desc">Tests whether manifest fallbacks for non-core media types used in <code>embed</code>s are supported.</p>
+        			
+        			<embed src="../img/nonimage.xyz" type="image/xyz"/>
+        			
+        			<p class="eval">If an image of a checkmark is rendered before this paragraph, the test passes.</p>
+        		</section>
+        	</section>
+        	<section id="fallbacks-intrinsic">
+        		<h3>Intrinsic</h3>
+        		
+        		<section id="fallback-040" class="ctest">
+        			<h4><span class="nature">[REQUIRED]</span> <span class="test-id">fallback-040</span> Object fallbacks</h4>
+        			
+        			<p class="desc">Tests whether <code>object</code>'s intrinsic fallback mechanism for non-core media types is supported.</p>
+        			
+        			<object data="../img/nonimage.xyz" type="image/xyz">
+        				<object data="../img/nonimage.xyz" type="image/xyz">
+        					<p>PASS</p>
+        				</object>
+        			</object>
+        			
+        			<p class="eval">If the preceding paragraph reads "PASS", the test passes.</p>
+        		</section>
+        	</section>
+        </section>
     </body>
 </html>

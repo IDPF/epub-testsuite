@@ -35,27 +35,27 @@
         </script>
     </head>
     <body onload="results()">
-        <h1>Geolocation</h1>
-        <p>This section contains tests for the <a
-                href="http://www.w3.org/TR/geolocation-API/">Geolocation</a> API.</p>
-
-        <section id="geo-010" class="otest">
-        	<h2><span class="nature">[OPTIONAL]</span> <span class="test-id">geo-010</span> The <code>Geolocation</code> object</h2>
-        	<p class="desc">Tests whether the <code>navigator.geolocation</code> field is
-                defined.</p>
-            <p id="geo-010-result">FAIL</p>
-            <p class="eval">If the preceding paragraph reads "PASS", the test passes.</p>
-            <p><em>If the preceding paragraph reads "FAIL", none of the remaining tests in this section
-                (<code>geo-*</code>) apply and should be given the result <code>N/A</code>.</em></p>
-        </section>
-        
-        <section id="geo-020" class="otest">
-        	<h2><span class="nature">[OPTIONAL]</span> <span class="test-id">geo-020</span> Finding current position</h2>
-        	<p class="desc">Tests whether it is possible to find the user's current position using the geolocation API.</p>
-            <p id="geo-020-result">FAIL</p>
-            <p class="eval">If the preceding paragraph reads "PASS", the test passes.</p>
-        </section>
-        
-        
+    	<section id="script-geo">
+    		<h2>Geolocation</h2>
+    		<p>This section contains tests for the <a
+    			href="http://www.w3.org/TR/geolocation-API/">Geolocation</a> API.</p>
+    		
+    		<section id="geo-010" class="otest">
+    			<h3><span class="nature">[OPTIONAL]</span> <span class="test-id">geo-010</span> The <code>geolocation</code> object</h3>
+    			<p class="desc">Tests whether the <code>navigator.geolocation</code> field is
+    				defined.</p>
+    			<p id="geo-010-result">FAIL</p>
+    			<p class="eval">If the preceding paragraph reads "PASS", the test passes.</p>
+    			<p><em>If the preceding paragraph reads "FAIL", none of the remaining tests in this section
+    				(<code>geo-*</code>) apply and should be given the result <code>N/A</code>.</em></p>
+    		</section>
+    		
+    		<section id="geo-020" class="otest">
+    			<h3><span class="nature">[OPTIONAL]</span> <span class="test-id">geo-020</span> Current Position</h3>
+    			<p class="desc">Tests whether it is possible to find the user's current position using the geolocation API.</p>
+    			<p id="geo-020-result">FAIL</p>
+    			<p class="eval">If the preceding paragraph reads "PASS", the test passes.</p>
+    		</section>
+    	</section>
     </body>
 </html>

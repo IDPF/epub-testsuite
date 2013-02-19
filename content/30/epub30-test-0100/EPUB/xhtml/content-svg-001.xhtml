@@ -1,15 +1,35 @@
-<?xml version="1.0" encoding="utf-8"?>
-<html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en" xml:lang="en">
+    <head>        
         <meta charset="utf-8" />
         <link rel="stylesheet" type="text/css" href="../css/base.css" />
+		<link rel="stylesheet" type="text/css" href="../css/svg.css" />
     </head>
     <body>
-        <h1>Content Documents: SVG in XHTML</h1>
-
-        <p>This section contains tests for SVG embedded in XHTML content documents. For SVG content
-            documents, refer to <a href="../svg/content-svg-001.svg">Content Documents: SVG</a>.</p>
-
-
+    	<section id="svg">
+    		<h2>SVG</h2>
+    		<section id="svg-shapes">
+    			<h3>Shapes</h3>
+    			
+    			<section id="svg-010" class="ctest">
+    				<h4><span class="nature">[REQUIRED]</span> <span class="test-id">svg-010</span> Circle</h4>
+    				<p class="desc">Tests whether simple vector shapes are supported by drawing a circle.</p>
+    				<svg width="100" height="100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    					<circle cx="50" cy="50" r="40" style="fill:#000"/>
+    				</svg>
+    				<p class="eval">If a black circle is rendered before this paragraph, the test passes.</p>
+    			</section>
+    			
+    			<section id="svg-020" class="ctest">
+    				<h4><span class="nature">[REQUIRED]</span> <span class="test-id">svg-020</span> Transformation</h4>
+    				<p class="desc">Tests whether simple vector shape transformations are supported by transforming a square into a diamond.</p>
+    				<svg width="100" height="100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    					<rect x="25" y="25" width="50" height="50" transform="translate(50 12.5) scale(1 0.5) rotate(45)" />
+    				</svg>
+    				<p class="eval">If a black diamond is rendered before this paragraph, the test passes.</p>
+    			</section>
+    		</section>
+    	</section>
     </body>
 </html>

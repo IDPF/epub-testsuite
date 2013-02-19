@@ -1,296 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
-    <head>        
-        <meta charset="utf-8" />
-        <link rel="stylesheet" type="text/css" href="../css/base.css" />
-    </head>
-    <body>
-		<h2>Text content</h2>
-		
-		<h3>Styling</h3>
-			<section id="svg-110" class="ctest">
-				<h2><span class="test-id">svg-110</span><code>letter-spacing</code> attribute</h2>
-				<p class="desc">Test whether the <code>letter-spacing</code> attribute is supported.</p>
-				<svg width="100%" height="100" version="1.1" xmlns="http://www.w3.org/2000/svg">
-					<g>
-					  <text x="3" y="20"> letter-spacing is by default.</text>
-					  <text x="3" y="50" letter-spacing="-1">letter-spacing is set to -1.</text>
-					  <text x="3" y="80" letter-spacing="3">letter-spacing is set to 3.</text>
-					</g>
-				</svg>
-				<p class="eval">If the space between letters is different for each line, the test passes.</p>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en" xml:lang="en">
+	<head>        
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="../css/base.css" />
+	</head>
+	<body>
+		<section id="svg-xhtml-support">
+			<h3>XHTML Support</h3>
+			
+			<section id="svg-410" class="ctest">
+				<h4><span class="nature">[REQUIRED]</span> <span class="test-id">svg-410</span> <code>img</code></h4>
+				<p class="desc">Tests whether SVG is supported in <code>img</code> elements.</p>
+				<img src="../svg/circle.svg" alt="a grey circle" />
+				<p class="eval">If a grey circle is rendered before this paragraph, the test passes.</p>
 			</section>
-			<section id="svg-111" class="ctest">
-				<h2><span class="test-id">svg-111</span><code>word-spacing</code> attribute</h2>
-				<p class="desc">Test whether the <code>word-spacing</code> attribute is supported.</p>
-				<svg width="100%" height="100" version="1.1" xmlns="http://www.w3.org/2000/svg">
-					<g>
-					  <text x="3" y="20"> word-spacing is by default.</text>
-					  <text x="3" y="50" word-spacing="-3">word-spacing is set to -3.</text>
-					  <text x="3" y="80" word-spacing="8">word-spacing is set to 8.</text>
-					</g>
-				</svg>
-				<p class="eval">If the space between words is different for each line, the test passes.</p>
+			
+			<section id="svg-420" class="ctest">
+				<h4><span class="nature">[REQUIRED]</span> <span class="test-id">svg-420</span> <code>object</code></h4>
+				<p class="desc">Tests whether SVG is supported in <code>object</code> elements.</p>
+				<object type="image/svg+xml" data="../svg/circle.svg">
+					<p>FAIL</p>
+				</object>
+				<p class="eval">If a circle is rendered before this paragraph, the test passes.</p>
 			</section>
-			<section id="svg-112" class="ctest">
-				<h2><span class="test-id">svg-112</span><code>font-size</code> attribute</h2>
-				<p class="desc">Test whether the <code>font-size</code> attribute is supported.</p>
-				<svg width="100%" height="100" version="1.1" xmlns="http://www.w3.org/2000/svg">
-					<g>
-					  <text x="3" y="20">The size is by default.</text>
-					  <text x="3" y="50" font-size="30">The size is set to 30.</text>
-					  <text x="3" y="80" font-size="200%">The size is set to 200%.</text>
-					</g>
-				</svg>
-				<p class="eval">If the size of the two last lines is different than the first line, the test passes.</p>
+			
+			<section id="svg-430" class="ctest">
+				<h4><span class="nature">[REQUIRED]</span> <span class="test-id">svg-430</span> <code>background-image</code> (CSS)</h4>
+				<p class="desc">Tests whether SVG is supported when set using the CSS <code>background-image</code> property.</p>
+				<p class="eval">If a grey circle is rendered at the right bottom of this section, the test passes.</p>
 			</section>
-			<section id="svg-113" class="ctest">
-				<h2><span class="test-id">svg-113</span><code>font-weight</code> attribute</h2>
-				<p class="desc">Test whether the <code>font-weight</code> attribute is supported.</p>
-				<svg width="100%" height="70" version="1.1" xmlns="http://www.w3.org/2000/svg">
-					<g>
-					  <text x="3" y="20">The weight is by default.</text>
-					  <text x="3" y="50" font-weight="bold">Font-weight is set to bold.</text>
-					</g>
-				</svg>
-				<p class="eval">If the weight of the second line is different than the first line, the test passes.</p>
-			</section>
-			<section id="svg-114" class="ctest">
-				<h2><span class="test-id">svg-114</span><code>font-style</code> attribute</h2>
-				<p class="desc">Test whether the <code>font-style</code> attribute is supported.</p>
-				<svg width="100%" height="70" version="1.1" xmlns="http://www.w3.org/2000/svg">
-					<g>
-					  <text x="3" y="20">The font-style is by default.</text>
-					  <text x="3" y="50" font-style="italic">Font-style is set to italic.</text>
-					</g>
-				</svg>
-				<p class="eval">If the font-style of the second line is different than the first line, the test passes.</p>
-			</section>
-			<section id="svg-115" class="ctest">
-				<h2><span class="test-id">svg-115</span><code>text-decoration</code> attribute</h2>
-				<p class="desc">Test whether the <code>text-decoration</code> attribute is supported.</p>
-				<svg width="100%" height="100" version="1.1" xmlns="http://www.w3.org/2000/svg">
-					<g>
-					  <text x="3" y="20">The text-decoration is by default.</text>
-					  <text x="3" y="50" text-decoration="underline">Text-decoration is set to underline.</text>
-					  <text x="3" y="80" text-decoration="line-through">Text-decoration is set to line-through.</text>
-					</g>
-				</svg>
-				<p class="eval">If the second line is underlined and the third has a line through the text, the test passes.</p>
-			</section>
-
-		<h3>Positioning</h3>
-			<section id="svg-120" class="ctest">
-				<h2><span class="test-id">svg-120</span>lines positioned using <code>text</code> element</h2>
-				<p class="desc">Test whether the <code>x</code> and <code>y</code> attributes on <code>text</code> elements for positioning lines is supported.</p>
-				<svg width="100%" height="250" version="1.1" xmlns="http://www.w3.org/2000/svg">
-					<text x="2" y="20">First text line using SVG</text>
-					<text x="30" y="100">Second text line using SVG</text>
-					<text x="80" y="200">Third and last text line using SVG</text>
-				</svg>
-				<p class="eval">If the vertical alignment of the three lines is different, the test passes.</p>
-			</section>
-			<section id="svg-121" class="ctest">
-				<h2><span class="test-id">svg-121</span>words and characters positioned using <code>text</code> and <code>tspan</code> element</h2>
-				<p class="desc">Test whether the <code>SVG</code> code for positioning words or characters is supported.</p>
-				<svg width="100%" height="100" version="1.1" xmlns="http://www.w3.org/2000/svg">
-					<text x="100" y="80">This
-					<tspan dy="-2">i</tspan>
-					<tspan dy="-3">s</tspan>
-					<tspan dy="-4"></tspan>
-					<tspan dy="-5">a</tspan>
-					<tspan dy="-6"> </tspan>
-					<tspan dy="-8">v</tspan>
-					<tspan dy="-9">e</tspan>
-					<tspan dy="-8">e</tspan>
-					<tspan dy="-7">e</tspan>
-					<!-- -59 -->
-					<tspan dy="9">r</tspan>
-					<tspan dy="10">y</tspan>
-					<tspan dy="9"></tspan>
-					<tspan dy="8">b</tspan>
-					<tspan dy="7">i</tspan>
-					<tspan dy="6">i</tspan>
-					<tspan dy="5">i</tspan>
-					<tspan dy="3">g</tspan>
-					<tspan dy="2"> </tspan>
-					<!-- +59 -->
-					wave.</text>
-				</svg>
-				<p class="eval">If the text "This is a veeery biiig wave" follows a kind of wave, the test passes.</p>
-			</section>
-			<section id="svg-122" class="ctest">
-				<h2><span class="test-id">svg-122</span>Text positioned using <code>path</code> element</h2>
-				<p class="desc">Test whether the <code>SVG</code> code for positioning text on a path is supported.</p>
-				<svg width="100%" height="120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-					<g>
-						<defs>
-						  <path id="Path1" fill="none" stroke="black" d="M199 89.3 C206.6 66.6 235.8 13.2 270 30.3 286.6 38.6 298.9 59.4 310 73.3 321.7 87.9 338.6      99 356 103.3 387.3 111.1 396.6 90.4 418 74.3"/>
-						</defs>
-						<g id="text-on-path-01">
-						  <use xlink:href="#Path1"/>
-						  <text>
-							<textPath xlink:href="#Path1">The text follows its own path. Can you see it?</textPath>
-						  </text>
-						</g>
-					</g>
-				</svg>
-				<p class="eval">If the text follow the path (a parabole), the test passes.</p>
-			</section>
-			<section id="svg-123" class="ctest">
-				<h2><span class="test-id">svg-123</span><code>text</code> element with multiple values of <code>x</code> and <code>y</code></h2>
-				<p class="desc">Test whether multiple values of  <code>x</code> and <code>y</code> attributes are supported.</p>
-				<svg width="100%" height="250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-				  <g>
-					<text x="160 180 200 220 240 260 280 300 320 340 360" y="30 50 70 90 110 130 150 170 190 210 230">Multiple x y</text>
-				  </g>
-				</svg>
-				<p class="eval">If the text goes down, the test passes .</p>
-			</section>
-		<h3>Rotating</h3>
-			<section id="svg-130" class="ctest">
-				<h2><span class="test-id">svg-130</span>Text rotated using <code>rotate</code> attribute</h2>
-				<p class="desc">Test whether the <code>rotate</code> attribute is supported.</p>
-				<svg width="100%" height="100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-				  <g>
-					<text x="10" y="50" rotate="0 10 40">The text is rotating</text>
-				  </g>
-				</svg>
-				<p class="eval">If some characters rotate, the test passes.</p>
-			</section>
-			<section id="svg-131" class="ctest">
-				<h2><span class="test-id">svg-131</span>Text rotated by a <code>transform</code> attribute</h2>
-				<p class="desc">Test whether <code>transform</code> attribute (translate and rotate values) are supported.</p>
-				<svg width="100%" height="250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-				  <g>
-					<text transform="rotate(90) translate(120 -100)">90 degrees</text>
-					<text transform="rotate(-90) translate(-120 100)">-90 degrees</text>
-					<text transform="rotate(180) translate(-120 -200)">180 degrees</text>
-				  </g>
-				</svg>
-				<p class="eval">If the text is rotated, the test passes .</p>
-			</section>
-		<h3>Fonts</h3>
-		<p>This section contains tests for fonts, font embedding and font obfuscation into <code>SVG</code> code.</p>
-			<section id="svg-190" class="ctest">
-				<h2><span class="test-id">svg-190</span>Embedded fonts: TTF</h2>
-				<p class="desc">Test whether embedded fonts using the OpenType format with TrueType outlines are supported.</p>
-					<svg version="1.1" width="100%" height="30" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-					  <defs>
-						<font-face font-family="OldStandard-TTF">
-						  <font-face-src>
-							<font-face-uri xlink:href="../fonts/OldStandard-Regular.ttf"/>
-						  </font-face-src>
-						</font-face>
-					  </defs>
-					  <g font-family="OldStandard-TTF">
-						<g font-weight="normal" stroke="none">
-							<text x="0" y="20">This must be displayed with the specified font</text>
-						</g>
-					  </g>
-					</svg>
-				<p class="eval">If the paragraph starting by "This must be..." is rendered in another font,
-					the test passes.</p>
-			</section>
-			<section id="svg-191" class="ctest">
-				<h2><span class="test-id">svg-191</span>Embedded fonts: OTF</h2>
-				<p class="desc">Test whether embedded fonts using the OpenType format with PostScript outlines are supported.</p>
-					<svg version="1.1" width="100%" height="30" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-					  <defs>
-						<font-face font-family="OldStandard-OTF">
-						  <font-face-src>
-							<font-face-uri xlink:href="../fonts/OldStandard-Regular.otf"/>
-						  </font-face-src>
-						</font-face>
-					  </defs>
-					  <g font-family="OldStandard-OTF">
-						<g font-weight="normal" stroke="none">
-							<text x="0" y="20">This must be displayed with the specified font</text>
-						</g>
-					  </g>
-					</svg>
-				<p class="eval">If the paragraph starting by "This must be..." is rendered in another font,
-					the test passes.</p>
-			</section>
-			<section id="svg-192" class="ctest">
-				<h2><span class="test-id">svg-192</span>Embedded fonts: WOFF</h2>
-				<p class="desc">Test whether embedded fonts using the WOFF format are supported.</p>
-					<svg version="1.1" width="100%" height="30" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-					  <defs>
-						<font-face font-family="OldStandard-WOFF">
-						  <font-face-src>
-							<font-face-uri xlink:href="../fonts/OldStandard-Regular.woff"/>
-						  </font-face-src>
-						</font-face>
-					  </defs>
-					  <g font-family="OldStandard-WOFF">
-						<g font-weight="normal" stroke="none">
-							<text x="0" y="20">This must be displayed with the specified font</text>
-						</g>
-					  </g>
-					</svg>
-				<p class="eval">If the paragraph starting by "This must be..." is rendered in another font,
-					the test passes.</p>
-			</section>
-			<section id="svg-193" class="ctest">
-				<h2><span class="test-id">svg-193</span>Embedded fonts: TTF obfuscated</h2>
-				<p class="desc">Test whether embedded obfuscated fonts using the OpenType format with TrueType outlines are supported.</p>
-					<svg version="1.1" width="100%" height="30" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-					  <defs>
-						<font-face font-family="OldStandard-OBF-TTF">
-						  <font-face-src>
-							<font-face-uri xlink:href="../fonts/OldStandard-Regular.obf.ttf"/>
-						  </font-face-src>
-						</font-face>
-					  </defs>
-					  <g font-family="OldStandard-OBF-TTF">
-						<g font-weight="normal" stroke="none">
-							<text x="0" y="20">This must be displayed with the specified font</text>
-						</g>
-					  </g>
-					</svg>
-				<p class="eval">If the paragraph starting by "This must be..." is rendered in another font,
-					the test passes.</p>
-			</section>
-			<section id="svg-194" class="ctest">
-				<h2><span class="test-id">svg-194</span>Embedded fonts: OTF obfuscated</h2>
-				<p class="desc">Test whether embedded obfuscated fonts using the OpenType format with PostScript outlines are supported.</p>
-					<svg version="1.1" width="100%" height="30" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-					  <defs>
-						<font-face font-family="OldStandard-OBF-OTF">
-						  <font-face-src>
-							<font-face-uri xlink:href="../fonts/OldStandard-Regular.obf.otf"/>
-						  </font-face-src>
-						</font-face>
-					  </defs>
-					  <g font-family="OldStandard-OBF-OTF">
-						<g font-weight="normal" stroke="none">
-							<text x="0" y="20">This must be displayed with the specified font</text>
-						</g>
-					  </g>
-					</svg>
-				<p class="eval">If the paragraph starting by "This must be..." is rendered in another font,
-					the test passes.</p>
-			</section>
-			<section id="svg-195" class="ctest">
-				<h2><span class="test-id">svg-195</span>Embedded fonts: WOFF obfuscated</h2>
-				<p class="desc">Test whether embedded obfuscated fonts using the WOFF format are supported.</p>
-					<svg version="1.1" width="100%" height="30" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-					  <defs>
-						<font-face font-family="OldStandard-OBF-WOFF">
-						  <font-face-src>
-							<font-face-uri xlink:href="../fonts/OldStandard-Regular.obf.woff"/>
-						  </font-face-src>
-						</font-face>
-					  </defs>
-					  <g font-family="OldStandard-OBF-WOFF">
-						<g font-weight="normal" stroke="none">
-							<text x="0" y="20">This must be displayed with the specified font</text>
-						</g>
-					  </g>
-					</svg>
-				<p class="eval">If the paragraph starting by "This must be..." is rendered in another font,
-					the test passes.</p>
-			</section>
-    </body>
+		</section>
+	</body>
 </html>

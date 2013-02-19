@@ -11,6 +11,7 @@
 		<dc:creator id="creator3">Toshiaki Koike</dc:creator>
 		<dc:creator id="creator4">Marisa DeMeglio</dc:creator>
 		<dc:creator id="creator5">Matt Garrish</dc:creator>
+		<dc:creator id="creator6">Ori Idan</dc:creator>
 		<meta refines="#creator1" property="role" scheme="marc:relators">aut</meta>
 		<meta refines="#creator1" property="file-as">Gylling, Markus</meta>
 		<meta refines="#creator2" property="role" scheme="marc:relators">aut</meta>
@@ -22,6 +23,8 @@
 		<meta refines="#creator4" property="file-as">DeMeglio, Marisa</meta>
 		<meta refines="#creator5" property="role" scheme="marc:relators">aut</meta>
 		<meta refines="#creator5" property="file-as">Garrish, Matt</meta>
+		<meta refines="#creator5" property="role" scheme="marc:relators">aut</meta>
+		<meta refines="#creator5" property="file-as">Idan, Ori</meta>
 		<dc:language>en</dc:language>
 		<dc:language>jp</dc:language>
 		<meta property="dcterms:modified">2013-02-14T13:00:00Z</meta>
@@ -31,21 +34,20 @@
 		<item href="xhtml/front.xhtml" id="front" media-type="application/xhtml+xml"/>
 		<item href="xhtml/nav.xhtml" id="nav" media-type="application/xhtml+xml" properties="nav"/>
 		<!-- bodymatter -->
+		<!-- multimedia -->
+		<item href="xhtml/content-multimedia-001.xhtml" id="xhtml-multi-001" media-type="application/xhtml+xml"/>
+		<item href="xhtml/content-multimedia-002.xhtml" id="xhtml-multi-002" media-type="application/xhtml+xml"/>
+		<item href="xhtml/content-multimedia-003.xhtml" id="xhtml-multi-003" media-type="application/xhtml+xml"/>
+		<!-- namespaces -->
+		<item href="xhtml/content-ns-001.xhtml" id="xhtml-ns-001" media-type="application/xhtml+xml" properties="svg"/>
 		<!-- xhtml -->
 		<item href="xhtml/content-xhtml-001.xhtml" id="xhtml-001" media-type="application/xhtml+xml"/>
-		<item href="xhtml/content-xhtml-002.xhtml" id="xhtml-002" media-type="application/xhtml+xml" properties="switch"/>
-		<item href="xhtml/content-xhtml-003.xhtml" id="xhtml-003" media-type="application/xhtml+xml"/>
-		<item href="xhtml/content-xhtml-004.xhtml" id="xhtml-004" media-type="application/xhtml+xml" properties="svg"/>
-		<item href="xhtml/content-xhtml-005.xhtml" id="xhtml-005" media-type="application/xhtml+xml"/>
-		<item href="xhtml/content-xhtml-005-inset.xhtml" id="xhtml-005-inset" media-type="application/xhtml+xml"/>
-		<!-- fallbacks -->
-		<item href="xhtml/content-fallbacks-001.xhtml" id="fb-001" media-type="application/xhtml+xml"/>
-		<item href="xhtml/content-fallbacks-002.xhtml" id="fb-002" media-type="application/xhtml+xml"/>
+		<item href="xhtml/content-xhtml-002.xhtml" id="xhtml-002" media-type="application/xhtml+xml"/>
+		<item href="xhtml/content-xhtml-002-inset.xhtml" id="xhtml-002-inset" media-type="application/xhtml+xml"/>
 		<!-- mathml -->
-		<item href="xhtml/content-mathml-001.xhtml" id="xhtml-mathml-001" media-type="application/xhtml+xml"/>
-		<item href="xhtml/content-mathml-002.xhtml" id="xhtml-mathml-002" media-type="application/xhtml+xml" properties="switch mathml"/>
+		<item href="xhtml/content-mathml-001.xhtml" id="xhtml-mathml-001" media-type="application/xhtml+xml" properties="mathml"/>
 		<!-- svg -->
-		<item href="xhtml/content-svg-001.xhtml" id="xhtml-svg-001" media-type="application/xhtml+xml"/>
+		<item href="xhtml/content-svg-001.xhtml" id="xhtml-svg-001" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="xhtml/content-svg-002.xhtml" id="xhtml-svg-002" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="xhtml/content-svg-003.xhtml" id="xhtml-svg-003" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="xhtml/content-svg-004.xhtml" id="xhtml-svg-004" media-type="application/xhtml+xml" properties="svg"/>
@@ -54,6 +56,11 @@
 		<item href="svg/content-svg-002.svg" id="svg-002" media-type="image/svg+xml"/>
 		<item href="svg/content-svg-003.svg" id="svg-003" media-type="image/svg+xml"/>
 		<item href="svg/content-svg-004.svg" id="svg-004" media-type="image/svg+xml"/>
+		<!-- fallbacks -->
+		<item href="xhtml/content-fallbacks-001.xhtml" id="fb-001" media-type="application/xhtml+xml"/>
+		<item href="xhtml/content-switch-001.xhtml" id="fb-002" media-type="application/xhtml+xml" properties="switch mathml"/>
+		<item href="xhtml/content-bindings-001.xhtml" id="fb-003" media-type="application/xhtml+xml"/>
+		<item href="xhtml/content-bindings-002.xhtml" id="binding" media-type="application/xhtml+xml" properties="scripted"/>
 		<!-- layout -->
 		<item href="xhtml/styling-xhtml-001.xhtml" id="css-001" media-type="application/xhtml+xml"/>
 		<item href="xhtml/styling-xhtml-002.xhtml" id="css-002" media-type="application/xhtml+xml"/>
@@ -64,6 +71,8 @@
 		<item href="xhtml/styling-xhtml-007.xhtml" id="css-007" media-type="application/xhtml+xml"/>
 		<!-- fonts -->
 		<item href="xhtml/fonts-001.xhtml" id="fonts-001" media-type="application/xhtml+xml" />
+		<item href="xhtml/fonts-002.xhtml" id="fonts-002" media-type="application/xhtml+xml" />
+		<item href="xhtml/fonts-003.xhtml" id="fonts-003" media-type="application/xhtml+xml" properties="svg" />
 		<!-- scripting -->
 		<item href="xhtml/scripting-001.xhtml" id="scr-001" media-type="application/xhtml+xml"/>
 		<item href="xhtml/scripting-002.xhtml" id="scr-002" media-type="application/xhtml+xml" properties="scripted"/>
@@ -82,9 +91,8 @@
 		<!-- tts -->  
 		<item href="xhtml/tts-001.xhtml" id="tts-001" media-type="application/xhtml+xml"/>
 		<item href="xhtml/tts-002.xhtml" id="tts-002" media-type="application/xhtml+xml"/>
-		<!-- bindings --> 
-		<item href="xhtml/bindings-001.xhtml" id="bind-001" media-type="application/xhtml+xml"/>
-		<item href="xhtml/bindings-002.xhtml" id="bind-002" media-type="application/xhtml+xml" properties="scripted"/>
+		<item href="xhtml/tts-003.xhtml" id="tts-003" media-type="application/xhtml+xml"/>
+		<item href="xhtml/tts-004.xhtml" id="tts-004" media-type="application/xhtml+xml"/>
 		<!-- secondary files -->
 		<!-- css -->
 		<item href="css/base.css" media-type="text/css" id="css"/>
@@ -129,20 +137,19 @@
 		<itemref idref="front"/>
 		<itemref idref="nav" linear="no"/>
 		<itemref idref="xhtml-001"/>
+		<itemref idref="xhtml-multi-001"/>
+		<itemref idref="xhtml-multi-002"/>
+		<itemref idref="xhtml-multi-003"/>
 		<itemref idref="xhtml-002"/>
-		<itemref idref="xhtml-003"/>
-		<itemref idref="xhtml-004"/>
-		<itemref idref="xhtml-005"/>
-		<itemref idref="fb-001"/>
-		<itemref idref="fb-002"/>
+		<itemref idref="xhtml-ns-001"/>
 		<itemref idref="xhtml-mathml-001"/>
-		<itemref idref="xhtml-mathml-002"/>
-		<itemref idref="xhtml-svg-001"/>
-		<itemref idref="xhtml-svg-002"/>
 		<itemref idref="xhtml-svg-001"/>
 		<itemref idref="xhtml-svg-002"/>
 		<itemref idref="xhtml-svg-003"/>
 		<itemref idref="xhtml-svg-004"/>
+		<itemref idref="fb-001"/>
+		<itemref idref="fb-002"/>
+		<itemref idref="fb-003"/>
 		<itemref idref="svg-001"/>
 		<itemref idref="svg-002"/>
 		<itemref idref="svg-003"/>
@@ -154,7 +161,6 @@
 		<itemref idref="css-005"/>
 		<itemref idref="css-006"/>
 		<itemref idref="css-007"/>
-		<itemref idref="fonts-001"/>
 		<itemref idref="scr-001"/>
 		<itemref idref="scr-002"/>
 		<itemref idref="scr-003"/>
@@ -164,11 +170,15 @@
 		<itemref idref="canvas-001"/>
 		<itemref idref="forms-001"/>
 		<itemref idref="forms-002"/>
+		<itemref idref="fonts-001"/>
+		<itemref idref="fonts-002"/>
+		<itemref idref="fonts-003"/>
 		<itemref idref="tts-001"/>
 		<itemref idref="tts-002"/>
-		<itemref idref="bind-001"/>
+		<itemref idref="tts-003"/>
+		<itemref idref="tts-004"/>
 	</spine>
 	<bindings>
-		<mediaType media-type="application/x-demo-slideshow" handler="bind-002"/>
+		<mediaType media-type="application/x-demo-slideshow" handler="binding"/>
 	</bindings>
 </package>

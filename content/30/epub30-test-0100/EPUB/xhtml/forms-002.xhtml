@@ -4,111 +4,185 @@
     <head>        
         <meta charset="utf-8" />
         <link rel="stylesheet" type="text/css" href="../css/base.css" />
-    	<link rel="stylesheet" type="text/css" href="../css/forms.css" />
     </head>
     <body>
-        
-        <section id="forms-210" class="otest">
-        	<h2><span class="nature">[OPTIONAL]</span> <span class="test-id">forms-210</span> The <code>button</code> element</h2>
-            
-            <p class="desc">Tests whether the HTML5 <code>button</code> element is supported.</p>
+        <section id="forms-inputs">
+        	<h3>Input Types</h3>
+        	<section id="input-010" class="otest">
+        		<h4><span class="nature">[OPTIONAL]</span> <span class="test-id">input-010</span> <code>text</code></h4>
+        		
+        		<p class="desc">Tests whether the HTML5 <code>input</code> element state <code>text</code> is supported.</p>
+        		
+        		<input type="text"/>
+        		
+        		<p class="eval">If a text input field is rendered before this paragraph, the test passes.</p>
+        	</section>
         	
-        	<button>Test</button>
-
-            <p class="eval">If a button with the label "Test" is rendered immediately before this paragraph, the test passes.</p>
+        	<section id="input-020" class="otest">
+        		<h4><span class="nature">[OPTIONAL]</span> <span class="test-id">input-020</span> <code>search</code></h4>
+        		
+        		<p class="desc">Tests whether the HTML5 <code>input</code> element state <code>search</code> is supported.</p>
+        		
+        		<input type="search"/>
+        		
+        		<p class="eval">If a text input field is rendered before this paragraph, the test passes.</p>
+        	</section>
+        	
+        	<section id="input-030" class="otest">
+        		<h4><span class="nature">[OPTIONAL]</span> <span class="test-id">input-030</span> <code>password</code></h4>
+        		
+        		<p class="desc">Tests whether the HTML5 <code>input</code> element state <code>password</code> is supported.</p>
+        		
+        		<input type="password"/>
+        		
+        		<p class="eval">If text entered in the preceding box is not displayed visually, the test passes.</p>
+        	</section>
+        	
+        	<section id="input-040" class="otest">
+        		<h4><span class="nature">[OPTIONAL]</span> <span class="test-id">input-040</span> <code>tel</code></h4>
+        		
+        		<p class="desc">Tests whether the HTML5 <code>input</code> element state <code>tel</code> is supported.</p>
+        		
+        		<p>To verify, test a telephone number that matches the pattern 123-456-7890 and one that does not.</p>
+        		
+        		<form onsubmit="return false">
+        			<input type="tel" pattern="\d{3}-\d{3}-\d{4}"/>
+        			<input type="submit" value="Test"/>
+        		</form>
+        		
+        		<p class="eval">If the reading system reports an error only when a non-matching pattern is entered, the test passes.</p>
+        	</section>
+        	
+        	<section id="input-050" class="otest">
+        		<h4><span class="nature">[OPTIONAL]</span> <span class="test-id">input-050</span> <code>url</code></h4>
+        		
+        		<p class="desc">Tests whether the HTML5 <code>input</code> element state <code>url</code> is supported.</p>
+        		
+        		<p>To verify, test a valid and invalid URL.</p>
+        		
+        		<form onsubmit="return false">
+        			<input type="url"/>
+        			<input type="submit" value="Test"/>
+        		</form>
+        		
+        		<p class="eval">If the reading system reports an error only on when an invalid URL is entered, the test passes.</p>
+        	</section>
+        	
+        	<section id="input-060" class="otest">
+        		<h4><span class="nature">[OPTIONAL]</span> <span class="test-id">input-060</span> <code>email</code></h4>
+        		
+        		<p class="desc">Tests whether the HTML5 <code>input</code> element state <code>email</code> is supported.</p>
+        		
+        		<p>To verify, test a valid and invalid email.</p>
+        		
+        		<form onsubmit="return false">
+        			<input type="email"/>
+        			<input type="submit" value="Test"/>
+        		</form>
+        		
+        		<p class="eval">If the reading system reports an error only when an invalid email address is entered, the test passes.</p>
+        	</section>
+        	
+        	<section id="input-070" class="otest">
+        		<h4><span class="nature">[OPTIONAL]</span> <span class="test-id">input-070</span> <code>date</code></h4>
+        		
+        		<p class="desc">Tests whether the HTML5 <code>input</code> element state <code>date</code> is supported.</p>
+        		
+        		<input type="date"/>
+        		
+        		<p class="eval">If the preceding input field allows dates to be selected and input, the test passes.</p>
+        	</section>
+        	
+        	<section id="input-080" class="otest">
+        		<h4><span class="nature">[OPTIONAL]</span> <span class="test-id">input-080</span> <code>number</code></h4>
+        		
+        		<p class="desc">Tests whether the HTML5 <code>input</code> element state <code>number</code> is supported.</p>
+        		
+        		<input type="number"/>
+        		
+        		<p class="eval">If the preceding input field allows positive and negative numbers to be selected and input, the test passes.</p>
+        	</section>
+        	
+        	<section id="input-090" class="otest">
+        		<h4><span class="nature">[OPTIONAL]</span> <span class="test-id">input-090</span> <code>range</code></h4>
+        		
+        		<p class="desc">Tests whether the HTML5 <code>input</code> element state <code>range</code> is supported.</p>
+        		
+        		<input type="range" min="0" max="100"/>
+        		
+        		<p class="eval">If a slider control is rendered before this paragraph, the test passes.</p>
+        	</section>
+        	
+        	<section id="input-100" class="otest">
+        		<h4><span class="nature">[OPTIONAL]</span> <span class="test-id">input-100</span> <code>checkbox</code></h4>
+        		
+        		<p class="desc">Tests whether the HTML5 <code>input</code> element state <code>checkbox</code> is supported.</p>
+        		
+        		<label><input type="checkbox"/> Test</label>
+        		
+        		<p class="eval">If a checkbox control is rendered before this paragraph, the test passes.</p>
+        	</section>
+        	
+        	<section id="input-110" class="otest">
+        		<h4><span class="nature">[OPTIONAL]</span> <span class="test-id">input-110</span> <code>radio</code></h4>
+        		
+        		<p class="desc">Tests whether the HTML5 <code>input</code> element state <code>radio</code> is supported.</p>
+        		
+        		<label><input type="radio"/> Test</label>
+        		
+        		<p class="eval">If a radio button control is rendered before this paragraph, the test passes.</p>
+        	</section>
+        	
+        	<section id="input-120" class="otest">
+        		<h4><span class="nature">[OPTIONAL]</span> <span class="test-id">input-120</span> <code>file</code></h4>
+        		
+        		<p class="desc">Tests whether the HTML5 <code>input</code> element state <code>file</code> is supported.</p>
+        		
+        		<input type="file"/>
+        		
+        		<p class="eval">If a file selection control is not rendered before this paragraph, and files can be selected from 
+        			the local file system, the test passes.</p>
+        	</section>
+        	
+        	<section id="input-130" class="otest">
+        		<h4><span class="nature">[OPTIONAL]</span> <span class="test-id">input-130</span> <code>submit</code></h4>
+        		
+        		<p class="desc">Tests whether the HTML5 <code>input</code> element state <code>submit</code> is supported.</p>
+        		
+        		<input type="submit"/>
+        		
+        		<p class="eval">If a submit input button is rendered before this paragraph, the test passes.</p>
+        	</section>
+        	
+        	<section id="input-140" class="otest">
+        		<h4><span class="nature">[OPTIONAL]</span> <span class="test-id">input-140</span> <code>image</code></h4>
+        		
+        		<p class="desc">Tests whether the HTML5 <code>input</code> element state <code>image</code> is supported.</p>
+        		
+        		<input type="image" src="../img/button.png" alt="test"/>
+        		
+        		<p class="eval">If a round play button is rendered before this paragraph, the test passes.</p>
+        	</section>
+        	
+        	<section id="input-150" class="otest">
+        		<h4><span class="nature">[OPTIONAL]</span> <span class="test-id">input-150</span> <code>reset</code></h4>
+        		
+        		<p class="desc">Tests whether the HTML5 <code>input</code> element state <code>reset</code> is supported.</p>
+        		
+        		<input type="reset"/>
+        		
+        		<p class="eval">If a reset button is rendered before this paragraph, the test passes.</p>
+        	</section>
+        	
+        	<section id="input-160" class="otest">
+        		<h4><span class="nature">[OPTIONAL]</span> <span class="test-id">input-160</span> <code>button</code></h4>
+        		
+        		<p class="desc">Tests whether the HTML5 <code>input</code> element state <code>button</code> is supported.</p>
+        		
+        		<input type="button" value="Test"/>
+        		
+        		<p class="eval">If a button with the label "Test" is rendered before this paragraph, the test passes.</p>
+        	</section>
         </section>
-    	
-    	<section id="forms-220" class="otest">
-    		<h2><span class="nature">[OPTIONAL]</span> <span class="test-id">forms-220</span> The <code>select</code> element: single option</h2>
-    		
-    		<p class="desc">Tests whether the HTML5 <code>select</code> element is supported for picking a single option.</p>
-    		
-    		<select>
-    			<option>lorem</option>
-    			<option>ipsum</option>
-    			<option>dolor</option>
-    		</select>
-    		
-    		<p class="eval">If a drop-down selection box with the options "lorem", "ipsum" and "dolor" is rendered immediately before this paragraph, the test passes.</p>
-    	</section>
-    	
-    	<section id="forms-230" class="otest">
-    		<h2><span class="nature">[OPTIONAL]</span> <span class="test-id">forms-230</span> The <code>select</code> element: multiple options</h2>
-    		
-    		<p class="desc">Tests whether the HTML5 <code>select</code> element is supported for picking multiple options.</p>
-    		
-    		<select multiple="multiple">
-    			<option>lorem</option>
-    			<option>ipsum</option>
-    			<option>dolor</option>
-    		</select>
-    		
-    		<p class="eval">If a selection box allowing any or all of options "lorem", "ipsum" and "dolor" to be selected is rendered immediately 
-    			before this paragraph, the test passes.</p>
-    	</section>
-    	
-    	<section id="forms-240" class="otest">
-    		<h2><span class="nature">[OPTIONAL]</span> <span class="test-id">forms-240</span> The <code>optgroup</code> element</h2>
-    		
-    		<p class="desc">Tests whether the HTML5 <code>optgroup</code> element is supported for grouping options under a common heading.</p>
-    		
-    		<select>
-    			<optgroup label="Latin">
-    				<option>lorem</option>
-    				<option>ipsum</option>
-    				<option>dolor</option>
-    			</optgroup>
-    		</select>
-    		
-    		<p class="eval">If the non-selectable heading "Latin" groups the options "lorem", "ipsum" and "dolor" in the preceding
-    			selection box, the test passes.</p>
-    	</section>
-    	
-    	<section id="forms-250" class="otest">
-    		<h2><span class="nature">[OPTIONAL]</span> <span class="test-id">forms-250</span> The <code>datalist</code> element</h2>
-    		
-    		<p class="desc">Tests whether the HTML5 <code>datalist</code> element for predefining options is supported.</p>
-    		
-    		<input type="text" list="options"/>
-    		<datalist id="options">
-    			<option>lorem</option>
-    			<option>ipsum</option>
-    			<option>dolor</option>
-    		</datalist>
-    		
-    		<p class="eval">If, when activating the preceding text box, the options "lorem", "ipsum" and "dolor" are made available for selection, the test passes.
-    			If the three options are visible as text below the selection box, the test fails.</p>
-    	</section>
-    	
-    	<section id="forms-260" class="otest">
-    		<h2><span class="nature">[OPTIONAL]</span> <span class="test-id">forms-260</span> The <code>textarea</code> element</h2>
-    		
-    		<p class="desc">Tests whether the HTML5 <code>textarea</code> element is supported.</p>
-    		
-    		<textarea rows="5" cols="40"/>
-    		
-    		<p class="eval">If a 40 column by 5 row text area precedes this paragraph, the test passes.</p>
-    	</section>
-    	
-    	<section id="forms-270" class="otest">
-    		<h2><span class="nature">[OPTIONAL]</span> <span class="test-id">forms-270</span> The <code>progress</code> element</h2>
-    		
-    		<p class="desc">Tests whether the HTML5 <code>progress</code> element is supported.</p>
-    		
-    		<progress max="100" value="33"/>
-    		
-    		<p class="eval">If a progress bar precedes this paragraph, the test passes.</p>
-    	</section>
-    	
-    	<section id="forms-280" class="otest">
-    		<h2><span class="nature">[OPTIONAL]</span> <span class="test-id">forms-280</span> The <code>meter</code> element</h2>
-    		
-    		<p class="desc">Tests whether the HTML5 <code>meter</code> element is supported.</p>
-    		
-    		<meter min="0" max="100" value="75"></meter>
-    		
-    		<p class="eval">If a meter bar precedes this paragraph, the test passes.</p>
-    	</section>
-    	
-     </body>
+    </body>
 </html>

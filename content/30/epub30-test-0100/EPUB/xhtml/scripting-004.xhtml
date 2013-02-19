@@ -120,50 +120,51 @@
         </script>
     </head>
     <body onload="results()">
-        <h1>Filesystem API</h1>
-        <p>This section contains tests for the <a
-                href="http://www.w3.org/TR/file-system-api/">Filesystem API</a>, including parts of the
-                <a href="http://www.w3.org/TR/file-writer-api/">File Writer API</a> and the 
-                <a href="http://www.w3.org/TR/FileAPI/">File API</a>.</p>
-
-        <section id="fs-010" class="otest">
-        	<h2><span class="nature">[OPTIONAL]</span> <span class="test-id">fs-010</span> Filesystem request</h2>
-        	<p class="desc">Tests whether <code>requestFileSystem</code> or <code>webkitRequestFileSystem</code> is supported.</p>
-            <p id="fs-010-result">FAIL</p>
-            <p class="eval">If the preceding paragraph reads "PASS", the test passes.</p>
-            <p class="conditional">If the preceding paragraph reads "FAIL", then none of the remaining tests in this section
-                (<code>fs-*</code>) apply, and should be given the result <code>N/A</code>.</p>
-        </section>
-        
-        <section id="fs-020" class="otest">
-        	<h2><span class="nature">[OPTIONAL]</span> <span class="test-id">fs-020</span> Temporary storage: writing</h2>
-        	<p class="desc">Tests whether it is possible to write a file to temporary storage using the filesystem API.</p>
-            <p id="fs-020-result">FAIL</p>
-            <p class="eval">If the preceding paragraph reads "PASS", the test passes.</p>
-        </section>
-        
-        <section id="fs-030" class="otest">
-        	<h2><span class="nature">[OPTIONAL]</span> <span class="test-id">fs-030</span> Temporary storage: reading</h2>
-        	<p class="desc">Tests whether it is possible to read the file created in test <code>fs-020</code> from temporary storage using the filesystem API.</p>
-            <p id="fs-030-result">FAIL</p>
-            <p class="eval">If the preceding paragraph reads "PASS", the test passes.</p>
-            <p class="conditional">If test <code>fs-020</code> failed, then this should be given the result <code>N/A</code>.</p>
-        </section>
-        
-        <section id="fs-040" class="otest">
-        	<h2><span class="nature">[OPTIONAL]</span> <span class="test-id">fs-040</span> Persistent storage: writing</h2>
-        	<p class="desc">Tests whether it is possible to write a file to persistent storage using the filesystem API.</p>
-            <p id="fs-040-result">FAIL</p>
-            <p class="eval">If the preceding paragraph reads "PASS", the test passes.</p>
-        </section>
-        
-        <section id="fs-050" class="otest">
-        	<h2><span class="nature">[OPTIONAL]</span> <span class="test-id">fs-050</span> Persistent storage: reading</h2>
-        	<p class="desc">Tests whether it is possible to read the file created in test <code>fs-040</code> from persistent storage using the filesystem API.</p>
-            <p id="fs-050-result">FAIL</p>
-            <p class="eval">If the preceding paragraph reads "PASS", the test passes.</p>
-            <p class="conditional">If test <code>fs-040</code> failed, then this should be given the result <code>N/A</code>.</p>
-        </section>
-        
+    	<section id="script-fs">
+    		<h2>Filesystem</h2>
+    		<p>This section contains tests for the <a
+    			href="http://www.w3.org/TR/file-system-api/">Filesystem API</a>, including parts of the
+    			<a href="http://www.w3.org/TR/file-writer-api/">File Writer API</a> and the 
+    			<a href="http://www.w3.org/TR/FileAPI/">File API</a>.</p>
+    		
+    		<section id="fs-010" class="otest">
+    			<h3><span class="nature">[OPTIONAL]</span> <span class="test-id">fs-010</span> The <code>requestFileSystem</code> object</h3>
+    			<p class="desc">Tests whether <code>requestFileSystem</code> or <code>webkitRequestFileSystem</code> is supported.</p>
+    			<p id="fs-010-result">FAIL</p>
+    			<p class="eval">If the preceding paragraph reads "PASS", the test passes.</p>
+    			<p class="conditional">If the preceding paragraph reads "FAIL", then none of the remaining tests in this section
+    				(<code>fs-*</code>) apply, and should be given the result <code>N/A</code>.</p>
+    		</section>
+    		
+    		<section id="fs-020" class="otest">
+    			<h3><span class="nature">[OPTIONAL]</span> <span class="test-id">fs-020</span> Temporary storage: writing</h3>
+    			<p class="desc">Tests whether it is possible to write a file to temporary storage using the filesystem API.</p>
+    			<p id="fs-020-result">FAIL</p>
+    			<p class="eval">If the preceding paragraph reads "PASS", the test passes.</p>
+    		</section>
+    		
+    		<section id="fs-030" class="otest">
+    			<h3><span class="nature">[OPTIONAL]</span> <span class="test-id">fs-030</span> Temporary storage: reading</h3>
+    			<p class="desc">Tests whether it is possible to read the file created in test <code>fs-020</code> from temporary storage using the filesystem API.</p>
+    			<p id="fs-030-result">FAIL</p>
+    			<p class="eval">If the preceding paragraph reads "PASS", the test passes.</p>
+    			<p class="conditional">If test <code>fs-020</code> failed, then this should be given the result <code>N/A</code>.</p>
+    		</section>
+    		
+    		<section id="fs-040" class="otest">
+    			<h3><span class="nature">[OPTIONAL]</span> <span class="test-id">fs-040</span> Persistent storage: writing</h3>
+    			<p class="desc">Tests whether it is possible to write a file to persistent storage using the filesystem API.</p>
+    			<p id="fs-040-result">FAIL</p>
+    			<p class="eval">If the preceding paragraph reads "PASS", the test passes.</p>
+    		</section>
+    		
+    		<section id="fs-050" class="otest">
+    			<h3><span class="nature">[OPTIONAL]</span> <span class="test-id">fs-050</span> Persistent storage: reading</h3>
+    			<p class="desc">Tests whether it is possible to read the file created in test <code>fs-040</code> from persistent storage using the filesystem API.</p>
+    			<p id="fs-050-result">FAIL</p>
+    			<p class="eval">If the preceding paragraph reads "PASS", the test passes.</p>
+    			<p class="conditional">If test <code>fs-040</code> failed, then this should be given the result <code>N/A</code>.</p>
+    		</section>
+    	</section>
     </body>
 </html>
