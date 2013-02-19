@@ -155,6 +155,7 @@
       <itemref idref="front-svg"/>
 	  <itemref idref="front"/><!-- a front of the old 004-he-file -->
       <itemref idref="about"/>
+      <itemref idref="navtest"/>
       <itemref idref="text-direction-001"/>
       <itemref idref="text-direction-002"/>
       <itemref idref="text-direction-003"/>
@@ -200,7 +201,6 @@
       <itemref idref="multi-column-001"/>
       <itemref idref="multi-column-002"/>
 		<!-- old 004-he-file -->
-	  <itemref idref="navtest"/>
       <itemref idref="display"/>
       <itemref idref="display2"/>
       <itemref idref="display3"/>
