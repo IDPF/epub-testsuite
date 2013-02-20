@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-        <meta charset="utf-8" />
-        <link rel="stylesheet" type="text/css" href="../css/base.css" />
-        <link rel="stylesheet" type="text/css" href="../css/default_he.css" />
-    </head>
-    <body dir="rtl">
-        <h1>Text justification</h1>
-
-		<section id="disp02" class="ctest">
-        <p>
-        The following line should should be right justified
-        </p>
-		<p class="regular" style="text-align:right">
-שורה זו צמודה לימין
-		</p>
-
-		<p>The following line should be left justified</p>
-		<p class="regular" style="text-align:left" lang="he">
-שורה זו צמודה לשמאל
-		</p>
-        </section>
-    </body>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="../css/base.css" />
+		<link rel="stylesheet" type="text/css" href="../css/default_he.css" />
+	</head>
+	<body dir="rtl">
+		<h1>Text justification</h1>
+		<section id="disp03" class="ctest">
+			<h2><span class="nature">[REQUIRED]</span> <span class="test-id">disp03</span> Right justification</h2>
+			<p class="regular" style="text-align:right">
+				שורה זו צמודה לימין
+			</p>
+			<p class="eval">If the preceding line is right justified, the test passes</p>
+		</section>
+		<section id="disp04" class="ctest">
+			<h2><span class="nature">[REQUIRED]</span> <span class="test-id">disp04</span> Left justification</h2>
+			<p class="regular" style="text-align:left" lang="he">
+				שורה זו צמודה לשמאל
+			</p>
+			<p class="eval">If the following line is left justified, the test passes</p>
+		</section>
+	</body>
 </html>

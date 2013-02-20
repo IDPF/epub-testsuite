@@ -23,29 +23,36 @@ body {
   padding: 0.3em;
 }
 
-.ctest .test-id {
-  border: 3px solid red;
-}
-
-.otest .test-id {
-  border: 3px solid blue;
-}
-
 .ctest, .otest {
-  margin-left: 1em;
-  padding: 0.5em;
+    margin-bottom: 1em;
+    padding-left: 1em;
 }
 
 .ctest {
-  border: 1px solid gray;
-  margin-left: 1em;
-  padding: 0.5em;
+    border: 1px solid gray;
+    margin-bottom: 1em;
+    padding-left: 1em;
 }
 
 .otest {
-  border: 1px dotted gray;
-  margin-left: 1em;
-  padding: 0.5em;
+    border: 1px dotted gray;
+    margin-bottom: 1em;
+    padding-left: 1em;
+}
+
+.nature {
+	display: block;
+	padding-right: 1em;
+	padding-left: 0.5em;
+	font-size: 50%;
+}
+
+.ctest .nature {
+	color: rgb(255,0,0);
+}
+
+.otest .nature {
+	color: rgb(0,0,255);
 }
 
 dl.info dt {
