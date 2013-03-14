@@ -26,8 +26,9 @@
    </metadata>
    <manifest>
        
-      <!-- navigation -->
-      <item href="xhtml/nav.xhtml" id="nav" media-type="application/xhtml+xml" properties="nav"/>
+      <!-- front matter -->
+   	  <item href="xhtml/front.xhtml" id="front" media-type="application/xhtml+xml"/>
+   	  <item href="xhtml/nav.xhtml" id="nav" media-type="application/xhtml+xml" properties="nav"/>
    
    	  <!-- xhtml -->
       <item id="xhtml-001" href="xhtml/intro.xhtml" media-type="application/xhtml+xml"/>
@@ -60,7 +61,8 @@
        
    </manifest>
    <spine>
-      <itemref idref="nav" linear="no"/>
+   	  <itemref idref="front"/>
+   	  <itemref idref="nav" linear="no"/>
       <itemref idref="xhtml-001"/>
       <itemref idref="xhtml-002"/>
       <itemref idref="xhtml-003"/>
