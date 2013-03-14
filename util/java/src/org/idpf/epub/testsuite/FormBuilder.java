@@ -13,7 +13,7 @@ import nu.xom.Node;
 import nu.xom.Nodes;
 
 public class FormBuilder extends Builder {
-	private boolean debug = true;
+	private boolean debug = false; //print debug statement to err out
 	
 	public FormBuilder(String[] args) throws Exception {
 		super(args);
@@ -31,7 +31,7 @@ public class FormBuilder extends Builder {
 		
 		for(File epub : parentDir.listFiles(dirFilter)) {
 			
-			if(debug)System.err.println(epub.getName() + "...");
+			if(debug) System.err.println("Parsing " + epub.getName() + "...");
 			
 			//manifest
 			File m = new File(epub, "META-INF/container.xml");
@@ -57,7 +57,7 @@ public class FormBuilder extends Builder {
 						
 			list.add(new TestCollection(epub, titleElem.getValue(), descElem.getValue(), nav).populate());
 			
-			// break; //TODO remove to get all docs
+			// break; //runs all docs or only first
 		}
 						
 		render(list, new File(this.buildDir, "epub-testsuite-"+now+".xhtml"));
@@ -191,7 +191,7 @@ public class FormBuilder extends Builder {
 				String subcategory = null;
 				
 				Attribute href = (Attribute) navLinks.get(i);	
-				System.err.println("\t "+ href.getValue() + "...");
+				if(debug) System.err.println("\t "+ href.getValue() + "...");
 				shortDesc = href.getParent().getValue().replaceAll("\\s+", " ");
 				
 				//category 
@@ -227,7 +227,7 @@ public class FormBuilder extends Builder {
 				if(target.getAttribute("id") == null 
 						|| target.getAttribute("class") == null 
 						|| !target.getAttributeValue("class").matches("ctest|otest")) {
-					System.err.println("not a test: " + target.getLocalName() + "/@id=" + target.getAttributeValue("id"));
+					if(debug) System.err.println("not a test: " + target.getLocalName() + "/@id=" + target.getAttributeValue("id"));
 					continue;
 				}
 								
@@ -236,7 +236,7 @@ public class FormBuilder extends Builder {
 					type = target.getAttributeValue("class").equals("ctest") ? TestType.REQUIRED : TestType.OPTIONAL;				
 					longDesc = (Element)target.query(".//*[@class='desc']", xpc).get(0);
 				}catch (Exception e) {
-					System.err.println("error for element " +target.toXML());	
+					System.err.println("error in " + href.getValue());	
 					throw e;
 				}
 				
