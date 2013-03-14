@@ -21,8 +21,10 @@ public abstract class Builder {
 		if(!contentDir.exists() || !contentDir.isDirectory()) 
 			throw new InvalidParameterException(contentDir.getAbsolutePath());
 		buildDir = new File(projectdir, "build");
-		if(!buildDir.exists() || !buildDir.isDirectory()) 
-			throw new InvalidParameterException(contentDir.getAbsolutePath());	
+		if(!buildDir.exists()) {
+			 buildDir.mkdir();
+		}
+				
 	}
 	
 	abstract boolean run(File parent) throws Exception;
