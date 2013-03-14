@@ -2,7 +2,7 @@
 <package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uid">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">com.github.epub-testsuite.epub30-test-0100</dc:identifier>
-		<dc:description>Test for XHTML, SVG, Scripting, Styling and Layout in a reflowable context</dc:description>
+		<dc:description>Tests for XHTML, SVG, Scripting, Styling and Layout in a reflowable context</dc:description>
 		<dc:title id="title">EPUB 3.0 Test Suite: Document 0100 [UNDER CONSTRUCTION]</dc:title>
 		<meta refines="title" property="title-type">main</meta>
 		<!-- repeat creator element for all contributors -->
