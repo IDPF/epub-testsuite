@@ -12,13 +12,11 @@
             <p id="mo-3">After selecting "Section Navigation, Part 2" from the table of contents, you should end up at the corresponding text above. Media Overlays playback should continue automatically. Note that this test fails if the reading system starts reading at "More Navigation Tests" instead of "Section Navigation, Part 2".</p>
         </section>
         <section id="turning-pages" class="otest">
-            <h2>
-            	<span class="nature">[OPTIONAL]</span> 
-            	<span class="test-id">turning-pages</span>
-                <span id="mo-4">Turning Pages</span>
-            </h2>
-            <p id="mo-5">Let media overlay playback continue while you turn pages. The playback should be updated to reflect your current position.</p>
+        	<h2><span class="nature">[OPTIONAL]</span> <span class="test-id">turning-pages</span> <span id="mo-4">Turning Pages</span></h2>
+        	<p class="desc">Tests whether playback across page turns is supported.</p>
+        	<p id="mo-5">Let media overlay playback continue while you turn pages. The playback should be updated to reflect your current position.</p>
             <p id="mo-6">Here is some sample text to ensure that there are several pages in this chapter (excerpt from Moby Dick). There are two pages after this one. When you reach the last page (starting with "But look!"), allow playback to continue on its own and observe reading system behavior.</p>
+        	<p class="eval">If playback remains synchronized with each page turn, the test passes.</p>
         </section>
     </body>
 </html>
