@@ -13,7 +13,8 @@ import nu.xom.Node;
 import nu.xom.Nodes;
 
 public class FormBuilder extends Builder {
-		
+	private boolean debug = true;
+	
 	public FormBuilder(String[] args) throws Exception {
 		super(args);
 	}
@@ -30,6 +31,8 @@ public class FormBuilder extends Builder {
 		
 		for(File epub : parentDir.listFiles(dirFilter)) {
 			
+			if(debug)System.err.println(epub.getName() + "...");
+			
 			//manifest
 			File m = new File(epub, "META-INF/container.xml");
 			if(!m.exists()) continue;			
@@ -41,9 +44,9 @@ public class FormBuilder extends Builder {
 			URI o = epub.toURI().resolve(rootfile.getAttributeValue("full-path"));
 			Document opf = XOMUtil.build(o.toURL().openStream());	
 			Element titleElem = (Element)opf.getRootElement()
-				.query("//dc:title", xpc).get(0);
+					.query("//dc:title", xpc).get(0);
 			Element descElem = (Element)opf.getRootElement()
-				.query("//dc:description", xpc).get(0);
+					.query("//dc:description", xpc).get(0);
 						
 			//navdoc
 			Attribute navAttr = (Attribute)opf.getRootElement()
@@ -54,7 +57,7 @@ public class FormBuilder extends Builder {
 						
 			list.add(new TestCollection(epub, titleElem.getValue(), descElem.getValue(), nav).populate());
 			
-			break; //TODO remove to get all docs
+			// break; //TODO remove to get all docs
 		}
 						
 		render(list, new File(this.buildDir, "epub-testsuite-"+now+".xhtml"));
@@ -180,14 +183,15 @@ public class FormBuilder extends Builder {
 			
 			Nodes navLinks = navDoc.getDocument().query("//x:li/x:a/@href", xpc);
 			for (int i = 0; i < navLinks.size(); i++) {
-				String shortDesc;
-				Element longDesc;
-				String id;
-				TestType type;
+				String shortDesc = null;
+				Element longDesc = null;
+				String id = null;
+				TestType type = null;
 				String category = "";
 				String subcategory = null;
 				
-				Attribute href = (Attribute) navLinks.get(i);				
+				Attribute href = (Attribute) navLinks.get(i);	
+				System.err.println("\t "+ href.getValue() + "...");
 				shortDesc = href.getParent().getValue().replaceAll("\\s+", " ");
 				
 				//category 
@@ -227,10 +231,14 @@ public class FormBuilder extends Builder {
 					continue;
 				}
 								
-				id = target.getAttributeValue("id");
-				type = target.getAttributeValue("class")
-						.equals("ctest") ? TestType.REQUIRED : TestType.OPTIONAL;				
-				longDesc = (Element)target.query(".//*[@class='desc']", xpc).get(0);
+				try {
+					id = target.getAttributeValue("id");
+					type = target.getAttributeValue("class").equals("ctest") ? TestType.REQUIRED : TestType.OPTIONAL;				
+					longDesc = (Element)target.query(".//*[@class='desc']", xpc).get(0);
+				}catch (Exception e) {
+					System.err.println("error for element " +target.toXML());	
+					throw e;
+				}
 				
 				tests.add(new Test(shortDesc, longDesc, id, type, category, subcategory));
 			}

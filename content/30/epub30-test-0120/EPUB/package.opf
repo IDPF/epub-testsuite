@@ -3,6 +3,7 @@
    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
       <dc:identifier id="uid">com.github.epub-testsuite.epub30-test-0120</dc:identifier>
       <dc:title id="title">EPUB 3.0 Test Suite: Document 0120, Media Overlays [UNDER CONSTRUCTION]</dc:title>
+	  <dc:description>Tests for Media Overlays in a reflowable context</dc:description>
 	  <meta refines="title" property="title-type">main</meta>
       <!-- repeat creator element for all contributors -->
       <dc:creator id="creator1">Marisa DeMeglio</dc:creator>
