@@ -17,28 +17,35 @@
                 document.getElementById('xhr-010-result').innerHTML = 'PASS';
                 
                 // try to get a local file
-                testRequest("scripting-001.xhtml", "xhr-020-result");
+                testRequest("scripting-001.xhtml", "xhr-020-result", false);
                 
                 // try to get a remote file
-                testRequest("http://idpf.org/epub/30/spec/epub30-contentdocs.html", "xhr-030-result");                
+                testRequest("http://updates.html5rocks.com", "xhr-030-result", true);                
             };
             
             // helper function
             // make a request and set the test result to "PASS" if it worked
-            testRequest = function(filename, testResultId) {
+            testRequest = function(filename, testResultId, asynch) {
                 request = new XMLHttpRequest();
-                request.onreadystatechange = function() {
-                    if (request.readyState != 4)  { 
-                        return;
-                    }
-                    xml = request.responseXML; 
-                    if (xml) {
+                request.open('GET', filename, asynch);
+                
+                request.onload = function() {
+                    txt = request.responseText;
+                    if (txt) {
                         document.getElementById(testResultId).innerHTML = 'PASS';
                     }
-                };
-                request.open('GET', filename, false);
-                request.overrideMimeType("text/xml");
-                request.send(null);
+                }
+                
+                request.onerror = function() {
+                	return;
+                }
+                
+                try {
+	                request.send(null);
+	            }
+	            catch(err) {
+	            	return;
+	            }
             };
             //]]>
         </script>
