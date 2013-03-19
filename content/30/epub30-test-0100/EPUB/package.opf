@@ -23,8 +23,8 @@
 		<meta refines="#creator4" property="file-as">DeMeglio, Marisa</meta>
 		<meta refines="#creator5" property="role" scheme="marc:relators">aut</meta>
 		<meta refines="#creator5" property="file-as">Garrish, Matt</meta>
-		<meta refines="#creator5" property="role" scheme="marc:relators">aut</meta>
-		<meta refines="#creator5" property="file-as">Idan, Ori</meta>
+		<meta refines="#creator6" property="role" scheme="marc:relators">aut</meta>
+		<meta refines="#creator6" property="file-as">Idan, Ori</meta>
 		<dc:language>en</dc:language>
 		<dc:language>jp</dc:language>
 		<meta property="dcterms:modified">2013-02-14T13:00:00Z</meta>
