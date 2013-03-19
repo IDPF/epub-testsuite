@@ -8,13 +8,15 @@
 	<body dir="rtl">
 		
 		<section id="disp06" class="ctest">
-			<h1><span class="nature">[REQUIRED]</span> <span class="test-id">disp06</span> Complex text layout, strong directonality characters</h1>
+			<h1><span class="nature">[REQUIRED]</span> <span class="test-id">disp06</span> CTL, strong directonality chars (digits and Hebrew text)</h1>
 			<h1>שילוב מספרים בטקסט עברי</h1>
 			<p class="desc">Tests whether strong directionality characters are correctly rendered.</p>
 			<p class="regular" lang="he">
 				בדיקה 123
 			</p>
-			<p class="eval">If the digits are to the left of the Hebrew text, the test passes</p>
+			<p class="eval">If the digits are to the left of the Hebrew text, the test passes.<br />
+			Digits order should be 1 on the leftmost place.
+			</p>
 		</section>
 	</body>
 </html>
