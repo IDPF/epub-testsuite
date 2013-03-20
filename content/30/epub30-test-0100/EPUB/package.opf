@@ -35,6 +35,7 @@
 		<item href="xhtml/nav.xhtml" id="nav" media-type="application/xhtml+xml" properties="nav"/>
 		<!-- bodymatter -->
 		<!-- multimedia -->
+		<item href="xhtml/content-images-001.xhtml" id="xhtml-img-001" media-type="application/xhtml+xml"/>
 		<item href="xhtml/content-multimedia-001.xhtml" id="xhtml-multi-001" media-type="application/xhtml+xml"/>
 		<item href="xhtml/content-multimedia-002.xhtml" id="xhtml-multi-002" media-type="application/xhtml+xml"/>
 		<item href="xhtml/content-multimedia-003.xhtml" id="xhtml-multi-003" media-type="application/xhtml+xml"/>
@@ -109,6 +110,9 @@
 		<item href="img/button.png" id="img-004" media-type="image/png"/>
 		<item href="img/nonimage.xyz" id="img-005" media-type="image/xyz" fallback="img-006"/>
 		<item href="img/fallback.png" id="img-006" media-type="image/png"/>
+		<item href="img/check.png" id="img-007" media-type="image/png"/>
+		<item href="img/check.gif" id="img-008" media-type="image/gif"/>
+		<item href="img/check.jpg" id="img-009" media-type="image/jpeg"/>
 		<!-- fonts -->
 		<item id="font-woff" href="fonts/OldStandard-Regular.woff" media-type="application/font-woff"/>
 		<item id="font-otf" href="fonts/OldStandard-Regular.otf" media-type="application/vnd.ms-opentype"/>
@@ -137,6 +141,7 @@
 		<itemref idref="front"/>
 		<itemref idref="nav" linear="no"/>
 		<itemref idref="xhtml-001"/>
+		<itemref idref="xhtml-img-001"/>
 		<itemref idref="xhtml-multi-001"/>
 		<itemref idref="xhtml-multi-002"/>
 		<itemref idref="xhtml-multi-003"/>
