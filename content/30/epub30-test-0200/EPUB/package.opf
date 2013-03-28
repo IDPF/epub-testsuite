@@ -33,12 +33,12 @@
 		<!-- video -->
 	</manifest>
 	<spine>
-		<itemref idref="front" properties="rendition:layout-reflowable"/>
-		<itemref idref="nav" linear="no" properties="rendition:layout-reflowable"/>
-		<itemref idref="xhtml-001" properties="rendition:layout-reflowable"/>
+		<itemref idref="front"/>
+		<itemref idref="nav" linear="no"/>
+		<itemref idref="xhtml-001"/>
 		<itemref idref="xhtml-002"/>
-		<itemref idref="svg-001" properties="rendition:layout-reflowable"/>
-		<itemref idref="svg-002" properties="rendition:layout-reflowable"/>
+		<itemref idref="svg-001"/>
+		<itemref idref="svg-002"/>
 		<itemref idref="svg-003"/>
 	</spine>
 </package>
