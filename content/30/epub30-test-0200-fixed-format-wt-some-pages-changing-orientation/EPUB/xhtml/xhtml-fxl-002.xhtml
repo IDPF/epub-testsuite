@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xml:lang="en" lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="../css/base.css" />
+		<meta name="viewport" content="width=900, height=600"/>
+	</head>
+	<body>
+		<section id="xhtml-010" class="ctest">
+			<h2><span class="nature">[REQUIRED]</span>
+				<span class="test-id">xhtml-010</span>fixed format wt some pages changing orientation</h2>
+			<p class="desc">Tests that when the fixed format properties have orientation=landscape, and subsequent pages are set to portrait or landscape, the pages render correctly.</p>
+			<p class="eval">When the reading device is  held with a landscape orientation, page 2 should render as one page in landscape mode on the left, and page 3 should render as one page in portrait mode on the right.  Pages 4 though 7 should render in landscape mode, with contiguous spreads each holding two pages. Page 8 should render in portrait mode on the left and page 9 in landscape mode on the right. Pages 10 and 11 should render in landscape mode in a two page contiguous spread.</p>
+			<p>When the reading device is  held with a portrait orientation, it is up to the design of the reading device how landscape spreads will be rendered.  It is legitimate to either display them as individual pages or as two page spreads in landscape mode.  So pages 3 and 8 should display in portrait mode, and pages 4 through 7 and 9 through 11 should display in landscape mode according to the device spec.</p>
+		</section>
+	</body>
+</html>
