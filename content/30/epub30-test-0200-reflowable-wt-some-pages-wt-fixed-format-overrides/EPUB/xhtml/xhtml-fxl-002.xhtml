@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xml:lang="en" lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="../css/base.css" />
+	</head>
+	<body>
+		<section id="xhtml-010" class="ctest">
+			<h2><span class="nature">[REQUIRED]</span>
+				<span class="test-id">xhtml-010</span>reflowable wt some pages wt fixed format overrides</h2>
+			<p class="desc">Tests that when the .opf is set to be reflowable, and some pages have fixed format property overrides, the pages render correctly</p>
+			<p class="eval">The pages with default values of reflowable should have a font resize control available in them.  So paging through the document, you should see the font resize control available on Pages 1, 2, 4, 5, 8, 9, and 11.  Pages 3, 6, 7, and 10 should have no font size control.  Pages 6 and 7 form the left and right sides of contiguous 2 page spread when the reading device is held in landscape mode, and display as per the reading device spec when in the device is held in portrait mode. Page 10 should display in portrait mode regardless of how the reading device is held.</p>
+		</section>
+	</body>
+</html>
