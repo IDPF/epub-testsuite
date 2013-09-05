@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xml:lang="en" lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="../css/base.css" />
+	</head>
+	<body>
+		<section id="custom-nav">
+			<h2>Custom <code>nav</code> elements</h2>
+			
+			<section id="epubnav-090" class="ctest">
+				<h3><span class="nature">[REQUIRED]</span>
+					<span class="test-id">epubnav-090</span> Access</h3>
+				
+				<p class="desc">Tests whether custom <code>nav</code> elements can be accessed.</p>
+				
+				<p class="eval">If the Reading System provides a means to access the custom list of illustrations, the test passes.</p>
+				
+				<p class="conditional">If this test fails, all subsequent tests for custom <code>nav</code> elements should be marked as "N/A".</p>
+			</section>
+			
+			<section id="epubnav-100" class="ctest">
+				<h3><span class="nature">[REQUIRED]</span>
+					<span class="test-id">epubnav-100</span> Linking</h3>
+				
+				<p class="desc">Tests whether the linking to Content Documents from a custom <code>nav</code> is possible.</p>
+				
+				<p>To complete this test, bring up the list of illustrations and activate the "All Figures" link.</p>
+				
+				<p class="eval">If a document with the title "Figures" is loaded, the test passes.</p>
+			</section>
+			
+			<section id="epubnav-110" class="ctest">
+				<h3><span class="nature">[REQUIRED]</span>
+					<span class="test-id">epubnav-110</span> Fragment-level linking</h3>
+				
+				<p class="desc">Tests whether the linking to fragments within Content Documents from a custom <code>nav</code> is possible.</p>
+				
+				<p>To complete this test, bring up the list of illustrations and activate the "Figure 5" link.</p>
+				
+				<p class="eval">If a figure whose caption begins "Figure 5" appears on the page that loads, the test passes.</p>
+			</section>
+		</section>
+	</body>
+</html>
