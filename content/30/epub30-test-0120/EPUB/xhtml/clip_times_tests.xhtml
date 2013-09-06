@@ -5,29 +5,29 @@
 	</head>
 	<body>
 		<h1 id="mo-1">Clip Times</h1>
-        
+
         <p id="mo-2">Each sentence below should play in full:</p>
-        
-        <section id="clipBegin-missing" class="ctest">
-        	<p><span class="nature">[REQUIRED]</span> <span class="test-id">clipBegin-missing</span> <code>clipBegin</code> not specified</p>
+
+        <section id="mo-audio-010" class="ctest">
+        	<p><span class="nature">[REQUIRED]</span> <span class="test-id">mo-audio-010</span> <code>clipBegin</code> not specified</p>
         	<p class="desc">Tests whether starting playback begins at the start of a clip when the <code>clipBegin</code> attribute is not specified.</p>
         	<p id="mo-3">If clipBegin is not specified, its value is assumed to be 0.</p>
         	<p class="eval">If the preceding sentence is announced in full, the test passes.</p>
         </section>
 
-        <section id="clipEnd-missing" class="ctest">
-        	<p><span class="nature">[REQUIRED]</span> <span class="test-id">clipEnd-missing</span> <code>clipEnd</code> not speciifed</p>
+        <section id="mo-audio-020" class="ctest">
+        	<p><span class="nature">[REQUIRED]</span> <span class="test-id">mo-audio-020</span> <code>clipEnd</code> not speciifed</p>
         	<p class="desc">Tests whether playback continues to the end of the clip when the <code>clipEnd</code> attribute is not specified.</p>
         	<p id="mo-4">If clipEnd is not specified, its value is assumed to be the full duration of the physical media.</p>
         	<p class="eval">If the preceding sentence is announced in full, the test passes.</p>
         </section>
-        
-        <section id="clipEnd-too-long" class="ctest">
-        	<p><span class="nature">[REQUIRED]</span> <span class="test-id">clipEnd-too-long</span> <code>clipEnd</code> exceeds length</p>
+
+        <section id="mo-audio-030" class="ctest">
+        	<p><span class="nature">[REQUIRED]</span> <span class="test-id">mo-audio-030</span> <code>clipEnd</code> exceeds length</p>
         	<p class="desc">Tests whether playback ends at the end of the clip when the <code>clipEnd</code> attribute specifies a duration longer than the clip length.</p>
         	<p id="mo-5">If clipEnd exceeds the full duration of the physical media, then its value is assumed to be the full duration of the physical media.</p>
         	<p class="eval">If playback immediately continues to the next section after the preceding sentence is announced in full, the test passes.</p>
         </section>
-        
+
     </body>
 </html>
