@@ -2,7 +2,7 @@
 <package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uid">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">com.github.epub-testsuite.epub30-test-0100</dc:identifier>
-		<dc:description>Tests for XHTML, SVG, Scripting, Styling and Layout in a reflowable context</dc:description>
+		<dc:description>Tests for Content Documents in a reflowable context</dc:description>
 		<dc:title id="title">EPUB 3.0 Test Suite: Document 0100 [UNDER CONSTRUCTION]</dc:title>
 		<meta refines="title" property="title-type">main</meta>
 		<!-- repeat creator element for all contributors -->
@@ -27,7 +27,7 @@
 		<meta refines="#creator6" property="file-as">Idan, Ori</meta>
 		<dc:language>en</dc:language>
 		<dc:language>jp</dc:language>
-		<meta property="dcterms:modified">2013-02-14T13:00:00Z</meta>
+		<meta property="dcterms:modified">2013-09-05T13:00:00Z</meta>
 	</metadata>
 	<manifest>
 		<!-- frontmatter -->
@@ -62,79 +62,26 @@
 		<item href="xhtml/content-switch-001.xhtml" id="fb-002" media-type="application/xhtml+xml" properties="switch mathml"/>
 		<item href="xhtml/content-bindings-001.xhtml" id="fb-003" media-type="application/xhtml+xml"/>
 		<item href="xhtml/content-bindings-002.xhtml" id="binding" media-type="application/xhtml+xml" properties="scripted"/>
-		<!-- layout -->
-		<item href="xhtml/styling-xhtml-001.xhtml" id="css-001" media-type="application/xhtml+xml"/>
-		<item href="xhtml/styling-xhtml-002.xhtml" id="css-002" media-type="application/xhtml+xml"/>
-		<item href="xhtml/styling-xhtml-003.xhtml" id="css-003" media-type="application/xhtml+xml"/>
-		<item href="xhtml/styling-xhtml-004.xhtml" id="css-004" media-type="application/xhtml+xml"/>
-		<item href="xhtml/styling-xhtml-005.xhtml" id="css-005" media-type="application/xhtml+xml"/>
-		<item href="xhtml/styling-xhtml-006.xhtml" id="css-006" media-type="application/xhtml+xml"/>
-		<item href="xhtml/styling-xhtml-007.xhtml" id="css-007" media-type="application/xhtml+xml"/>
-		<!-- fonts -->
-		<item href="xhtml/fonts-001.xhtml" id="fonts-001" media-type="application/xhtml+xml" />
-		<item href="xhtml/fonts-002.xhtml" id="fonts-002" media-type="application/xhtml+xml" />
-		<item href="xhtml/fonts-003.xhtml" id="fonts-003" media-type="application/xhtml+xml" properties="svg" />
-		<!-- scripting -->
-		<item href="xhtml/scripting-001.xhtml" id="scr-001" media-type="application/xhtml+xml"/>
-		<item href="xhtml/scripting-002.xhtml" id="scr-002" media-type="application/xhtml+xml" properties="scripted"/>
-		<item href="xhtml/scripting-003.xhtml" id="scr-003" media-type="application/xhtml+xml" properties="scripted"/>
-		<item href="xhtml/scripting-004.xhtml" id="scr-004" media-type="application/xhtml+xml" properties="scripted"/>
-		<item href="xhtml/scripting-005.xhtml" id="scr-005" media-type="application/xhtml+xml" properties="scripted"/>
-		<item href="xhtml/scripting-006.xhtml" id="scr-006" media-type="application/xhtml+xml" properties="scripted"/>
-		<item href="xhtml/scripting-006-inset.xhtml" id="scr-006-inset" media-type="application/xhtml+xml" properties="scripted"/>
-		<!-- canvas -->
-		<item href="xhtml/canvas-001.xhtml" id="canvas-001" media-type="application/xhtml+xml" properties="scripted"/>
-		<!-- forms -->
-		<!-- <item href="xhtml/forms-001.xhtml" id="forms-001" media-type="application/xhtml+xml" properties="scripted"/> -->
-		<item href="xhtml/forms-001.xhtml" id="forms-001" media-type="application/xhtml+xml"/>
-		<!-- <item href="xhtml/forms-002.xhtml" id="forms-002" media-type="application/xhtml+xml" properties="scripted"/> -->
-		<item href="xhtml/forms-002.xhtml" id="forms-002" media-type="application/xhtml+xml"/>
-		<!-- tts -->  
-		<item href="xhtml/tts-001.xhtml" id="tts-001" media-type="application/xhtml+xml"/>
-		<item href="xhtml/tts-002.xhtml" id="tts-002" media-type="application/xhtml+xml"/>
-		<item href="xhtml/tts-003.xhtml" id="tts-003" media-type="application/xhtml+xml"/>
-		<item href="xhtml/tts-004.xhtml" id="tts-004" media-type="application/xhtml+xml"/>
-		<!-- secondary files -->
 		<!-- css -->
 		<item href="css/base.css" media-type="text/css" id="css"/>
-		<item href="css/svg.css" media-type="text/css" id="css-svg"/>
-		<item href="css/fonts.css" media-type="text/css" id="css-fonts"/>
-		<item href="css/styling.css" media-type="text/css" id="css-styling"/>
 		<item href="css/math.css" media-type="text/css" id="css-math"/>
-		<item href="css/speech.css" media-type="text/css" id="css-speech"/>
-		<item href="css/forms.css" media-type="text/css" id="css-forms"/>
+		<item href="css/svg.css" media-type="text/css" id="css-svg"/>
 		<!-- images -->
 		<item href="img/circle.jpg" id="img-001" media-type="image/jpeg"/>
 		<item href="img/Skype_logo.png" id="img-002" media-type="image/png"/>
-		<item href="img/purple-aqua-square-bullet.gif" id="img-003" media-type="image/gif"/>
-		<item href="img/button.png" id="img-004" media-type="image/png"/>
 		<item href="img/nonimage.xyz" id="img-005" media-type="image/xyz" fallback="img-006"/>
 		<item href="img/fallback.png" id="img-006" media-type="image/png"/>
 		<item href="img/check.png" id="img-007" media-type="image/png"/>
 		<item href="img/check.gif" id="img-008" media-type="image/gif"/>
 		<item href="img/check.jpg" id="img-009" media-type="image/jpeg"/>
-		<!-- fonts -->
-		<item id="font-woff" href="fonts/OldStandard-Regular.woff" media-type="application/font-woff"/>
-		<item id="font-otf" href="fonts/OldStandard-Regular.otf" media-type="application/vnd.ms-opentype"/>
-		<item id="font-ttf" href="fonts/OldStandard-Regular.ttf" media-type="application/vnd.ms-opentype"/>
-		<item id="font-woff-obf" href="fonts/OldStandard-Regular.obf.woff" media-type="application/font-woff"/>
-		<item id="font-otf-obf" href="fonts/OldStandard-Regular.obf.otf" media-type="application/vnd.ms-opentype"/>
-		<item id="font-ttf-obf" href="fonts/OldStandard-Regular.obf.ttf" media-type="application/vnd.ms-opentype"/>
 		<!-- audio -->
 		<item id="mp3-1" href="audio/allison64.mp3" media-type="audio/mpeg"/>
-		<item id="mp4-1" href="audio/allison64.mp4" media-type="audio/mp4"/>       
+		<item id="mp4-1" href="audio/allison64.mp4" media-type="audio/mp4"/>
 		<!-- video -->
 		<item id="webm-1" href="video/screencast.webm" media-type="audio/mpeg"/>
-		<item id="mp4-2" href="video/screencast.mp4" media-type="audio/mp4"/>       
-		<item id="vtt-2" href="video/tracks/screencast.vtt" media-type="text/vtt"/>       
+		<item id="mp4-2" href="video/screencast.mp4" media-type="audio/mp4"/>
+		<item id="vtt-2" href="video/tracks/screencast.vtt" media-type="text/vtt"/>
 		<item id="ttml-2" href="video/tracks/screencast.ttml" media-type="application/ttml+xml"/>
-		<!-- pls lexicons -->
-		<item href="pls/en-ipa.xml" id="pls-001" media-type="application/pls+xml"/>
-		<item href="pls/en-x-sampa.xml" id="pls-002" media-type="application/pls+xml"/>
-		<item href="pls/en-mixed.xml" id="pls-003" media-type="application/pls+xml"/>
-		<item href="pls/fr-ipa.xml" id="pls-004" media-type="application/pls+xml"/>
-		<item href="pls/fr-x-sampa.xml" id="pls-005" media-type="application/pls+xml"/>
-		<!-- slideshow -->
 		<item href="bindings/slideshow.xml" id="slideshow" media-type="application/x-demo-slideshow"/>
 	</manifest>
 	<spine>
@@ -159,29 +106,6 @@
 		<itemref idref="svg-002"/>
 		<itemref idref="svg-003"/>
 		<itemref idref="svg-004"/>
-		<itemref idref="css-001"/>
-		<itemref idref="css-002"/>
-		<itemref idref="css-003"/>
-		<itemref idref="css-004"/>
-		<itemref idref="css-005"/>
-		<itemref idref="css-006"/>
-		<itemref idref="css-007"/>
-		<itemref idref="scr-001"/>
-		<itemref idref="scr-002"/>
-		<itemref idref="scr-003"/>
-		<itemref idref="scr-004"/>
-		<itemref idref="scr-005"/>
-		<itemref idref="scr-006"/>
-		<itemref idref="canvas-001"/>
-		<itemref idref="forms-001"/>
-		<itemref idref="forms-002"/>
-		<itemref idref="fonts-001"/>
-		<itemref idref="fonts-002"/>
-		<itemref idref="fonts-003"/>
-		<itemref idref="tts-001"/>
-		<itemref idref="tts-002"/>
-		<itemref idref="tts-003"/>
-		<itemref idref="tts-004"/>
 	</spine>
 	<bindings>
 		<mediaType media-type="application/x-demo-slideshow" handler="binding"/>

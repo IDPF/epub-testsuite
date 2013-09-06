@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uid">
+	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+		<dc:identifier id="uid">com.github.epub-testsuite.epub30-test-0102</dc:identifier>
+		<dc:description>Tests for Scripting</dc:description>
+		<dc:title id="title">EPUB 3.0 Test Suite: Document 0102 [UNDER CONSTRUCTION]</dc:title>
+		<meta refines="title" property="title-type">main</meta>
+		<!-- repeat creator element for all contributors -->
+		<dc:creator id="creator1">Markus Gylling</dc:creator>
+		<dc:creator id="creator2">Vincent Gros</dc:creator>
+		<dc:creator id="creator3">Toshiaki Koike</dc:creator>
+		<dc:creator id="creator4">Marisa DeMeglio</dc:creator>
+		<dc:creator id="creator5">Matt Garrish</dc:creator>
+		<dc:creator id="creator6">Ori Idan</dc:creator>
+		<meta refines="#creator1" property="role" scheme="marc:relators">aut</meta>
+		<meta refines="#creator1" property="file-as">Gylling, Markus</meta>
+		<meta refines="#creator2" property="role" scheme="marc:relators">aut</meta>
+		<meta refines="#creator2" property="file-as">Gros, Vincent</meta>
+		<meta refines="#creator3" property="role" scheme="marc:relators">aut</meta>
+		<meta refines="#creator3" property="file-as">Koike, Toshiaki</meta>
+		<meta refines="#creator3" property="alternate-script" xml:lang="ja">小池利明</meta>
+		<meta refines="#creator4" property="role" scheme="marc:relators">aut</meta>
+		<meta refines="#creator4" property="file-as">DeMeglio, Marisa</meta>
+		<meta refines="#creator5" property="role" scheme="marc:relators">aut</meta>
+		<meta refines="#creator5" property="file-as">Garrish, Matt</meta>
+		<meta refines="#creator6" property="role" scheme="marc:relators">aut</meta>
+		<meta refines="#creator6" property="file-as">Idan, Ori</meta>
+		<dc:language>en</dc:language>
+		<dc:language>jp</dc:language>
+		<meta property="dcterms:modified">2013-09-05T13:00:00Z</meta>
+	</metadata>
+	<manifest>
+		<!-- frontmatter -->
+		<item href="xhtml/front.xhtml" id="front" media-type="application/xhtml+xml"/>
+		<item href="xhtml/nav.xhtml" id="nav" media-type="application/xhtml+xml" properties="nav"/>
+		<!-- bodymatter -->
+		<!-- scripting -->
+		<item href="xhtml/scripting-001.xhtml" id="scr-001" media-type="application/xhtml+xml"/>
+		<item href="xhtml/scripting-002.xhtml" id="scr-002" media-type="application/xhtml+xml" properties="scripted"/>
+		<item href="xhtml/scripting-003.xhtml" id="scr-003" media-type="application/xhtml+xml" properties="scripted"/>
+		<item href="xhtml/scripting-004.xhtml" id="scr-004" media-type="application/xhtml+xml" properties="scripted"/>
+		<item href="xhtml/scripting-005.xhtml" id="scr-005" media-type="application/xhtml+xml" properties="scripted"/>
+		<item href="xhtml/scripting-006.xhtml" id="scr-006" media-type="application/xhtml+xml" properties="scripted"/>
+		<item href="xhtml/scripting-006-inset.xhtml" id="scr-006-inset" media-type="application/xhtml+xml" properties="scripted"/>
+		<!-- canvas -->
+		<item href="xhtml/canvas-001.xhtml" id="canvas-001" media-type="application/xhtml+xml" properties="scripted"/>
+		<!-- forms -->
+		<!-- <item href="xhtml/forms-001.xhtml" id="forms-001" media-type="application/xhtml+xml" properties="scripted"/> -->
+		<item href="xhtml/forms-001.xhtml" id="forms-001" media-type="application/xhtml+xml"/>
+		<!-- <item href="xhtml/forms-002.xhtml" id="forms-002" media-type="application/xhtml+xml" properties="scripted"/> -->
+		<item href="xhtml/forms-002.xhtml" id="forms-002" media-type="application/xhtml+xml"/>
+
+		<!-- secondary files -->
+		<!-- css -->
+		<item href="css/base.css" media-type="text/css" id="css"/>
+		<item href="css/forms.css" media-type="text/css" id="css-forms"/>
+
+		<!-- images -->
+		<!-- <item href="img/circle.jpg" id="img-001" media-type="image/jpeg"/>
+		<item href="img/Skype_logo.png" id="img-002" media-type="image/png"/>
+		<item href="img/purple-aqua-square-bullet.gif" id="img-003" media-type="image/gif"/> -->
+		<item href="img/button.png" id="img-004" media-type="image/png"/>
+		<!--
+		<item href="img/nonimage.xyz" id="img-005" media-type="image/xyz" fallback="img-006"/>
+		<item href="img/fallback.png" id="img-006" media-type="image/png"/>
+		<item href="img/check.png" id="img-007" media-type="image/png"/>
+		<item href="img/check.gif" id="img-008" media-type="image/gif"/>
+		<item href="img/check.jpg" id="img-009" media-type="image/jpeg"/>
+		-->
+
+	</manifest>
+	<spine>
+		<itemref idref="front"/>
+		<itemref idref="nav" linear="no"/>
+		<itemref idref="scr-001"/>
+		<itemref idref="scr-002"/>
+		<itemref idref="scr-003"/>
+		<itemref idref="scr-004"/>
+		<itemref idref="scr-005"/>
+		<itemref idref="scr-006"/>
+		<itemref idref="canvas-001"/>
+		<itemref idref="forms-001"/>
+		<itemref idref="forms-002"/>
+	</spine>
+</package>
