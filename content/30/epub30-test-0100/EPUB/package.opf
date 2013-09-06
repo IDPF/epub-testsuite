@@ -52,11 +52,9 @@
 		<item href="xhtml/content-svg-002.xhtml" id="xhtml-svg-002" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="xhtml/content-svg-003.xhtml" id="xhtml-svg-003" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="xhtml/content-svg-004.xhtml" id="xhtml-svg-004" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="xhtml/svg-doc-001.xhtml" id="svg-001" media-type="application/xhtml+xml"/>
 		<item href="svg/circle.svg" id="svg-circle" media-type="image/svg+xml"/>
-		<item href="svg/content-svg-001.svg" id="svg-001" media-type="image/svg+xml"/>
-		<item href="svg/content-svg-002.svg" id="svg-002" media-type="image/svg+xml"/>
-		<item href="svg/content-svg-003.svg" id="svg-003" media-type="image/svg+xml"/>
-		<item href="svg/content-svg-004.svg" id="svg-004" media-type="image/svg+xml"/>
+		<item href="svg/content-svg-001.svg" id="svg-002" media-type="image/svg+xml"/>
 		<!-- fallbacks -->
 		<item href="xhtml/content-fallbacks-001.xhtml" id="fb-001" media-type="application/xhtml+xml"/>
 		<item href="xhtml/content-switch-001.xhtml" id="fb-002" media-type="application/xhtml+xml" properties="switch mathml"/>
@@ -104,8 +102,6 @@
 		<itemref idref="fb-003"/>
 		<itemref idref="svg-001"/>
 		<itemref idref="svg-002"/>
-		<itemref idref="svg-003"/>
-		<itemref idref="svg-004"/>
 	</spine>
 	<bindings>
 		<mediaType media-type="application/x-demo-slideshow" handler="binding"/>
