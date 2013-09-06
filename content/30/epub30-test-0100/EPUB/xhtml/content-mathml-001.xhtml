@@ -12,9 +12,9 @@
     		<section id="mathml-010" class="ctest">
     			<h2><span class="nature">[REQUIRED]</span>
     				<span class="test-id">mathml-010</span> Rendering</h2>
-    			
+
     			<p class="desc">Tests whether MathML equation rendering is supported.</p>
-    			
+
     			<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
     				<msubsup>
     					<mo>&#x222B;<!-- ∫ --></mo>
@@ -97,17 +97,17 @@
     					</mrow>
     				</mfrac>
     			</math>
-    			
+
     			<p class="eval">If the preceding equations are not presented as linear text (e.g., x=-b±b2-4ac2a),
     				the test passes.</p>
     		</section>
-    		
+
     		<section id="mathml-020" class="otest">
     			<h2><span class="nature">[OPTIONAL]</span>
-    				<span class="test-id">mathml-020</span> CSS Styling</h2>
-    			
-    			<p class="desc">Tests whether basic CSS styling of MathML is supported.</p>
-    			
+    				<span class="test-id">mathml-020</span> CSS Styling of the <code>math</code> element</h2>
+
+    			<p class="desc">Tests whether basic CSS styling of MathML is supported on the <code>math</code> element.</p>
+
     			<math class="basic" xmlns="http://www.w3.org/1998/Math/MathML">
     				<mrow>
     					<mn>2</mn>
@@ -121,22 +121,93 @@
     					<mi>z</mi>
     				</mrow>
     			</math>
-    			
-    			<p class="eval">The test passes if all of the following are true:</p>
-    			<ul>
-    				<li>The equation will have a dashed border and a yellow background if styling of the
-    					<code>math</code> element is supported.</li>
-    				<li>The operators will be enlarged relative to the other symbols and numbers if styling
-    					of the <code>mo</code> element is supported.</li>
-    				<li>The identifiers will be bolded and blue if styling of the <code>mi</code> element is
-    					supported.</li>
-    				<li>The number 2 will be italicized and yellow if styling of the <code>mn</code> element
-    					is supported.</li>
-    			</ul>
-    			
+
+    			<p class="eval">The test passes if the equation has a dashed border and a yellow background.</p>
+
     			<p class="conditional">If the reading system does not have a viewport, or does not support
     				CSS styles, this test should be marked <code>N/A</code>.</p>
     		</section>
+
+            <section id="mathml-021" class="otest">
+                <h2><span class="nature">[OPTIONAL]</span>
+                    <span class="test-id">mathml-021</span> CSS Styling of the <code>mo</code> element</h2>
+
+                <p class="desc">Tests whether basic CSS styling of MathML is supported on the <code>mo</code> element.</p>
+
+                <math class="basic" xmlns="http://www.w3.org/1998/Math/MathML">
+                    <mrow>
+                        <mn>2</mn>
+                        <mo class="test"> &#x2061;<!--INVISIBLE TIMES--></mo>
+                        <mi>x</mi>
+                    </mrow>
+                    <mrow>
+                        <mo class="test">+</mo>
+                        <mi>y</mi>
+                        <mo class="test">-</mo>
+                        <mi>z</mi>
+                    </mrow>
+                </math>
+
+                <p class="eval">The test passes if the operators are enlarged relative to the other symbols and numbers.</p>
+
+                <p class="conditional">If the reading system does not have a viewport, or does not support
+                    CSS styles, this test should be marked <code>N/A</code>.</p>
+            </section>
+
+            <section id="mathml-022" class="otest">
+                <h2><span class="nature">[OPTIONAL]</span>
+                    <span class="test-id">mathml-022</span> CSS Styling of the <code>mi</code> element</h2>
+
+                <p class="desc">Tests whether basic CSS styling of MathML is supported on the <code>mi</code> element.</p>
+
+                <math class="basic" xmlns="http://www.w3.org/1998/Math/MathML">
+                    <mrow>
+                        <mn>2</mn>
+                        <mo> &#x2061;<!--INVISIBLE TIMES--></mo>
+                        <mi class="test">x</mi>
+                    </mrow>
+                    <mrow>
+                        <mo>+</mo>
+                        <mi class="test">y</mi>
+                        <mo>-</mo>
+                        <mi class="test">z</mi>
+                    </mrow>
+                </math>
+
+                <p class="eval">The test passes if the identifiers are bolded and blue.</p>
+
+                <p class="conditional">If the reading system does not have a viewport, or does not support
+                    CSS styles, this test should be marked <code>N/A</code>.</p>
+            </section>
+
+            <section id="mathml-023" class="otest">
+                <h2><span class="nature">[OPTIONAL]</span>
+                    <span class="test-id">mathml-023</span> CSS Styling of the <code>mn</code> element</h2>
+
+                <p class="desc">Tests whether basic CSS styling of MathML is supported on the <code>mn</code> element.</p>
+
+                <math class="basic" xmlns="http://www.w3.org/1998/Math/MathML">
+                    <mrow>
+                        <mn class="test">2</mn>
+                        <mo> &#x2061;<!--INVISIBLE TIMES--></mo>
+                        <mi class="test">x</mi>
+                    </mrow>
+                    <mrow>
+                        <mo>+</mo>
+                        <mi>y</mi>
+                        <mo>-</mo>
+                        <mi>z</mi>
+                    </mrow>
+                </math>
+
+                <p class="eval">The test passes if the number 2 is italicized and yellow.</p>
+
+                <p class="conditional">If the reading system does not have a viewport, or does not support
+                    CSS styles, this test should be marked <code>N/A</code>.</p>
+            </section>
+
+
+
     	</section>
     </body>
 </html>

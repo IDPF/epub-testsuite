@@ -8,16 +8,16 @@ m|math.basic {
 	padding: 0.2em;
 }
 
-m|math.basic mo {
+m|math.basic mo.test {
 	font-size: 150%;
 }
 
-m|math.basic mi {
+m|math.basic mi.test {
 	font-weight: bold;
 	color: rgb(0,0,250);
 }
 
-m|math.basic mn {
+m|math.basic mn.test {
 	font-style: italic;
 	color: rgb(255,255,224);
 }
