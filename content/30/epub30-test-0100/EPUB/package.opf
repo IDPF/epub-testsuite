@@ -56,6 +56,7 @@
 		<item href="svg/circle.svg" id="svg-circle" media-type="image/svg+xml"/>
 		<item href="svg/content-svg-001.svg" id="svg-002" media-type="image/svg+xml"/>
 		<!-- fallbacks -->
+		<item href="xhtml/content-fallbacks.xhtml" id="fb-000" media-type="application/xhtml+xml"/>
 		<item href="xhtml/content-fallbacks-001.xhtml" id="fb-001" media-type="application/xhtml+xml"/>
 		<item href="xhtml/content-switch-001.xhtml" id="fb-002" media-type="application/xhtml+xml" properties="switch mathml"/>
 		<item href="xhtml/content-bindings-001.xhtml" id="fb-003" media-type="application/xhtml+xml"/>
@@ -86,20 +87,21 @@
 		<itemref idref="front"/>
 		<itemref idref="nav" linear="no"/>
 		<itemref idref="xhtml-001"/>
+		<itemref idref="xhtml-002"/>
 		<itemref idref="xhtml-img-001"/>
 		<itemref idref="xhtml-multi-001"/>
 		<itemref idref="xhtml-multi-002"/>
 		<itemref idref="xhtml-multi-003"/>
-		<itemref idref="xhtml-002"/>
 		<itemref idref="xhtml-ns-001"/>
 		<itemref idref="xhtml-mathml-001"/>
 		<itemref idref="xhtml-svg-001"/>
 		<itemref idref="xhtml-svg-002"/>
 		<itemref idref="xhtml-svg-003"/>
 		<itemref idref="xhtml-svg-004"/>
+		<itemref idref="fb-000"/>
+		<itemref idref="fb-003"/>
 		<itemref idref="fb-001"/>
 		<itemref idref="fb-002"/>
-		<itemref idref="fb-003"/>
 		<itemref idref="svg-001"/>
 		<itemref idref="svg-002"/>
 	</spine>
