@@ -13,9 +13,9 @@
 	  <dc:language>en</dc:language>
       <meta property="dcterms:modified">2013-02-14T13:00:00Z</meta>
       <meta property="media:active-class">-epub-media-overlay-active</meta>
-      
+
       <meta property="rendition:layout">pre-paginated</meta>
-      
+
       <meta property="media:duration" refines="#smil-1">00:01:15.336</meta>
       <meta property="media:duration" refines="#smil-2">00:00:51.591</meta>
       <meta property="media:duration" refines="#smil-3">00:00:51.996</meta>
@@ -25,14 +25,15 @@
       <meta property="media:duration">00:07:54.781</meta>
    </metadata>
    <manifest>
-       
+
       <!-- front matter -->
    	  <item href="xhtml/front.xhtml" id="front" media-type="application/xhtml+xml"/>
    	  <item href="xhtml/nav.xhtml" id="nav" media-type="application/xhtml+xml" properties="nav"/>
-   
+
    	  <!-- xhtml -->
       <item id="xhtml-001" href="xhtml/intro.xhtml" media-type="application/xhtml+xml"/>
       <item id="xhtml-002" href="xhtml/basic_tests.xhtml" media-type="application/xhtml+xml" media-overlay="smil-1"/>
+      <item id="xhtml-002a" href="xhtml/basic_tests2.xhtml" media-type="application/xhtml+xml" media-overlay="smil-1"/>
       <item id="xhtml-003" href="xhtml/navigation_tests.xhtml"  media-type="application/xhtml+xml" media-overlay="smil-2"/>
       <item id="xhtml-004" href="xhtml/more_navigation_tests.xhtml" media-type="application/xhtml+xml" media-overlay="smil-3"/>
       <item id="xhtml-005" href="xhtml/moby1.xhtml" media-type="application/xhtml+xml" media-overlay="smil-4"/>
@@ -40,17 +41,17 @@
       <item id="xhtml-007" href="xhtml/one_mo_multiple_pages1.xhtml" media-type="application/xhtml+xml" media-overlay="smil-6"/>
       <item id="xhtml-008" href="xhtml/one_mo_multiple_pages2.xhtml" media-type="application/xhtml+xml" media-overlay="smil-6"/>
       <item id="xhtml-last" href="xhtml/end.xhtml" media-type="application/xhtml+xml"/>
-	
+
       <!-- css -->
       <item href="css/base.css" media-type="text/css" id="css"/>
-	  
+
       <!-- audio -->
       <item id="mp3-1" href="audio/basic_tests.mp3" media-type="audio/mpeg"/>
       <item id="mp3-2" href="audio/navigation_tests.mp3" media-type="audio/mpeg"/>
       <item id="mp3-3" href="audio/more_navigation_tests.mp3" media-type="audio/mpeg"/>
       <item id="mp3-4" href="audio/mobydick_001_002_melville.mp4" media-type="audio/mp4"/>
       <item id="mp3-5" href="audio/one_mo_multiple_pages.mp3" media-type="audio/mpeg"/>
-      
+
       <!-- media overlays -->
       <item id="smil-1" href="mo/basic_tests.smil" media-type="application/smil+xml"/>
       <item id="smil-2" href="mo/navigation_tests.smil" media-type="application/smil+xml"/>
@@ -58,13 +59,14 @@
       <item id="smil-4" href="mo/moby1.smil" media-type="application/smil+xml"/>
       <item id="smil-5" href="mo/moby2.smil" media-type="application/smil+xml"/>
       <item id="smil-6" href="mo/one_mo_multiple_pages.smil" media-type="application/smil+xml"/>
-       
+
    </manifest>
    <spine>
    	  <itemref idref="front"/>
    	  <itemref idref="nav" linear="no"/>
       <itemref idref="xhtml-001"/>
       <itemref idref="xhtml-002"/>
+      <itemref idref="xhtml-002a"/>
       <itemref idref="xhtml-003"/>
       <itemref idref="xhtml-004"/>
       <itemref idref="xhtml-005"/>
