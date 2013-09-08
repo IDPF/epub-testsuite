@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uid">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">com.github.epub-testsuite.epub30-test-0140</dc:identifier>
-		<dc:description>Tests for EPUB Content Fragment Identifiers</dc:description>
-		<dc:title id="title">EPUB 3.0 Test Suite: Document 0140 [UNDER CONSTRUCTION]</dc:title>
+		<dc:description>Tests for EPUB Content Fragment Identifiers [UNDER CONSTRUCTION]</dc:description>
+		<dc:title id="title">EPUB 3.0 Test Suite: Document 0140</dc:title>
 		<meta refines="title" property="title-type">main</meta>
 		<!-- repeat creator element for all contributors -->
 		<dc:creator id="creator1">Matt Garrish</dc:creator>
@@ -17,7 +17,7 @@
 		<item href="xhtml/front.xhtml" id="front" media-type="application/xhtml+xml"/>
 		<item href="xhtml/nav.xhtml" id="nav" media-type="application/xhtml+xml" properties="nav"/>
 		<!-- bodymatter -->
-		<!-- epubcfi -->  
+		<!-- epubcfi -->
 		<item href="xhtml/epubcfi-001.xhtml" id="cfi-001" media-type="application/xhtml+xml"/>
 		<item href="xhtml/epubcfi-002.xhtml" id="cfi-002" media-type="application/xhtml+xml"/>
 		<item href="xhtml/epubcfi-003.xhtml" id="cfi-003" media-type="application/xhtml+xml"/>
@@ -31,7 +31,7 @@
 		<item id="mp3-1" href="audio/allison64.mp3" media-type="audio/mpeg"/>
 		<!-- video -->
 		<item id="webm-1" href="video/screencast.webm" media-type="audio/mpeg"/>
-		<item id="mp4-2" href="video/screencast.mp4" media-type="audio/mp4"/>       
+		<item id="mp4-2" href="video/screencast.mp4" media-type="audio/mp4"/>
 	</manifest>
 	<spine>
 		<itemref idref="front"/>

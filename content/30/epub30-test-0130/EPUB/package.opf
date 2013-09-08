@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uid">
    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
       <dc:identifier id="uid">com.github.epub-testsuite.epub30-test-0130</dc:identifier>
-   	  <dc:description>Tests for right-to-left page progression and vertical writing mode languages in a reflowable context</dc:description>
-   	  <dc:title id="title">EPUB 3.0 Test Suite: Document 0130 page-progression-direction:rtl [UNDER CONSTRUCTION]</dc:title>
+   	  <dc:description>Tests for right-to-left page progression and vertical writing mode languages in a reflowable context [UNDER CONSTRUCTION]</dc:description>
+   	  <dc:title id="title">EPUB 3.0 Test Suite: Document 0130</dc:title>
 	  <meta refines="title" property="title-type">main</meta>
       <!-- repeat creator element for all contributors -->
       <dc:creator id="creator1">Markus Gylling</dc:creator>
