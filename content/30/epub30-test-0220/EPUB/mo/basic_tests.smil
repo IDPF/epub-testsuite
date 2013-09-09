@@ -37,27 +37,27 @@
       <audio src="../audio/basic_tests.mp3" clipBegin="00:00:43.640" clipEnd="00:00:52.017"/>
     </par>
     <par>
-      <text src="../xhtml/basic_tests.xhtml#mo-10"/>
+      <text src="../xhtml/basic_tests2.xhtml#mo-10"/>
       <audio src="../audio/basic_tests.mp3" clipBegin="00:00:52.017" clipEnd="00:00:53.216"/>
     </par>
     <par>
-      <text src="../xhtml/basic_tests.xhtml#mo-11"/>
+      <text src="../xhtml/basic_tests2.xhtml#mo-11"/>
       <audio src="../audio/basic_tests.mp3" clipBegin="00:00:53.216" clipEnd="00:00:59.014"/>
     </par>
     <par>
-      <text src="../xhtml/basic_tests.xhtml#mo-12"/>
+      <text src="../xhtml/basic_tests2.xhtml#mo-12"/>
       <audio src="../audio/basic_tests.mp3" clipBegin="00:00:59.014" clipEnd="00:01:00.063"/>
     </par>
     <par>
-      <text src="../xhtml/basic_tests.xhtml#mo-13"/>
+      <text src="../xhtml/basic_tests2.xhtml#mo-13"/>
       <audio src="../audio/basic_tests.mp3" clipBegin="00:01:00.063" clipEnd="00:01:07.787"/>
     </par>
     <par>
-      <text src="../xhtml/basic_tests.xhtml#mo-14"/>
+      <text src="../xhtml/basic_tests2.xhtml#mo-14"/>
       <audio src="../audio/basic_tests.mp3" clipBegin="00:01:07.787" clipEnd="00:01:09.912"/>
     </par>
     <par>
-      <text src="../xhtml/basic_tests.xhtml#mo-15"/>
+      <text src="../xhtml/basic_tests2.xhtml#mo-15"/>
       <audio src="../audio/basic_tests.mp3" clipBegin="00:01:09.912" clipEnd="00:01:15.336"/>
     </par>
   </body>
