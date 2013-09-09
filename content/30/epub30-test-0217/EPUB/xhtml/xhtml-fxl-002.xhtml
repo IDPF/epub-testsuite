@@ -7,12 +7,13 @@
 		<meta name="viewport" content="width=900, height=600"/>
 	</head>
 	<body>
-		<section id="fxl-180" class="ctest">
+		<section id="fxl-170" class="ctest">
 			<h2><span class="nature">[REQUIRED]</span>
-				<span class="test-id">fxl-180</span>fixed format wt some pages changing orientation</h2>
-			<p class="desc">Tests that when the fixed format properties have orientation=landscape, and subsequent pages are set to portrait or landscape, the pages render correctly.</p>
-			<p class="eval">When the reading device is  held with a landscape orientation, page 2 should render as one page in landscape mode on the left, and page 3 should render as one page in portrait mode on the right.  Pages 4 though 7 should render in landscape mode, with contiguous spreads each holding two pages. Page 8 should render in portrait mode on the left and page 9 in landscape mode on the right. Pages 10 and 11 should render in landscape mode in a two page contiguous spread.</p>
-			<p>When the reading device is  held with a portrait orientation, it is up to the design of the reading device how landscape spreads will be rendered.  It is legitimate to either display them as individual pages or as two page spreads in landscape mode.  So pages 3 and 8 should display in portrait mode, and pages 4 through 7 and 9 through 11 should display in landscape mode according to the device spec.</p>
+				<span class="test-id">fxl-170</span>fixed format wt PPD=rtl and page4.page-spread-left</h2>
+			<p class="desc">Tests that when the fixed format properties are set so that the page progression direction is right to left, and page 4 is set to page-spread-left, all the page renders correctly.</p>
+			<p class="eval">These pages should be displayed so when the user pages from the beginning to the end, he or she pages from the right to the left.</p>
+			<p>When the reading device is  held with a landscape orientation, this current page should be on the right hand side, while the page labelled "Page 3" should be blank and to the left of the contiguous two page spread. Paging to the next page should display "Page 4" on the left, and a blank page on the right of the contiguous two page spread. Continuing to page should display "Page 6" on the left and "Page 5" on the right of the next contiguous two page spread, then "Page 8" on the left and "Page 7" on the right of the next contiguous two page spread, then "Page 10" on the left and "Page 9" on the right of the next contiguous two page spread, then a single page displaying "Page 11" on the right.</p>
+			<p>When the reading device is  held with a portrait orientation, paging from the beginning to the end, that is, the right-most page to the left-most page, after displaying this current page, the device should display single individual pages sequentially numbered from 3 to 11.</p>
 		</section>
 	</body>
 </html>

@@ -4,16 +4,13 @@
 	<head>
 		<meta charset="utf-8" />
 		<link rel="stylesheet" type="text/css" href="../css/base.css" />
-		<meta name="viewport" content="width=900, height=600"/>
 	</head>
 	<body>
-		<section id="fxl-160" class="ctest">
+		<section id="fxl-190" class="ctest">
 			<h2><span class="nature">[REQUIRED]</span>
-				<span class="test-id">fxl-160</span>0200 fixed format wt def spread=landscape wt some pages wt reflow overrides and a page wt spread=none override</h2>
-			<p class="desc">Tests that when the fixed format opf properties are set to orientation=landscape, pages 3 and 6 are overriden as reflowable, and page 8 has page-spread=none, the pages render correctly.</p>
-			<p class="eval">When the reading device is  held with a landscape orientation, all the pages should display in landscape mode, with contiguous two page spreads each showing two pages. Page 8 has a page-spread=none override, so it should be on the left, and Page 9 on the right.</p>
-			<p>When the reading device is held with a portrait orientation, all the pages should display in portrait mode.  The pages should be numbered sequentially and displayed individually.</p>
-			<p>In both device orientations, Page 3 should contain a fragment of Moby Dick in 'reflowable' mode, so you should be able to change the font size via an available font size control.  Page 6 should display several pages of Moby Dick, so there should be both a font size control and a scroll bar available.</p>
+				<span class="test-id">fxl-190</span>reflowable wt some pages wt fixed format overrides</h2>
+			<p class="desc">Tests that when the .opf is set to be reflowable, and some pages have fixed format property overrides, the pages render correctly</p>
+			<p class="eval">The pages with default values of reflowable should have a font resize control available in them.  So paging through the document, you should see the font resize control available on Pages 1, 2, 4, 5, 8, 9, and 11.  Pages 3, 6, 7, and 10 should have no font size control.  Pages 6 and 7 form the left and right sides of contiguous 2 page spread when the reading device is held in landscape mode, and display as per the reading device spec when in the device is held in portrait mode. Page 10 should display in portrait mode regardless of how the reading device is held.</p>
 		</section>
 	</body>
 </html>

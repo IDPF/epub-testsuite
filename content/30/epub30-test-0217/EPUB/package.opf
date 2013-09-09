@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uid" prefix="rendition: http://www.idpf.org/vocab/rendition/#">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
-		<dc:identifier id="uid">com.github.epub-testsuite.epub30-test-0217</dc:identifier>
-		<dc:description>Fixed format wt some pages changing orientation [UNDER CONSTRUCTION]</dc:description>
+		<dc:identifier id="uid">com.github.epub-testsuite.3 epub30-test-0217</dc:identifier>
+		<dc:description>Fixed format wt PPD=rtl and a page spread left [UNDER CONSTRUCTION]</dc:description>
 		<dc:title id="title">EPUB 3.0 Test Suite: Document 0217</dc:title>
 		<meta refines="title" property="title-type">main</meta>
 		<!-- repeat creator element for all contributors -->
@@ -15,7 +15,6 @@
 		<dc:language>en</dc:language>
 		<meta property="rendition:layout">pre-paginated</meta>
 		<meta property="dcterms:modified">2013-07-31T15:25:12Z</meta>
-		<meta property="rendition:spread">landscape</meta>
 	</metadata>
 	<manifest>
 		<!-- frontmatter -->
@@ -42,17 +41,17 @@
 		<!-- audio -->
 		<!-- video -->
 	</manifest>
-	<spine>
+	<spine page-progression-direction="rtl">
 		<itemref idref="front"/>
 		<itemref idref="nav"/>
 		<itemref idref="xhtml-001"/>
 		<itemref idref="xhtml-002"/>
-		<itemref idref="xhtml-003" properties="rendition:orientation-portrait"/>
-		<itemref idref="xhtml-004"/>
+		<itemref idref="xhtml-003"/>
+		<itemref idref="xhtml-004" properties="page-spread-left"/>
 		<itemref idref="xhtml-005"/>
-		<itemref idref="xhtml-006" properties="rendition:orientation-landscape"/>
+		<itemref idref="xhtml-006"/>
 		<itemref idref="xhtml-007"/>
-		<itemref idref="xhtml-008" properties="rendition:orientation-portrait"/>
+		<itemref idref="xhtml-008"/>
 		<itemref idref="xhtml-009"/>
 		<itemref idref="xhtml-010"/>
 		<itemref idref="xhtml-011"/>

@@ -56,8 +56,8 @@
 		<itemref idref="front"/>
 		<itemref idref="nav" linear="no"/>
 		<itemref idref="css-001"/>
-		<itemref idref="css-002"/>
 		<itemref idref="css-003"/>
+		<itemref idref="css-002"/>
 		<itemref idref="css-004"/>
 		<itemref idref="css-005"/>
 		<itemref idref="css-006"/>
