@@ -258,6 +258,159 @@
 
             </section>
 
+            <section id="mathml-025" class="ctest">
+                <h2><span class="nature">[REQUIRED]</span>
+                    <span class="test-id">mathml-025</span>Testing <code>mtable</code> with <code>colspan</code> and <code>rowspan</code> attributes, Hebrew and Script fonts</h2>
+
+                <p class="desc">Tests whether <code>mtable</code> with <code>colspan</code> and <code>mspace</code> attributes (colum and row spanning) are supported; uses Hebrew and Script alphabets.</p>
+
+                <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+                  <mrow>
+                    <mtable>
+                      <mtr>
+                        <mtd columnspan="2" />
+                        <mtd>
+                          <mo>cov</mo>
+                          <mfenced>
+                            <mi>&#x2112;</mi>
+                          </mfenced>
+                        </mtd>
+                        <mtd>
+                          <mo>&#x27F6;</mo>
+                        </mtd>
+                        <mtd>
+                          <mo>non</mo>
+                          <mfenced>
+                            <mi>&#x1D4A6;</mi>
+                          </mfenced>
+                        </mtd>
+                        <mtd>
+                          <mo>&#x27F6;</mo>
+                        </mtd>
+                        <mtd>
+                          <mo>cof</mo>
+                          <mfenced>
+                            <mi>&#x1D4A6;</mi>
+                          </mfenced>
+                        </mtd>
+                        <mtd>
+                          <mo>&#x27F6;</mo>
+                        </mtd>
+                        <mtd>
+                          <mo>cof</mo>
+                          <mfenced>
+                            <mi>&#x2112;</mi>
+                          </mfenced>
+                        </mtd>
+                        <mtd>
+                          <mo>&#x27F6;</mo>
+                        </mtd>
+                        <mtd>
+                          <msup>
+                            <mn>2</mn>
+                            <msub>
+                              <mi>&#x2135;</mi>
+                              <mn>0</mn>
+                            </msub>
+                          </msup>
+                        </mtd>
+                      </mtr>
+                      <mtr>
+                        <mtd columnspan="2" />
+                        <mtd rowspan="3">
+                          <mo>&#x2191;</mo>
+                        </mtd>
+                        <mtd />
+                        <mtd>
+                          <mo>&#x2191;</mo>
+                        </mtd>
+                        <mtd />
+                        <mtd>
+                          <mo>&#x2191;</mo>
+                        </mtd>
+                        <mtd />
+                        <mtd rowspan="3">
+                          <mo>&#x2191;</mo>
+                        </mtd>
+                        <mtd columnspan="2" />
+                      </mtr>
+                      <mtr>
+                        <mtd columnspan="4" />
+                        <mtd>
+                          <mi>&#x1D51F;</mi>
+                        </mtd>
+                        <mtd>
+                          <mo>&#x27F6;</mo>
+                        </mtd>
+                        <mtd>
+                          <mi>&#x1D521;</mi>
+                        </mtd>
+                        <mtd columnspan="5" />
+                      </mtr>
+                      <mtr>
+                        <mtd columnspan="4" />
+                        <mtd>
+                          <mo>&#x2191;</mo>
+                        </mtd>
+                        <mtd />
+                        <mtd>
+                          <mo>&#x2191;</mo>
+                        </mtd>
+                        <mtd columnspan="5" />
+                      </mtr>
+                      <mtr>
+                        <mtd>
+                          <msub>
+                            <mi>&#x2135;</mi>
+                            <mn>1</mn>
+                          </msub>
+                        </mtd>
+                        <mtd>
+                          <mo>&#x27F6;</mo>
+                        </mtd>
+                        <mtd>
+                          <mo>add</mo>
+                          <mfenced>
+                            <mi>&#x2112;</mi>
+                          </mfenced>
+                        </mtd>
+                        <mtd>
+                          <mo>&#x27F6;</mo>
+                        </mtd>
+                        <mtd>
+                          <mo>add</mo>
+                          <mfenced>
+                            <mi>&#x1D4A6;</mi>
+                          </mfenced>
+                        </mtd>
+                        <mtd>
+                          <mo>&#x27F6;</mo>
+                        </mtd>
+                        <mtd>
+                          <mo>cov</mo>
+                          <mfenced>
+                            <mi>&#x1D4A6;</mi>
+                          </mfenced>
+                        </mtd>
+                        <mtd>
+                          <mo>&#x27F6;</mo>
+                        </mtd>
+                        <mtd>
+                          <mo>non</mo>
+                          <mfenced>
+                            <mi>&#x2112;</mi>
+                          </mfenced>
+                        </mtd>
+                        <mtd columnspan="2" />
+                      </mtr>
+                    </mtable>
+                  </mrow>
+                </math>
+
+                <p class="eval">The test passes if the rendering looks like <a href="http://en.wikipedia.org/wiki/Cicho%C5%84's_diagram">Cichoń's Diagram</a>: <img src="../img/cichons_diagram.png" alt="rendering of Cichoń's diagram."/>.</p>
+
+            </section>
+
 
     	</section>
     </body>
