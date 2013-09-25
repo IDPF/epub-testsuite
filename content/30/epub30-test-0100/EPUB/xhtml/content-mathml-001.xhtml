@@ -412,6 +412,161 @@
             </section>
 
 
+            <section id="mathml-026" class="ctest">
+                <h2><span class="nature">[REQUIRED]</span>
+                    <span class="test-id">mathml-026</span>BiDi, RTL and Arabic alphabets</h2>
+
+                <p class="desc">Tests whether right-to-left and Arabic alphabets are supported.</p>
+
+                <math xmlns="http://www.w3.org/1998/Math/MathML" dir="rtl" display="block">
+                      <mrow>
+                        <mrow>
+                          <mi>د</mi>
+                          <mo>⁡</mo>
+                          <mrow>
+                            <mo>(</mo>
+                            <mi>س</mi>
+                            <mo>)</mo>
+                          </mrow>
+                        </mrow>
+                        <mo>=</mo>
+                        <mrow>
+                          <mo>{</mo>
+                          <mtable>
+                            <mtr>
+                              <mtd>
+                                <mrow>
+                                  <munderover>
+                                    <mo movablelimits="false">∑</mo>
+                                    <mrow>
+                                      <mi>ٮ</mi>
+                                      <mo>=</mo>
+                                      <mn>1</mn>
+                                    </mrow>
+                                    <mi>ص</mi>
+                                  </munderover>
+                                  <mo>⁡</mo>
+                                  <msup>
+                                    <mi>س</mi>
+                                    <mi>ٮ</mi>
+                                  </msup>
+                                </mrow>
+                              </mtd>
+                              <mtd>
+                                <mrow>
+                                  <mtext>إذاكان </mtext>
+                                  <mi>س</mi>
+                                  <mo>&gt;</mo>
+                                  <mn>0</mn>
+                                </mrow>
+                              </mtd>
+                            </mtr>
+                            <mtr>
+                              <mtd>
+                                <mrow>
+                                  <msubsup>
+                                    <mo>∫</mo>
+                                    <mn>1</mn>
+                                    <mi>ص</mi>
+                                  </msubsup>
+                                  <mo>⁡</mo>
+                                  <mrow>
+                                    <msup>
+                                      <mi>س</mi>
+                                      <mi>ٮ</mi>
+                                    </msup>
+                                    <mo>⁢</mo>
+                                    <mi>ء</mi>
+                                    <mo>⁡</mo>
+                                    <mi>س</mi>
+                                  </mrow>
+                                </mrow>
+                              </mtd>
+                              <mtd>
+                                <mrow>
+                                  <mtext>إذاكان </mtext>
+                                  <mi>س</mi>
+                                  <mo>∈</mo>
+                                  <mi>م</mi>
+                                </mrow>
+                              </mtd>
+                            </mtr>
+                            <mtr>
+                              <mtd>
+                                <mrow>
+                                  <mi>طا</mi>
+                                  <mo>⁡</mo>
+                                  <mi>π</mi>
+                                </mrow>
+                              </mtd>
+                              <mtd>
+                                <mrow>
+                                  <mtext>غيرذلك </mtext>
+                                  <mrow>
+                                    <mo>(</mo>
+                                    <mtext>مع</mtext>
+                                    <mi>π</mi>
+                                    <mo>≃</mo>
+                                    <mn>3,141</mn>
+                                    <mo>)</mo>
+                                  </mrow>
+                                </mrow>
+                              </mtd>
+                            </mtr>
+                          </mtable>
+                        </mrow>
+                      </mrow>
+                    </math>
+
+
+                <p class="eval">The test passes if the rendering looks like the following image: <img src="../img/Maghreb1.png" alt="a piecewise defined function in Maghreb-style notation"/>.</p>
+
+            </section>
+
+
+            <section id="mathml-027" class="ctest">
+                <h2><span class="nature">[REQUIRED]</span>
+                    <span class="test-id">mathml-027</span>Elementary math: long division notation</h2>
+
+                <p class="desc">Tests whether <code>mlongdiv</code> elements (from elementary math) are supported.</p>
+
+                <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <mlongdiv longdivstyle="lefttop">
+                  <mn> 3 </mn>
+                  <mn> 435.3</mn>
+                  <mn> 1306</mn>
+                  <msgroup position="2" shift="-1">
+                    <msgroup>
+                      <mn> 12</mn>
+                      <msline length="2"/>
+                    </msgroup>
+                    <msgroup>
+                      <mn> 10</mn>
+                      <mn> 9</mn>
+                      <msline length="2"/>
+                    </msgroup>
+                    <msgroup>
+                      <mn> 16</mn>
+                      <mn> 15</mn>
+                      <msline length="2"/>
+                      <mn> 1.0</mn>           <!-- aligns on '.', not the right edge ('0') -->
+                    </msgroup>
+                    <msgroup position="-1">   <!-- extra shift to move to the right of the "." -->
+                      <mn> 9</mn>
+                      <msline length="3"/>
+                      <mn> 1</mn>
+                    </msgroup>
+                  </msgroup>
+                </mlongdiv>
+
+                </math>
+
+
+                <p class="eval">The test passes if the rendering looks like the following image: <img src="../img/ElementaryMathExample.png" alt="A long division dividing 1306 by 3, presented in 'lefttop' (US) notation"/>.</p>
+
+            </section>
+
+
     	</section>
     </body>
 </html>
