@@ -7,23 +7,23 @@
     </head>
     <body class="normalpage">
         <section id="character-rtl-070" class="ctest">
-        	<h2 class="chapter"><span class="nature">[REQUIRED]</span> <span class="test-id">character-rtl-070</span> 全角算術記号の<code>text-orientation:upright</code>指定／ <code>text-orientation:upright</code> against full-width math symbols</h2>
+        	<h2 class="chapter"><span class="nature">[REQUIRED]</span> <span class="test-id">character-rtl-070</span> 全角算術記号の向き（UTR#50 rev11）／ the direction full-width math symbols is the same as UTR#50 rev11</h2>
         <div class="desc_v">
-            <p class="desc">テスト内容：縦書きで、全角算術記号に対する<code>text-orientation:upright</code>指定がサポートされているか。
-            <br />Tests whether <code>text-orientation:upright</code> against full-width math symbols is supported in Japanese vertical writing.</p>
+            <p class="desc">テスト内容：縦書きで、全角算術記号がUTR#50 rev11と同じになっているか。
+            <br />Tests whether the direction of full-width math symbols is the same as UTR#50 in  vertical writing.</p>
             <p class="eval">→次の「表示」の内容が「期待される表示」と同じであれば合格。
             <br />→If "Rendered text" looks similar to the following "Expected display image", then the test passes.</p>
-        <p><br /></p>
+        <p><br /></p>of 
             <div>表示／Rendered text
               <div class="rentxt">
-                <p><span class="upright">＋</span><span class="upright">−</span><span class="upright">±</span><span class="upright">×</span><span class="upright">÷</span><span class="upright">＝</span><span class="upright">≠</span><span class="upright">＜</span><span class="upright">＞</span><span class="upright">≦</span><span class="upright">≧</span><span class="upright">∞</span><span class="upright">∴</span><span class="upright">∈</span><span class="upright">∋</span><span class="upright">⊆</span><span class="upright">⊇</span><span class="upright">⊂</span><span class="upright">⊃</span><span class="upright">∪</span><span class="upright">∩</span><span class="upright">⊄</span><span class="upright">⊅</span><span class="upright">⊊</span><span class="upright">⊋</span><span class="upright">∉</span><span class="upright">∅</span><span class="upright">⌅</span><span class="upright">⌆</span>
-                    <br /><span class="upright">∧</span><span class="upright">∨</span><span class="upright">¬</span><span class="upright">⇒</span><span class="upright">⇔</span><span class="upright">∀</span><span class="upright">∃</span><span class="upright">⊕</span><span class="upright">⊖</span><span class="upright">⊗</span><span class="upright">∥</span><span class="upright">∦</span><span class="upright">∠</span><span class="upright">⊥</span><span class="upright">⌒</span><span class="upright">∂</span><span class="upright">∇</span><span class="upright">≡</span><span class="upright">≒</span><span class="upright">≪</span><span class="upright">≫</span><span class="upright">√</span><span class="upright">∽</span><span class="upright">∝</span><span class="upright">∵</span><span class="upright">∫</span><span class="upright">∬</span><span class="upright">≢</span><span class="upright">≃</span>
-                    <br /><span class="upright">≅</span><span class="upright">≈</span><span class="upright">≶</span><span class="upright">≷</span><span class="upright">↔</span><span class="upright">Å</span><span class="upright">‰</span></p>
+                <p>＋−±×÷＝≠＜＞≦≧∞∴∈∋⊆⊇⊂⊃∪∩⊄⊅⊊⊋∉∅⌅⌆
+                    <br />∧∨¬⇒⇔∀∃⊕⊖⊗∥∦∠⊥⌒∂∇≡≒≪≫√∽∝∵∫∬≢≃
+                    <br />≅≈≶≷↔Å‰</p>
               </div>
             </div>
             <div>期待される表示／Expected display image
               <div class="expimg">
-                <img src="../img/expected-character-v-math-upright.png" class="block" alt="math symbols upright expected image" />
+                <img src="../img/expected-character-v-math.png" class="block" alt="math symbols upright expected image" />
               </div>
             </div>
         </div>
