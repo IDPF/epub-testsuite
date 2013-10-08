@@ -10,7 +10,7 @@
 	    <par>
 	      <text src="../xhtml/escapability.xhtml#mo-010-2"/>
 	    </par>
-		<seq epub:textref="../xhtml/escapability.xhtml#esc1" epub:type="sidebar">
+		<seq epub:textref="../xhtml/escapability.xhtml#esc1" epub:type="glossary">
 		    <par>
 		      <text src="../xhtml/escapability.xhtml#mo-010-3"/>
 		    </par>
@@ -32,7 +32,7 @@
 	    <par>
 	      <text src="../xhtml/escapability.xhtml#mo-020-2"/>
 	    </par>
-		<seq epub:textref="../xhtml/escapability.xhtml#esc2" epub:type="sidebar">
+		<seq epub:textref="../xhtml/escapability.xhtml#esc2" epub:type="glossary">
 		    <par>
 		      <text src="../xhtml/escapability.xhtml#mo-020-3"/>
 		    </par>
@@ -43,7 +43,7 @@
 		      <text src="../xhtml/escapability.xhtml#mo-020-5"/>
 		    </par>
 	    </seq>
-	    <par epub:type="sidebar">
+	    <par epub:type="glossary">
 	      <text src="../xhtml/escapability.xhtml#mo-020-6"/>
 	    </par>
 	    <par>
@@ -57,11 +57,11 @@
 	    <par>
 	      <text src="../xhtml/escapability.xhtml#mo-030-2"/>
 	    </par>
-		<seq epub:textref="../xhtml/escapability.xhtml#esc3" epub:type="sidebar">
+		<seq epub:textref="../xhtml/escapability.xhtml#esc3" epub:type="glossary">
 		    <par>
 		      <text src="../xhtml/escapability.xhtml#mo-030-3"/>
 		    </par>
-			<seq epub:textref="../xhtml/escapability.xhtml#esc4" epub:type="sidebar">
+			<seq epub:textref="../xhtml/escapability.xhtml#esc4" epub:type="glossary">
 			    <par>
 			      <text src="../xhtml/escapability.xhtml#mo-030-4"/>
 			    </par>
