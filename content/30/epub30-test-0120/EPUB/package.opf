@@ -5,10 +5,15 @@
       <dc:title id="title">EPUB 3.0 Test Suite: Document 0120</dc:title>
 	  <dc:description>Tests for Media Overlays in a reflowable context [UNDER CONSTRUCTION]</dc:description>
 	  <meta refines="title" property="title-type">main</meta>
+	  
       <!-- repeat creator element for all contributors -->
       <dc:creator id="creator1">Marisa DeMeglio</dc:creator>
 	  <meta refines="#creator1" property="role" scheme="marc:relators">aut</meta>
 	  <meta refines="#creator1" property="file-as">DeMeglio, Marisa</meta>
+	  
+      <dc:creator id="creator2">Daniel Weck</dc:creator>
+	  <meta refines="#creator2" property="role" scheme="marc:relators">aut</meta>
+	  <meta refines="#creator2" property="file-as">Weck, Daniel</meta>
 
       <meta property="media:duration" refines="#smil-1">00:01:15.336</meta>
       <meta property="media:duration" refines="#smil-2">00:00:51.594</meta>
@@ -19,11 +24,14 @@
       <meta property="media:duration" refines="#smil-7">00:01:14.974</meta>
       <meta property="media:duration" refines="#smil-8">00:01:13.654</meta>
       <meta property="media:duration" refines="#smil-9">00:00:19.734</meta>
-      <meta property="media:duration">00:20:51.986</meta>
+      <meta property="media:duration" refines="#smil-10">1s</meta>
+      <meta property="media:duration" refines="#smil-11">1s</meta>
+      <meta property="media:duration">00:20:53.986</meta>
 
       <dc:language>en</dc:language>
       <meta property="dcterms:modified">2013-14-01T13:00:00Z</meta>
       <meta property="media:active-class">-epub-media-overlay-active</meta>
+      <meta property="media:playback-active-class">-epub-media-overlay-playback-active</meta>
    </metadata>
    <manifest>
 
@@ -44,6 +52,8 @@
       <item id="xhtml-010" href="xhtml/one_mo_multiple_chapters2.xhtml" media-type="application/xhtml+xml" media-overlay="smil-8"/>
       <item id="xhtml-011" href="xhtml-1/one_mo_multiple_chapters2.xhtml" media-type="application/xhtml+xml" media-overlay="smil-8"/>
       <item id="xhtml-012" href="xhtml/path_resolution_audio_files.xhtml" media-type="application/xhtml+xml" media-overlay="smil-9"/>
+      <item id="xhtml-013" href="xhtml/skippability.xhtml"  media-type="application/xhtml+xml" media-overlay="smil-10"/>
+      <item id="xhtml-014" href="xhtml/escapability.xhtml"  media-type="application/xhtml+xml" media-overlay="smil-11"/>
       <item id="xhtml-last" href="xhtml/end.xhtml" media-type="application/xhtml+xml"/>
 
       <!-- css -->
@@ -75,6 +85,8 @@
       <item id="smil-7" href="mo/short_clips.smil" media-type="application/smil+xml"/>
       <item id="smil-8" href="mo/one_mo_multiple_chapters.smil" media-type="application/smil+xml"/>
       <item id="smil-9" href="mo/path_resolution_audio_files.smil" media-type="application/smil+xml"/>
+      <item id="smil-10" href="mo/skippability.smil" media-type="application/smil+xml"/>
+      <item id="smil-11" href="mo/escapability.smil" media-type="application/smil+xml"/>
 
    </manifest>
    <spine>
@@ -82,6 +94,8 @@
    	  <itemref idref="nav" linear="no"/>
       <itemref idref="xhtml-001"/>
       <itemref idref="xhtml-002"/>
+      <itemref idref="xhtml-013"/>
+      <itemref idref="xhtml-014"/>
       <itemref idref="xhtml-003"/>
       <itemref idref="xhtml-004"/>
       <itemref idref="xhtml-005"/>
