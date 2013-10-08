@@ -26,6 +26,7 @@
       <meta property="media:duration" refines="#smil-9">00:00:19.734</meta>
       <meta property="media:duration" refines="#smil-10">1s</meta>
       <meta property="media:duration" refines="#smil-11">1s</meta>
+      <meta property="media:duration" refines="#smil-12">1s</meta>
       <meta property="media:duration">00:20:53.986</meta>
 
       <dc:language>en</dc:language>
@@ -54,6 +55,7 @@
       <item id="xhtml-012" href="xhtml/path_resolution_audio_files.xhtml" media-type="application/xhtml+xml" media-overlay="smil-9"/>
       <item id="xhtml-013" href="xhtml/skippability.xhtml"  media-type="application/xhtml+xml" media-overlay="smil-10"/>
       <item id="xhtml-014" href="xhtml/escapability.xhtml"  media-type="application/xhtml+xml" media-overlay="smil-11"/>
+      <item id="xhtml-015" href="xhtml/embedded-media.xhtml"  media-type="application/xhtml+xml" media-overlay="smil-12"/>
       <item id="xhtml-last" href="xhtml/end.xhtml" media-type="application/xhtml+xml"/>
 
       <!-- css -->
@@ -87,6 +89,7 @@
       <item id="smil-9" href="mo/path_resolution_audio_files.smil" media-type="application/smil+xml"/>
       <item id="smil-10" href="mo/skippability.smil" media-type="application/smil+xml"/>
       <item id="smil-11" href="mo/escapability.smil" media-type="application/smil+xml"/>
+      <item id="smil-12" href="mo/embedded-media.smil" media-type="application/smil+xml"/>
 
    </manifest>
    <spine>
@@ -103,6 +106,7 @@
       <itemref idref="xhtml-007"/>
       <itemref idref="xhtml-008"/>
       <itemref idref="xhtml-012"/>
+      <itemref idref="xhtml-015"/>
       <itemref idref="xhtml-009"/>
       <itemref idref="xhtml-010"/>
       <itemref idref="xhtml-011"/>
