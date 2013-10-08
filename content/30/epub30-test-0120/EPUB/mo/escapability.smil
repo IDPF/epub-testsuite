@@ -1,0 +1,90 @@
+<smil xmlns:epub="http://www.idpf.org/2007/ops" xmlns="http://www.w3.org/ns/SMIL" version="3.0">
+  <body epub:textref="../xhtml/escapability.xhtml">
+    <par>
+      <text src="../xhtml/escapability.xhtml#mo-1"/>
+    </par>
+	<seq epub:textref="../xhtml/escapability.xhtml#mo-esc-010">
+	    <par>
+	      <text src="../xhtml/escapability.xhtml#mo-010-1"/>
+	    </par>
+	    <par>
+	      <text src="../xhtml/escapability.xhtml#mo-010-2"/>
+	    </par>
+		<seq epub:textref="../xhtml/escapability.xhtml#esc1" epub:type="sidebar">
+		    <par>
+		      <text src="../xhtml/escapability.xhtml#mo-010-3"/>
+		    </par>
+		    <par>
+		      <text src="../xhtml/escapability.xhtml#mo-010-4"/>
+		    </par>
+		    <par>
+		      <text src="../xhtml/escapability.xhtml#mo-010-5"/>
+		    </par>
+	    </seq>
+	    <par>
+	      <text src="../xhtml/escapability.xhtml#mo-010-6"/>
+	    </par>
+	</seq>
+	<seq epub:textref="../xhtml/escapability.xhtml#mo-esc-020">
+	    <par>
+	      <text src="../xhtml/escapability.xhtml#mo-020-1"/>
+	    </par>
+	    <par>
+	      <text src="../xhtml/escapability.xhtml#mo-020-2"/>
+	    </par>
+		<seq epub:textref="../xhtml/escapability.xhtml#esc2" epub:type="sidebar">
+		    <par>
+		      <text src="../xhtml/escapability.xhtml#mo-020-3"/>
+		    </par>
+		    <par>
+		      <text src="../xhtml/escapability.xhtml#mo-020-4"/>
+		    </par>
+		    <par>
+		      <text src="../xhtml/escapability.xhtml#mo-020-5"/>
+		    </par>
+	    </seq>
+	    <par epub:type="sidebar">
+	      <text src="../xhtml/escapability.xhtml#mo-020-6"/>
+	    </par>
+	    <par>
+	      <text src="../xhtml/escapability.xhtml#mo-020-7"/>
+	    </par>
+	</seq>
+	<seq epub:textref="../xhtml/escapability.xhtml#mo-esc-030">
+	    <par>
+	      <text src="../xhtml/escapability.xhtml#mo-030-1"/>
+	    </par>
+	    <par>
+	      <text src="../xhtml/escapability.xhtml#mo-030-2"/>
+	    </par>
+		<seq epub:textref="../xhtml/escapability.xhtml#esc3" epub:type="sidebar">
+		    <par>
+		      <text src="../xhtml/escapability.xhtml#mo-030-3"/>
+		    </par>
+			<seq epub:textref="../xhtml/escapability.xhtml#esc4" epub:type="sidebar">
+			    <par>
+			      <text src="../xhtml/escapability.xhtml#mo-030-4"/>
+			    </par>
+			    <par>
+			      <text src="../xhtml/escapability.xhtml#mo-030-5"/>
+			    </par>
+			    <par>
+			      <text src="../xhtml/escapability.xhtml#mo-030-6"/>
+			    </par>
+			</seq>
+		    <par>
+		      <text src="../xhtml/escapability.xhtml#mo-030-7"/>
+		    </par>
+		    <par>
+		      <text src="../xhtml/escapability.xhtml#mo-030-8"/>
+		    </par>
+		    <par>
+		      <text src="../xhtml/escapability.xhtml#mo-030-9"/>
+		    </par>
+	    </seq>
+	    <par>
+	      <text src="../xhtml/escapability.xhtml#mo-030-10"/>
+	    </par>
+	</seq>
+  </body>
+</smil>

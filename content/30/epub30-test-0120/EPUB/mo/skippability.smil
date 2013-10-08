@@ -1,0 +1,38 @@
+<smil xmlns:epub="http://www.idpf.org/2007/ops" xmlns="http://www.w3.org/ns/SMIL" version="3.0">
+  <body epub:textref="../xhtml/skippability.xhtml">
+    <par>
+      <text src="../xhtml/skippability.xhtml#mo-1"/>
+    </par>
+	<seq epub:textref="../xhtml/skippability.xhtml#mo-skip-010">
+	    <par>
+	      <text src="../xhtml/skippability.xhtml#mo-010-1"/>
+	    </par>
+	    <par>
+	      <text src="../xhtml/skippability.xhtml#mo-010-2"/>
+	    </par>
+	    <par epub:type="pagebreak">
+	      <text src="../xhtml/skippability.xhtml#mo-010-3"/>
+	    </par>
+	    <par>
+	      <text src="../xhtml/skippability.xhtml#mo-010-4"/>
+	    </par>
+	</seq>
+	<seq epub:textref="../xhtml/skippability.xhtml#mo-skip-020">
+	    <par>
+	      <text src="../xhtml/skippability.xhtml#mo-020-1"/>
+	    </par>
+	    <par>
+	      <text src="../xhtml/skippability.xhtml#mo-020-2"/>
+	    </par>
+	    <par epub:type="pagebreak">
+	      <text src="../xhtml/skippability.xhtml#mo-020-3"/>
+	    </par>
+	    <par epub:type="pagebreak">
+	      <text src="../xhtml/skippability.xhtml#mo-020-4"/>
+	    </par>
+	    <par>
+	      <text src="../xhtml/skippability.xhtml#mo-020-5"/>
+	    </par>
+	</seq>
+  </body>
+</smil>
