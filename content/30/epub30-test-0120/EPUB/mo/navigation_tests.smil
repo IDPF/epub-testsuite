@@ -6,6 +6,8 @@
         <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:00.000" clipEnd="00:00:01.355"/>
       </par>
 	  
+	  	  <seq epub:textref="../xhtml/navigation_tests.xhtml#mo-nav-020">
+	  
       <par>
         <text src="../xhtml/navigation_tests.xhtml#mo-nav-020-1"/>
       </par>
@@ -15,18 +17,39 @@
       <par>
         <text src="../xhtml/navigation_tests.xhtml#mo-nav-020-3"/>
       </par>
+	 <seq epub:textref="../xhtml/navigation_tests.xhtml#divided-paragraph">
       <par>
         <text src="../xhtml/navigation_tests.xhtml#mo-nav-020-4"/>
       </par>
+	  <seq epub:textref="../xhtml/navigation_tests.xhtml#divided-sentence">
+	      <par>
+	        <text src="../xhtml/navigation_tests.xhtml#mo-nav-020-5"/>
+	      </par>
+	      <par>
+	        <text src="../xhtml/navigation_tests.xhtml#mo-nav-020-6"/>
+	      </par>
+	      <par>
+	        <text src="../xhtml/navigation_tests.xhtml#mo-nav-020-7"/>
+	      </par>
+	      <par>
+	        <text src="../xhtml/navigation_tests.xhtml#mo-nav-020-8"/>
+	      </par>
+	      <par>
+	        <text src="../xhtml/navigation_tests.xhtml#mo-nav-020-9"/>
+	      </par>
+	      <par>
+	        <text src="../xhtml/navigation_tests.xhtml#mo-nav-020-10"/>
+	      </par>
+	  </seq>
       <par>
-        <text src="../xhtml/navigation_tests.xhtml#mo-nav-020-5"/>
+        <text src="../xhtml/navigation_tests.xhtml#mo-nav-020-11"/>
       </par>
-      <par>
-        <text src="../xhtml/navigation_tests.xhtml#mo-nav-020-6"/>
-      </par>
-      <par>
-        <text src="../xhtml/navigation_tests.xhtml#mo-nav-020-7"/>
-      </par>
+	  	  </seq>
+
+	      <par>
+	        <text src="../xhtml/navigation_tests.xhtml#mo-nav-020-12"/>
+	      </par>
+  	  </seq>
 	  
     <par>
       <text src="../xhtml/navigation_tests.xhtml#mo-2"/>
