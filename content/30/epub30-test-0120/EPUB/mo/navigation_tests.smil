@@ -1,9 +1,33 @@
 <smil xmlns:epub="http://www.idpf.org/2007/ops" xmlns="http://www.w3.org/ns/SMIL" version="3.0">
   <body epub:textref="../xhtml/navigation_tests.xhtml">
-    <par>
-      <text src="../xhtml/navigation_tests.xhtml#mo-1"/>
-      <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:00.000" clipEnd="00:00:01.355"/>
-    </par>
+	  
+      <par>
+        <text src="../xhtml/navigation_tests.xhtml#mo-1"/>
+        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:00.000" clipEnd="00:00:01.355"/>
+      </par>
+	  
+      <par>
+        <text src="../xhtml/navigation_tests.xhtml#mo-nav-020-1"/>
+      </par>
+      <par>
+        <text src="../xhtml/navigation_tests.xhtml#mo-nav-020-2"/>
+      </par>
+      <par>
+        <text src="../xhtml/navigation_tests.xhtml#mo-nav-020-3"/>
+      </par>
+      <par>
+        <text src="../xhtml/navigation_tests.xhtml#mo-nav-020-4"/>
+      </par>
+      <par>
+        <text src="../xhtml/navigation_tests.xhtml#mo-nav-020-5"/>
+      </par>
+      <par>
+        <text src="../xhtml/navigation_tests.xhtml#mo-nav-020-6"/>
+      </par>
+      <par>
+        <text src="../xhtml/navigation_tests.xhtml#mo-nav-020-7"/>
+      </par>
+	  
     <par>
       <text src="../xhtml/navigation_tests.xhtml#mo-2"/>
       <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:01.355" clipEnd="00:00:02.795"/>
