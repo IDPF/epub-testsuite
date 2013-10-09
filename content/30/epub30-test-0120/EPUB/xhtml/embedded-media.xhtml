@@ -33,12 +33,45 @@
 
 			<p>
 				<strong>(the audio should say "path resolution ...")</strong> <br/>
-				<audio id="mo-020-3" src="../audio/path_resolution_audio_files.mp3" controls="controls" style="padding: 1em;"/>
+				<audio id="mo-020-3" src="../audio/path_resolution_audio_files.mp3" preload="none" controls="controls" style="padding: 1em;"/>
 			</p>
 
 			<p id="mo-020-4">This paragraph follows the embedded HTML5 audio player.</p>
 			
         	<p class="eval">If MO playback correctly controls the start + pause / resume behaviours of the embedded audio, the test passes.</p>
+        </section>
+
+        <section id="mo-embed-030" class="otest">
+        	<h2><span class="nature">[OPTIONAL]</span> <span class="test-id">mo-embed-030</span> <span id="mo-030-1">Embedded Media - Video</span></h2>
+
+        	<p class="desc">Tests whether MO embedded video is supported.</p>
+
+			<p id="mo-030-2">The video below should behave in the same way as embedded audio, when playback is driven by Media Overlays synchronisation.</p>
+
+				<video id="mo-030-3" width="426" height="240" preload="none" controls="controls" style="padding: 1em;">
+
+                    <source src="../gizmo.webm" type="video/webm" />
+                    <source src="../gizmo.mp4" type="video/mp4" />
+                    <source src="../gizmo.ogv" type="video/ogg" />
+
+										
+					Your reading system does not seem to support HTML5 video, which is why this text is displayed.
+					<br/>
+					<a title="Gizmo video download (Creative Commons by 3.0)" href="http://www.808.dk/?code-html-5-video">http://www.808.dk/?code-html-5-video</a>
+					<br/>
+                        <pre><code>
+&lt;video&gt;                    
+  &lt;source src="../gizmo.mp4" type="video/mp4"/&gt;
+  &lt;source src="../gizmo.webm" type="video/webm"/&gt;    
+  &lt;source src="../gizmo.ogv" type="video/ogg"/&gt;    
+&lt;/video&gt;
+                        </code></pre>
+					</video>
+					
+					<p id="mo-030-4">This paragraph follows the embedded HTML5 video player.</p>
+			
+					
+        	<p class="eval">If MO playback correctly controls the start + pause / resume behaviours of the embedded video, the test passes.</p>
         </section>
     </body>
 </html>

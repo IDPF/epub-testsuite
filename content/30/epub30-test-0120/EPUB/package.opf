@@ -90,6 +90,11 @@
       <item id="smil-10" href="mo/skippability.smil" media-type="application/smil+xml"/>
       <item id="smil-11" href="mo/escapability.smil" media-type="application/smil+xml"/>
       <item id="smil-12" href="mo/embedded-media.smil" media-type="application/smil+xml"/>
+	  
+
+      <item id="video1" href="gizmo.webm" media-type="video/webm"/>
+      <item id="video2" href="gizmo.mp4" media-type="video/mp4"/>
+      <item id="video3" href="gizmo.ogv" media-type="video/ogg"/>
 
    </manifest>
    <spine>
