@@ -27,6 +27,7 @@
       <meta property="media:duration" refines="#smil-10">1s</meta>
       <meta property="media:duration" refines="#smil-11">1s</meta>
       <meta property="media:duration" refines="#smil-12">1s</meta>
+      <meta property="media:duration" refines="#smil-13">1s</meta>
       <meta property="media:duration">00:20:53.986</meta>
 
       <dc:language>en</dc:language>
@@ -56,6 +57,7 @@
       <item id="xhtml-013" href="xhtml/skippability.xhtml"  media-type="application/xhtml+xml" media-overlay="smil-10"/>
       <item id="xhtml-014" href="xhtml/escapability.xhtml"  media-type="application/xhtml+xml" media-overlay="smil-11"/>
       <item id="xhtml-015" href="xhtml/embedded-media.xhtml"  media-type="application/xhtml+xml" media-overlay="smil-12"/>
+	  <item id="xhtml-016" href="xhtml/playback-active.xhtml"  media-type="application/xhtml+xml" media-overlay="smil-13"/>
       <item id="xhtml-last" href="xhtml/end.xhtml" media-type="application/xhtml+xml"/>
 
       <!-- css -->
@@ -90,7 +92,7 @@
       <item id="smil-10" href="mo/skippability.smil" media-type="application/smil+xml"/>
       <item id="smil-11" href="mo/escapability.smil" media-type="application/smil+xml"/>
       <item id="smil-12" href="mo/embedded-media.smil" media-type="application/smil+xml"/>
-	  
+	  <item id="smil-13" href="mo/playback-active.smil" media-type="application/smil+xml"/>
 
       <item id="video1" href="gizmo.webm" media-type="video/webm"/>
       <item id="video2" href="gizmo.mp4" media-type="video/mp4"/>
@@ -115,6 +117,7 @@
       <itemref idref="xhtml-009"/>
       <itemref idref="xhtml-010"/>
       <itemref idref="xhtml-011"/>
+      <itemref idref="xhtml-016"/>
       <itemref idref="xhtml-last"/>
    </spine>
 </package>
