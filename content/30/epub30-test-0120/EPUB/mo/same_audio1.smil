@@ -1,12 +1,22 @@
 <smil xmlns:epub="http://www.idpf.org/2007/ops" xmlns="http://www.w3.org/ns/SMIL" version="3.0">
   <body epub:textref="../xhtml/same_audio1.xhtml">
-    <par>
-      <text src="../xhtml/same_audio1.xhtml#mo-1"/>
-      <audio src="../audio/same_audio.mp3" clipBegin="00:00:00.000" clipEnd="00:00:02.734"/>
-    </par>
-    <par>
-      <text src="../xhtml/same_audio1.xhtml#mo-2"/>
-      <audio src="../audio/same_audio.mp3" clipBegin="00:00:02.734" clipEnd="00:00:10.104"/>
-    </par>
+    <seq epub:textref="../xhtml/same_audio1.xhtml#mo-audio-040">
+      <par>
+        <text src="../xhtml/same_audio1.xhtml#mo-1"/>
+        <audio src="../audio/same_audio.mp3" clipBegin="00:00:00.000" clipEnd="00:00:02.734"/>
+      </par>
+      <par>
+        <text src="../xhtml/same_audio1.xhtml#mo-2"/>
+        <audio src="../audio/same_audio.mp3" clipBegin="00:00:02.734" clipEnd="00:00:07.752"/>
+      </par>
+      <par>
+        <text src="../xhtml/same_audio1.xhtml#mo-3"/>
+        <audio src="../audio/same_audio.mp3" clipBegin="00:00:07.752" clipEnd="00:00:15.070"/>
+      </par>
+      <par>
+        <text src="../xhtml/same_audio1.xhtml#mo-4"/>
+        <audio src="../audio/same_audio.mp3" clipBegin="00:00:15.070" clipEnd="00:00:22.475"/>
+      </par>
+    </seq>
   </body>
 </smil>

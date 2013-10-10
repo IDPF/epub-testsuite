@@ -1,33 +1,29 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
-	<head>
-        <meta charset="utf-8"/>
-        <link rel="stylesheet" type="text/css" href="../css/base.css"/>
-	</head>
-	<body>
-		<h1 id="mo-1">Clip Times</h1>
+  <head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="../css/base.css"/>
+  </head>
+  <body>
+        <h1 id="mo-1">Clip Times</h1>
 
         <p id="mo-2">Each sentence below should play in full:</p>
 
-        <section id="mo-audio-010" class="ctest">
-        	<p><span class="nature">[REQUIRED]</span> <span class="test-id">mo-audio-010</span> <code>clipBegin</code> not specified</p>
-        	<p class="desc">Tests whether starting playback begins at the start of a clip when the <code>clipBegin</code> attribute is not specified.</p>
-        	<p id="mo-3">If clipBegin is not specified, its value is assumed to be 0.</p>
-        	<p class="eval">If the preceding sentence is announced in full, the test passes.</p>
+        <section id="mo-audio-010" class="ctest"><p id="mo-1-41"><span class="nature">[REQUIRED]</span> <span class="test-id">mo-audio-010</span> <code id="mo-1-75">clipBegin</code> <span id="mo-2-61">not specified</span></p>
+            <p class="desc" id="mo-2-7">Tests whether starting playback begins at the start of a clip when the <code>clipBegin</code> attribute is not specified.</p>
+            <p id="mo-3">If clipBegin is not specified, its value is assumed to be 0.</p>
+            <p class="eval" id="mo-3-23">If the preceding sentence is announced in full, the test passes.</p>
         </section>
 
-        <section id="mo-audio-020" class="ctest">
-        	<p><span class="nature">[REQUIRED]</span> <span class="test-id">mo-audio-020</span> <code>clipEnd</code> not speciifed</p>
-        	<p class="desc">Tests whether playback continues to the end of the clip when the <code>clipEnd</code> attribute is not specified.</p>
-        	<p id="mo-4">If clipEnd is not specified, its value is assumed to be the full duration of the physical media.</p>
-        	<p class="eval">If the preceding sentence is announced in full, the test passes.</p>
+      <section id="mo-audio-020" class="ctest"><p id="mo-4-62"><span class="nature">[REQUIRED]</span> <span class="test-id">mo-audio-020</span> <code id="mo-1-a">clipEnd</code> <span id="mo-2-a">not specified</span></p>
+            <p class="desc" id="mo-5-39">Tests whether playback continues to the end of the clip when the <code>clipEnd</code> attribute is not specified.</p>
+            <p id="mo-4-a">If clipEnd is not specified, its value is assumed to be the full duration of the physical media.</p>
+            <p class="eval" id="mo-6-a">If the preceding sentence is announced in full, the test passes.</p>
         </section>
 
-        <section id="mo-audio-030" class="ctest">
-        	<p><span class="nature">[REQUIRED]</span> <span class="test-id">mo-audio-030</span> <code>clipEnd</code> exceeds length</p>
-        	<p class="desc">Tests whether playback ends at the end of the clip when the <code>clipEnd</code> attribute specifies a duration longer than the clip length.</p>
-        	<p id="mo-5">If clipEnd exceeds the full duration of the physical media, then its value is assumed to be the full duration of the physical media.</p>
-        	<p class="eval">If playback immediately continues to the next section after the preceding sentence is announced in full, the test passes.</p>
+        <section id="mo-audio-030" class="ctest"><p id="mo-7-b"><span class="nature">[REQUIRED]</span> <span class="test-id">mo-audio-030</span> <code id="mo-1-b">clipEnd</code> <span id="mo-2-b">exceeds length</span></p>
+            <p class="desc" id="mo-8-b">Tests whether playback ends at the end of the clip when the <code>clipEnd</code> attribute specifies a duration longer than the clip length.</p>
+            <p id="mo-5-b">If clipEnd exceeds the full duration of the physical media, then its value is assumed to be the full duration of the physical media.</p>
+            <p class="eval" id="mo-9-b">If playback immediately continues to the next section after the preceding sentence is announced in full, the test passes.</p>
         </section>
-
     </body>
 </html>

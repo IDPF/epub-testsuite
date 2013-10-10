@@ -1,12 +1,14 @@
 <smil xmlns:epub="http://www.idpf.org/2007/ops" xmlns="http://www.w3.org/ns/SMIL" version="3.0">
   <body epub:textref="../xhtml/same_audio2.xhtml">
-    <par>
-      <text src="../xhtml/same_audio2.xhtml#mo-1"/>
-      <audio src="../audio/same_audio.mp3" clipBegin="00:00:10.104" clipEnd="00:00:13.780"/>
-    </par>
-    <par>
-      <text src="../xhtml/same_audio2.xhtml#mo-2"/>
-      <audio src="../audio/same_audio.mp3" clipBegin="00:00:13.780" clipEnd="00:00:22.625"/>
-    </par>
+    <seq epub:textref="../xhtml/same_audio2.xhtml#same-audio-file">
+      <par>
+        <text src="../xhtml/same_audio2.xhtml#mo-5"/>
+        <audio src="../audio/same_audio.mp3" clipBegin="00:00:22.475" clipEnd="00:00:26.151"/>
+      </par>
+      <par>
+        <text src="../xhtml/same_audio2.xhtml#mo-6"/>
+        <audio src="../audio/same_audio.mp3" clipBegin="00:00:26.151" clipEnd="00:00:34.995"/>
+      </par>
+    </seq>
   </body>
 </smil>

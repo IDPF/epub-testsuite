@@ -1,40 +1,65 @@
 <smil xmlns:epub="http://www.idpf.org/2007/ops" xmlns="http://www.w3.org/ns/SMIL" version="3.0">
   <body epub:textref="../xhtml/one_mo_multiple_chapters1.xhtml">
+  <!-- first file -->
     <par>
       <text src="../xhtml/one_mo_multiple_chapters1.xhtml#mo-1"/>
       <audio src="../audio/one_mo_multiple_chapters1.mp3" clipBegin="00:00:00.000" clipEnd="00:00:02.776"/>
     </par>
-    <par>
-      <text src="../xhtml/one_mo_multiple_chapters1.xhtml#mo-2"/>
-      <audio src="../audio/one_mo_multiple_chapters1.mp3" clipBegin="00:00:02.776" clipEnd="00:00:04.068"/>
-    </par>
-    <par>
-      <text src="../xhtml/one_mo_multiple_chapters1.xhtml#mo-3"/>
-      <audio src="../audio/one_mo_multiple_chapters1.mp3" clipBegin="00:00:04.068" clipEnd="00:00:09.882"/>
-    </par>
+    <seq epub:textref="../xhtml/one_mo_multiple_chapters1.xhtml#mo-chap-010">
+      <par>
+        <text src="../xhtml/one_mo_multiple_chapters1.xhtml#mo-2"/>
+        <audio src="../audio/one_mo_multiple_chapters1.mp3" clipBegin="00:00:02.776" clipEnd="00:00:04.068"/>
+      </par>
+      <par>
+        <text src="../xhtml/one_mo_multiple_chapters1.xhtml#mo-1-3"/>
+        <audio src="../audio/one_mo_multiple_chapters1.mp3" clipBegin="00:00:04.068" clipEnd="00:00:10.798"/>
+      </par>
+      <par>
+        <text src="../xhtml/one_mo_multiple_chapters1.xhtml#mo-3"/>
+        <audio src="../audio/one_mo_multiple_chapters1.mp3" clipBegin="00:00:10.798" clipEnd="00:00:16.612"/>
+      </par>
+      <par>
+        <text src="../xhtml/one_mo_multiple_chapters1.xhtml#mo-2-31"/>
+        <audio src="../audio/one_mo_multiple_chapters1.mp3" clipBegin="00:00:16.612" clipEnd="00:00:22.465"/>
+      </par>
+    </seq>
+    
+    <!-- second file -->
     <par>
       <text src="../xhtml/one_mo_multiple_chapters2.xhtml#mo-1"/>
       <audio src="../audio/one_mo_multiple_chapters2.mp3" clipBegin="00:00:00.000" clipEnd="00:00:03.726"/>
     </par>
+    <seq epub:textref="../xhtml/one_mo_multiple_chapters2.xhtml#mo-chap-020">
+      <par>
+        <text src="../xhtml/one_mo_multiple_chapters2.xhtml#mo-2"/>
+        <audio src="../audio/one_mo_multiple_chapters2.mp3" clipBegin="00:00:03.726" clipEnd="00:00:05.923"/>
+      </par>
+      <par>
+        <text src="../xhtml/one_mo_multiple_chapters2.xhtml#mo-1-63"/>
+        <audio src="../audio/one_mo_multiple_chapters2.mp3" clipBegin="00:00:05.923" clipEnd="00:00:10.774"/>
+      </par>
+      <par>
+        <text src="../xhtml/one_mo_multiple_chapters2.xhtml#mo-3"/>
+        <audio src="../audio/one_mo_multiple_chapters2.mp3" clipBegin="00:00:10.774" clipEnd="00:00:24.274"/>
+      </par>
+      <par>
+        <text src="../xhtml/one_mo_multiple_chapters2.xhtml#mo-4"/>
+        <audio src="../audio/one_mo_multiple_chapters2.mp3" clipBegin="00:00:24.274" clipEnd="00:00:56.339"/>
+      </par>
+      <par>
+        <text src="../xhtml/one_mo_multiple_chapters2.xhtml#mo-2-11"/>
+        <audio src="../audio/one_mo_multiple_chapters2.mp3" clipBegin="00:00:56.339" clipEnd="00:01:01.689"/>
+      </par>
+    </seq>
+
+    <!-- third file -->
     <par>
-      <text src="../xhtml/one_mo_multiple_chapters2.xhtml#mo-2"/>
-      <audio src="../audio/one_mo_multiple_chapters2.mp3" clipBegin="00:00:03.726" clipEnd="00:00:05.923"/>
-    </par>
-    <par>
-      <text src="../xhtml/one_mo_multiple_chapters2.xhtml#mo-3"/>
-      <audio src="../audio/one_mo_multiple_chapters2.mp3" clipBegin="00:00:05.923" clipEnd="00:00:19.423"/>
-    </par>
-    <par>
-      <text src="../xhtml/one_mo_multiple_chapters2.xhtml#mo-4"/>
-      <audio src="../audio/one_mo_multiple_chapters2.mp3" clipBegin="00:00:19.423" clipEnd="00:00:51.489"/>
-    </par>
-    <par>
-      <text src="../xhtml-1/one_mo_multiple_chapters2.xhtml#path-resolution-test"/>
+      <text src="../xhtml-1/one_mo_multiple_chapters3.xhtml#path-resolution-test"/>
       <audio src="../audio/one_mo_multiple_chapters3.mp3" clipBegin="00:00:00.000" clipEnd="00:00:01.527"/>
     </par>
     <par>
-      <text src="../xhtml-1/one_mo_multiple_chapters2.xhtml#mo-1"/>
-      <audio src="../audio/one_mo_multiple_chapters3.mp3" clipBegin="00:00:01.527" clipEnd="00:00:12.283"/>
+      <text src="../xhtml-1/one_mo_multiple_chapters3.xhtml#mo-1"/>
+      <audio src="../audio/one_mo_multiple_chapters3.mp3" clipBegin="00:00:01.527" clipEnd="00:00:12.278"/>
     </par>
   </body>
 </smil>

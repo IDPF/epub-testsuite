@@ -4,27 +4,35 @@
       <text src="../xhtml/more_navigation_tests.xhtml#mo-1"/>
       <audio src="../audio/more_navigation_tests.mp3" clipBegin="00:00:00.000" clipEnd="00:00:01.595"/>
     </par>
-    <par>
-      <text src="../xhtml/more_navigation_tests.xhtml#mo-2"/>
-      <audio src="../audio/more_navigation_tests.mp3" clipBegin="00:00:01.595" clipEnd="00:00:04.049"/>
-    </par>
-    <par>
-      <text src="../xhtml/more_navigation_tests.xhtml#mo-3"/>
-      <audio src="../audio/more_navigation_tests.mp3" clipBegin="00:00:04.049" clipEnd="00:00:25.267"/>
-    </par>
-    <par>
-      <text src="../xhtml/more_navigation_tests.xhtml#mo-4"/>
-      <audio src="../audio/more_navigation_tests.mp3" clipBegin="00:00:25.267" clipEnd="00:00:26.346"/>
-    </par>
-    <par>
-      <text src="../xhtml/more_navigation_tests.xhtml#mo-5"/>
-      <audio src="../audio/more_navigation_tests.mp3" clipBegin="00:00:26.346" clipEnd="00:00:33.774"/>
-    </par>
-    <par>
-      <text src="../xhtml/more_navigation_tests.xhtml#mo-6"/>
-      <audio src="../audio/more_navigation_tests.mp3" clipBegin="00:00:33.774" clipEnd="00:00:54.696"/>
-    </par>
-    <seq id="mobyexcerpt" epub:textref="../xhtml/more_navigation_tests.xhtml#mobyexcerpt">
+    <seq epub:textref="../xhtml/more_navigation_tests.xhtml#section-navigation-part-2">
+      <par>
+        <text src="../xhtml/more_navigation_tests.xhtml#mo-2"/>
+        <audio src="../audio/more_navigation_tests.mp3" clipBegin="00:00:01.595" clipEnd="00:00:04.049"/>
+      </par>
+      <par>
+        <text src="../xhtml/more_navigation_tests.xhtml#mo-3"/>
+        <audio src="../audio/more_navigation_tests.mp3" clipBegin="00:00:04.049" clipEnd="00:00:25.271"/>
+      </par>
+    </seq>
+    <seq epub:textref="../xhtml/more_navigation_tests.xhtml#mo-nav-020">
+      <par>
+        <text src="../xhtml/more_navigation_tests.xhtml#mo-4"/>
+        <audio src="../audio/more_navigation_tests.mp3" clipBegin="00:00:25.271" clipEnd="00:00:26.351"/>
+      </par>
+      <par>
+        <text src="../xhtml/more_navigation_tests.xhtml#mo-1-86"/>
+        <audio src="../audio/more_navigation_tests.mp3" clipBegin="00:00:26.351" clipEnd="00:00:29.654"/>
+      </par>
+      <par>
+        <text src="../xhtml/more_navigation_tests.xhtml#mo-5"/>
+        <audio src="../audio/more_navigation_tests.mp3" clipBegin="00:00:29.654" clipEnd="00:00:37.081"/>
+      </par>
+      <par>
+        <text src="../xhtml/more_navigation_tests.xhtml#mo-6"/>
+        <audio src="../audio/more_navigation_tests.mp3" clipBegin="00:00:37.081" clipEnd="00:00:58.004"/>
+      </par>
+
+      <seq id="mobyexcerpt" epub:textref="../xhtml/more_navigation_tests.xhtml#mobyexcerpt">
         <par id="word1">
             <text src="../xhtml/more_navigation_tests.xhtml#c01w00001"/>
             <audio src="../audio/mobydick_001_002_melville.mp4" clipBegin="0:00:29.268" clipEnd="0:00:29.441"/>
@@ -129,6 +137,12 @@
             <text src="../xhtml/more_navigation_tests.xhtml#c01p0017"/>
             <audio src="../audio/mobydick_001_002_melville.mp4" clipBegin="0:14:18.800" clipEnd="0:14:45.000"/>
         </par>
+    </seq>
+      
+      <par>
+        <text src="../xhtml/more_navigation_tests.xhtml#mo-2-68"/>
+        <audio src="../audio/more_navigation_tests.mp3" clipBegin="00:00:58.004" clipEnd="00:01:02.402"/>
+      </par>
     </seq>
   </body>
 </smil>

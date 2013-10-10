@@ -1,16 +1,30 @@
 <smil xmlns:epub="http://www.idpf.org/2007/ops" xmlns="http://www.w3.org/ns/SMIL" version="3.0">
   <body epub:textref="../xhtml/path_resolution_audio_files.xhtml">
-    <par>
-      <text src="../xhtml/path_resolution_audio_files.xhtml#mo-1"/>
-      <audio src="../audio/path_resolution_audio_files.mp3" clipBegin="00:00:00.000" clipEnd="00:00:02.259"/>
-    </par>
-    <par>
-      <text src="../xhtml/path_resolution_audio_files.xhtml#mo-2"/>
-      <audio src="../audio/path_resolution_audio_files.mp3" clipBegin="00:00:02.259" clipEnd="00:00:09.625"/>
-    </par>
-    <par>
-      <text src="../xhtml/path_resolution_audio_files.xhtml#mo-3"/>
-      <audio src="../audio-1/path_resolution_audio_files.mp3" clipBegin="00:00:00.000" clipEnd="00:00:10.109"/>
-    </par>
+    <seq epub:textref="../xhtml/path_resolution_audio_files.xhtml#mo-audio-080">
+      <!-- first audio file -->
+      <par>
+        <text src="../xhtml/path_resolution_audio_files.xhtml#mo-1"/>
+        <audio src="../audio/path_resolution_audio_files.mp3" clipBegin="00:00:00.000" clipEnd="00:00:02.259"/>
+      </par>
+      <par>
+        <text src="../xhtml/path_resolution_audio_files.xhtml#mo-1-3"/>
+        <audio src="../audio/path_resolution_audio_files.mp3" clipBegin="00:00:02.259" clipEnd="00:00:08.187"/>
+      </par>
+      <par>
+        <text src="../xhtml/path_resolution_audio_files.xhtml#mo-2"/>
+        <audio src="../audio/path_resolution_audio_files.mp3" clipBegin="00:00:08.187" clipEnd="00:00:15.508"/>
+      </par>
+
+      <!-- second audio file -->
+      <par>
+        <text src="../xhtml/path_resolution_audio_files.xhtml#mo-3"/>
+        <audio src="../audio-1/path_resolution_audio_files.mp3" clipBegin="00:00:00.000" clipEnd="00:00:10.101"/>
+      </par>
+      <par>
+        <text src="../xhtml/path_resolution_audio_files.xhtml#mo-1-a"/>
+        <audio src="../audio-1/path_resolution_audio_files.mp3" clipBegin="00:00:10.101" clipEnd="00:00:14.392"/>
+      </par>
+
+    </seq>
   </body>
 </smil>
