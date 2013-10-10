@@ -73,6 +73,13 @@
 		<item href="img/check.png" id="img-007" media-type="image/png"/>
 		<item href="img/check.gif" id="img-008" media-type="image/gif"/>
 		<item href="img/check.jpg" id="img-009" media-type="image/jpeg"/>
+		<item href="img/complex_number.png" id="img-010" media-type="image/png"/>
+		<item href="img/cichons_diagram.png" id="img-011" media-type="image/png"/>
+		<item href="img/Maghreb1.png" id="img-012" media-type="image/png"/>
+		<item href="img/ElementaryMathExample.png" id="img-013" media-type="image/png"/>
+		<item href="img/multiscripts_and_greek_alphabet.png" id="img-014" media-type="image/png"/>
+
+
 		<!-- audio -->
 		<item id="mp3-1" href="audio/allison64.mp3" media-type="audio/mpeg"/>
 		<item id="mp4-1" href="audio/allison64.mp4" media-type="audio/mp4"/>

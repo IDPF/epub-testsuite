@@ -136,6 +136,9 @@
 		<item id="fig1317_05" href="img/fig1317_05.png" media-type="image/png"/>
 		<item id="fig45340_01" href="img/fig45340_01.png" media-type="image/png"/>
 		<item id="fig1317_01" href="img/fig1317_01.png" media-type="image/png"/>
+		<item id ="img-001" href="img/expected-character-v-math.png" media-type="image/png"/>
+		<item id ="img-002" href="img/expectet-character-v-cjk-symbols.png" media-type="image/png"/>
+		
 			<!-- old 004-he-file -->
 		<item href="img/heb1.png" id="heb1" media-type="image/png"/>
 		<!-- fonts -->
