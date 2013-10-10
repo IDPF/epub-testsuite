@@ -15,8 +15,8 @@
 	  <meta refines="#creator2" property="role" scheme="marc:relators">aut</meta>
 	  <meta refines="#creator2" property="file-as">Weck, Daniel</meta>
 
-      <meta property="media:duration" refines="#smil-1">00:01:15.336</meta>
-      <meta property="media:duration" refines="#smil-2">00:00:51.594</meta>
+      <meta property="media:duration" refines="#smil-1">00:01:24.687</meta>
+      <meta property="media:duration" refines="#smil-2">00:01:32.840</meta>
       <meta property="media:duration" refines="#smil-3">00:15:10.428</meta>
       <meta property="media:duration" refines="#smil-4">00:00:23.641</meta>
       <meta property="media:duration" refines="#smil-5">00:00:10.104</meta>
@@ -28,7 +28,7 @@
       <meta property="media:duration" refines="#smil-11">00:06:27.604</meta>
       <meta property="media:duration" refines="#smil-12">00:02:04.436</meta>
       <meta property="media:duration" refines="#smil-13">00:00:26.602</meta>
-      <meta property="media:duration">00:31:19.997</meta>
+      <meta property="media:duration">00:32:10.594</meta>
 
       <dc:language>en</dc:language>
       <meta property="dcterms:modified">2013-14-01T13:00:00Z</meta>

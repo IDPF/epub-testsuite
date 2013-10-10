@@ -1,71 +1,96 @@
 <smil xmlns:epub="http://www.idpf.org/2007/ops" xmlns="http://www.w3.org/ns/SMIL" version="3.0">
   <body epub:textref="../xhtml/navigation_tests.xhtml">
-	  
-      <par>
-        <text src="../xhtml/navigation_tests.xhtml#mo-1"/>
-        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:00.000" clipEnd="00:00:01.355"/>
-      </par>
-	  
-	  	  <seq epub:textref="../xhtml/navigation_tests.xhtml#mo-nav-020">
-	  
-      <par>
-        <text src="../xhtml/navigation_tests.xhtml#mo-nav-020-1"/>
-      </par>
-      <par>
-        <text src="../xhtml/navigation_tests.xhtml#mo-nav-020-2"/>
-      </par>
-      <par>
-        <text src="../xhtml/navigation_tests.xhtml#mo-nav-020-3"/>
-      </par>
-	 <seq epub:textref="../xhtml/navigation_tests.xhtml#divided-paragraph">
-      <par>
-        <text src="../xhtml/navigation_tests.xhtml#mo-nav-020-4"/>
-      </par>
-	  <seq epub:textref="../xhtml/navigation_tests.xhtml#divided-sentence">
-	      <par>
-	        <text src="../xhtml/navigation_tests.xhtml#mo-nav-020-5"/>
-	      </par>
-	      <par>
-	        <text src="../xhtml/navigation_tests.xhtml#mo-nav-020-6"/>
-	      </par>
-	      <par>
-	        <text src="../xhtml/navigation_tests.xhtml#mo-nav-020-7"/>
-	      </par>
-	      <par>
-	        <text src="../xhtml/navigation_tests.xhtml#mo-nav-020-8"/>
-	      </par>
-	      <par>
-	        <text src="../xhtml/navigation_tests.xhtml#mo-nav-020-9"/>
-	      </par>
-	      <par>
-	        <text src="../xhtml/navigation_tests.xhtml#mo-nav-020-10"/>
-	      </par>
-	  </seq>
-      <par>
-        <text src="../xhtml/navigation_tests.xhtml#mo-nav-020-11"/>
-      </par>
-	  	  </seq>
-
-	      <par>
-	        <text src="../xhtml/navigation_tests.xhtml#mo-nav-020-12"/>
-	      </par>
-  	  </seq>
-	  
     <par>
-      <text src="../xhtml/navigation_tests.xhtml#mo-2"/>
-      <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:01.355" clipEnd="00:00:02.795"/>
+      <text src="../xhtml/navigation_tests.xhtml#mo-1"/>
+      <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:00.000" clipEnd="00:00:01.355"/>
     </par>
-    <par>
-      <text src="../xhtml/navigation_tests.xhtml#mo-3"/>
-      <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:02.795" clipEnd="00:00:12.011"/>
-    </par>
-    <par>
-      <text src="../xhtml/navigation_tests.xhtml#mo-4"/>
-      <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:12.011" clipEnd="00:00:19.528"/>
-    </par>
-    <par>
-      <text src="../xhtml/navigation_tests.xhtml#mo-5"/>
-      <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:19.528" clipEnd="00:00:51.594"/>
-    </par>
+    <seq epub:textref="../xhtml/navigation_tests.xhtml#mo-nav-010">
+      <par>
+        <text src="../xhtml/navigation_tests.xhtml#mo-nav-010-1"/>
+        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:01.355" clipEnd="00:00:04.694"/>
+      </par>
+      <par>
+        <text src="../xhtml/navigation_tests.xhtml#mo-1-8"/>
+        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:04.694" clipEnd="00:00:08.273"/>
+      </par>
+      <par>
+        <text src="../xhtml/navigation_tests.xhtml#mo-nav-010-2"/>
+        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:08.273" clipEnd="00:00:16.072"/>
+      </par>
+      <par>
+        <text src="../xhtml/navigation_tests.xhtml#mo-nav-010-3"/>
+        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:16.072" clipEnd="00:00:17.370"/>
+      </par>
+      <par>
+        <text src="../xhtml/navigation_tests.xhtml#mo-nav-010-4"/>
+        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:17.370" clipEnd="00:00:19.517"/>
+      </par>
+      <par>
+        <text src="../xhtml/navigation_tests.xhtml#mo-nav-010-5"/>
+        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:19.517" clipEnd="00:00:20.022"/>
+      </par>
+      <par>
+        <text src="../xhtml/navigation_tests.xhtml#mo-nav-010-6"/>
+        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:20.022" clipEnd="00:00:20.738"/>
+      </par>
+      <par>
+        <text src="../xhtml/navigation_tests.xhtml#mo-nav-010-7"/>
+        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:20.738" clipEnd="00:00:21.100"/>
+      </par>
+      <par>
+        <text src="../xhtml/navigation_tests.xhtml#mo-1-46"/>
+        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:21.100" clipEnd="00:00:21.842"/>
+      </par>
+      <par>
+        <text src="../xhtml/navigation_tests.xhtml#mo-nav-010-8"/>
+        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:21.842" clipEnd="00:00:22.360"/>
+      </par>
+      <par>
+        <text src="../xhtml/navigation_tests.xhtml#mo-nav-010-9"/>
+        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:22.360" clipEnd="00:00:23.293"/>
+      </par>
+      <par>
+        <text src="../xhtml/navigation_tests.xhtml#mo-nav-010-10"/>
+        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:23.293" clipEnd="00:00:23.883"/>
+      </par>
+      <par>
+        <text src="../xhtml/navigation_tests.xhtml#mo-nav-010-11"/>
+        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:23.883" clipEnd="00:00:26.289"/>
+      </par>
+      <par>
+        <text src="../xhtml/navigation_tests.xhtml#mo-nav-010-12"/>
+        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:26.289" clipEnd="00:00:27.942"/>
+      </par>
+      <par>
+        <text src="../xhtml/navigation_tests.xhtml#mo-2-61"/>
+        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:27.942" clipEnd="00:00:34.171"/>
+      </par>
+    </seq>
+    <seq epub:textref="../xhtml/navigation_tests.xhtml#mo-nav-020">
+      <par>
+        <text src="../xhtml/navigation_tests.xhtml#mo-2"/>
+        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:34.171" clipEnd="00:00:36.552"/>
+      </par>
+      <par>
+        <text src="../xhtml/navigation_tests.xhtml#mo-3-27"/>
+        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:36.552" clipEnd="00:00:39.816"/>
+      </par>
+      <par>
+        <text src="../xhtml/navigation_tests.xhtml#mo-3"/>
+        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:39.816" clipEnd="00:00:49.031"/>
+      </par>
+      <par>
+        <text src="../xhtml/navigation_tests.xhtml#mo-4"/>
+        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:49.031" clipEnd="00:00:56.567"/>
+      </par>
+      <par>
+        <text src="../xhtml/navigation_tests.xhtml#mo-5"/>
+        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:56.567" clipEnd="00:01:28.632"/>
+      </par>
+      <par>
+        <text src="../xhtml/navigation_tests.xhtml#mo-4-20"/>
+        <audio src="../audio/navigation_tests.mp3" clipBegin="00:01:28.632" clipEnd="00:01:32.840"/>
+      </par>
+    </seq>
   </body>
 </smil>
