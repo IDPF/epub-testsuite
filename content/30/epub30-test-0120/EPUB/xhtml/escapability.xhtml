@@ -1,16 +1,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
-	<head>
-        <meta charset="utf-8"/>
-        <link rel="stylesheet" type="text/css" href="../css/base.css"/>
-	</head>
-
-	<body>
+  <head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="../css/base.css"/>
+  </head>
+  <body>
 		<h1 id="mo-1">Escapability</h1>
 
-        <section id="mo-esc-010" class="otest">
-        	<h2><span class="nature">[OPTIONAL]</span> <span class="test-id">mo-esc-010</span> <span id="mo-010-1">Section Escapability - Basic</span></h2>
+        <section id="mo-esc-010" class="otest"><h2><span class="nature">[OPTIONAL]</span> <span class="test-id">mo-esc-010</span> <span id="mo-010-1">Section Escapability - Basic</span></h2>
 
-        	<p class="desc">Tests whether basic escapability is supported.</p>
+        	<p class="desc" id="mo-1-75">Tests whether basic escapability is supported.</p>
 
 			<p id="mo-010-2">While Media Overlays (MO) are playing within the highlighted escapable element below, invoke the 'escape' command (assuming it is provided by the reading system).</p>
 
@@ -26,13 +24,10 @@
 			
 			<p id="mo-010-6">This is a normal paragraph, immediately following an escapable document fragment.</p>
 
-        	<p class="eval">If MO playback escapes from the highlighted escapable element, and resumes immediately after it, the test passes.</p>
-        </section>
+        	<p class="eval" id="mo-2">If MO playback escapes from the highlighted escapable element, and resumes immediately after it, the test passes.</p>
+        </section><section id="mo-esc-020" class="otest"><h2><span class="nature">[OPTIONAL]</span> <span class="test-id">mo-esc-020</span> <span id="mo-020-1">Section Escapability - Contiguous</span></h2>
 
-        <section id="mo-esc-020" class="otest">
-        	<h2><span class="nature">[OPTIONAL]</span> <span class="test-id">mo-esc-020</span> <span id="mo-020-1">Section Escapability - Contiguous</span></h2>
-
-        	<p class="desc">Tests whether playback behaviour with contiguous escapable fragments is correct.</p>
+        	<p class="desc" id="mo-3">Tests whether playback behaviour with contiguous escapable fragments is correct.</p>
 
 			<p id="mo-020-2">While Media Overlays (MO) are playing within the first highlighted escapable element below, invoke the 'escape' command (assuming it is provided by the reading system).</p>
 
@@ -50,13 +45,10 @@
 
 			<p id="mo-020-7">This is a normal paragraph, immediately following an escapable document fragment.</p>
 
-        	<p class="eval">If MO playback escapes from the first highlighted escapable element, and does not skip the second highlighted escapable element (resumes within it), the test passes.</p>
-        </section>
+        	<p class="eval" id="mo-4">If MO playback escapes from the first highlighted escapable element, and does not skip the second highlighted escapable element (resumes within it), the test passes.</p>
+        </section><section id="mo-esc-030" class="otest"><h2><span class="nature">[OPTIONAL]</span> <span class="test-id">mo-esc-030</span> <span id="mo-030-1">Section Escapability - Nested</span></h2>
 
-        <section id="mo-esc-030" class="otest">
-        	<h2><span class="nature">[OPTIONAL]</span> <span class="test-id">mo-esc-030</span> <span id="mo-030-1">Section Escapability - Nested</span></h2>
-
-        	<p class="desc">Tests whether nested escapability is supported.</p>
+        	<p class="desc" id="mo-5">Tests whether nested escapability is supported.</p>
 
 			<p id="mo-030-2">While Media Overlays (MO) are playing within the <strong>nested</strong> highlighted escapable element below, invoke the 'escape' command (assuming it is provided by the reading system), then invoke it once again from within the <strong>top-level</strong> highlighted escapable element.</p>
 
@@ -81,7 +73,6 @@
 
 			<p id="mo-030-10">This is a normal paragraph, immediately following the top-level escapable document fragment.</p>
 
-        	<p class="eval">The test passes if MO playback escapes from the nested highlighted escapable element, and resumes immediately after it (within yet-another escapable fragment), then escapes from the top-level highlighted escapable element, and resumes at the following "normal" paragraph.</p>
-        </section>
-    </body>
+        	<p class="eval" id="mo-6">The test passes if MO playback escapes from the nested highlighted escapable element, and resumes immediately after it (within yet-another escapable fragment), then escapes from the top-level highlighted escapable element, and resumes at the following "normal" paragraph.</p>
+        </section></body>
 </html>

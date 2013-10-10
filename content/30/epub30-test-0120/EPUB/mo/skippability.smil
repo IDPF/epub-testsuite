@@ -2,37 +2,63 @@
   <body epub:textref="../xhtml/skippability.xhtml">
     <par>
       <text src="../xhtml/skippability.xhtml#mo-1"/>
+      <audio src="../audio/skippability.mp3" clipBegin="00:00:00.000" clipEnd="00:00:00.986"/>
     </par>
-	<seq epub:textref="../xhtml/skippability.xhtml#mo-skip-010">
-	    <par>
-	      <text src="../xhtml/skippability.xhtml#mo-010-1"/>
-	    </par>
-	    <par>
-	      <text src="../xhtml/skippability.xhtml#mo-010-2"/>
-	    </par>
-	    <par epub:type="pagebreak">
-	      <text src="../xhtml/skippability.xhtml#mo-010-3"/>
-	    </par>
-	    <par>
-	      <text src="../xhtml/skippability.xhtml#mo-010-4"/>
-	    </par>
-	</seq>
-	<seq epub:textref="../xhtml/skippability.xhtml#mo-skip-020">
-	    <par>
-	      <text src="../xhtml/skippability.xhtml#mo-020-1"/>
-	    </par>
-	    <par>
-	      <text src="../xhtml/skippability.xhtml#mo-020-2"/>
-	    </par>
-	    <par epub:type="pagebreak">
-	      <text src="../xhtml/skippability.xhtml#mo-020-3"/>
-	    </par>
-	    <par epub:type="pagebreak">
-	      <text src="../xhtml/skippability.xhtml#mo-020-4"/>
-	    </par>
-	    <par>
-	      <text src="../xhtml/skippability.xhtml#mo-020-5"/>
-	    </par>
-	</seq>
+    <seq epub:textref="../xhtml/skippability.xhtml#mo-skip-010">
+      <par>
+        <text src="../xhtml/skippability.xhtml#mo-010-1"/>
+        <audio src="../audio/skippability.mp3" clipBegin="00:00:00.986" clipEnd="00:00:03.248"/>
+      </par>
+      <par>
+        <text src="../xhtml/skippability.xhtml#mo-1-67"/>
+        <audio src="../audio/skippability.mp3" clipBegin="00:00:03.248" clipEnd="00:00:06.097"/>
+      </par>
+      <par>
+        <text src="../xhtml/skippability.xhtml#mo-010-2"/>
+        <audio src="../audio/skippability.mp3" clipBegin="00:00:06.097" clipEnd="00:00:18.799"/>
+      </par>
+      <par epub:type="pagebreak">
+        <text src="../xhtml/skippability.xhtml#mo-010-3"/>
+        <audio src="../audio/skippability.mp3" clipBegin="00:00:18.799" clipEnd="00:00:31.276"/>
+      </par>
+      <par>
+        <text src="../xhtml/skippability.xhtml#mo-010-4"/>
+        <audio src="../audio/skippability.mp3" clipBegin="00:00:31.276" clipEnd="00:00:36.320"/>
+      </par>
+      <par>
+        <text src="../xhtml/skippability.xhtml#mo-2"/>
+        <audio src="../audio/skippability.mp3" clipBegin="00:00:36.320" clipEnd="00:00:42.692"/>
+      </par>
+    </seq>
+    <seq epub:textref="../xhtml/skippability.xhtml#mo-skip-020">
+      <par>
+        <text src="../xhtml/skippability.xhtml#mo-020-1"/>
+        <audio src="../audio/skippability.mp3" clipBegin="00:00:42.692" clipEnd="00:00:45.229"/>
+      </par>
+      <par>
+        <text src="../xhtml/skippability.xhtml#mo-3"/>
+        <audio src="../audio/skippability.mp3" clipBegin="00:00:45.229" clipEnd="00:00:49.667"/>
+      </par>
+      <par>
+        <text src="../xhtml/skippability.xhtml#mo-020-2"/>
+        <audio src="../audio/skippability.mp3" clipBegin="00:00:49.667" clipEnd="00:01:02.610"/>
+      </par>
+      <par epub:type="pagebreak">
+        <text src="../xhtml/skippability.xhtml#mo-020-3"/>
+        <audio src="../audio/skippability.mp3" clipBegin="00:01:02.610" clipEnd="00:01:15.088"/>
+      </par>
+      <par epub:type="pagebreak">
+        <text src="../xhtml/skippability.xhtml#mo-020-4"/>
+        <audio src="../audio/skippability.mp3" clipBegin="00:01:15.088" clipEnd="00:01:16.957"/>
+      </par>
+      <par>
+        <text src="../xhtml/skippability.xhtml#mo-020-5"/>
+        <audio src="../audio/skippability.mp3" clipBegin="00:01:16.957" clipEnd="00:01:22.738"/>
+      </par>
+      <par>
+        <text src="../xhtml/skippability.xhtml#mo-4"/>
+        <audio src="../audio/skippability.mp3" clipBegin="00:01:22.738" clipEnd="00:01:29.369"/>
+      </par>
+    </seq>
   </body>
 </smil>

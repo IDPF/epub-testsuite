@@ -2,89 +2,137 @@
   <body epub:textref="../xhtml/escapability.xhtml">
     <par>
       <text src="../xhtml/escapability.xhtml#mo-1"/>
+      <audio src="../audio/escapability.mp3" clipBegin="00:00:00.000" clipEnd="00:00:01.061"/>
     </par>
-	<seq epub:textref="../xhtml/escapability.xhtml#mo-esc-010">
-	    <par>
-	      <text src="../xhtml/escapability.xhtml#mo-010-1"/>
-	    </par>
-	    <par>
-	      <text src="../xhtml/escapability.xhtml#mo-010-2"/>
-	    </par>
-		<seq epub:textref="../xhtml/escapability.xhtml#esc1" epub:type="glossary">
-		    <par>
-		      <text src="../xhtml/escapability.xhtml#mo-010-3"/>
-		    </par>
-		    <par>
-		      <text src="../xhtml/escapability.xhtml#mo-010-4"/>
-		    </par>
-		    <par>
-		      <text src="../xhtml/escapability.xhtml#mo-010-5"/>
-		    </par>
-	    </seq>
-	    <par>
-	      <text src="../xhtml/escapability.xhtml#mo-010-6"/>
-	    </par>
-	</seq>
-	<seq epub:textref="../xhtml/escapability.xhtml#mo-esc-020">
-	    <par>
-	      <text src="../xhtml/escapability.xhtml#mo-020-1"/>
-	    </par>
-	    <par>
-	      <text src="../xhtml/escapability.xhtml#mo-020-2"/>
-	    </par>
-		<seq epub:textref="../xhtml/escapability.xhtml#esc2" epub:type="glossary">
-		    <par>
-		      <text src="../xhtml/escapability.xhtml#mo-020-3"/>
-		    </par>
-		    <par>
-		      <text src="../xhtml/escapability.xhtml#mo-020-4"/>
-		    </par>
-		    <par>
-		      <text src="../xhtml/escapability.xhtml#mo-020-5"/>
-		    </par>
-	    </seq>
-	    <par epub:type="glossary">
-	      <text src="../xhtml/escapability.xhtml#mo-020-6"/>
-	    </par>
-	    <par>
-	      <text src="../xhtml/escapability.xhtml#mo-020-7"/>
-	    </par>
-	</seq>
-	<seq epub:textref="../xhtml/escapability.xhtml#mo-esc-030">
-	    <par>
-	      <text src="../xhtml/escapability.xhtml#mo-030-1"/>
-	    </par>
-	    <par>
-	      <text src="../xhtml/escapability.xhtml#mo-030-2"/>
-	    </par>
-		<seq epub:textref="../xhtml/escapability.xhtml#esc3" epub:type="glossary">
-		    <par>
-		      <text src="../xhtml/escapability.xhtml#mo-030-3"/>
-		    </par>
-			<seq epub:textref="../xhtml/escapability.xhtml#esc4" epub:type="glossary">
-			    <par>
-			      <text src="../xhtml/escapability.xhtml#mo-030-4"/>
-			    </par>
-			    <par>
-			      <text src="../xhtml/escapability.xhtml#mo-030-5"/>
-			    </par>
-			    <par>
-			      <text src="../xhtml/escapability.xhtml#mo-030-6"/>
-			    </par>
-			</seq>
-		    <par>
-		      <text src="../xhtml/escapability.xhtml#mo-030-7"/>
-		    </par>
-		    <par>
-		      <text src="../xhtml/escapability.xhtml#mo-030-8"/>
-		    </par>
-		    <par>
-		      <text src="../xhtml/escapability.xhtml#mo-030-9"/>
-		    </par>
-	    </seq>
-	    <par>
-	      <text src="../xhtml/escapability.xhtml#mo-030-10"/>
-	    </par>
-	</seq>
+    <seq epub:textref="../xhtml/escapability.xhtml#mo-esc-010">
+      <par>
+        <text src="../xhtml/escapability.xhtml#mo-010-1"/>
+        <audio src="../audio/escapability.mp3" clipBegin="00:00:01.061" clipEnd="00:00:03.412"/>
+      </par>
+      <par>
+        <text src="../xhtml/escapability.xhtml#mo-1-75"/>
+        <audio src="../audio/escapability.mp3" clipBegin="00:00:03.412" clipEnd="00:00:06.359"/>
+      </par>
+      <par>
+        <text src="../xhtml/escapability.xhtml#mo-010-2"/>
+        <audio src="../audio/escapability.mp3" clipBegin="00:00:06.359" clipEnd="00:00:17.083"/>
+      </par>
+      <seq epub:textref="../xhtml/escapability.xhtml#esc1" epub:type="glossary">
+        <par>
+          <text src="../xhtml/escapability.xhtml#mo-010-3"/>
+          <audio src="../audio/escapability.mp3" clipBegin="00:00:17.083" clipEnd="00:00:40.511"/>
+        </par>
+        <par>
+          <text src="../xhtml/escapability.xhtml#mo-010-4"/>
+          <audio src="../audio/escapability.mp3" clipBegin="00:00:40.511" clipEnd="00:00:48.504"/>
+        </par>
+        <par>
+          <text src="../xhtml/escapability.xhtml#mo-010-5"/>
+          <audio src="../audio/escapability.mp3" clipBegin="00:00:48.504" clipEnd="00:01:20.567"/>
+        </par>
+      </seq>
+      <par>
+        <text src="../xhtml/escapability.xhtml#mo-010-6"/>
+        <audio src="../audio/escapability.mp3" clipBegin="00:01:20.567" clipEnd="00:01:25.740"/>
+      </par>
+      <par>
+        <text src="../xhtml/escapability.xhtml#mo-2"/>
+        <audio src="../audio/escapability.mp3" clipBegin="00:01:25.740" clipEnd="00:01:32.965"/>
+      </par>
+    </seq>
+    <seq epub:textref="../xhtml/escapability.xhtml#mo-esc-020">
+      <par>
+        <text src="../xhtml/escapability.xhtml#mo-020-1"/>
+        <audio src="../audio/escapability.mp3" clipBegin="00:01:32.965" clipEnd="00:01:35.585"/>
+      </par>
+      <par>
+        <text src="../xhtml/escapability.xhtml#mo-3"/>
+        <audio src="../audio/escapability.mp3" clipBegin="00:01:35.585" clipEnd="00:01:40.344"/>
+      </par>
+      <par>
+        <text src="../xhtml/escapability.xhtml#mo-020-2"/>
+        <audio src="../audio/escapability.mp3" clipBegin="00:01:40.344" clipEnd="00:01:51.439"/>
+      </par>
+      <seq epub:textref="../xhtml/escapability.xhtml#esc2" epub:type="glossary">
+        <par>
+          <text src="../xhtml/escapability.xhtml#mo-020-3"/>
+          <audio src="../audio/escapability.mp3" clipBegin="00:01:51.439" clipEnd="00:02:15.986"/>
+        </par>
+        <par>
+          <text src="../xhtml/escapability.xhtml#mo-020-4"/>
+          <audio src="../audio/escapability.mp3" clipBegin="00:02:15.986" clipEnd="00:02:23.978"/>
+        </par>
+        <par>
+          <text src="../xhtml/escapability.xhtml#mo-020-5"/>
+          <audio src="../audio/escapability.mp3" clipBegin="00:02:23.978" clipEnd="00:02:56.042"/>
+        </par>
+      </seq>
+      <par epub:type="glossary">
+        <text src="../xhtml/escapability.xhtml#mo-020-6"/>
+        <audio src="../audio/escapability.mp3" clipBegin="00:02:56.042" clipEnd="00:03:17.933"/>
+      </par>
+      <par>
+        <text src="../xhtml/escapability.xhtml#mo-020-7"/>
+        <audio src="../audio/escapability.mp3" clipBegin="00:03:17.933" clipEnd="00:03:23.105"/>
+      </par>
+      <par>
+        <text src="../xhtml/escapability.xhtml#mo-4"/>
+        <audio src="../audio/escapability.mp3" clipBegin="00:03:23.105" clipEnd="00:03:33.263"/>
+      </par>
+    </seq>
+    <seq epub:textref="../xhtml/escapability.xhtml#mo-esc-030">
+      <par>
+        <text src="../xhtml/escapability.xhtml#mo-030-1"/>
+        <audio src="../audio/escapability.mp3" clipBegin="00:03:33.263" clipEnd="00:03:35.565"/>
+      </par>
+      <par>
+        <text src="../xhtml/escapability.xhtml#mo-5"/>
+        <audio src="../audio/escapability.mp3" clipBegin="00:03:35.565" clipEnd="00:03:38.480"/>
+      </par>
+      <par>
+        <text src="../xhtml/escapability.xhtml#mo-030-2"/>
+        <audio src="../audio/escapability.mp3" clipBegin="00:03:38.480" clipEnd="00:03:54.251"/>
+      </par>
+      <seq epub:textref="../xhtml/escapability.xhtml#esc3" epub:type="glossary">
+        <par>
+          <text src="../xhtml/escapability.xhtml#mo-030-3"/>
+          <audio src="../audio/escapability.mp3" clipBegin="00:03:54.251" clipEnd="00:04:08.022"/>
+        </par>
+        <seq epub:textref="../xhtml/escapability.xhtml#esc4" epub:type="glossary">
+          <par>
+            <text src="../xhtml/escapability.xhtml#mo-030-4"/>
+            <audio src="../audio/escapability.mp3" clipBegin="00:04:08.022" clipEnd="00:04:27.448"/>
+          </par>
+          <par>
+            <text src="../xhtml/escapability.xhtml#mo-030-5"/>
+            <audio src="../audio/escapability.mp3" clipBegin="00:04:27.448" clipEnd="00:04:35.797"/>
+          </par>
+          <par>
+            <text src="../xhtml/escapability.xhtml#mo-030-6"/>
+            <audio src="../audio/escapability.mp3" clipBegin="00:04:35.797" clipEnd="00:05:07.861"/>
+          </par>
+        </seq>
+        <par>
+          <text src="../xhtml/escapability.xhtml#mo-030-7"/>
+          <audio src="../audio/escapability.mp3" clipBegin="00:05:07.861" clipEnd="00:05:24.740"/>
+        </par>
+        <par>
+          <text src="../xhtml/escapability.xhtml#mo-030-8"/>
+          <audio src="../audio/escapability.mp3" clipBegin="00:05:24.740" clipEnd="00:05:33.303"/>
+        </par>
+        <par>
+          <text src="../xhtml/escapability.xhtml#mo-030-9"/>
+          <audio src="../audio/escapability.mp3" clipBegin="00:05:33.303" clipEnd="00:06:05.367"/>
+        </par>
+      </seq>
+      <par>
+        <text src="../xhtml/escapability.xhtml#mo-030-10"/>
+        <audio src="../audio/escapability.mp3" clipBegin="00:06:05.367" clipEnd="00:06:11.065"/>
+      </par>
+      <par>
+        <text src="../xhtml/escapability.xhtml#mo-6"/>
+        <audio src="../audio/escapability.mp3" clipBegin="00:06:11.065" clipEnd="00:06:27.604"/>
+      </par>
+    </seq>
   </body>
 </smil>

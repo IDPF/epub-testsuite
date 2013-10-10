@@ -2,48 +2,90 @@
   <body epub:textref="../xhtml/embedded-media.xhtml">
     <par>
       <text src="../xhtml/embedded-media.xhtml#mo-1"/>
+      <audio src="../audio/embedded-media.mp3" clipBegin="00:00:00.000" clipEnd="00:00:01.132"/>
     </par>
-	<seq epub:textref="../xhtml/embedded-media.xhtml#mo-embed-010">
-	    <par>
-	      <text src="../xhtml/embedded-media.xhtml#mo-010-1"/>
-	    </par>
-	    <par>
-	      <text src="../xhtml/embedded-media.xhtml#mo-010-2"/>
-	    </par>
-	    <par>
-	      <text src="../xhtml/embedded-media.xhtml#mo-010-3"/>
-	    </par>
-	    <par>
-	      <text src="../xhtml/embedded-media.xhtml#mo-010-4"/>
-	    </par>
-	</seq>
-	<seq epub:textref="../xhtml/embedded-media.xhtml#mo-embed-020">
-	    <par>
-	      <text src="../xhtml/embedded-media.xhtml#mo-020-1"/>
-	    </par>
-	    <par>
-	      <text src="../xhtml/embedded-media.xhtml#mo-020-2"/>
-	    </par>
-	    <par>
-	      <text src="../xhtml/embedded-media.xhtml#mo-020-3"/>
-	    </par>
-	    <par>
-	      <text src="../xhtml/embedded-media.xhtml#mo-020-4"/>
-	    </par>
-	</seq>
-	<seq epub:textref="../xhtml/embedded-media.xhtml#mo-embed-030">
-	    <par>
-	      <text src="../xhtml/embedded-media.xhtml#mo-030-1"/>
-	    </par>
-	    <par>
-	      <text src="../xhtml/embedded-media.xhtml#mo-030-2"/>
-	    </par>
-	    <par>
-	      <text src="../xhtml/embedded-media.xhtml#mo-030-3"/>
-	    </par>
-	    <par>
-	      <text src="../xhtml/embedded-media.xhtml#mo-030-4"/>
-	    </par>
-	</seq>
+    <seq epub:textref="../xhtml/embedded-media.xhtml#mo-embed-010">
+      <par>
+        <text src="../xhtml/embedded-media.xhtml#mo-010-1"/>
+        <audio src="../audio/embedded-media.mp3" clipBegin="00:00:01.132" clipEnd="00:00:03.734"/>
+      </par>
+      <par>
+        <text src="../xhtml/embedded-media.xhtml#mo-1-13"/>
+        <audio src="../audio/embedded-media.mp3" clipBegin="00:00:03.734" clipEnd="00:00:09.339"/>
+      </par>
+      <par>
+        <text src="../xhtml/embedded-media.xhtml#mo-010-2"/>
+        <audio src="../audio/embedded-media.mp3" clipBegin="00:00:09.339" clipEnd="00:00:34.189"/>
+      </par>
+      <par>
+        <text src="../xhtml/embedded-media.xhtml#mo-2"/>
+        <audio src="../audio/embedded-media.mp3" clipBegin="00:00:34.189" clipEnd="00:00:36.928"/>
+      </par>
+       <par>
+        <text src="../xhtml/embedded-media.xhtml#mo-010-3"/>
+       </par>
+      <par>
+        <text src="../xhtml/embedded-media.xhtml#mo-010-4"/>
+        <audio src="../audio/embedded-media.mp3" clipBegin="00:00:36.928" clipEnd="00:00:40.854"/>
+      </par>
+      <par>
+        <text src="../xhtml/embedded-media.xhtml#mo-3"/>
+        <audio src="../audio/embedded-media.mp3" clipBegin="00:00:40.854" clipEnd="00:00:47.036"/>
+      </par>
+    </seq>
+    <seq epub:textref="../xhtml/embedded-media.xhtml#mo-embed-020">
+      <par>
+        <text src="../xhtml/embedded-media.xhtml#mo-020-1"/>
+        <audio src="../audio/embedded-media.mp3" clipBegin="00:00:47.036" clipEnd="00:00:49.846"/>
+      </par>
+      <par>
+        <text src="../xhtml/embedded-media.xhtml#mo-4"/>
+        <audio src="../audio/embedded-media.mp3" clipBegin="00:00:49.846" clipEnd="00:00:55.771"/>
+      </par>
+      <par>
+        <text src="../xhtml/embedded-media.xhtml#mo-020-2"/>
+        <audio src="../audio/embedded-media.mp3" clipBegin="00:00:55.771" clipEnd="00:01:25.172"/>
+      </par>
+      <par>
+        <text src="../xhtml/embedded-media.xhtml#mo-5"/>
+        <audio src="../audio/embedded-media.mp3" clipBegin="00:01:25.172" clipEnd="00:01:27.911"/>
+      </par>
+       <par>
+        <text src="../xhtml/embedded-media.xhtml#mo-020-3"/>
+       </par>
+      <par>
+        <text src="../xhtml/embedded-media.xhtml#mo-020-4"/>
+        <audio src="../audio/embedded-media.mp3" clipBegin="00:01:27.911" clipEnd="00:01:31.837"/>
+      </par>
+      <par>
+        <text src="../xhtml/embedded-media.xhtml#mo-6"/>
+        <audio src="../audio/embedded-media.mp3" clipBegin="00:01:31.837" clipEnd="00:01:39.790"/>
+      </par>
+    </seq>
+    <seq epub:textref="../xhtml/embedded-media.xhtml#mo-embed-030">
+      <par>
+        <text src="../xhtml/embedded-media.xhtml#mo-030-1"/>
+        <audio src="../audio/embedded-media.mp3" clipBegin="00:01:39.790" clipEnd="00:01:41.788"/>
+      </par>
+      <par>
+        <text src="../xhtml/embedded-media.xhtml#mo-7"/>
+        <audio src="../audio/embedded-media.mp3" clipBegin="00:01:41.788" clipEnd="00:01:44.626"/>
+      </par>
+      <par>
+        <text src="../xhtml/embedded-media.xhtml#mo-030-2"/>
+        <audio src="../audio/embedded-media.mp3" clipBegin="00:01:44.626" clipEnd="00:01:52.508"/>
+      </par>
+      <par>
+        <text src="../xhtml/embedded-media.xhtml#mo-030-3"/>
+      </par>
+      <par>
+        <text src="../xhtml/embedded-media.xhtml#mo-030-4"/>
+        <audio src="../audio/embedded-media.mp3" clipBegin="00:03:07.444" clipEnd="00:03:11.390"/>
+      </par>
+      <par>
+        <text src="../xhtml/embedded-media.xhtml#mo-10"/>
+        <audio src="../audio/embedded-media.mp3" clipBegin="00:03:11.390" clipEnd="00:03:19.372"/>
+      </par>
+    </seq>
   </body>
 </smil>

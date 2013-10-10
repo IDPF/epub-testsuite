@@ -1,77 +1,56 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
-	<head>
-        <meta charset="utf-8"/>
-        <link rel="stylesheet" type="text/css" href="../css/base.css"/>
-	</head>
-
-	<body>
+  <head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="../css/base.css"/>
+  </head>
+  <body>
 		<h1 id="mo-1">Embedded Media</h1>
 
-        <section id="mo-embed-010" class="otest">
-        	<h2><span class="nature">[OPTIONAL]</span> <span class="test-id">mo-embed-010</span> <span id="mo-010-1">Embedded Media - Playback Flow</span></h2>
+        <section id="mo-embed-010" class="otest"><h2><span class="nature">[OPTIONAL]</span> <span class="test-id">mo-embed-010</span> <span id="mo-010-1">Embedded Media - Playback Flow</span></h2>
 
-        	<p class="desc">Tests whether MO-driven playback of embedded media (audio or video) is supported.</p>
+        	<p class="desc" id="mo-1-13">Tests whether MO-driven playback of embedded media (audio or video) is supported.</p>
 
 			<p id="mo-010-2">When MO playback reaches the embedded HTML5 audio player below, it should automatically start the referenced audio file, and play it for its full duration (assuming no user interaction takes place, that is to say: no phrase-level navigation, no mouse click-to-start, etc.). Once the embedded audio finishes, MO playback should continue at the next paragraph.</p>
 
 			<p>
-				<strong>(the audio should say "path resolution ...")</strong> <br/>
-				<audio id="mo-010-3" src="../audio/path_resolution_audio_files.mp3" controls="controls" style="padding: 1em;"/>
-			</p>
+				<strong id="mo-2">(the audio should say "path resolution ...")</strong> <br/><audio id="mo-010-3" src="../audio/path_resolution_audio_files.mp3" controls="controls" style="padding: 1em;"/></p>
 
 			<p id="mo-010-4">This paragraph follows the embedded HTML5 audio player.</p>
 			
-        	<p class="eval">If MO playback correctly controls the start and stop of the embedded audio, the test passes.</p>
-        </section>
+        	<p class="eval" id="mo-3">If MO playback correctly controls the start and stop of the embedded audio, the test passes.</p>
+        </section><section id="mo-embed-020" class="otest"><h2><span class="nature">[OPTIONAL]</span> <span class="test-id">mo-embed-020</span> <span id="mo-020-1">Embedded Media - Pause / Resume</span></h2>
 
-        <section id="mo-embed-020" class="otest">
-        	<h2><span class="nature">[OPTIONAL]</span> <span class="test-id">mo-embed-020</span> <span id="mo-020-1">Embedded Media - Pause / Resume</span></h2>
-
-        	<p class="desc">Tests whether MO-driven pause/resume of embedded media (audio or video) is supported.</p>
+        	<p class="desc" id="mo-4">Tests whether MO-driven pause/resume of embedded media (audio or video) is supported.</p>
 
 			<p id="mo-020-2">When MO playback reaches the embedded HTML5 audio player below, it should automatically start the referenced audio file, and play it for its full duration (assuming no user interaction takes place, that is to say: no phrase-level navigation, no mouse click-to-start, etc.). However, invoking the 'pause' command whilst the embedded audio is active should pause the media, and 'resume' should work as expected as well.</p>
 
 			<p>
-				<strong>(the audio should say "path resolution ...")</strong> <br/>
-				<audio id="mo-020-3" src="../audio/path_resolution_audio_files.mp3" preload="none" controls="controls" style="padding: 1em;"/>
-			</p>
+				<strong id="mo-5">(the audio should say "path resolution ...")</strong> <br/><audio id="mo-020-3" src="../audio/path_resolution_audio_files.mp3" preload="none" controls="controls" style="padding: 1em;"/></p>
 
 			<p id="mo-020-4">This paragraph follows the embedded HTML5 audio player.</p>
 			
-        	<p class="eval">If MO playback correctly controls the start + pause / resume behaviours of the embedded audio, the test passes.</p>
-        </section>
+        	<p class="eval" id="mo-6">If MO playback correctly controls the start + pause / resume behaviours of the embedded audio, the test passes.</p>
+        </section><section id="mo-embed-030" class="otest"><h2><span class="nature">[OPTIONAL]</span> <span class="test-id">mo-embed-030</span> <span id="mo-030-1">Embedded Media - Video</span></h2>
 
-        <section id="mo-embed-030" class="otest">
-        	<h2><span class="nature">[OPTIONAL]</span> <span class="test-id">mo-embed-030</span> <span id="mo-030-1">Embedded Media - Video</span></h2>
-
-        	<p class="desc">Tests whether MO embedded video is supported.</p>
+        	<p class="desc" id="mo-7">Tests whether MO embedded video is supported.</p>
 
 			<p id="mo-030-2">The video below should behave in the same way as embedded audio, when playback is driven by Media Overlays synchronisation.</p>
 
-				<video id="mo-030-3" width="426" height="240" preload="none" controls="controls" style="padding: 1em;">
-
-                    <source src="../gizmo.webm" type="video/webm" />
-                    <source src="../gizmo.mp4" type="video/mp4" />
-                    <source src="../gizmo.ogv" type="video/ogg" />
+				<video id="mo-030-3" width="426" height="240" preload="none" controls="controls" style="padding: 1em;"><source src="../gizmo.webm" type="video/webm"/><source src="../gizmo.mp4" type="video/mp4"/><source src="../gizmo.ogv" type="video/ogg"/>
 
 										
 					Your reading system does not seem to support HTML5 video, which is why this text is displayed.
-					<br/>
-					<a title="Gizmo video download (Creative Commons by 3.0)" href="http://www.808.dk/?code-html-5-video">http://www.808.dk/?code-html-5-video</a>
-					<br/>
-                        <pre><code>
+					<br/><a title="Gizmo video download (Creative Commons by 3.0)" href="http://www.808.dk/?code-html-5-video" id="mo-8">http://www.808.dk/?code-html-5-video</a>
+					<br/><pre><code id="mo-9">
 &lt;video&gt;                    
   &lt;source src="../gizmo.mp4" type="video/mp4"/&gt;
   &lt;source src="../gizmo.webm" type="video/webm"/&gt;    
   &lt;source src="../gizmo.ogv" type="video/ogg"/&gt;    
 &lt;/video&gt;
                         </code></pre>
-					</video>
-					
-					<p id="mo-030-4">This paragraph follows the embedded HTML5 video player.</p>
+					</video><p id="mo-030-4">This paragraph follows the embedded HTML5 video player.</p>
 			
 					
-        	<p class="eval">If MO playback correctly controls the start + pause / resume behaviours of the embedded video, the test passes.</p>
-        </section>
-    </body>
+        	<p class="eval" id="mo-10">If MO playback correctly controls the start + pause / resume behaviours of the embedded video, the test passes.</p>
+        </section></body>
 </html>
