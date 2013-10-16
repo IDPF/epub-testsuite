@@ -14,7 +14,7 @@
         <audio src="../audio/more_navigation_tests.mp3" clipBegin="00:00:04.049" clipEnd="00:00:25.271"/>
       </par>
     </seq>
-    <seq epub:textref="../xhtml/more_navigation_tests.xhtml#mo-nav-020">
+    <seq epub:textref="../xhtml/more_navigation_tests.xhtml#mo-nav-030">
       <par>
         <text src="../xhtml/more_navigation_tests.xhtml#mo-4"/>
         <audio src="../audio/more_navigation_tests.mp3" clipBegin="00:00:25.271" clipEnd="00:00:26.351"/>
