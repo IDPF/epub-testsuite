@@ -7,11 +7,11 @@
 		<meta name="viewport" content="width=900, height=600"/>
 	</head>
 	<body>
-		<section id="fxl-100" class="ctest">
-			<h2><span class="nature">[REQUIRED]</span>
-				<span class="test-id">fxl-100</span>fixed format wt orientation=landscape and spread=portrait</h2>
-			<p class="desc">Tests that when the fixed format properties are set to orientation=landscape and spread=portrait, the page renders correctly</p>
-			<p class="eval">This page should be displayed in landscape mode, with no synthetic spread.  That is, this page should be displayed in landscape mode, and the next page that says "Page 3" should not be displayed contiguously on the right hand side of it.</p>
+		<section id="fxl-100" class="otest">
+			<h2><span class="nature">[OPTIONAL]</span>
+				<span class="test-id">fxl-100</span> Spine override of the global <code>rendition:orientation</code> property</h2>
+			<p class="desc">Tests whether the global <code>rendition:orientation</code> setting can be overriden for individual spine items.</p>
+			<p class="eval">If "page 4" and "page 5" render in portrait orientation, and the rest of the pages in landscape orientation, the test passes.</p>
 		</section>
 	</body>
 </html>

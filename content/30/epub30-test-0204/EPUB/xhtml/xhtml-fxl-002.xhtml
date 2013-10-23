@@ -9,9 +9,11 @@
 	<body>
 		<section id="fxl-040" class="ctest">
 			<h2><span class="nature">[REQUIRED]</span>
-				<span class="test-id">fxl-040</span>fixed format wt orientation=auto and spread=none</h2>
-			<p class="desc">Tests that when the fixed format properties are set to orientation=auto and spread=none, the page renders correctly</p>
-			<p class="eval">This page should be displayed in either portrait or landscape mode, with no synthetic spread.  That is, this page should be displayed, and the next page that says "Page 3" should not be displayed contiguously on the right hand side of it.</p>
+				<span class="test-id">fxl-040</span> Fixed layouts without synthetic spreads</h2>
+			<p class="desc">Tests whether setting the global <code>rendition:spread</code> property to <code>none</code>
+				disables synthetic spreads.</p>
+			<p class="eval">If this publication is not rendered in a synthetic spread, regardless of how the device is held,
+				the test passes. If a synthetic spread is rendered in either mode, the test fails.</p>
 		</section>
 	</body>
 </html>

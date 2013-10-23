@@ -7,11 +7,15 @@
 		<meta name="viewport" content="width=900, height=600"/>
 	</head>
 	<body>
-		<section id="fxl-110" class="ctest">
-			<h2><span class="nature">[REQUIRED]</span>
-				<span class="test-id">fxl-110</span>fixed format wt orientation=portrait and spread=auto</h2>
-			<p class="desc">Tests that when the fixed format properties are set to orientation=portrait and spread=auto, the page renders correctly</p>
-			<p class="eval">This page should be displayed in portrait mode. It is up to the reading system if a synthetic spread should be displayed.</p>
+		<section id="fxl-120" class="otest">
+			<h2><span class="nature">[OPTIONAL]</span>
+				<span class="test-id">fxl-120</span> Right-to-left page progression direction</h2>
+			<p class="desc">Tests right-to-left page progression direction for fixed layout pages.</p>
+			<p class="eval">If page progression is from the right to the left (e.g., the table of contents is to the right
+				of this page in the synthetic spread), the test passes. If page progression is from left to right 
+				(e.g., the table of contents is to the left of this page), the test fails. If no spread is generated, the test
+				still passes if pages advance from the left (e.g., clicking on an arrow on the left-hand side, or
+				swiping from left to right).</p>
 		</section>
 	</body>
 </html>

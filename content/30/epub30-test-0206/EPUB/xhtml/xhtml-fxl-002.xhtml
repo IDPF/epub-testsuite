@@ -9,9 +9,11 @@
 	<body>
 		<section id="fxl-060" class="ctest">
 			<h2><span class="nature">[REQUIRED]</span>
-				<span class="test-id">fxl-060</span>fixed format wt orientation=landscape and spread=auto</h2>
-			<p class="desc">Tests that when the fixed format properties are set to orientation=landscape and spread=auto, the page renders correctly</p>
-			<p class="eval">This page should be displayed in landscape mode.  It is up to the reading system if a synthetic spread should be displayed.</p>
+				<span class="test-id">fxl-060</span> Fixed layout pages in landscape mode</h2>
+			<p class="desc">Tests whether setting the global <code>rendition:orientation</code> property to <code>landscape</code> results
+				in pages always being rendered in landscape mode.</p>
+			<p class="eval">If the pages of this publication are rendered in landscape mode, regardless of how the device is held, 
+				the test passes. If the pages are rendered in portrait mode, the test fails.</p>
 		</section>
 	</body>
 </html>

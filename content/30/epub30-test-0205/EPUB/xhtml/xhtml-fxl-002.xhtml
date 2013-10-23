@@ -7,11 +7,14 @@
 		<meta name="viewport" content="width=900, height=600"/>
 	</head>
 	<body>
-		<section id="fxl-050" class="ctest">
-			<h2><span class="nature">[REQUIRED]</span>
-				<span class="test-id">fxl-050</span>fixed format wt orientation=auto and spread=portrait</h2>
-			<p class="desc">Tests that when the fixed format properties are set to orientation=auto and spread=portrait, the page renders correctly</p>
-			<p class="eval">This page should be displayed in either portrait or landscape mode, with a synthetic spread when in portrait mode.  That is, this page should be displayed, and the next page that says "Page 3" should be displayed contiguously on the right hand side of it.</p>
+		<section id="fxl-050" class="otest">
+			<h2><span class="nature">[OPTIONAL]</span>
+				<span class="test-id">fxl-050</span> Fixed layout synthetic spreads in portrait mode only</h2>
+			<p class="desc">Tests whether setting the global <code>rendition:spread</code> property to <code>portrait</code>
+				generates a synthetic spread only when the device is held in portrait mode.</p>
+			<p class="eval">If this publication is rendered in a synthetic spread when the device is held in portrait mode,
+				the test passes. If a synthetic spread is not rendered in portrait mdoe, or is also rendered in landscape mode, 
+				the test fails.</p>
 		</section>
 	</body>
 </html>
