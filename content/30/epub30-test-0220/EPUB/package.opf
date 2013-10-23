@@ -3,8 +3,8 @@
     prefix="rendition: http://www.idpf.org/vocab/rendition/#">
    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
       <dc:identifier id="uid">com.github.epub-testsuite.epub30-test-0220</dc:identifier>
-      <dc:title id="title">EPUB 3.0 Test Suite: Document 0220</dc:title>
-   	  <dc:description>Tests for Media Overlays in a fixed layout context [UNDER CONSTRUCTION]</dc:description>
+      <dc:description>Tests for Media Overlays in a fixed layout context [UNDER CONSTRUCTION]</dc:description>
+      <dc:title id="title">EPUBTEST 0220 - Media Overlays Fixed Layout Tests</dc:title>
    	  <meta refines="title" property="title-type">main</meta>
       <!-- repeat creator element for all contributors -->
       <dc:creator id="creator1">Marisa DeMeglio</dc:creator>

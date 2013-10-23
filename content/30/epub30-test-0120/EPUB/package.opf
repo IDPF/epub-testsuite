@@ -2,8 +2,9 @@
 <package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uid">
    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
       <dc:identifier id="uid">com.github.epub-testsuite.epub30-test-0120</dc:identifier>
-      <dc:title id="title">EPUB 3.0 Test Suite: Document 0120</dc:title>
-	  <dc:description>Tests for Media Overlays in a reflowable context [UNDER CONSTRUCTION]</dc:description>
+      <dc:description>Tests for Media Overlays in a reflowable context [UNDER CONSTRUCTION]</dc:description>
+      <dc:title id="title">EPUBTEST 0120 - Media Overlays Reflowable Tests</dc:title>
+      
 	  <meta refines="title" property="title-type">main</meta>
 	  
       <!-- repeat creator element for all contributors -->
