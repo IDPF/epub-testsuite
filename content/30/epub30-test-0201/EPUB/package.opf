@@ -16,7 +16,7 @@
 		<meta property="dcterms:modified">2013-07-22T15:25:12Z</meta>
 		<meta property="rendition:layout">pre-paginated</meta>
 		<meta property="rendition:orientation">auto</meta>
-		<meta property="rendition:spread">auto</meta>
+		<meta property="rendition:spread">none</meta>
 	</metadata>
 	<manifest>
 		<!-- frontmatter -->

@@ -81,3 +81,9 @@ nav a {
 .conditional {
 	font-style: italic;
 }
+
+div.pagenum {
+    position: absolute;
+    bottom: 0px;
+    left: 425px;
+}
