@@ -4,7 +4,7 @@
 
 m|math.basic {
 	border: 1px dashed rgb(190,0,0);
-	background-color: rgb(200,200,200);
+	background-color: rgb(255,255,224);
 	padding: 0.2em;
 }
 
@@ -19,5 +19,5 @@ m|math.basic mi.test {
 
 m|math.basic mn.test {
 	font-style: italic;
-	color: rgb(255,255,224);
+	color: rgb(0,0,250);
 }
