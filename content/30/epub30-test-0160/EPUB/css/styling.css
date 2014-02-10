@@ -26,8 +26,6 @@ ol.none-list-type {list-style-type:none;}
 		/* ol.katakana-iroha-list-type {list-style-type:katakana-iroha;} */
 		/* ol.inherit-list-type {list-style-type:inherit;} */
 
-ul.square-gif-list-style {list-style:square url("../img/purple-aqua-square-bullet.gif");}
-
 ul.inside-position-list {list-style-position:inside;}
 ul.outside-position-list {list-style-position:outside;}
 

@@ -7,13 +7,49 @@
         <script>
         //<![CDATA[
         
+        try
+        {
+            console.debug(window.location.href);
+        }
+        catch (e)
+        {
+        }
+        
         var breached = false;
         try
         {
-            breached = !window.parent || (window.parent != window && (typeof window.parent.document !== undefined) && window.parent.document.documentElement.createElement("span"));
+            breached = !window.parent
+            || (window.parent != window
+                && (typeof window.parent.document !== undefined)
+                && (typeof window.parent.document.documentElement !== undefined)
+            );
+
+            console.debug(">> 1: " + breached);
+
+            if (breached && (typeof window.parent !== undefined))
+            {
+                var p = window.parent.document.createElementNS("http://www.w3.org/1999/xhtml", "marquee");
+                p.setAttribute("style", "position: absolute; top:0; left: 0; right: 0; z-index: 9999; font-weight: bold; font-size: 200%; color: black; text-align: center; border: 1em solid red; background: white;");
+                var p1 = window.parent.document.createElementNS("http://www.w3.org/1999/xhtml", "span");
+                p1.setAttribute("style", "color: green;");
+                p1.appendChild(window.parent.document.createTextNode("SECURITY BREACH"));
+                p.appendChild(p1);
+
+                p.appendChild(window.parent.document.createTextNode(" --- "));
+                
+                var p2 = window.parent.document.createElementNS("http://www.w3.org/1999/xhtml", "span");
+                p2.setAttribute("style", "color: blue;");
+                p2.appendChild(window.parent.document.createTextNode("THE READING SYSTEM'S INTEGRITY HAS BEEN COMPROMISED."));
+                p.appendChild(p2);
+                
+                window.parent.document.body.insertBefore(p, window.parent.document.body.childNodes[0]);
+
+                console.debug(">> 2");
+            }
         }
         catch(e)
         {
+            breach = false;
             console.error(e);
         }
 
@@ -44,9 +80,9 @@
         		
                 <p class="conditional">Javascript scripting must be supported for this test to execute properly.</p>
                         
-				<p class="eval">The the test passes if
-                    this content document is not hosted by an <code>iframe</code> (e.g. native UIWebView),
-                    or if the Javascript code executed in this document is unable to access the parent object context, as indicated by the text below ("PASS" or "FAIL").</p>
+				<p class="eval">The test passes if the message <strong>"PASS"</strong> is displayed below (instead of "FAIL").
+The test effectively passes if this content document is not hosted by an <code>iframe</code> (e.g. native UIWebView),
+or if the Javascript code executed in this document is unable to access the parent object context.</p>
         		
                 <p style="font-size: 140%; text-align: center;">
                     <span id="wait" style="color: black;">
@@ -59,6 +95,8 @@
                         FAIL
                     </span>
                 </p>
+                
+                <p>Note that in the event of the test failing, the large banner displayed at the top of the page is a trivial illustration of the possible damage that a malicious e-book could afflict. In practice, a mal-intentioned EPUB author would probably <strong>silently</strong> hijack normal functionality, in order to collect sensitive user information, etc.</p>
 			</section>
     	</section>
     </body>

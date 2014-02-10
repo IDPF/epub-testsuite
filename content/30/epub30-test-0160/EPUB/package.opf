@@ -19,7 +19,7 @@
 		<item href="xhtml/nav.xhtml" id="nav" media-type="application/xhtml+xml" properties="nav"/>
 		<!-- bodymatter -->
 		<!-- layout -->
-		<item href="xhtml/security-001.xhtml" id="sec-001" media-type="application/xhtml+xml"/>
+		<item href="xhtml/security-001.xhtml" id="sec-001" media-type="application/xhtml+xml" properties="scripted"/>
 
 		<!-- secondary files -->
 		<!-- css -->
