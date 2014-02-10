@@ -20,13 +20,13 @@
         {
             breached = !window.parent
             || (window.parent != window
-                && (typeof window.parent.document !== undefined)
-                && (typeof window.parent.document.documentElement !== undefined)
+                && (typeof window.parent.document !== "undefined")
+                && (typeof window.parent.document.documentElement !== "undefined")
             );
 
             console.debug(">> 1: " + breached);
 
-            if (breached && (typeof window.parent !== undefined))
+            if (breached && (typeof window.parent !== "undefined"))
             {
                 var p = window.parent.document.createElementNS("http://www.w3.org/1999/xhtml", "marquee");
                 p.setAttribute("style", "position: absolute; top:0; left: 0; right: 0; z-index: 9999; font-weight: bold; font-size: 200%; color: black; text-align: center; border: 1em solid red; background: white;");
