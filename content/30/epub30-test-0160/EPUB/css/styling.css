@@ -1,0 +1,113 @@
+@charset "utf-8";
+
+/* Ordered and bulleted list */
+ul.circle-list-type {list-style-type: circle;}
+ul.square-list-type {list-style-type: square;}
+ul.disc-list-type {list-style-type:disc;}
+
+ol.upper-roman-list-type {list-style-type:upper-roman;}
+ol.upper-latin-list-type {list-style-type:upper-latin;}
+ol.lower-alpha-list-type {list-style-type:lower-alpha;}
+ol.lower-greek-list-type {list-style-type:lower-greek;}
+ol.armenian-list-type {list-style-type:armenian;}
+ol.cjk-list-type {list-style-type:cjk-ideographic;}
+ol.dec-lead-0-list-type {list-style-type:decimal-leading-zero;}
+ol.georgian-list-type {list-style-type:georgian;}
+ol.hebrew-list-type {list-style-type:hebrew;}
+ol.none-list-type {list-style-type:none;}
+	/* Other list-style-type values */
+		/* ol.upper-alpha-list-type {list-style-type:upper-alpha;} */
+		/* ol.lower-latin-list-type {list-style-type:lower-latin;} */
+		/* ol.lower-roman-list-type {list-style-type:lower-roman;} */
+		/* ol.decimal-list-type {list-style-type:decimal;} */
+		/* ol.hiragana-list-type {list-style-type:hiragana;} */
+		/* ol.hiragana-iroha-list-type {list-style-type:hiragana-iroha;} */
+		/* ol.katakana-list-type {list-style-type:katakana;} */
+		/* ol.katakana-iroha-list-type {list-style-type:katakana-iroha;} */
+		/* ol.inherit-list-type {list-style-type:inherit;} */
+
+ul.square-gif-list-style {list-style:square url("../img/purple-aqua-square-bullet.gif");}
+
+ul.inside-position-list {list-style-position:inside;}
+ul.outside-position-list {list-style-position:outside;}
+
+/* CSS Multi Column Layout  */
+.multicol {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  
+  -webkit-column-gap: 1em;
+  -moz-column-gap: 1em;
+  column-gap: 1em;
+  
+  -webkit-column-rule: thin solid black;
+  -moz-column-rule: thin solid black;
+  column-rule: thin solid black;
+  
+  -webkit-column-fill: balance;
+  -moz-column-fill: balance;
+  column-fill: balance; 
+}
+
+/* Media Queries */
+@media all
+  {p.media-all {display:none;}}
+@media screen
+  {p.media-screen {display:none;}}
+@media handheld
+  {p.media-handheld {display:none;}}
+@media tv
+  {p.media-tv {display:none;}}
+ 
+@media (orientation:landscape)
+  {p.orientation-landscape {display:none;}}
+@media (orientation:portrait)
+  {p.orientation-portrait {display:none;}}
+  
+@media (min-width:200px)
+  {p.min-width-200 {display:none;}}
+@media (max-width:2000px)
+  {p.max-width-2000 {display:none;}}
+  
+@media (min-device-width:200px)
+  {p.min-device-width-200 {display:none;}}
+@media (max-device-width:2000px)
+  {p.max-device-width-2000 {display:none;}}
+  
+/* CSS Text Level 3 */
+p.transform-uppercase {text-transform:uppercase;}
+p.transform-capitalize {text-transform:capitalize;}
+p.transform-lowercase {text-transform:lowercase;}
+
+/* Ruby Positionning */
+ruby.ruby-over {
+	display:ruby;
+   -epub-ruby-position:over;
+   -webkit-ruby-position:over;
+   ruby-position:over;
+}
+ruby.ruby-under {
+	display:ruby;
+   -epub-ruby-position:under;
+   -webkit-ruby-position:under;
+   ruby-position:under;
+}
+ruby.ruby-inter-character {
+	display:ruby;
+   -epub-ruby-position:inter-character;
+   -webkit-ruby-position:inter-character;
+   ruby-position:inter-character;
+}
+
+.header, .footer {
+	display: none;
+}
+
+.header {
+	display: oeb-page-head;
+}
+
+.footer {
+	display: oeb-page-foot;
+}

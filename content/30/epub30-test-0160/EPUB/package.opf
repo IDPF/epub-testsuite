@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uid">
+	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+		<dc:identifier id="uid">com.github.epub-testsuite.epub30-test-0160</dc:identifier>
+		<dc:description>Tests for Reading System integrity [UNDER CONSTRUCTION]</dc:description>
+		<dc:title id="title">EPUBTEST 0160 - Reading System integrity Tests</dc:title>
+		<meta refines="title" property="title-type">main</meta>
+		<!-- repeat creator element for all contributors -->
+		<dc:creator id="creator1">Daniel Weck</dc:creator>
+
+		<meta refines="#creator1" property="role" scheme="marc:relators">aut</meta>
+		<meta refines="#creator1" property="file-as">Weck, Daniel</meta>
+        
+		<dc:language>en</dc:language>
+		<meta property="dcterms:modified">2014-02-10T00:00:00Z</meta>
+	</metadata>
+	<manifest>
+		<!-- frontmatter -->
+		<item href="xhtml/nav.xhtml" id="nav" media-type="application/xhtml+xml" properties="nav"/>
+		<!-- bodymatter -->
+		<!-- layout -->
+		<item href="xhtml/security-001.xhtml" id="sec-001" media-type="application/xhtml+xml"/>
+
+		<!-- secondary files -->
+		<!-- css -->
+		<item href="css/base.css" media-type="text/css" id="css"/>
+		<item href="css/styling.css" media-type="text/css" id="css-styling"/>
+
+	</manifest>
+	<spine>
+		<itemref idref="nav" linear="no"/>
+		<itemref idref="sec-001"/>
+	</spine>
+</package>

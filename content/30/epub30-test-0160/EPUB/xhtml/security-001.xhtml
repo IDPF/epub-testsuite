@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+       
+
+        <script>
+        //<![CDATA[
+        
+        var breached = false;
+        try
+        {
+            breached = !window.parent || (window.parent != window && (typeof window.parent.document !== undefined) && window.parent.document.documentElement.createElement("span"));
+        }
+        catch(e)
+        {
+            console.error(e);
+        }
+
+        //if (document.readyState === "complete")
+        document.addEventListener("DOMContentLoaded", function()
+        {
+            document.getElementById(breached ? "failure" : "success").style.display = "block";
+            document.getElementById("wait").style.display = "none";
+        }, false);
+
+        
+        //]]>
+        </script>
+        
+        
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="../css/base.css" />
+    </head>
+    <body>
+    	<section id="sec">
+    		<h3>Reading System integrity</h3>
+    		<p>This section contains tests for Reading System integrity.</p>
+			
+			<section id="sec-001" class="otest">
+				<h4><span class="nature">[OPTIONAL]</span> <span class="test-id">sec-001</span> <code>iframe window.parent</code></h4>
+				
+				<p class="desc">Tests whether access (read and write) to the <code>window.parent</code> object context is forbidden, from the <code>iframe</code> (if any) that contains this content document.</p>
+        		
+                <p class="conditional">Javascript scripting must be supported for this test to execute properly.</p>
+                        
+				<p class="eval">The the test passes if
+                    this content document is not hosted by an <code>iframe</code> (e.g. native UIWebView),
+                    or if the Javascript code executed in this document is unable to access the parent object context, as indicated by the text below ("PASS" or "FAIL").</p>
+        		
+                <p style="font-size: 140%; text-align: center;">
+                    <span id="wait" style="color: black;">
+                        WAIT...
+                    </span>
+                    <span id="success" style="color: green; display: none;">
+                        PASS
+                    </span>
+                    <span id="failure" style="color: red; display: none;">
+                        FAIL
+                    </span>
+                </p>
+			</section>
+    	</section>
+    </body>
+</html>
