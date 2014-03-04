@@ -20,7 +20,7 @@
 	  <meta refines="#creator4" property="role" scheme="marc:relators">aut</meta>
 	  <meta refines="#creator4" property="file-as">Ori Idan</meta>
       <dc:language>en</dc:language>
-      <dc:language>jp</dc:language>
+      <dc:language>ja</dc:language>
       <dc:language>he</dc:language>
       <meta property="dcterms:modified">2013-02-14T14:00:00Z</meta>
    </metadata>
