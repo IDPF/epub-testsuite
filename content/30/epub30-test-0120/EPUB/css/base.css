@@ -68,7 +68,7 @@ dl.info dt {
 }
 
 .-epub-media-overlay-active {
-    background-color: yellow !important;
+    background-color: pink !important;
     color: black !important;
 }
 
