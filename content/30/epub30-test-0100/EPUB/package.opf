@@ -26,7 +26,8 @@
 		<meta refines="#creator6" property="role" scheme="marc:relators">aut</meta>
 		<meta refines="#creator6" property="file-as">Idan, Ori</meta>
 		<dc:language>en</dc:language>
-		<meta property="dcterms:modified">2013-09-05T13:00:00Z</meta>
+		<dc:language>jp</dc:language>
+        <meta property="dcterms:modified">2014-04-24T13:00:00Z</meta>
 	</metadata>
 	<manifest>
 		<!-- frontmatter -->

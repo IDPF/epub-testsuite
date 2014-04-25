@@ -146,6 +146,16 @@ h2.topborder_chapter {
   border-top-color:#0000ff;
   border-top-width:6px;
 }
+h2.topborder_chapter_normal_weight {
+  font-size:120%;
+  padding-top:1em;
+  margin-right:1em;
+  margin-left:1em;
+  border-top-style:solid;
+  border-top-color:#0000ff;
+  border-top-width:6px;
+  font-weight: normal;
+}
 h3.section {
   padding-top: 2em;
   padding-right:1em;
