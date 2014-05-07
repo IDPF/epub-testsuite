@@ -16,20 +16,20 @@
 	  <meta refines="#creator2" property="role" scheme="marc:relators">aut</meta>
 	  <meta refines="#creator2" property="file-as">Weck, Daniel</meta>
 
-      <meta property="media:duration" refines="#smil-1">00:01:24.687</meta>
-      <meta property="media:duration" refines="#smil-2">00:01:32.840</meta>
-      <meta property="media:duration" refines="#smil-3">00:15:18.134</meta>
-      <meta property="media:duration" refines="#smil-4">00:01:01.744</meta>
-      <meta property="media:duration" refines="#smil-5">00:00:22.473</meta>
-      <meta property="media:duration" refines="#smil-6">00:00:03.676</meta>
-      <meta property="media:duration" refines="#smil-7">00:01:44.175</meta>
-      <meta property="media:duration" refines="#smil-8">00:01:36.432</meta>
-      <meta property="media:duration" refines="#smil-9">00:00:29.900</meta>
-      <meta property="media:duration" refines="#smil-10">00:01:29.369</meta>
-      <meta property="media:duration" refines="#smil-11">00:06:27.604</meta>
-      <meta property="media:duration" refines="#smil-12">00:02:04.436</meta>
-      <meta property="media:duration" refines="#smil-13">00:00:26.602</meta>
-      <meta property="media:duration">00:34:02.072</meta>
+    <meta property="media:duration" refines="#smil-1">00:01:24.687</meta>
+    <meta property="media:duration" refines="#smil-10">00:01:29.369</meta>
+    <meta property="media:duration" refines="#smil-11">00:06:27.604</meta>
+    <meta property="media:duration" refines="#smil-12">00:02:04.436</meta>
+    <meta property="media:duration" refines="#smil-13">00:00:26.602</meta>
+    <meta property="media:duration" refines="#smil-2">00:01:32.840</meta>
+    <meta property="media:duration" refines="#smil-3">00:15:18.134</meta>
+    <meta property="media:duration" refines="#smil-4">00:01:17.971</meta>
+    <meta property="media:duration" refines="#smil-5">00:00:22.475</meta>
+    <meta property="media:duration" refines="#smil-6">00:00:12.520</meta>
+    <meta property="media:duration" refines="#smil-7">00:01:44.175</meta>
+    <meta property="media:duration" refines="#smil-8">00:01:36.432</meta>
+    <meta property="media:duration" refines="#smil-9">00:00:29.900</meta>
+    <meta property="media:duration">00:34:27.145</meta>
       
       <dc:language>en</dc:language>
       <meta property="dcterms:modified">2013-14-01T13:00:00Z</meta>
@@ -72,6 +72,9 @@
       <item id="mp3-5" href="audio/clip_times_tests1.mp3" media-type="audio/mpeg"/>
       <item id="mp3-6" href="audio/clip_times_tests2.mp3" media-type="audio/mpeg"/>
       <item id="mp3-7" href="audio/clip_times_tests3.mp3" media-type="audio/mpeg"/>
+      <item id="mp3-5a" href="audio/clip_times_tests1A.mp3" media-type="audio/mpeg"/>
+      <item id="mp3-6a" href="audio/clip_times_tests2A.mp3" media-type="audio/mpeg"/>
+      <item id="mp3-7a" href="audio/clip_times_tests3A.mp3" media-type="audio/mpeg"/>
       <item id="mp3-8" href="audio/same_audio.mp3" media-type="audio/mpeg"/>
       <item id="mp3-9" href="audio/short_clips.mp3" media-type="audio/mpeg"/>
       <item id="mp3-10" href="audio/one_mo_multiple_chapters1.mp3" media-type="audio/mpeg"/>

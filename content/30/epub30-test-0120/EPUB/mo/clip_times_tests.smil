@@ -25,14 +25,14 @@
       </par>
       <par>
         <text src="../xhtml/clip_times_tests.xhtml#mo-3"/>
-        <audio src="../audio/clip_times_tests1.mp3" clipBegin="00:00:11.403" clipEnd="00:00:15.951"/>
+        <audio src="../audio/clip_times_tests1A.mp3" clipEnd="00:00:04.548"/>
       </par>
       <par>
         <text src="../xhtml/clip_times_tests.xhtml#mo-3-23"/>
         <audio src="../audio/clip_times_tests1.mp3" clipBegin="00:00:15.951" clipEnd="00:00:19.913"/>
       </par>
     </seq>
-
+    
     <!-- second audio file -->
     <seq epub:textref="../xhtml/clip_times_tests.xhtml#mo-audio-020">
       <par>
@@ -49,7 +49,7 @@
       </par>
       <par>
         <text src="../xhtml/clip_times_tests.xhtml#mo-4-a"/>
-        <audio src="../audio/clip_times_tests2.mp3" clipBegin="00:00:07.781" clipEnd="00:00:13.958"/>
+        <audio src="../audio/clip_times_tests2A.mp3" clipBegin="00:00:00"/>
       </par>
       <par>
         <text src="../xhtml/clip_times_tests.xhtml#mo-6-a"/>
@@ -73,7 +73,7 @@
       </par>
       <par>
         <text src="../xhtml/clip_times_tests.xhtml#mo-5-b"/>
-        <audio src="../audio/clip_times_tests3.mp3" clipBegin="00:00:08.854" clipEnd="00:00:16.608"/>
+        <audio src="../audio/clip_times_tests3.mp3" clipBegin="00:00:00" clipEnd="00:01:00"/>
       </par>
       <par>
         <text src="../xhtml/clip_times_tests.xhtml#mo-9-b"/>
