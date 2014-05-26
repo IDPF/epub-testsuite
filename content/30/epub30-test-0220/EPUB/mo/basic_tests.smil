@@ -29,14 +29,6 @@
       <audio src="../audio/basic_tests.mp3" clipBegin="00:00:31.316" clipEnd="00:00:40.966"/>
     </par>
     <par>
-      <text src="../xhtml/basic_tests.xhtml#mo-8"/>
-      <audio src="../audio/basic_tests.mp3" clipBegin="00:00:40.966" clipEnd="00:00:43.640"/>
-    </par>
-    <par>
-      <text src="../xhtml/basic_tests.xhtml#mo-9"/>
-      <audio src="../audio/basic_tests.mp3" clipBegin="00:00:43.640" clipEnd="00:00:52.017"/>
-    </par>
-    <par>
       <text src="../xhtml/basic_tests2.xhtml#mo-10"/>
       <audio src="../audio/basic_tests.mp3" clipBegin="00:00:52.017" clipEnd="00:00:53.216"/>
     </par>

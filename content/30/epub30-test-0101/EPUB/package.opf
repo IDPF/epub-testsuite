@@ -59,6 +59,5 @@
 		<itemref idref="css-004"/>
 		<itemref idref="css-005"/>
 		<itemref idref="css-006"/>
-		<itemref idref="css-007"/>
 	</spine>
 </package>

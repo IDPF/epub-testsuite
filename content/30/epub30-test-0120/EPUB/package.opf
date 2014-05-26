@@ -69,9 +69,7 @@
       <item id="mp3-2" href="audio/navigation_tests.mp3" media-type="audio/mpeg"/>
       <item id="mp3-3" href="audio/more_navigation_tests.mp3" media-type="audio/mpeg"/>
       <item id="mp3-4" href="audio/mobydick_001_002_melville.mp4" media-type="audio/mp4"/>
-      <item id="mp3-5" href="audio/clip_times_tests1.mp3" media-type="audio/mpeg"/>
-      <item id="mp3-6" href="audio/clip_times_tests2.mp3" media-type="audio/mpeg"/>
-      <item id="mp3-7" href="audio/clip_times_tests3.mp3" media-type="audio/mpeg"/>
+      <item id="mp3-5" href="audio/clip_times_tests.mp3" media-type="audio/mpeg"/>
       <item id="mp3-5a" href="audio/clip_times_tests1A.mp3" media-type="audio/mpeg"/>
       <item id="mp3-6a" href="audio/clip_times_tests2A.mp3" media-type="audio/mpeg"/>
       <item id="mp3-7a" href="audio/clip_times_tests3A.mp3" media-type="audio/mpeg"/>
