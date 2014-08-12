@@ -6,6 +6,10 @@
 # Usage: mangle_font_idpf.rb FONT_FILE_NAME EPUB_UNIQUE_IDENTIFIER
 #
 
+raise "\n\nUSAGE:\n  #{$0} file_to_[de]obfuscate publication_identifier\ne.g.:\n"\
+  "  #{$0} somefont.otf urn:uuid:e7c5d8f9-882d-4454-94e3-d755d179582d\nor:\n"\
+  "  #{$0} somefont.otf code.google.com.epub-samples.wasteland-otf" unless ARGV[1]
+
 require 'digest/sha1'
 Digest::SHA1.hexdigest 'foo'
 
@@ -19,14 +23,12 @@ keyHex = Digest::SHA1.hexdigest(uid)
 
 keyBytes = [keyHex].pack('H*')
 
-puts "key:"
-print keyBytes.unpack('H*')
+puts "XOR key:"
+puts keyBytes.unpack('H*')
 
-puts "key class:"
-puts keyBytes.class
+puts "Obfuscating file [#{mangledFileName}]..."
 
 mangledFile = open(mangledFileName, 'rb+')
-
 
 fileIdx = 0
 keyIdx = 0
@@ -35,18 +37,12 @@ while fileIdx < 1040 && ! mangledFile.eof do
 	fileIdx += 1
 	byte = mangledFile.readbyte
 	keyByte = keyBytes.getbyte(keyIdx)
-	puts "byte.class:"
-	puts byte.class
-	puts "keyByte.class:"
-	puts keyByte.class
 
 	mangledByte = byte ^ keyByte
-	puts "mangledByte.class:"
-	puts mangledByte.class
 
 	mangledByteString = [mangledByte].pack('C*')
 
-	puts "byte: #{byte}, keyIdx: #{keyIdx}, keyByte: #{keyByte}, mangledByte: #{mangledByte}, mangledByteString: #{mangledByteString}"
+	#puts "byte: #{byte}, keyIdx: #{keyIdx}, keyByte: #{keyByte}, mangledByte: #{mangledByte}, mangledByteString: #{mangledByteString}"
 	mangledFile.pos = mangledFile.pos - 1
 	mangledFile.write(mangledByteString)
 	
@@ -55,4 +51,6 @@ while fileIdx < 1040 && ! mangledFile.eof do
 end
 
 mangledFile.close()
+
+puts "Obfuscation finished."
 

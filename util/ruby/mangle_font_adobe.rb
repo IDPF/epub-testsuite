@@ -10,22 +10,28 @@
 # performed (e.g. no whitespace and hyphen removal).
 #
 
+raise "\n\nUSAGE:\n  #{$0} file_to_[de]obfuscate plain_hex_publication_UUID\ne.g.:\n  #{$0} somefont.otf e6c3c1e1c8f44c0b8e083cb321b0c29e" unless ARGV[1]
+
 mangledFileName = ARGV[0]
 uuid = ARGV[1]
 
-puts "uuid: #{uuid}"
-puts(mangledFileName)
+uuid = uuid.sub(/^urn:uuid:/i, "")
+uuid = uuid.gsub(/[^0-9a-f]/i, "")
+
+puts "Publication uuid: #{uuid}"
 
 keyBytes = [uuid].pack('H*')
 
-puts "key:"
-print keyBytes.unpack('H*')
+puts "XOR key:"
+puts keyBytes.unpack('H*')
 
-puts "key class:"
-puts keyBytes.class
+if (uuid !~ /[0-9a-f]{32}/i)
+  puts "WARNING: supplied obfuscation key is not a 32-character hex code. (De)obfuscation results may be invalid."
+end
+
+puts "Obfuscating file [#{mangledFileName}]..."
 
 mangledFile = open(mangledFileName, 'rb+')
-
 
 fileIdx = 0
 keyIdx = 0
@@ -34,18 +40,12 @@ while fileIdx < 1024 && ! mangledFile.eof do
 	fileIdx += 1
 	byte = mangledFile.readbyte
 	keyByte = keyBytes.getbyte(keyIdx)
-	puts "byte.class:"
-	puts byte.class
-	puts "keyByte.class:"
-	puts keyByte.class
 
 	mangledByte = byte ^ keyByte
-	puts "mangledByte.class:"
-	puts mangledByte.class
 
 	mangledByteString = [mangledByte].pack('C*')
 
-	puts "byte: #{byte}, keyIdx: #{keyIdx}, keyByte: #{keyByte}, mangledByte: #{mangledByte}, mangledByteString: #{mangledByteString}"
+	# puts "byte: #{byte}, keyIdx: #{keyIdx}, keyByte: #{keyByte}, mangledByte: #{mangledByte}, mangledByteString: #{mangledByteString}"
 	mangledFile.pos = mangledFile.pos - 1
 	mangledFile.write(mangledByteString)
 	
@@ -54,4 +54,6 @@ while fileIdx < 1024 && ! mangledFile.eof do
 end
 
 mangledFile.close()
+
+puts "Obfuscation finished."
 
