@@ -29,7 +29,9 @@
 					else {
 						if (param["src"].indexOf("slideshow.xml") < 0) {
 							document.getElementById('fail3').removeAttribute('hidden');
-							document.getElementById('src').innerText = param["src"];
+							var elmSrc = document.getElementById('src');
+							elmSrc.textContent = param["src"];
+							elmSrc.innerText = param["src"];
 							pass = false;
 						}
 						
@@ -43,12 +45,17 @@
 					
 					
 					if (pass) {
-						document.getElementById('bindings-support-result').innerText = 'PASS';
+						var elmResult = document.getElementById('bindings-support-result');
+						elmResult.textContent = 'PASS';
+						elmResult.innerText = 'PASS';
 					}
 					
 					else {
 						document.getElementById('failqs').removeAttribute('hidden');
-						document.getElementById('qs').innerText = (qs == '') ? '<no query string available>' : qs;
+						var str = (qs == '') ? '<no query string available>' : qs;
+						var elmQS = document.getElementById('qs');
+						elmQS.textContent = str;
+						elmQS.innerText = str;
 					}
 				}
 			]]>
