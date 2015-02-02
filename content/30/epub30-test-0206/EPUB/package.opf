@@ -5,6 +5,8 @@
 		<dc:description>Tests for landscape orientation [UNDER CONSTRUCTION]</dc:description>
 		<dc:title id="title">EPUBTEST 0206 - FXL Landscape Orientation Tests</dc:title>
 		<meta refines="title" property="title-type">main</meta>
+		<dc:rights>Copyright © 2012-2015 International Digital Publishing Forum (IDPF)</dc:rights>
+		<meta property="dcterms:license">https://creativecommons.org/licenses/by/4.0/</meta>
 		<!-- repeat creator element for all contributors -->
 		<dc:creator id="creator1">Markus Gylling</dc:creator>
 		<dc:creator id="creator2">Joel Strickland</dc:creator>

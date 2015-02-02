@@ -29,3 +29,17 @@ You can download this project in either [zip](https://github.com/mgylling/epub-t
 You can also clone the project with [Git](http://git-scm.com) by running:
 
     $ git clone git://github.com/mgylling/epub-testsuite
+
+## Licensing
+
+Copyright © 2012-2015 International Digital Publishing Forum (IDPF)
+
+The EPUB Test Suite by the IDPF is licensed under a Creative Commons 4.0 International License (CC-BY 4.0).
+
+More information about this license is available at:
+
+   https://creativecommons.org/licenses/by/4.0/
+
+More information about the IDPF is available at:
+
+   http://wwww.idpf.org

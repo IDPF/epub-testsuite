@@ -3,9 +3,11 @@
    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
       <dc:identifier id="uid">com.github.epub-testsuite.epub30-test-0120</dc:identifier>
       <dc:description>Tests for Media Overlays in a reflowable context [UNDER CONSTRUCTION]</dc:description>
-      <dc:title id="title">EPUBTEST 0120 - Media Overlays Reflowable Tests</dc:title>
-      
-	  <meta refines="title" property="title-type">main</meta>
+      <dc:title id="title">EPUBTEST 0120 - Media Overlays Reflowable Tests</dc:title>  
+      <meta refines="title" property="title-type">main</meta>
+	  
+		<dc:rights>Copyright © 2012-2015 International Digital Publishing Forum (IDPF)</dc:rights>
+		<meta property="dcterms:license">https://creativecommons.org/licenses/by/4.0/</meta>
 	  
       <!-- repeat creator element for all contributors -->
       <dc:creator id="creator1">Marisa DeMeglio</dc:creator>

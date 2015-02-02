@@ -5,6 +5,8 @@
 		<dc:description>Tests for EPUB Navigation Documents [UNDER CONSTRUCTION]</dc:description>
 		<dc:title id="title">EPUBTEST 0150 - EPUB Navigation Document Tests</dc:title>
 		<meta refines="title" property="title-type">main</meta>
+		<dc:rights>Copyright © 2012-2015 International Digital Publishing Forum (IDPF)</dc:rights>
+		<meta property="dcterms:license">https://creativecommons.org/licenses/by/4.0/</meta>
 		<!-- repeat creator element for all contributors -->
 		<dc:creator id="creator1">Matt Garrish</dc:creator>
 		<meta refines="#creator1" property="role" scheme="marc:relators">aut</meta>
