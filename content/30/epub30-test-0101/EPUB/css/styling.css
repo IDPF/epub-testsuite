@@ -1,4 +1,5 @@
 @charset "utf-8";
+@namespace epub "http://www.idpf.org/2007/ops";
 
 /* Ordered and bulleted list */
 ul.circle-list-type {list-style-type: circle;}
@@ -103,4 +104,8 @@ ruby.ruby-inter-character {
    -epub-ruby-position:inter-character;
    -webkit-ruby-position:inter-character;
    ruby-position:inter-character;
+}
+
+p[epub|type~='bridgehead'] {
+   font-style: italic;
 }
