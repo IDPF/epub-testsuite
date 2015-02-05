@@ -16,37 +16,44 @@
                 
                 document.getElementById('xhr-010-result').innerHTML = 'PASS';
                 
+                // try to get a remote file
+                testRequest("http://updates.html5rocks.com", "xhr-030-result", true);
+                
                 // try to get a local file
                 testRequest("scripting-001.xhtml", "xhr-020-result", false);
                 
-                // try to get a remote file
-                testRequest("http://updates.html5rocks.com", "xhr-030-result", true);                
             };
             
             // helper function
             // make a request and set the test result to "PASS" if it worked
             testRequest = function(filename, testResultId, asynch) {
-                request = new XMLHttpRequest();
-                request.open('GET', filename, asynch);
+                xhr = createXHR(filename, asynch);
                 
-                request.onload = function() {
-                    txt = request.responseText;
-                    if (txt) {
-                        document.getElementById(testResultId).innerHTML = 'PASS';
+                if (xhr) {
+                    xhr.onreadystatechange = function(e) {
+                        if (this.readyState == 4 && this.status == 200) {
+                            document.getElementById(testResultId).innerHTML = 'PASS';
+                        }
                     }
+                    xhr.send();
                 }
-                
-                request.onerror = function() {
-                	return;
-                }
-                
-                try {
-	                request.send(null);
-	            }
-	            catch(err) {
-	            	return;
-	            }
             };
+            
+            function createXHR(url, asynch) {
+                xhr = new XMLHttpRequest();
+                
+                if ("withCredentials" in xhr) {
+                    xhr.open('GET', url, asynch);
+                }
+                else if (typeof XDomainRequest != "undefined") {
+                    xhr = new XDomainRequest();
+                    xhr.open('GET', url);
+                }
+                else {
+                    xhr = null;
+                }
+                return xhr;
+            }
             //]]>
         </script>
     </head>
