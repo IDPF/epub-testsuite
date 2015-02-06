@@ -43,13 +43,13 @@
 		<item href="xhtml/scripting-005.xhtml" id="scr-005" media-type="application/xhtml+xml" properties="scripted"/>
 		<item href="xhtml/scripting-006.xhtml" id="scr-006" media-type="application/xhtml+xml" properties="scripted"/>
 		<item href="xhtml/scripting-006-inset.xhtml" id="scr-006-inset" media-type="application/xhtml+xml" properties="scripted"/>
+		<item href="xhtml/scripting-007.xhtml" id="scr-007" media-type="application/xhtml+xml" properties="scripted"/>
 		<!-- canvas -->
 		<item href="xhtml/canvas-001.xhtml" id="canvas-001" media-type="application/xhtml+xml" properties="scripted"/>
 		<!-- forms -->
 		<!-- <item href="xhtml/forms-001.xhtml" id="forms-001" media-type="application/xhtml+xml" properties="scripted"/> -->
 		<item href="xhtml/forms-001.xhtml" id="forms-001" media-type="application/xhtml+xml"/>
-		<!-- <item href="xhtml/forms-002.xhtml" id="forms-002" media-type="application/xhtml+xml" properties="scripted"/> -->
-		<item href="xhtml/forms-002.xhtml" id="forms-002" media-type="application/xhtml+xml"/>
+		<item href="xhtml/forms-002.xhtml" id="forms-002" media-type="application/xhtml+xml" properties="scripted"/>
 
 		<!-- secondary files -->
 		<!-- css -->
@@ -76,6 +76,7 @@
 		<itemref idref="scr-001"/>
 		<itemref idref="scr-002"/>
 		<itemref idref="scr-003"/>
+		<itemref idref="scr-007"/>
 		<itemref idref="scr-004"/>
 		<itemref idref="scr-005"/>
 		<itemref idref="scr-006"/>

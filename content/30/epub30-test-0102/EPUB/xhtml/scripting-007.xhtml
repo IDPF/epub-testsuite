@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="../css/base.css" />
+		<script>
+				function testRemote(data) { document.getElementById('jsonp-010-result').innerHTML='PASS'; }
+		</script>
+	</head>
+	<body>
+		<section id="script-xhr">
+			<h2>JSONP</h2>
+			<p>This section contains tests for JSONP requests.</p>
+			
+			<section id="jsonp-010" class="otest">
+				<h3><span class="nature">[OPTIONAL]</span> <span class="test-id">jsonp-010</span> Read remote data</h3>
+				<p class="desc">Tests whether it is possible to request remote data using JSONP.</p>
+				<p id="jsonp-010-result">FAIL</p>
+				<p class="eval">If the preceding paragraph reads "PASS", the test passes.</p>
+			</section>
+			
+			<script>
+				var remoteTest = document.createElement('script');
+				remoteTest.setAttribute('src','http://epubtest.org/media/remote/data.json');
+				document.head.appendChild(remoteTest);
+			</script>
+		</section>
+	</body>
+</html>
