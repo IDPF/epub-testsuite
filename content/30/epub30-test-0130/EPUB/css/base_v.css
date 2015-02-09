@@ -79,9 +79,12 @@ dl.info dt {
   font-weight: bold;
 }
 
+html {
+  -epub-writing-mode:vertical-rl;
+}
+
 /* contents style */
 body {
-  -epub-writing-mode:vertical-rl;
   line-height: 1.75;
   font-family: "@Hiragino Mincho ProN","@ヒラギノ明朝 Pro W3","@IPAexMincho","@IPAex明朝","@MS Mincho","@ＭＳ 明朝","ヒラギノ明朝 Pro W3","Hiragino Mincho ProN","IPAexMincho","IPAex明朝",serif;      
 }
