@@ -44,6 +44,7 @@
 		<item href="xhtml/scripting-006.xhtml" id="scr-006" media-type="application/xhtml+xml" properties="scripted"/>
 		<item href="xhtml/scripting-006-inset.xhtml" id="scr-006-inset" media-type="application/xhtml+xml" properties="scripted"/>
 		<item href="xhtml/scripting-007.xhtml" id="scr-007" media-type="application/xhtml+xml" properties="scripted"/>
+        <item href="xhtml/xhr-test.xhtml" id="xhr-001" media-type="application/xhtml+xml"/>
 		<!-- canvas -->
 		<item href="xhtml/canvas-001.xhtml" id="canvas-001" media-type="application/xhtml+xml" properties="scripted"/>
 		<!-- forms -->

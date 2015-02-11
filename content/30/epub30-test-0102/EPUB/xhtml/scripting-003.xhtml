@@ -17,10 +17,10 @@
                 document.getElementById('xhr-010-result').innerHTML = 'PASS';
                 
                 // try to get a remote file
-                testRequest("http://rdfs.org/", "xhr-030-result", true);
+                testRequest("http://epubtest.org/media/remote/xhr-test.xhtml", "xhr-030-result", true);
                 
                 // try to get a local file
-                testRequest("scripting-001.xhtml", "xhr-020-result", false);
+                testRequest("xhr-test.xhtml", "xhr-020-result", false);
                 
             };
             
@@ -32,7 +32,10 @@
                 if (xhr) {
                     xhr.onreadystatechange = function(e) {
                         if (this.readyState == 4 && this.status == 200) {
-                            document.getElementById(testResultId).innerHTML = 'PASS';
+                            elm = xhr.responseXML.getElementById("epub-xhr-test");
+                            if (elm.innerText == "This file is used by the XMLHttpRequest tests.") {
+                                document.getElementById(testResultId).innerHTML = 'PASS';
+                            }
                         }
                     }
                     xhr.send();
@@ -76,14 +79,14 @@
     		<section id="xhr-020" class="otest">
     			<h3><span class="nature">[OPTIONAL]</span> <span class="test-id">xhr-020</span> Reading local files</h3>
     			<p class="desc">Tests whether it is possible to open local files using XHR.</p>
-    			<p id="xhr-020-result">FAIL</p>
+    			<p id="xhr-020-result">FAIL</p> 
     			<p class="eval">If the preceding paragraph reads "PASS", the test passes.</p>
     		</section>
     		
     		<section id="xhr-030" class="otest">
     			<h3><span class="nature">[OPTIONAL]</span> <span class="test-id">xhr-030</span> Reading remote files</h3>
     			<p class="desc">Tests whether it is possible to open remote files using XHR. </p>
-    			<p id="xhr-030-result">FAIL</p>
+    			<p id="xhr-030-result">FAIL</p> 
     			<p class="eval">If the preceding paragraph reads "PASS", the test passes.</p>
     		</section>
     	</section>
