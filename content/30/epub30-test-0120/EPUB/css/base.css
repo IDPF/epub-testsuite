@@ -67,11 +67,12 @@ dl.info dt {
 	padding: 0.6em;
 }
 
+/*for the active text element*/
 .-epub-media-overlay-active {
     background-color: pink !important;
     color: black !important;
 }
-
+/*for the currently-playing document*/
 .-epub-media-overlay-playback-active .mo-playing {
     background-color: green !important;
     color: white !important;

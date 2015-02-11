@@ -35,7 +35,9 @@
       
       <dc:language>en</dc:language>
       <meta property="dcterms:modified">2013-14-01T13:00:00Z</meta>
+      <!-- for the active text element -->
       <meta property="media:active-class">-epub-media-overlay-active</meta>
+      <!-- for the currently-playing document -->
       <meta property="media:playback-active-class">-epub-media-overlay-playback-active</meta>
    </metadata>
    <manifest>
