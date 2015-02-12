@@ -1,642 +1,904 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <link rel="stylesheet" type="text/css" href="../css/base.css" />
-    	<link rel="stylesheet" type="text/css" href="../css/math.css" />
-    </head>
-    <body>
-    	<section>
-    		<h2 id="mathml">MathML</h2>
-    		<section id="mathml-010" class="ctest">
-    			<h2><span class="nature">[REQUIRED]</span>
-    				<span class="test-id">mathml-010</span> Rendering</h2>
 
-    			<p class="desc">Tests whether MathML equation rendering is supported.</p>
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" type="text/css" href="../css/base.css" />
+  <link rel="stylesheet" type="text/css" href="../css/math.css" />
+</head>
 
-    			<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
-    				<msubsup>
-    					<mo>&#x222B;<!-- ∫ --></mo>
-    					<mrow class="MJX-TeXAtom-ORD">
-    						<mo>&#x2212;<!-- − --></mo>
-    						<mi mathvariant="normal">&#x221E;<!-- ∞ --></mi>
-    					</mrow>
-    					<mrow class="MJX-TeXAtom-ORD">
-    						<mi mathvariant="normal">&#x221E;<!-- ∞ --></mi>
-    					</mrow>
-    				</msubsup>
-    				<msup>
-    					<mi>e</mi>
-    					<mrow class="MJX-TeXAtom-ORD">
-    						<mo>&#x2212;<!-- − --></mo>
-    						<msup>
-    							<mi>x</mi>
-    							<mn>2</mn>
-    						</msup>
-    					</mrow>
-    				</msup>
-    				<mspace width="thinmathspace" />
-    				<mi>d</mi>
-    				<mi>x</mi>
-    				<mo>=</mo>
-    				<msqrt>
-    					<mi>&#x03C0;<!-- π --></mi>
-    				</msqrt>
-    			</math>
-    			<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
-    				<munderover>
-    					<mo>&#x2211;<!-- ∑ --></mo>
-    					<mrow class="MJX-TeXAtom-ORD">
-    						<mi>n</mi>
-    						<mo>=</mo>
-    						<mn>1</mn>
-    					</mrow>
-    					<mrow class="MJX-TeXAtom-ORD">
-    						<mi mathvariant="normal">&#x221E;<!-- ∞ --></mi>
-    					</mrow>
-    				</munderover>
-    				<mfrac>
-    					<mn>1</mn>
-    					<msup>
-    						<mi>n</mi>
-    						<mn>2</mn>
-    					</msup>
-    				</mfrac>
-    				<mo>=</mo>
-    				<mfrac>
-    					<msup>
-    						<mi>&#x03C0;<!-- π --></mi>
-    						<mn>2</mn>
-    					</msup>
-    					<mn>6</mn>
-    				</mfrac>
-    			</math>
-    			<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
-    				<mi>x</mi>
-    				<mo>=</mo>
-    				<mfrac>
-    					<mrow>
-    						<mo>&#x2212;<!-- − --></mo>
-    						<mi>b</mi>
-    						<mo>&#x00B1;<!-- ± --></mo>
-    						<msqrt>
-    							<msup>
-    								<mi>b</mi>
-    								<mn>2</mn>
-    							</msup>
-    							<mo>&#x2212;<!-- − --></mo>
-    							<mn>4</mn>
-    							<mi>a</mi>
-    							<mi>c</mi>
-    						</msqrt>
-    					</mrow>
-    					<mrow>
-    						<mn>2</mn>
-    						<mi>a</mi>
-    					</mrow>
-    				</mfrac>
-    			</math>
+<body>
+  <section>
+    <h2 id="mathml">MathML</h2>
+    <section id="mathml-010" class="ctest">
+      <h2><span class="nature">[REQUIRED]</span>
+    				<span class="test-id">mathml-010</span> Basic rendering</h2>
 
-    			<p class="eval">If the preceding equations are not presented as linear text (e.g., x=-b±b2-4ac2a),
-    				the test passes.</p>
-    		</section>
+      <p class="desc">Tests whether MathML equation rendering is supported.</p>
 
-    		<section id="mathml-020" class="otest">
-    			<h2><span class="nature">[OPTIONAL]</span>
-    				<span class="test-id">mathml-020</span> CSS Styling of the <code>math</code> element</h2>
+      <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+        <msubsup>
+          <mo>&#x222B;
+            <!-- ∫ -->
+          </mo>
+          <mrow>
+            <mo>&#x2212;
+              <!-- − -->
+            </mo>
+            <mi mathvariant="normal">&#x221E;
+              <!-- ∞ -->
+            </mi>
+          </mrow>
+          <mrow>
+            <mi mathvariant="normal">&#x221E;
+              <!-- ∞ -->
+            </mi>
+          </mrow>
+        </msubsup>
+        <msup>
+          <mi>e</mi>
+          <mrow>
+            <mo>&#x2212;
+              <!-- − -->
+            </mo>
+            <msup>
+              <mi>x</mi>
+              <mn>2</mn>
+            </msup>
+          </mrow>
+        </msup>
+        <mspace width="thinmathspace" />
+        <mi>d</mi>
+        <mi>x</mi>
+        <mo>=</mo>
+        <msqrt>
+          <mi>&#x03C0;
+            <!-- π -->
+          </mi>
+        </msqrt>
+      </math>
+      <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+        <munderover>
+          <mo>&#x2211;
+            <!-- ∑ -->
+          </mo>
+          <mrow>
+            <mi>n</mi>
+            <mo>=</mo>
+            <mn>1</mn>
+          </mrow>
+          <mrow>
+            <mi mathvariant="normal">&#x221E;
+              <!-- ∞ -->
+            </mi>
+          </mrow>
+        </munderover>
+        <mfrac>
+          <mn>1</mn>
+          <msup>
+            <mi>n</mi>
+            <mn>2</mn>
+          </msup>
+        </mfrac>
+        <mo>=</mo>
+        <mfrac>
+          <msup>
+            <mi>&#x03C0;
+              <!-- π -->
+            </mi>
+            <mn>2</mn>
+          </msup>
+          <mn>6</mn>
+        </mfrac>
+      </math>
+      <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+        <mi>x</mi>
+        <mo>=</mo>
+        <mfrac>
+          <mrow>
+            <mo>&#x2212;
+              <!-- − -->
+            </mo>
+            <mi>b</mi>
+            <mo>&#x00B1;
+              <!-- ± -->
+            </mo>
+            <msqrt>
+              <msup>
+                <mi>b</mi>
+                <mn>2</mn>
+              </msup>
+              <mo>&#x2212;
+                <!-- − -->
+              </mo>
+              <mn>4</mn>
+              <mi>a</mi>
+              <mi>c</mi>
+            </msqrt>
+          </mrow>
+          <mrow>
+            <mn>2</mn>
+            <mi>a</mi>
+          </mrow>
+        </mfrac>
+      </math>
 
-    			<p class="desc">Tests whether basic CSS styling of MathML is supported on the <code>math</code> element.</p>
+      <p class="eval">If the preceding equations are not presented as linear text (e.g., x=-b±b2-4ac2a), the test passes. The visual rendering should be similar to the following image. <br/> <img alt="three lines of equations. First: the indefinite integral from minus infinity to plus infinity of e squared equals the square root of pie. Second, the sum from one to infinity of one over en squared is equal to pie squared over 6. Third, ex equals minus bee plus minus square root of bee squared minus four ay see; divided by two ay.  " src="../img/mathml-01-010-basic_rendering.png"/></p>
+    </section>
 
-    			<math class="basic" xmlns="http://www.w3.org/1998/Math/MathML">
-    				<mrow>
-    					<mn>2</mn>
-    					<mo> &#x2061;<!--INVISIBLE TIMES--></mo>
-    					<mi>x</mi>
-    				</mrow>
-    				<mrow>
-    					<mo>+</mo>
-    					<mi>y</mi>
-    					<mo>-</mo>
-    					<mi>z</mi>
-    				</mrow>
-    			</math>
 
-    			<p class="eval">The test passes if the equation has a yellow background and a dashed border.</p>
+    <section id="mathml-020" class="ctest">
+      <h2><span class="nature">[REQUIRED]</span>
+                    <span class="test-id">mathml-020</span> MathML styling</h2>
 
-    			<p class="conditional">If the reading system does not have a viewport, or does not support
-    				CSS styles, this test should be marked <code>Not Supported</code>.</p>
-    		</section>
+      <p class="desc">Tests whether basic MathML styling is supported.</p>
 
-            <section id="mathml-021" class="otest">
-                <h2><span class="nature">[OPTIONAL]</span>
-                    <span class="test-id">mathml-021</span> CSS Styling of the <code>mo</code> element</h2>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mtable mathbackground="#FFFFE0" frame="dashed" mathcolor="#be0000">
+          <mtr>
+            <mtd>
+              <mpadded width="+0.2em" height="+0.2em" depth="+0.2em">
+                <mstyle mathcolor="#000000">
+                  <mrow>
+                    <mn>2</mn>
+                    <mo>&#x2061;
+                      <!--INVISIBLE TIMES-->
+                    </mo>
+                    <mstyle mathbackground="green" mathcolor="white" mathvariant="bold">
+                      <mi>x</mi>
+                    </mstyle>
+                  </mrow>
+                  <mrow>
+                    <mo mathsize="150%">+</mo>
+                    <mstyle mathbackground="green" mathcolor="white" mathvariant="bold">
+                      <mi>y</mi>
+                    </mstyle>
+                    <mo>+</mo>
+                    <mstyle mathbackground="green" mathcolor="white" mathvariant="bold">
+                      <mi>z</mi>
+                    </mstyle>
+                  </mrow>
+                </mstyle>
+              </mpadded>
+            </mtd>
+          </mtr>
+        </mtable>
+      </math>
+      <p class="eval">The test passes if the equation "2x+y+z" has a yellow background, a dashed border with padding, the first occurrence of + is enlarged to 150% font size, the identifiers (x, y, z) are colored white on green background. The visual rendering should be similar to the following image. <br/> <img alt="image rendering of test case 20" src="../img/mathml-01-020-styling.png"/></p>
+    </section>
 
-                <p class="desc">Tests whether basic CSS styling of MathML is supported on the <code>mo</code> element.</p>
+    <section id="mathml-021" class="otest">
+      <h2><span class="nature">[OPTIONAL]</span>
+    				<span class="test-id">mathml-021</span> CSS Styling</h2>
 
-                <math class="basic" xmlns="http://www.w3.org/1998/Math/MathML">
-                    <mrow>
-                        <mn>2</mn>
-                        <mo class="test"> &#x2061;<!--INVISIBLE TIMES--></mo>
-                        <mi>x</mi>
-                    </mrow>
-                    <mrow>
-                        <mo class="test">+</mo>
-                        <mi>y</mi>
-                        <mo class="test">-</mo>
-                        <mi>z</mi>
-                    </mrow>
-                </math>
+      <p class="desc">Tests whether basic CSS styling of MathML is supported on the <code>math</code> element.</p>
 
-                <p class="eval">The test passes if the operators are enlarged relative to the other symbols and numbers.</p>
+      <math class="basic" xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+          <mn>2</mn>
+          <mo>&#x2061;
+            <!--INVISIBLE TIMES-->
+          </mo>
+          <mi class="test2">x</mi>
+        </mrow>
+        <mrow>
+          <mo class="test1">+</mo>
+          <mi class="test2">y</mi>
+          <mo>+</mo>
+          <mi class="test2">z</mi>
+        </mrow>
+      </math>
 
-                <p class="conditional">If the reading system does not have a viewport, or does not support
-                    CSS styles, this test should be marked <code>Not Supported</code>.</p>
-            </section>
+      <p class="eval">The test passes if the equation "2x+y+z" has a yellow background, a dashed border with padding, the first occurrence of + is enlarged to 150% font size, the identifiers (x, y, z) are colored white on green background. The visual rendering should be similar to the following image. <br/> <img alt="image rendering of test case 21" src="../img/mathml-01-020-styling.png"/></p>
 
-            <section id="mathml-022" class="otest">
-                <h2><span class="nature">[OPTIONAL]</span>
-                    <span class="test-id">mathml-022</span> CSS Styling of the <code>mi</code> element</h2>
+      <p class="conditional">If the reading system does not have a viewport, or does not support CSS styles, this test should be marked <code>Not Supported</code>.</p>
+    </section>
 
-                <p class="desc">Tests whether basic CSS styling of MathML is supported on the <code>mi</code> element.</p>
 
-                <math class="basic" xmlns="http://www.w3.org/1998/Math/MathML">
-                    <mrow>
-                        <mn>2</mn>
-                        <mo> &#x2061;<!--INVISIBLE TIMES--></mo>
-                        <mi class="test">x</mi>
-                    </mrow>
-                    <mrow>
+
+    <section id="mathml-030" class="ctest">
+      <h2><span class="nature">[REQUIRED]</span>
+                    <span class="test-id">mathml-030</span>Iterated roots</h2>
+
+      <p class="desc">Tests basic layout of surds.</p>
+
+      <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+        <mrow>
+          <msqrt>
+            <mn>1</mn>
+            <mo>+</mo>
+            <msqrt>
+              <mn>1</mn>
+              <mo>+</mo>
+              <msqrt>
+                <mn>1</mn>
+                <mo>+</mo>
+
+                <msqrt>
+                  <mn>1</mn>
+                  <mo>+</mo>
+                  <msqrt>
+                    <mn>1</mn>
+                    <mo>+</mo>
+                    <msqrt>
+                      <mn>1</mn>
+                      <mo>+</mo>
+                      <msqrt>
+                        <mn>1</mn>
                         <mo>+</mo>
-                        <mi class="test">y</mi>
-                        <mo>-</mo>
-                        <mi class="test">z</mi>
-                    </mrow>
-                </math>
-
-                <p class="eval">The test passes if the identifiers are bolded and blue.</p>
-
-                <p class="conditional">If the reading system does not have a viewport, or does not support
-                    CSS styles, this test should be marked <code>Not Supported</code>.</p>
-            </section>
-
-            <section id="mathml-023" class="otest">
-                <h2><span class="nature">[OPTIONAL]</span>
-                    <span class="test-id">mathml-023</span> CSS Styling of the <code>mn</code> element</h2>
-
-                <p class="desc">Tests whether basic CSS styling of MathML is supported on the <code>mn</code> element.</p>
-
-                <math class="basic" xmlns="http://www.w3.org/1998/Math/MathML">
-                    <mrow>
-                        <mn class="test">2</mn>
-                        <mo> &#x2061;<!--INVISIBLE TIMES--></mo>
                         <mi>x</mi>
-                    </mrow>
+                      </msqrt>
+                    </msqrt>
+                  </msqrt>
+                </msqrt>
+
+              </msqrt>
+            </msqrt>
+          </msqrt>
+        </mrow>
+
+      </math>
+
+      <p class="eval">The test passes if the seven iterated surds (the root signs) extend over the respective subexpressions and remain distinguishable. The visual rendering should be similar to the following image. <br/> <img alt="image rendering of test case 30" src="../img/mathml-01-030-surds.png"/></p>
+    </section>
+
+
+    <section id="mathml-40" class="ctest">
+      <h2><span class="nature">[REQUIRED]</span>
+                    <span class="test-id">mathml-40</span>Vertical stretch</h2>
+
+      <p class="desc">Tests basic vertical stretch of parentheses.</p>
+
+      <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+        <mrow>
+          <mo>(</mo>
+          <mtable>
+            <mtr>
+              <mtd columnalign="center">
+                <mrow>
+                  <mo>(</mo>
+                  <mtable>
+                    <mtr>
+                      <mtd columnalign="center">
+                        <mi>a</mi>
+                      </mtd>
+                      <mtd columnalign="center">
+                        <mi>b</mi>
+                      </mtd>
+                    </mtr>
+                    <mtr>
+                      <mtd columnalign="center">
+                        <mi>c</mi>
+                      </mtd>
+                      <mtd columnalign="center">
+
+                        <mi>d</mi>
+
+                      </mtd>
+                    </mtr>
+                  </mtable>
+                  <mo>)</mo>
+                </mrow>
+              </mtd>
+              <mtd columnalign="center">
+                <mrow>
+                  <mo>(</mo>
+                  <mtable>
+                    <mtr>
+                      <mtd columnalign="center">
+                        <mi>e</mi>
+                      </mtd>
+                      <mtd columnalign="center">
+                        <mi>f</mi>
+                      </mtd>
+                    </mtr>
+                    <mtr>
+                      <mtd columnalign="center">
+                        <mi>g</mi>
+                      </mtd>
+                      <mtd columnalign="center">
+                        <mi>h</mi>
+                      </mtd>
+                    </mtr>
+                  </mtable>
+                  <mo>)</mo>
+                </mrow>
+              </mtd>
+            </mtr>
+            <mtr>
+              <mtd columnalign="center">
+                <mn>0</mn>
+              </mtd>
+              <mtd columnalign="center">
+                <mrow>
+                  <mo>(</mo>
+                  <mtable>
+                    <mtr>
+                      <mtd columnalign="center">
+                        <mi>i</mi>
+                      </mtd>
+                      <mtd columnalign="center">
+                        <mi>j</mi>
+                      </mtd>
+                    </mtr>
+                    <mtr>
+                      <mtd columnalign="center">
+                        <mi>k</mi>
+                      </mtd>
+                      <mtd columnalign="center">
+                        <mi>l</mi>
+                      </mtd>
+                    </mtr>
+                  </mtable>
+                  <mo>)</mo>
+                </mrow>
+              </mtd>
+            </mtr>
+          </mtable>
+          <mo>)</mo>
+        </mrow>
+      </math>
+
+      <p class="eval">The test passes if the parantheses stretch vertically both outside and in the subexpressions. The visual rendering should be similar to the following image. <br/> <img alt="image rendering of test case 40" src="../img/mathml-01-040-vertical_stretch.png"/></p>
+
+    </section>
+
+
+    <section id="mathml-50" class="ctest">
+      <h2><span class="nature">[REQUIRED]</span>
+                    <span class="test-id">mathml-50</span>Horizontal stretch, <code>mover</code>, <code>munder</code>, and <code>mspace</code> elements</h2>
+
+      <p class="desc">Tests whether horizontal stretch, <code>mover</code>, <code>munder</code>, <code>mspace</code> elements are supported.</p>
+
+      <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+        <mrow>
+          <mi>c</mi>
+          <mo>=</mo>
+          <mover>
+            <mover>
+              <mrow>
+                <munder>
+                  <munder>
                     <mrow>
-                        <mo>+</mo>
-                        <mi>y</mi>
-                        <mo>-</mo>
-                        <mi>z</mi>
+                      <mspace width="1.1em" />
+                      <mi>a</mi>
+                      <mspace width="1.1em" />
                     </mrow>
-                </math>
+                    <mo>&#x23DF;</mo>
+                  </munder>
+                  <mtext>real</mtext>
+                </munder>
+                <mo>+</mo>
+                <munder>
+                  <munder>
+                    <mrow>
+                      <mspace width="1em" />
+                      <mi>b</mi>
+                      <mo>&#x2062;</mo>
+                      <mi>&#x2148;</mi>
+                      <mspace width="1em" />
+                    </mrow>
+                    <mo>&#x23DF;</mo>
+                  </munder>
+                  <mtext>imaginary</mtext>
+                </munder>
+              </mrow>
+              <mo>&#x23DE;</mo>
+            </mover>
+            <mtext>complex number</mtext>
+          </mover>
+        </mrow>
+      </math>
 
-                <p class="eval">The test passes if the number 2 is italicized and blue.</p>
+      <p class="eval">The test passes if the overbrace stretches to the width of the right hand side of the equation and the undebraces stretches to the width of the (padded) identifiers (a and b). The visual rendering should be similar to the following image. <br/> <img alt="image rendering of test case 50" src="../img/mathml-01-050-horizontal_stretch.png"/>
+      </p>
 
-                <p class="conditional">If the reading system does not have a viewport, or does not support
-                    CSS styles, this test should be marked <code>Not Supported</code>.</p>
-            </section>
+    </section>
 
+    <section id="mathml-60" class="ctest">
+      <h2><span class="nature">[REQUIRED]</span>
+                    <span class="test-id">mathml-60</span>Testing <code>mtable</code> with alignments and styling</h2>
 
+      <p class="desc">Tests whether <code>mtable</code> with borders and basic alignments attributes are supported.</p>
 
-            <section id="mathml-024" class="ctest">
-                <h2><span class="nature">[REQUIRED]</span>
-                    <span class="test-id">mathml-024</span>Horizontal stretch, <code>mover</code>, <code>munder</code>, and <code>mspace</code> elements</h2>
+      <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
+        <mtable frame="solid" columnlines="dashed none none" rowlines="dashed" rowalign="top bottom center baseline" displaystyle="true">
+          <mtr>
+            <mtd>
+              <mtext>Top</mtext>
+            </mtd>
+            <mtd>
+              <mn>3</mn>
+            </mtd>
+            <mtd>
+              <mfrac>
+                <mn>3</mn>
+                <mn>3</mn>
+              </mfrac>
+            </mtd>
+            <mtd>
+              <mfrac>
+                <mn>3</mn>
+                <mfrac>
+                  <mn>3</mn>
+                  <mn>3</mn>
+                </mfrac>
+              </mfrac>
+            </mtd>
+          </mtr>
+          <mtr>
+            <mtd>
+              <mtext>Bottom</mtext>
+            </mtd>
+            <mtd>
+              <mn>3</mn>
+            </mtd>
+            <mtd>
+              <mfrac>
+                <mn>3</mn>
+                <mn>3</mn>
+              </mfrac>
+            </mtd>
+            <mtd>
+              <mfrac>
+                <mn>3</mn>
+                <mfrac>
+                  <mn>3</mn>
+                  <mn>3</mn>
+                </mfrac>
+              </mfrac>
+            </mtd>
+          </mtr>
+          <mtr>
+            <mtd>
+              <mtext>Center</mtext>
+            </mtd>
+            <mtd>
+              <mn>3</mn>
+            </mtd>
+            <mtd>
+              <mfrac>
+                <mn>3</mn>
+                <mn>3</mn>
+              </mfrac>
+            </mtd>
+            <mtd>
+              <mfrac>
+                <mn>3</mn>
+                <mfrac>
+                  <mn>3</mn>
+                  <mn>3</mn>
+                </mfrac>
+              </mfrac>
+            </mtd>
+          </mtr>
+          <mtr>
+            <mtd>
+              <mtext>Baseline</mtext>
+            </mtd>
+            <mtd>
+              <mn>3</mn>
+            </mtd>
+            <mtd>
+              <mfrac>
+                <mn>3</mn>
+                <mn>3</mn>
+              </mfrac>
+            </mtd>
+            <mtd>
+              <mfrac>
+                <mn>3</mn>
+                <mfrac>
+                  <mn>3</mn>
+                  <mn>3</mn>
+                </mfrac>
+              </mfrac>
+            </mtd>
+          </mtr>
+        </mtable>
+      </math>
 
-                <p class="desc">Tests whether horizontal stretch, <code>mover</code>, <code>munder</code>, <code>mspace</code> elements are supported.</p>
+      <p class="eval">The test passes if the table has a solid frame and dotted row and column borders and the equations are aligned according to the first column entry. The visual rendering should be similar to the following image. <br/> <img alt="image rendering of test case 60" src="../img/mathml-01-060-mtable_1.png"/></p>
 
-                <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+    </section>
+
+    <section id="mathml-61" class="ctest">
+      <h2><span class="nature">[REQUIRED]</span>
+                    <span class="test-id">mathml-61</span>Testing <code>mtable</code> with alignments and styling</h2>
+
+      <p class="desc">Tests whether <code>mtable</code> with borders and basic alignments attributes are supported.</p>
+
+      <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+        <mtable columnalign="center left center right" rowspacing="4pt" columnspacing="1em" rowlines="solid none" columnlines="solid none none">
+          <mtr>
+            <mtd>
+              <mi>n</mi>
+            </mtd>
+            <mtd>
+              <mtext>Left</mtext>
+            </mtd>
+            <mtd>
+              <mtext>Center</mtext>
+            </mtd>
+            <mtd>
+              <mtext>Right</mtext>
+            </mtd>
+          </mtr>
+          <mtr>
+            <mtd>
+              <mn>1</mn>
+            </mtd>
+            <mtd>
+              <mn>1</mn>
+            </mtd>
+            <mtd>
+              <mn>1</mn>
+            </mtd>
+            <mtd>
+              <mn>1</mn>
+            </mtd>
+          </mtr>
+          <mtr>
+            <mtd>
+              <mn>2</mn>
+            </mtd>
+            <mtd>
+              <mn>189</mn>
+            </mtd>
+            <mtd>
+              <mn>189</mn>
+            </mtd>
+            <mtd>
+              <mn>189</mn>
+            </mtd>
+          </mtr>
+          <mtr>
+            <mtd>
+              <mn>3</mn>
+            </mtd>
+            <mtd>
+              <mn>2000</mn>
+            </mtd>
+            <mtd>
+              <mn>2000</mn>
+            </mtd>
+            <mtd>
+              <mn>2000</mn>
+            </mtd>
+          </mtr>
+        </mtable>
+      </math>
+
+      <p class="eval">The test passes if the table has a solid line between rows 1 and 2 and columns 1 and 2 and the equations are aligned according to the first row entry. The visual rendering should be similar to the following image. <br/> <img alt="image rendering of test case 61" src="../img/mathml-01-061-mtable_2.png"/></p>
+
+    </section>
+
+    <section id="mathml-70" class="ctest">
+      <h2><span class="nature">[REQUIRED]</span>
+                    <span class="test-id">mathml-70</span>BiDi, RTL and Arabic alphabets</h2>
+
+      <p class="desc">Tests basic support for bi-directional layout and Arabic alphabets.</p>
+
+      <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+        <mtable columnlines="solid" rowlines="solid" frame="solid" columnalign="center">
+          <mtr>
+            <mtd>
+              <mtext>Test</mtext>
+            </mtd>
+            <mtd>
+              <mtext style="width:40%">Without dir</mtext>
+            </mtd>
+            <mtd>
+              <mtext style="width:40%">With dir=rtl</mtext>
+            </mtd>
+          </mtr>
+          <mtr>
+            <mtd>
+              <mtext>mmultiscripts</mtext>
+            </mtd>
+            <mtd>
+              <mmultiscripts>
+                <mi>g</mi>
+                <mi>h</mi>
+                <mi>i</mi>
+                <mi>j</mi>
+                <mi>k</mi>
+                <mi>l</mi>
+                <mi>m</mi>
+                <mprescripts/>
+                <mi>a</mi>
+                <mi>b</mi>
+                <mi>c</mi>
+                <mi>d</mi>
+                <mi>e</mi>
+                <mi>f</mi>
+              </mmultiscripts>
+            </mtd>
+            <mtd>
+              <mstyle dir="rtl">
+                <mmultiscripts>
+                  <mi>g</mi>
+                  <mi>h</mi>
+                  <mi>i</mi>
+                  <mi>j</mi>
+                  <mi>k</mi>
+                  <mi>l</mi>
+                  <mi>m</mi>
+                  <mprescripts/>
+                  <mi>a</mi>
+                  <mi>b</mi>
+                  <mi>c</mi>
+                  <mi>d</mi>
+                  <mi>e</mi>
+                  <mi>f</mi>
+                </mmultiscripts>
+              </mstyle>
+            </mtd>
+          </mtr>
+          <mtr>
+            <mtd>
+              <mtext>Equation in Arabic</mtext>
+            </mtd>
+            <mtd>
+              <mrow>
+                <mfrac>
                   <mrow>
-                    <mi>c</mi>
-                    <mo>=</mo>
-                    <mover>
-                      <mover>
-                        <mrow>
-                          <munder>
-                            <munder>
-                              <mrow>
-                                <mspace width="1.1em" />
-                                <mi>a</mi>
-                                <mspace width="1.1em" />
-                              </mrow>
-                              <mo>&#x23DF;</mo>
-                            </munder>
-                            <mtext>real</mtext>
-                          </munder>
-                          <mo>+</mo>
-                          <munder>
-                            <munder>
-                              <mrow>
-                                <mspace width="1em" />
-                                <mi>b</mi>
-                                <mo>&#x2062;</mo>
-                                <mi>&#x2148;</mi>
-                                <mspace width="1em" />
-                              </mrow>
-                              <mo>&#x23DF;</mo>
-                            </munder>
-                            <mtext>imaginary</mtext>
-                          </munder>
-                        </mrow>
-                        <mo>&#x23DE;</mo>
-                      </mover>
-                      <mtext>complex number</mtext>
-                    </mover>
+                    <mn>١</mn>
                   </mrow>
-                </math>
-
-                <p class="eval">The test passes if the rendering looks like <img src="../img/complex_number.png" alt="description of imaginary number: c = a +bi with an overbrace reading 'complex number' and underbraces  below 'a' and 'b i' reading 'real' and 'imaginary' respectively."/>.</p>
-
-            </section>
-
-            <section id="mathml-025" class="ctest">
-                <h2><span class="nature">[REQUIRED]</span>
-                    <span class="test-id">mathml-025</span>Testing <code>mtable</code> with <code>colspan</code> and <code>rowspan</code> attributes, Hebrew and Script fonts</h2>
-
-                <p class="desc">Tests whether <code>mtable</code> with <code>colspan</code> and <code>mspace</code> attributes (colum and row spanning) are supported; uses Hebrew and Script alphabets.</p>
-
-                <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
                   <mrow>
-                    <mtable>
-                      <mtr>
-                        <mtd columnspan="2" />
-                        <mtd>
-                          <mo>cov</mo>
-                          <mfenced>
-                            <mi>&#x2112;</mi>
-                          </mfenced>
-                        </mtd>
-                        <mtd>
-                          <mo>&#x27F6;</mo>
-                        </mtd>
-                        <mtd>
-                          <mo>non</mo>
-                          <mfenced>
-                            <mi>&#x1D4A6;</mi>
-                          </mfenced>
-                        </mtd>
-                        <mtd>
-                          <mo>&#x27F6;</mo>
-                        </mtd>
-                        <mtd>
-                          <mo>cof</mo>
-                          <mfenced>
-                            <mi>&#x1D4A6;</mi>
-                          </mfenced>
-                        </mtd>
-                        <mtd>
-                          <mo>&#x27F6;</mo>
-                        </mtd>
-                        <mtd>
-                          <mo>cof</mo>
-                          <mfenced>
-                            <mi>&#x2112;</mi>
-                          </mfenced>
-                        </mtd>
-                        <mtd>
-                          <mo>&#x27F6;</mo>
-                        </mtd>
-                        <mtd>
-                          <msup>
-                            <mn>2</mn>
-                            <msub>
-                              <mi>&#x2135;</mi>
-                              <mn>0</mn>
-                            </msub>
-                          </msup>
-                        </mtd>
-                      </mtr>
-                      <mtr>
-                        <mtd columnspan="2" />
-                        <mtd rowspan="3">
-                          <mo>&#x2191;</mo>
-                        </mtd>
-                        <mtd />
-                        <mtd>
-                          <mo>&#x2191;</mo>
-                        </mtd>
-                        <mtd />
-                        <mtd>
-                          <mo>&#x2191;</mo>
-                        </mtd>
-                        <mtd />
-                        <mtd rowspan="3">
-                          <mo>&#x2191;</mo>
-                        </mtd>
-                        <mtd columnspan="2" />
-                      </mtr>
-                      <mtr>
-                        <mtd columnspan="4" />
-                        <mtd>
-                          <mi>&#x1D51F;</mi>
-                        </mtd>
-                        <mtd>
-                          <mo>&#x27F6;</mo>
-                        </mtd>
-                        <mtd>
-                          <mi>&#x1D521;</mi>
-                        </mtd>
-                        <mtd columnspan="5" />
-                      </mtr>
-                      <mtr>
-                        <mtd columnspan="4" />
-                        <mtd>
-                          <mo>&#x2191;</mo>
-                        </mtd>
-                        <mtd />
-                        <mtd>
-                          <mo>&#x2191;</mo>
-                        </mtd>
-                        <mtd columnspan="5" />
-                      </mtr>
-                      <mtr>
-                        <mtd>
-                          <msub>
-                            <mi>&#x2135;</mi>
-                            <mn>1</mn>
-                          </msub>
-                        </mtd>
-                        <mtd>
-                          <mo>&#x27F6;</mo>
-                        </mtd>
-                        <mtd>
-                          <mo>add</mo>
-                          <mfenced>
-                            <mi>&#x2112;</mi>
-                          </mfenced>
-                        </mtd>
-                        <mtd>
-                          <mo>&#x27F6;</mo>
-                        </mtd>
-                        <mtd>
-                          <mo>add</mo>
-                          <mfenced>
-                            <mi>&#x1D4A6;</mi>
-                          </mfenced>
-                        </mtd>
-                        <mtd>
-                          <mo>&#x27F6;</mo>
-                        </mtd>
-                        <mtd>
-                          <mo>cov</mo>
-                          <mfenced>
-                            <mi>&#x1D4A6;</mi>
-                          </mfenced>
-                        </mtd>
-                        <mtd>
-                          <mo>&#x27F6;</mo>
-                        </mtd>
-                        <mtd>
-                          <mo>non</mo>
-                          <mfenced>
-                            <mi>&#x2112;</mi>
-                          </mfenced>
-                        </mtd>
-                        <mtd columnspan="2" />
-                      </mtr>
-                    </mtable>
+                    <mn>٣</mn>
                   </mrow>
-                </math>
-
-                <p class="eval">The test passes if the rendering looks like <a href="http://en.wikipedia.org/wiki/Cicho%C5%84's_diagram">Cichoń's Diagram</a>: <img src="../img/cichons_diagram.png" alt="rendering of Cichoń's diagram."/>.</p>
-
-            </section>
-
-
-            <section id="mathml-026" class="ctest">
-                <h2><span class="nature">[REQUIRED]</span>
-                    <span class="test-id">mathml-026</span>BiDi, RTL and Arabic alphabets</h2>
-
-                <p class="desc">Tests whether right-to-left and Arabic alphabets are supported.</p>
-
-                <math xmlns="http://www.w3.org/1998/Math/MathML" dir="rtl" display="block">
-                      <mrow>
-                        <mrow>
-                          <mi>د</mi>
-                          <mo>⁡</mo>
-                          <mrow>
-                            <mo>(</mo>
-                            <mi>س</mi>
-                            <mo>)</mo>
-                          </mrow>
-                        </mrow>
-                        <mo>=</mo>
-                        <mrow>
-                          <mo>{</mo>
-                          <mtable>
-                            <mtr>
-                              <mtd>
-                                <mrow>
-                                  <munderover>
-                                    <mo movablelimits="false">∑</mo>
-                                    <mrow>
-                                      <mi>ٮ</mi>
-                                      <mo>=</mo>
-                                      <mn>1</mn>
-                                    </mrow>
-                                    <mi>ص</mi>
-                                  </munderover>
-                                  <mo>⁡</mo>
-                                  <msup>
-                                    <mi>س</mi>
-                                    <mi>ٮ</mi>
-                                  </msup>
-                                </mrow>
-                              </mtd>
-                              <mtd>
-                                <mrow>
-                                  <mtext>إذاكان </mtext>
-                                  <mi>س</mi>
-                                  <mo>&gt;</mo>
-                                  <mn>0</mn>
-                                </mrow>
-                              </mtd>
-                            </mtr>
-                            <mtr>
-                              <mtd>
-                                <mrow>
-                                  <msubsup>
-                                    <mo>∫</mo>
-                                    <mn>1</mn>
-                                    <mi>ص</mi>
-                                  </msubsup>
-                                  <mo>⁡</mo>
-                                  <mrow>
-                                    <msup>
-                                      <mi>س</mi>
-                                      <mi>ٮ</mi>
-                                    </msup>
-                                    <mo>⁢</mo>
-                                    <mi>ء</mi>
-                                    <mo>⁡</mo>
-                                    <mi>س</mi>
-                                  </mrow>
-                                </mrow>
-                              </mtd>
-                              <mtd>
-                                <mrow>
-                                  <mtext>إذاكان </mtext>
-                                  <mi>س</mi>
-                                  <mo>∈</mo>
-                                  <mi>م</mi>
-                                </mrow>
-                              </mtd>
-                            </mtr>
-                            <mtr>
-                              <mtd>
-                                <mrow>
-                                  <mi>طا</mi>
-                                  <mo>⁡</mo>
-                                  <mi>π</mi>
-                                </mrow>
-                              </mtd>
-                              <mtd>
-                                <mrow>
-                                  <mtext>غيرذلك </mtext>
-                                  <mrow>
-                                    <mo>(</mo>
-                                    <mtext>مع</mtext>
-                                    <mi>π</mi>
-                                    <mo>≃</mo>
-                                    <mn>3,141</mn>
-                                    <mo>)</mo>
-                                  </mrow>
-                                </mrow>
-                              </mtd>
-                            </mtr>
-                          </mtable>
-                        </mrow>
-                      </mrow>
-                    </math>
-
-
-                <p class="eval">The test passes if the rendering looks like the following image: <img src="../img/Maghreb1.png" alt="a piecewise defined function in Maghreb-style notation"/>.</p>
-
-            </section>
-
-
-            <section id="mathml-027" class="ctest">
-                <h2><span class="nature">[REQUIRED]</span>
-                    <span class="test-id">mathml-027</span>Elementary math: long division notation</h2>
-
-                <p class="desc">Tests whether <code>mlongdiv</code> elements (from elementary math) are supported.</p>
-
-                <math xmlns="http://www.w3.org/1998/Math/MathML">
-                <mlongdiv longdivstyle="lefttop">
-                  <mn> 3 </mn>
-                  <mn> 435.3</mn>
-                  <mn> 1306</mn>
-                  <msgroup position="2" shift="-1">
-                    <msgroup>
-                      <mn> 12</mn>
-                      <msline length="2"/>
-                    </msgroup>
-                    <msgroup>
-                      <mn> 10</mn>
-                      <mn> 9</mn>
-                      <msline length="2"/>
-                    </msgroup>
-                    <msgroup>
-                      <mn> 16</mn>
-                      <mn> 15</mn>
-                      <msline length="2"/>
-                      <mn> 1.0</mn>           <!-- aligns on '.', not the right edge ('0') -->
-                    </msgroup>
-                    <msgroup position="-1">   <!-- extra shift to move to the right of the "." -->
-                      <mn> 9</mn>
-                      <msline length="3"/>
-                      <mn> 1</mn>
-                    </msgroup>
-                  </msgroup>
-                </mlongdiv>
-
-                </math>
-
-
-                <p class="eval">The test passes if the rendering looks like the following image: <img src="../img/ElementaryMathExample.png" alt="A long division dividing 1306 by 3, presented in 'lefttop' (US) notation"/>.</p>
-
-            </section>
-
-            <section id="mathml-028" class="ctest">
-                <h2><span class="nature">[REQUIRED]</span>
-                    <span class="test-id">mathml-028</span>Multiscripts, Greek and Gothic alphabets</h2>
-
-                <p class="desc">Tests whether <code>mmultiscript</code> elements as well as Greek and Gothic alphabets are supported.</p>
-
-                <math xmlns="http://www.w3.org/1998/Math/MathML" style="font-size: 24pt" display="block">
+                </mfrac>
+                <mfrac>
                   <mrow>
-                    <munderover>
-                      <mmultiscripts>
-                        <mo>&#x220F;</mo>
-                        <mmultiscripts>
-                          <mi>&#x1D508;</mi>
-                          <mi>&#x3C5;</mi>
-                          <mi>&#x3C4;</mi>
-                          <mprescripts />
-                          <mi>&#x3C1;</mi>
-                          <mi>&#x3C3;</mi>
-                        </mmultiscripts>
-                        <mmultiscripts>
-                          <mi>&#x1D507;</mi>
-                          <mi>&#x3C0;</mi>
-                          <mi>&#x3BF;</mi>
-                          <mprescripts />
-                          <mi>&#x3BD;</mi>
-                          <mi>&#x3BE;</mi>
-                        </mmultiscripts>
-                        <mprescripts />
-                        <mmultiscripts>
-                          <mi>&#x1D504;</mi>
-                          <mi>&#x3B4;</mi>
-                          <mi>&#x3B3;</mi>
-                          <mprescripts />
-                          <mi>&#x3B1;</mi>
-                          <mi>&#x3B2;</mi>
-                        </mmultiscripts>
-                        <mmultiscripts>
-                          <mi>&#x1D505;</mi>
-                          <mi>&#x3B8;</mi>
-                          <mi>&#x3B7;</mi>
-                          <mprescripts />
-                          <mi>&#x3B5;</mi>
-                          <mi>&#x3B6;</mi>
-                        </mmultiscripts>
-                      </mmultiscripts>
-                      <mmultiscripts>
-                        <mi>&#x1D509;</mi>
-                        <mi>&#x3C9;</mi>
-                        <mi>&#x3C8;</mi>
-                        <mprescripts />
-                        <mi>&#x3D5;</mi>
-                        <mi>&#x3C7;</mi>
-                      </mmultiscripts>
-                      <mmultiscripts>
-                        <mi>&#x212D;</mi>
-                        <mi>&#x3BC;</mi>
-                        <mi>&#x3BB;</mi>
-                        <mprescripts />
-                        <mi>&#x3B9;</mi>
-                        <mi>&#x3BA;</mi>
-                      </mmultiscripts>
-                    </munderover>
+                    <mn>١</mn>
                   </mrow>
-                </math>
+                  <mrow>
+                    <mn>٣</mn>
+                  </mrow>
+                </mfrac>
+                <mn>٧</mn>
+                <mo>×</mo>
+                <mfrac>
+                  <mrow>
+                    <mn>٣</mn>
+                  </mrow>
+                  <mrow>
+                    <mn>٤</mn>
+                  </mrow>
+                </mfrac>
+                <mn>٢</mn>
+                <mo>=</mo>
+                <mfrac>
+                  <mrow>
+                    <mn>١٢١</mn>
+                  </mrow>
+                  <mrow>
+                    <mn>٦</mn>
+                  </mrow>
+                </mfrac>
+                <mo>=</mo>
+                <mfrac>
+                  <mrow>
+                    <mn>١</mn>
+                  </mrow>
+                  <mrow>
+                    <mn>٦</mn>
+                  </mrow>
+                </mfrac>
+                <mn>٢٠</mn>
+              </mrow>
+            </mtd>
+            <mtd>
+              <mrow dir="rtl">
+                <mfrac>
+                  <mrow>
+                    <mn>١</mn>
+                  </mrow>
+                  <mrow>
+                    <mn>٣</mn>
+                  </mrow>
+                </mfrac>
+                <mfrac>
+                  <mrow>
+                    <mn>١</mn>
+                  </mrow>
+                  <mrow>
+                    <mn>٣</mn>
+                  </mrow>
+                </mfrac>
+                <mn>٧</mn>
+                <mo>×</mo>
+                <mfrac>
+                  <mrow>
+                    <mn>٣</mn>
+                  </mrow>
+                  <mrow>
+                    <mn>٤</mn>
+                  </mrow>
+                </mfrac>
+                <mn>٢</mn>
+                <mo>=</mo>
+                <mfrac>
+                  <mrow>
+                    <mn>١٢١</mn>
+                  </mrow>
+                  <mrow>
+                    <mn>٦</mn>
+                  </mrow>
+                </mfrac>
+                <mo>=</mo>
+                <mfrac>
+                  <mrow>
+                    <mn>١</mn>
+                  </mrow>
+                  <mrow>
+                    <mn>٦</mn>
+                  </mrow>
+                </mfrac>
+                <mn>٢٠</mn>
+              </mrow>
+            </mtd>
+          </mtr>
+        </mtable>
+      </math>
 
 
-                <p class="eval">The test passes if the rendering looks like the following image: <img src="../img/multiscripts_and_greek_alphabet.png" alt="a large capital Pi with Gothic characters as multiscripts which in turn have Greek multiscripts"/>.</p>
 
-            </section>
+      <p class="eval">The test passes if entries in the third column look like the "mirror image" of the second column (except for the characters themselves). The visual rendering should be similar to the following image. <br/> <img alt="image rendering of test case 70" src="../img/mathml-01-070-bidi_arabic.png"/></p>
+
+    </section>
 
 
-    	</section>
-    </body>
+    <section id="mathml-80" class="ctest">
+      <h2><span class="nature">[REQUIRED]</span>
+                    <span class="test-id">mathml-80</span>Elementary math notation: long division</h2>
+
+      <p class="desc">Tests whether <code>mlongdiv</code> elements are supported.</p>
+
+      <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+        <mlongdiv longdivstyle="lefttop">
+          <mn>3</mn>
+          <mn>435.3</mn>
+          <mn>1306</mn>
+          <msgroup position="2" shift="-1">
+            <msgroup>
+              <mn>12</mn>
+              <msline length="2" />
+            </msgroup>
+            <msgroup>
+              <mn>10</mn>
+              <mn>9</mn>
+              <msline length="2" />
+            </msgroup>
+            <msgroup>
+              <mn>16</mn>
+              <mn>15</mn>
+              <msline length="2" />
+              <mn>1.0</mn>
+              <!-- aligns on '.', not the right edge ('0') -->
+            </msgroup>
+            <msgroup position="-1">
+              <!-- extra shift to move to the right of the "." -->
+              <mn>9</mn>
+              <msline length="3" />
+              <mn>1</mn>
+            </msgroup>
+          </msgroup>
+        </mlongdiv>
+      </math>
+
+      <p class="eval">The test passes if rendering looks like the long division of 1306 divided by 3 in US-style notation. The visual rendering should be similar to the following image. <br/> <img alt="image rendering of test case 80" src="../img/mathml-01-080-mlongdiv.png"/></p>
+
+    </section>
+
+    <section id="mathml-81" class="ctest">
+      <h2><span class="nature">[REQUIRED]</span>
+                    <span class="test-id">mathml-81</span>Elementary math notation: mstack, mscarries</h2>
+
+      <p class="desc">Tests whether <code>mstack</code> and <code>mscarries</code> elements are supported.</p>
+
+      <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+
+        <mstack>
+          <mscarries crossout="verticalstrike">
+            <mn>2</mn>
+            <mn>12</mn>
+            <mscarry crossout="none">
+              <none/>
+            </mscarry>
+          </mscarries>
+          <mn>2,327</mn>
+          <msrow>
+            <mo>-</mo>
+            <mn>1,156</mn>
+          </msrow>
+          <msline/>
+          <mn>1,171</mn>
+        </mstack>
+
+
+      </math>
+
+
+      <p class="eval">The test passes if the rendering looks like written substraction of 2327-1156, with carries in north position and strike-outs in vertical position. The visual rendering should be similar to the following image. <br/> <img alt="image rendering of test case 81" src="../img/mathml-01-081-mstack.png"/></p>
+
+    </section>
+
+    <section id="mathml-90" class="ctest">
+      <h2><span class="nature">[REQUIRED]</span>
+                    <span class="test-id">mathml-90</span>Multiscripts, Under-over, Greek and Gothic alphabets</h2>
+
+      <p class="desc">Tests whether <code>mmultiscript</code> and <code>munderover</code> elements as well as Greek and Gothic alphabets are supported.</p>
+
+      <math xmlns="http://www.w3.org/1998/Math/MathML" style="font-size: 24pt" display="block">
+        <mrow>
+          <munderover>
+            <mmultiscripts>
+              <mo>&#x220F;</mo>
+              <mmultiscripts>
+                <mi>&#x1D508;</mi>
+                <mi>&#x3C5;</mi>
+                <mi>&#x3C4;</mi>
+                <mprescripts />
+                <mi>&#x3C1;</mi>
+                <mi>&#x3C3;</mi>
+              </mmultiscripts>
+              <mmultiscripts>
+                <mi>&#x1D507;</mi>
+                <mi>&#x3C0;</mi>
+                <mi>&#x3BF;</mi>
+                <mprescripts />
+                <mi>&#x3BD;</mi>
+                <mi>&#x3BE;</mi>
+              </mmultiscripts>
+              <mprescripts />
+              <mmultiscripts>
+                <mi>&#x1D504;</mi>
+                <mi>&#x3B4;</mi>
+                <mi>&#x3B3;</mi>
+                <mprescripts />
+                <mi>&#x3B1;</mi>
+                <mi>&#x3B2;</mi>
+              </mmultiscripts>
+              <mmultiscripts>
+                <mi>&#x1D505;</mi>
+                <mi>&#x3B8;</mi>
+                <mi>&#x3B7;</mi>
+                <mprescripts />
+                <mi>&#x3B5;</mi>
+                <mi>&#x3B6;</mi>
+              </mmultiscripts>
+            </mmultiscripts>
+            <mmultiscripts>
+              <mi>&#x1D509;</mi>
+              <mi>&#x3C9;</mi>
+              <mi>&#x3C8;</mi>
+              <mprescripts />
+              <mi>&#x3D5;</mi>
+              <mi>&#x3C7;</mi>
+            </mmultiscripts>
+            <mmultiscripts>
+              <mi>&#x212D;</mi>
+              <mi>&#x3BC;</mi>
+              <mi>&#x3BB;</mi>
+              <mprescripts />
+              <mi>&#x3B9;</mi>
+              <mi>&#x3BA;</mi>
+            </mmultiscripts>
+          </munderover>
+        </mrow>
+      </math>
+
+
+      <p class="eval">The test passes if the central Pi is surrounded by under-, over-, and multiscripts (i.e., sub-, sup-, pre-sub, and pre-sup scripts); the multiscript entries have central Gothic letters surrounded by Greek multiscripts.  The visual rendering should be similar to the following image. <br/> <img alt="image rendering of test case 90" src="../img/"/>
+        <img alt="a large capital Pi with Gothic characters as multiscripts which in turn have Greek multiscripts" src="../img/mathml-01-090--mmultiscripts.png" />.</p>
+
+    </section>
+
+
+  </section>
+</body>
+
 </html>
