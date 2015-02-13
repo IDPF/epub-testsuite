@@ -1,74 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xml:lang="en" lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <link rel="stylesheet" type="text/css" href="../css/base.css" />
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="../css/base.css" />
 		<link rel="stylesheet" type="text/css" href="../css/styling.css" />
-    </head>
-    <body>
-    	<section id="style-media-rules">
-    		<h2><code>@media</code> Rules</h2>
-    		<section id="style-210" class="ctest">
-    			<h3><span class="nature">[REQUIRED]</span> <span class="test-id">style-210</span> <code>all</code></h3>
-    			<p class="desc">Tests whether the <code>@media</code> rule set to <code>all</code> is supported.</p>
-    			<p class="media-all">FAIL</p>
-    			<p class="eval">If the preceding paragraph reads "FAIL", the test fails.</p>
-    		</section>
-    		<section id="style-211" class="ctest">
-    			<h3><span class="nature">[REQUIRED]</span> <span class="test-id">style-211</span> <code>screen</code></h3>
-    			<p class="desc">Tests whether the <code>@media</code> rule set to <code>screen</code> is supported.</p>
-    			<p class="media-screen">FAIL</p>
-    			<p class="eval">If the preceding paragraph reads "FAIL", the test fails.</p>
-    		</section>
-    		<section id="style-212" class="ctest">
-    			<h3><span class="nature">[REQUIRED]</span> <span class="test-id">style-212</span> <code>handheld</code></h3>
-    			<p class="desc">Tests whether the <code>@media</code> rule set to <code>handheld</code> is supported.</p>
-    			<p class="media-handheld">FAIL</p>
-    			<p class="eval">If the preceding paragraph reads "FAIL", the test fails.</p>
-    		</section>
-    		<section id="style-213" class="ctest">
-    			<h3><span class="nature">[REQUIRED]</span> <span class="test-id">style-213</span> <code>tv</code></h3>
-    			<p class="desc">Tests whether the <code>@media</code> rule set to <code>tv</code> is supported.</p>
-    			<p class="media-tv">FAIL</p>
-    			<p class="eval">If the preceding paragraph reads "FAIL", the test fails.</p>
-    		</section>
-    		<section id="style-220" class="ctest">
-    			<h3><span class="nature">[REQUIRED]</span> <span class="test-id">style-220</span> <code>orientation:landscape</code></h3>
-    			<p class="desc">Tests whether the <code>@media</code> rule set to <code>orientation:landscape</code> is supported.</p>
-    			<p class="orientation-landscape">FAIL</p>
-    			<p class="eval">If the preceding paragraph reads "FAIL" when the device is held in landscape mode, and the device supports multiple orientations, the test fails.</p>
-    		</section>
-    		<section id="style-221" class="ctest">
-    			<h3><span class="nature">[REQUIRED]</span> <span class="test-id">style-221</span> <code>orientation:portrait</code></h3>
-    			<p class="desc">Tests whether the <code>@media</code> rule set to <code>orientation:portrait</code> is supported.</p>
-    			<p class="orientation-portrait">FAIL</p>
-    			<p class="eval">If the preceding paragraph reads "FAIL" when the device is held in portrait mode, and the device supports multiple orientations, the test fails.</p>
-    		</section>
-    		<section id="style-230" class="ctest">
-    			<h3><span class="nature">[REQUIRED]</span> <span class="test-id">style-230</span> <code>min-width</code></h3>
-    			<p class="desc">Tests whether the <code>@media</code> rule set to <code>min-width:200px</code> is supported.</p>
-    			<p class="min-width-200">FAIL</p>
-    			<p class="eval">If the preceding paragraph reads "FAIL", the test fails.</p>
-    		</section>
-    		<section id="style-231" class="ctest">
-    			<h3><span class="nature">[REQUIRED]</span> <span class="test-id">style-231</span> <code>max-width</code></h3>
-    			<p class="desc">Tests whether the <code>@media</code> rule set to <code>max-width:2000px</code> is supported.</p>
-    			<p class="max-width-2000">FAIL</p>
-    			<p class="eval">If the preceding paragraph reads "FAIL", the test fails.</p>
-    		</section>
-    		<section id="style-240" class="ctest">
-    			<h3><span class="nature">[REQUIRED]</span> <span class="test-id">style-240</span> <code>min-device-width</code></h3>
-    			<p class="desc">Tests whether the <code>@media</code> rule set to <code>min-device-width:200px</code> is supported.</p>
-    			<p class="min-device-width-200">FAIL</p>
-    			<p class="eval">If the preceding paragraph reads "FAIL", the test fails.</p>
-    		</section>
-    		<section id="style-241" class="ctest">
-    			<h3><span class="nature">[REQUIRED]</span> <span class="test-id">style-241</span> <code>max-device-width</code></h3>
-    			<p class="desc">Tests whether the <code>@media</code> rule set to <code>max-device-width:2000px</code> is supported.</p>
-    			<p class="max-device-width-2000">FAIL</p>
-    			<p class="eval">If the preceding paragraph reads "FAIL", the test fails.</p>
-    		</section>
-    	</section>
-    </body>
+	</head>
+	<body>
+		<section id="style-media-rules">
+			<h2><code>@media</code> Rules</h2>
+			<section id="style-210" class="ctest">
+				<h3><span class="nature">[REQUIRED]</span> <span class="test-id">style-210</span> Media Types</h3>
+				<p class="desc">Tests whether CSS 2.1 media types are supported.</p>
+				<p class="media-types">FAIL</p>
+				<p class="eval">If the preceding paragraph reads "FAIL", the test fails, otherwise it passes.</p>
+			</section>
+			<section id="style-211" class="ctest">
+				<h3><span class="nature">[REQUIRED]</span> <span class="test-id">style-211</span> Media Queries</h3>
+				<p class="desc">Tests whether Media Queries Level 3 media queries are supported.</p>
+				<p class="media-queries">FAIL</p>
+				<p class="eval">If the preceding paragraph reads "FAIL", the test fails, otherwise it passes.</p>
+			</section>
+			<section id="style-220" class="otest">
+				<h3><span class="nature">[OPTIONAL]</span> <span class="test-id">style-220</span> <code>orientation:landscape</code></h3>
+				<p class="desc">Tests whether the <code>@media</code> rule <code>orientation:landscape</code> is supported.</p>
+				<p class="orientation-landscape">FAIL</p>
+				<p class="eval">If the device supports two orientations and the preceding paragraph reads "FAIL" when the content is displayed in landscape orientation, the test fails, otherwise it passes.</p>
+			</section>
+			<section id="style-221" class="otest">
+				<h3><span class="nature">[OPTIONAL]</span> <span class="test-id">style-221</span> <code>orientation:portrait</code></h3>
+				<p class="desc">Tests whether the <code>@media</code> rule <code>orientation:portrait</code> is supported.</p>
+				<p class="orientation-portrait">FAIL</p>
+				<p class="eval">If the device supports two orientations and the preceding paragraph reads "FAIL" when the content is displayed in portrait orientation, the test fails, otherwise it passes.</p>
+			</section>
+		</section>
+	</body>
 </html>
