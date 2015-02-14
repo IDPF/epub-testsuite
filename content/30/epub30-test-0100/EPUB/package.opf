@@ -38,7 +38,7 @@
 		<!-- bodymatter -->
 		<!-- multimedia -->
 		<item href="xhtml/content-images-001.xhtml" id="xhtml-img-001" media-type="application/xhtml+xml"/>
-		<item href="xhtml/content-multimedia-001.xhtml" id="xhtml-multi-001" media-type="application/xhtml+xml"/>
+		<item href="xhtml/content-multimedia-001.xhtml" id="xhtml-multi-001" media-type="application/xhtml+xml" properties="remote-resources"/>
 		<item href="xhtml/content-multimedia-002.xhtml" id="xhtml-multi-002" media-type="application/xhtml+xml"/>
 		<item href="xhtml/content-multimedia-003.xhtml" id="xhtml-multi-003" media-type="application/xhtml+xml"/>
 		<!-- namespaces -->
@@ -85,6 +85,8 @@
 		<!-- audio -->
 		<item id="mp3-1" href="audio/allison64.mp3" media-type="audio/mpeg"/>
 		<item id="mp4-1" href="audio/allison64.mp4" media-type="audio/mp4"/>
+        <item id="mp3-2" href="http://epubtest.org/media/remote/allison64-remote.mp3" media-type="audio/mpeg"/>
+
 		<!-- video -->
 		<item id="webm-1" href="video/screencast.webm" media-type="audio/mpeg"/>
 		<item id="mp4-2" href="video/screencast.mp4" media-type="audio/mp4"/>
