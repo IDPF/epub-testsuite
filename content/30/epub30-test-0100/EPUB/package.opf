@@ -86,6 +86,7 @@
 		<item id="mp3-1" href="audio/allison64.mp3" media-type="audio/mpeg"/>
 		<item id="mp4-1" href="audio/allison64.mp4" media-type="audio/mp4"/>
         <item id="mp3-2" href="http://epubtest.org/media/remote/allison64-remote.mp3" media-type="audio/mpeg"/>
+        <item id="mp4-3" href="http://epubtest.org/media/remote/allison64-remote.mp4" media-type="audio/mp4"/>
 
 		<!-- video -->
 		<item id="webm-1" href="video/screencast.webm" media-type="audio/mpeg"/>

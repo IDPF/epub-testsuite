@@ -54,13 +54,17 @@
                 <section id="audio-040" class="otest">
                     <h4><span class="nature">[OPTIONAL]</span> <span class="test-id">audio-040</span> The <code>audio</code> element: remote resources</h4>
                     
-                    <p class="desc">Tests whether the HTML5 <code>audio</code> element is supported using <code>MP3</code> audio on a remote server.</p>
+                    <p class="desc">Tests whether the HTML5 <code>audio</code> element is supported using audio on a remote server. Both MP3 and MP4 AAC LC formats are presented below.</p>
                     
                     <audio controls="" src="http://epubtest.org/media/remote/allison64-remote.mp3">
-                        If this text is rendered, the audio element is not supported and the test fails.
+                        If this text is rendered, the remote MP3 resource is not supported.
+                    </audio>
+
+                    <audio controls="" src="http://epubtest.org/media/remote/allison64-remote.mp4">
+                        If this text is rendered, the remote MP4 resource is not supported.
                     </audio>
                     
-                    <p class="eval">If the preceding audio clip can be played (a woman's voice will be heard, beginning "a crime to sink your teeth into"), the test passes.</p>
+                    <p class="eval">If at least one of the preceeding audio clips can be played (a woman's voice will be heard, beginning "a crime to sink your teeth into"), the test passes.</p>
                     
                 </section>
                 
