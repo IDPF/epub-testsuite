@@ -75,11 +75,17 @@
 		<item href="img/check.png" id="img-007" media-type="image/png"/>
 		<item href="img/check.gif" id="img-008" media-type="image/gif"/>
 		<item href="img/check.jpg" id="img-009" media-type="image/jpeg"/>
-		<item href="img/complex_number.png" id="img-010" media-type="image/png"/>
-		<item href="img/cichons_diagram.png" id="img-011" media-type="image/png"/>
-		<item href="img/Maghreb1.png" id="img-012" media-type="image/png"/>
-		<item href="img/ElementaryMathExample.png" id="img-013" media-type="image/png"/>
-		<item href="img/multiscripts_and_greek_alphabet.png" id="img-014" media-type="image/png"/>
+        <item href="img/mathml-01-010-basic_rendering.png" id="img-010" media-type="image/png"/>
+        <item href="img/mathml-01-020-styling.png" id="img-011" media-type="image/png"/>
+        <item href="img/mathml-01-030-surds.png" id="img-012" media-type="image/png"/>
+        <item href="img/mathml-01-040-vertical_stretch.png" id="img-013" media-type="image/png"/>
+        <item href="img/mathml-01-050-horizontal_stretch.png" id="img-014" media-type="image/png"/>
+        <item href="img/mathml-01-060-mtable_1.png" id="img-015" media-type="image/png"/>
+        <item href="img/mathml-01-061-mtable_2.png" id="img-016" media-type="image/png"/>
+        <item href="img/mathml-01-070-bidi_arabic.png" id="img-017" media-type="image/png"/>
+        <item href="img/mathml-01-080-mlongdiv.png" id="img-018" media-type="image/png"/>
+        <item href="img/mathml-01-081-mstack.png" id="img-019" media-type="image/png"/>
+        <item href="img/mathml-01-090-mmultiscripts.png" id="img-020" media-type="image/png"/>
 
 
 		<!-- audio -->
