@@ -3,10 +3,17 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xml:lang="en" lang="en">
     <head>
         <meta charset="utf-8" />
-        <link rel="stylesheet" type="text/css" href="../css/base.css" />
+		
+		<!-- see http://www.idpf.org/epub/altss-tags/#style-sets -->
+		<!-- two persistent style sheets (no title attribute) -->
+		<link rel="stylesheet" type="text/css" href="../css/base.css" />
 		<link rel="stylesheet" type="text/css" href="../css/styling.css" />
+
+		<!-- two alternate style sheets (with different title attributes),
+		tagged with the predefined day and night classes.
+		The first is preferred as it does not have the alternate value in the rel attribute -->
 		<link rel="stylesheet" type="text/css" href="../css/day.css" class="day" title="day" />
-		<link rel="stylesheet" type="text/css" href="../css/night.css" class="night" title="night" />
+		<link rel="stylesheet alternate" type="text/css" href="../css/night.css" class="night" title="night" />
     </head>
     <body>
     	<section id="alternate-style">
