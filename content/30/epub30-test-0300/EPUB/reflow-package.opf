@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uid">
+	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+		<dc:identifier id="uid">com.github.epub-testsuite.epub30-test-0300</dc:identifier>
+		<dc:description>Tests for Multiple Renditions [UNDER CONSTRUCTION]</dc:description>
+		<dc:title id="title">EPUBTEST 0300 - Multiple-Rendition Tests</dc:title>
+		<meta refines="title" property="title-type">main</meta>
+		<dc:rights>Copyright © 2015 International Digital Publishing Forum (IDPF)</dc:rights>
+		<meta property="dcterms:license">https://creativecommons.org/licenses/by/4.0/</meta>
+		<!-- repeat creator element for all contributors -->
+		<dc:creator id="creator1">Matt Garrish</dc:creator>
+		<meta refines="#creator1" property="role" scheme="marc:relators">aut</meta>
+		<meta refines="#creator1" property="file-as">Garrish, Matt</meta>
+		<dc:language>en</dc:language>
+        <meta property="dcterms:modified">2015-04-01T14:00:00Z</meta>
+	</metadata>
+	<manifest>
+		<item href="xhtml/reflow-front.xhtml" id="front" media-type="application/xhtml+xml"/>
+		<item href="xhtml/reflow-nav.xhtml" id="nav" media-type="application/xhtml+xml" properties="nav"/>
+		<item href="xhtml/reflow-xhtml-001.xhtml" id="xhtml-001" media-type="application/xhtml+xml"/>
+		<item href="css/base.css" media-type="text/css" id="css"/>
+	</manifest>
+	<spine>
+		<itemref idref="front"/>
+		<itemref idref="nav" linear="no"/>
+		<itemref idref="xhtml-001"/>
+	</spine>
+</package>
