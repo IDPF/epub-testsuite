@@ -2,90 +2,90 @@
   <body epub:textref="../xhtml/basic_tests.xhtml">
     <par>
       <text src="../xhtml/basic_tests.xhtml#mo-1"/>
-      <audio src="../audio/basic_tests.mp3" clipBegin="00:00:00.000" clipEnd="00:00:01.063"/>
+      <audio src="../audio/basic_tests.mp3" clipBegin="00:00:00.000" clipEnd="00:00:01.055"/>
     </par>
     <seq epub:textref="../xhtml/basic_tests.xhtml#mo-basic-010">
       <par>
         <text src="../xhtml/basic_tests.xhtml#mo-2"/>
-        <audio src="../audio/basic_tests.mp3" clipBegin="00:00:01.063" clipEnd="00:00:02.871"/>
+        <audio src="../audio/basic_tests.mp3" clipBegin="00:00:01.055" clipEnd="00:00:02.868"/>
       </par>
       <par>
         <text src="../xhtml/basic_tests.xhtml#mo-1-67"/>
-        <audio src="../audio/basic_tests.mp3" clipBegin="00:00:02.871" clipEnd="00:00:06.275"/>
+        <audio src="../audio/basic_tests.mp3" clipBegin="00:00:02.868" clipEnd="00:00:06.262"/>
       </par>
       <par>
         <text src="../xhtml/basic_tests.xhtml#mo-3"/>
-        <audio src="../audio/basic_tests.mp3" clipBegin="00:00:06.275" clipEnd="00:00:22.936"/>
+        <audio src="../audio/basic_tests.mp3" clipBegin="00:00:06.262" clipEnd="00:00:27.482"/>
       </par>
     </seq>
     <seq epub:textref="../xhtml/basic_tests.xhtml#mo-basic-020">
       <par>
         <text src="../xhtml/basic_tests.xhtml#mo-4"/>
-        <audio src="../audio/basic_tests.mp3" clipBegin="00:00:22.936" clipEnd="00:00:24.839"/>
+        <audio src="../audio/basic_tests.mp3" clipBegin="00:00:27.482" clipEnd="00:00:29.398"/>
       </par>
       <par>
         <text src="../xhtml/basic_tests.xhtml#mo-2-70"/>
-        <audio src="../audio/basic_tests.mp3" clipBegin="00:00:24.839" clipEnd="00:00:27.465"/>
+        <audio src="../audio/basic_tests.mp3" clipBegin="00:00:29.398" clipEnd="00:00:32.026"/>
       </par>
       <par>
         <text src="../xhtml/basic_tests.xhtml#mo-5"/>
-        <audio src="../audio/basic_tests.mp3" clipBegin="00:00:27.465" clipEnd="00:00:34.699"/>
+        <audio src="../audio/basic_tests.mp3" clipBegin="00:00:32.026" clipEnd="00:00:39.245"/>
       </par>
     </seq>
     <seq epub:textref="../xhtml/basic_tests.xhtml#mo-basic-030">
       <par>
         <text src="../xhtml/basic_tests.xhtml#mo-6"/>
-        <audio src="../audio/basic_tests.mp3" clipBegin="00:00:34.699" clipEnd="00:00:37.290"/>
+        <audio src="../audio/basic_tests.mp3" clipBegin="00:00:39.245" clipEnd="00:00:41.900"/>
       </par>
       <par>
         <text src="../xhtml/basic_tests.xhtml#mo-3-0"/>
-        <audio src="../audio/basic_tests.mp3" clipBegin="00:00:37.290" clipEnd="00:00:40.447"/>
+        <audio src="../audio/basic_tests.mp3" clipBegin="00:00:41.900" clipEnd="00:00:45.090"/>
       </par>
       <par>
         <text src="../xhtml/basic_tests.xhtml#mo-7"/>
-        <audio src="../audio/basic_tests.mp3" clipBegin="00:00:40.447" clipEnd="00:00:50.032"/>
+        <audio src="../audio/basic_tests.mp3" clipBegin="00:00:45.090" clipEnd="00:00:54.689"/>
       </par>
     </seq>
     <seq epub:textref="../xhtml/basic_tests.xhtml#mo-basic-040">
       <par>
         <text src="../xhtml/basic_tests.xhtml#mo-10"/>
-        <audio src="../audio/basic_tests.mp3" clipBegin="00:00:50.032" clipEnd="00:00:51.231"/>
+        <audio src="../audio/basic_tests.mp3" clipBegin="00:00:54.689" clipEnd="00:00:55.877"/>
       </par>
       <par>
         <text src="../xhtml/basic_tests.xhtml#mo-4-46"/>
-        <audio src="../audio/basic_tests.mp3" clipBegin="00:00:51.231" clipEnd="00:00:56.244"/>
+        <audio src="../audio/basic_tests.mp3" clipBegin="00:00:55.877" clipEnd="00:01:00.920"/>
       </par>
       <par>
         <text src="../xhtml/basic_tests.xhtml#mo-11"/>
-        <audio src="../audio/basic_tests.mp3" clipBegin="00:00:56.244" clipEnd="00:01:03.405"/>
+        <audio src="../audio/basic_tests.mp3" clipBegin="00:01:00.920" clipEnd="00:01:08.117"/>
       </par>
     </seq>
     <seq epub:textref="../xhtml/basic_tests.xhtml#mo-basic-050">
       <par>
         <text src="../xhtml/basic_tests.xhtml#mo-12"/>
-        <audio src="../audio/basic_tests.mp3" clipBegin="00:01:03.405" clipEnd="00:01:04.454"/>
+        <audio src="../audio/basic_tests.mp3" clipBegin="00:01:08.117" clipEnd="00:01:09.177"/>
       </par>
       <par>
         <text src="../xhtml/basic_tests.xhtml#mo-5-58"/>
-        <audio src="../audio/basic_tests.mp3" clipBegin="00:01:04.454" clipEnd="00:01:07.423"/>
+        <audio src="../audio/basic_tests.mp3" clipBegin="00:01:09.177" clipEnd="00:01:12.156"/>
       </par>
       <par>
         <text src="../xhtml/basic_tests.xhtml#mo-13"/>
-        <audio src="../audio/basic_tests.mp3" clipBegin="00:01:07.423" clipEnd="00:01:15.176"/>
+        <audio src="../audio/basic_tests.mp3" clipBegin="00:01:12.156" clipEnd="00:01:19.113"/>
       </par>
     </seq>
     <seq epub:textref="../xhtml/basic_tests.xhtml#mo-basic-060">
       <par>
         <text src="../xhtml/basic_tests.xhtml#mo-14"/>
-        <audio src="../audio/basic_tests.mp3" clipBegin="00:01:15.176" clipEnd="00:01:17.301"/>
+        <audio src="../audio/basic_tests.mp3" clipBegin="00:01:19.113" clipEnd="00:01:21.232"/>
       </par>
       <par>
         <text src="../xhtml/basic_tests.xhtml#mo-6-41"/>
-        <audio src="../audio/basic_tests.mp3" clipBegin="00:01:17.301" clipEnd="00:01:20.641"/>
+        <audio src="../audio/basic_tests.mp3" clipBegin="00:01:21.232" clipEnd="00:01:24.571"/>
       </par>
       <par>
         <text src="../xhtml/basic_tests.xhtml#mo-15"/>
-        <audio src="../audio/basic_tests.mp3" clipBegin="00:01:20.641" clipEnd="00:01:26.065"/>
+        <audio src="../audio/basic_tests.mp3" clipBegin="00:01:24.571" clipEnd="00:01:30.043"/>
       </par>
     </seq>
   </body>

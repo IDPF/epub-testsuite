@@ -2,94 +2,90 @@
   <body epub:textref="../xhtml/navigation_tests.xhtml">
     <par>
       <text src="../xhtml/navigation_tests.xhtml#mo-1"/>
-      <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:00.000" clipEnd="00:00:01.355"/>
+      <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:00.000" clipEnd="00:00:01.359"/>
     </par>
     <seq epub:textref="../xhtml/navigation_tests.xhtml#mo-nav-010">
       <par>
         <text src="../xhtml/navigation_tests.xhtml#mo-nav-010-1"/>
-        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:01.355" clipEnd="00:00:04.694"/>
+        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:01.359" clipEnd="00:00:04.688"/>
       </par>
       <par>
         <text src="../xhtml/navigation_tests.xhtml#mo-1-8"/>
-        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:04.694" clipEnd="00:00:08.273"/>
+        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:04.688" clipEnd="00:00:08.267"/>
       </par>
       <par>
         <text src="../xhtml/navigation_tests.xhtml#mo-nav-010-2"/>
-        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:08.273" clipEnd="00:00:16.072"/>
+        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:08.267" clipEnd="00:00:16.042"/>
       </par>
       <par>
         <text src="../xhtml/navigation_tests.xhtml#mo-nav-010-3"/>
-        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:16.072" clipEnd="00:00:17.370"/>
+        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:16.042" clipEnd="00:00:17.345"/>
       </par>
       <par>
         <text src="../xhtml/navigation_tests.xhtml#mo-nav-010-4"/>
-        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:17.370" clipEnd="00:00:19.517"/>
+        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:17.345" clipEnd="00:00:19.493"/>
       </par>
       <par>
         <text src="../xhtml/navigation_tests.xhtml#mo-nav-010-5"/>
-        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:19.517" clipEnd="00:00:20.022"/>
+        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:19.493" clipEnd="00:00:19.954"/>
       </par>
       <par>
         <text src="../xhtml/navigation_tests.xhtml#mo-nav-010-6"/>
-        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:20.022" clipEnd="00:00:20.738"/>
+        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:19.954" clipEnd="00:00:20.676"/>
       </par>
       <par>
         <text src="../xhtml/navigation_tests.xhtml#mo-nav-010-7"/>
-        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:20.738" clipEnd="00:00:21.100"/>
+        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:20.676" clipEnd="00:00:21.030"/>
       </par>
       <par>
         <text src="../xhtml/navigation_tests.xhtml#mo-1-46"/>
-        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:21.100" clipEnd="00:00:21.842"/>
+        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:21.030" clipEnd="00:00:21.816"/>
       </par>
       <par>
         <text src="../xhtml/navigation_tests.xhtml#mo-nav-010-8"/>
-        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:21.842" clipEnd="00:00:22.360"/>
+        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:21.816" clipEnd="00:00:22.326"/>
       </par>
       <par>
         <text src="../xhtml/navigation_tests.xhtml#mo-nav-010-9"/>
-        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:22.360" clipEnd="00:00:23.293"/>
+        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:22.326" clipEnd="00:00:23.254"/>
       </par>
       <par>
         <text src="../xhtml/navigation_tests.xhtml#mo-nav-010-10"/>
-        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:23.293" clipEnd="00:00:23.883"/>
+        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:23.254" clipEnd="00:00:23.860"/>
       </par>
       <par>
         <text src="../xhtml/navigation_tests.xhtml#mo-nav-010-11"/>
-        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:23.883" clipEnd="00:00:26.289"/>
+        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:23.860" clipEnd="00:00:26.308"/>
       </par>
       <par>
         <text src="../xhtml/navigation_tests.xhtml#mo-nav-010-12"/>
-        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:26.289" clipEnd="00:00:27.942"/>
+        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:26.308" clipEnd="00:00:27.988"/>
       </par>
       <par>
         <text src="../xhtml/navigation_tests.xhtml#mo-2-61"/>
-        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:27.942" clipEnd="00:00:34.171"/>
+        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:27.988" clipEnd="00:00:34.146"/>
       </par>
     </seq>
     <seq epub:textref="../xhtml/navigation_tests.xhtml#mo-nav-020">
       <par>
         <text src="../xhtml/navigation_tests.xhtml#mo-2"/>
-        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:34.171" clipEnd="00:00:36.552"/>
+        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:34.146" clipEnd="00:00:36.529"/>
       </par>
       <par>
         <text src="../xhtml/navigation_tests.xhtml#mo-3-27"/>
-        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:36.552" clipEnd="00:00:39.816"/>
+        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:36.529" clipEnd="00:00:39.760"/>
       </par>
       <par>
         <text src="../xhtml/navigation_tests.xhtml#mo-3"/>
-        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:39.816" clipEnd="00:00:49.031"/>
+        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:39.760" clipEnd="00:00:57.429"/>
       </par>
       <par>
         <text src="../xhtml/navigation_tests.xhtml#mo-4"/>
-        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:49.031" clipEnd="00:00:56.567"/>
+        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:57.429" clipEnd="00:01:04.980"/>
       </par>
       <par>
         <text src="../xhtml/navigation_tests.xhtml#mo-5"/>
-        <audio src="../audio/navigation_tests.mp3" clipBegin="00:00:56.567" clipEnd="00:01:28.632"/>
-      </par>
-      <par>
-        <text src="../xhtml/navigation_tests.xhtml#mo-4-20"/>
-        <audio src="../audio/navigation_tests.mp3" clipBegin="00:01:28.632" clipEnd="00:01:32.840"/>
+        <audio src="../audio/navigation_tests.mp3" clipBegin="00:01:04.980" clipEnd="00:01:37.099"/>
       </par>
     </seq>
   </body>

@@ -1,0 +1,38 @@
+<smil xmlns:epub="http://www.idpf.org/2007/ops" xmlns="http://www.w3.org/ns/SMIL" version="3.0">
+  <body epub:textref="../xhtml/playback_active.xhtml">
+    <par>
+      <text src="../xhtml/playback_active.xhtml#mo-1"/>
+      <audio src="../audio/playback_active.mp3" clipBegin="00:00:00.000" clipEnd="00:00:01.552"/>
+    </par>
+    <seq epub:textref="../xhtml/playback_active.xhtml#mo-playback-010">
+      <par>
+        <text src="../xhtml/playback_active.xhtml#mo-playback-010-2"/>
+        <audio src="../audio/playback_active.mp3" clipBegin="00:00:01.552" clipEnd="00:00:06.264"/>
+      </par>
+      <par>
+        <text src="../xhtml/playback_active.xhtml#mo-1-25"/>
+        <audio src="../audio/playback_active.mp3" clipBegin="00:00:06.264" clipEnd="00:00:13.844"/>
+      </par>
+      <par>
+        <text src="../xhtml/playback_active.xhtml#mo-2"/>
+        <audio src="../audio/playback_active.mp3" clipBegin="00:00:13.844" clipEnd="00:00:21.298"/>
+      </par>
+      <par>
+        <text src="../xhtml/playback_active.xhtml#mo-playback-010-3"/>
+        <audio src="../audio/playback_active.mp3" clipBegin="00:00:21.298" clipEnd="00:00:23.014"/>
+      </par>
+      <par>
+        <text src="../xhtml/playback_active.xhtml#mo-playback-010-4"/>
+        <audio src="../audio/playback_active.mp3" clipBegin="00:00:23.014" clipEnd="00:00:24.806"/>
+      </par>
+      <par>
+        <text src="../xhtml/playback_active.xhtml#mo-playback-010-5"/>
+        <audio src="../audio/playback_active.mp3" clipBegin="00:00:24.806" clipEnd="00:00:26.488"/>
+      </par>
+      <par>
+        <text src="../xhtml/playback_active.xhtml#mo-3"/>
+        <audio src="../audio/playback_active.mp3" clipBegin="00:00:26.488" clipEnd="00:00:34.476"/>
+      </par>
+    </seq>
+  </body>
+</smil>

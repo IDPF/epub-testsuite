@@ -6,8 +6,8 @@
       <dc:title id="title">EPUBTEST 0120 - Media Overlays Reflowable Tests</dc:title>  
       <meta refines="title" property="title-type">main</meta>
 	  
-		<dc:rights>Copyright © 2012-2015 International Digital Publishing Forum (IDPF)</dc:rights>
-		<meta property="dcterms:license">https://creativecommons.org/licenses/by/4.0/</meta>
+        <dc:rights>Copyright © 2012-2015 International Digital Publishing Forum (IDPF)</dc:rights>
+        <meta property="dcterms:license">https://creativecommons.org/licenses/by/4.0/</meta>
 	  
       <!-- repeat creator element for all contributors -->
       <dc:creator id="creator1">Marisa DeMeglio</dc:creator>
@@ -18,21 +18,21 @@
 	  <meta refines="#creator2" property="role" scheme="marc:relators">aut</meta>
 	  <meta refines="#creator2" property="file-as">Weck, Daniel</meta>
 
-    <meta property="media:duration" refines="#smil-1">00:01:24.687</meta>
-    <meta property="media:duration" refines="#smil-10">00:01:29.369</meta>
-    <meta property="media:duration" refines="#smil-11">00:06:27.604</meta>
-    <meta property="media:duration" refines="#smil-12">00:02:04.436</meta>
-    <meta property="media:duration" refines="#smil-13">00:00:26.602</meta>
-    <meta property="media:duration" refines="#smil-2">00:01:32.840</meta>
-    <meta property="media:duration" refines="#smil-3">00:15:18.134</meta>
-    <meta property="media:duration" refines="#smil-4">00:01:17.971</meta>
-    <meta property="media:duration" refines="#smil-5">00:00:22.475</meta>
-    <meta property="media:duration" refines="#smil-6">00:00:12.520</meta>
-    <meta property="media:duration" refines="#smil-7">00:01:44.175</meta>
-    <meta property="media:duration" refines="#smil-8">00:01:36.432</meta>
-    <meta property="media:duration" refines="#smil-9">00:00:29.900</meta>
-    <meta property="media:duration">00:34:27.145</meta>
-      
+        <meta property="media:duration" refines="#smil-1">00:01:30.043</meta>
+        <meta property="media:duration" refines="#smil-10">00:01:33.774</meta>
+        <meta property="media:duration" refines="#smil-11">00:06:29.047</meta>
+        <meta property="media:duration" refines="#smil-12">00:02:04.436</meta>
+        <meta property="media:duration" refines="#smil-13">00:00:34.476</meta>
+        <meta property="media:duration" refines="#smil-2">00:01:37.099</meta>
+        <meta property="media:duration" refines="#smil-3">00:15:18.134</meta>
+        <meta property="media:duration" refines="#smil-4">00:01:01.517</meta>
+        <meta property="media:duration" refines="#smil-5">00:00:22.475</meta>
+        <meta property="media:duration" refines="#smil-6">00:00:12.520</meta>
+        <meta property="media:duration" refines="#smil-7">00:01:44.175</meta>
+        <meta property="media:duration" refines="#smil-8">00:01:36.432</meta>
+        <meta property="media:duration" refines="#smil-9">00:00:29.900</meta>
+        <meta property="media:duration">00:34:34.028</meta>
+
       <dc:language>en</dc:language>
       <meta property="dcterms:modified">2013-14-01T13:00:00Z</meta>
       <!-- for the active text element -->
@@ -62,7 +62,7 @@
       <item id="xhtml-013" href="xhtml/skippability.xhtml"  media-type="application/xhtml+xml" media-overlay="smil-10"/>
       <item id="xhtml-014" href="xhtml/escapability.xhtml"  media-type="application/xhtml+xml" media-overlay="smil-11"/>
       <item id="xhtml-015" href="xhtml/embedded-media.xhtml"  media-type="application/xhtml+xml" media-overlay="smil-12"/>
-      <item id="xhtml-016" href="xhtml/playback-active.xhtml"  media-type="application/xhtml+xml" media-overlay="smil-13"/>
+      <item id="xhtml-016" href="xhtml/playback_active.xhtml"  media-type="application/xhtml+xml" media-overlay="smil-13"/>
       <item id="xhtml-last" href="xhtml/end.xhtml" media-type="application/xhtml+xml"/>
 
       <!-- css -->
@@ -87,7 +87,7 @@
       <item id="mp3-15" href="audio/embedded-media.mp3" media-type="audio/mpeg"/>
       <item id="mp3-16" href="audio/skippability.mp3" media-type="audio/mpeg"/>
       <item id="mp3-17" href="audio/escapability.mp3" media-type="audio/mpeg"/>
-      <item id="mp3-18" href="audio/playback-active.mp3" media-type="audio/mpeg"/>
+      <item id="mp3-18" href="audio/playback_active.mp3" media-type="audio/mpeg"/>
 
       <!-- media overlays -->
       <item id="smil-1" href="mo/basic_tests.smil" media-type="application/smil+xml"/>
@@ -102,7 +102,7 @@
       <item id="smil-10" href="mo/skippability.smil" media-type="application/smil+xml"/>
       <item id="smil-11" href="mo/escapability.smil" media-type="application/smil+xml"/>
       <item id="smil-12" href="mo/embedded-media.smil" media-type="application/smil+xml"/>
-	   <item id="smil-13" href="mo/playback-active.smil" media-type="application/smil+xml"/>
+	   <item id="smil-13" href="mo/playback_active.smil" media-type="application/smil+xml"/>
 
       <item id="video1" href="gizmo.webm" media-type="video/webm"/>
       <item id="video2" href="gizmo.mp4" media-type="video/mp4"/>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xml:lang="en" lang="en">
+    <head>
+        <meta charset="utf-8" />
+		
+		<!-- see http://www.idpf.org/epub/altss-tags/#style-sets -->
+		<!-- two persistent style sheets (no title attribute) -->
+		<link rel="stylesheet" type="text/css" href="../css/base.css" />
+		<link rel="stylesheet" type="text/css" href="../css/styling.css" />
+
+		<!-- two alternate style sheets (with different title attributes),
+		tagged with the predefined day and night classes.
+		The first is preferred as it does not have the alternate value in the rel attribute -->
+		<link rel="stylesheet" type="text/css" href="../css/day.css" class="day" title="day" />
+		<link rel="stylesheet alternate" type="text/css" href="../css/night.css" class="night" title="night" />
+    </head>
+    <body>
+    	<section id="alternate-style">
+    		<h2>Alternate style tags</h2>
+    		<section id="style-610" class="otest">
+    			<h3><span class="nature">[OPTIONAL]</span> <span class="test-id">style-610</span> <code>day</code></h3>
+    			<p class="desc">Tests whether the <code><a
+                href="http://www.idpf.org/epub/altss-tags/#app-night-version-style-set-tags"
+                >day</a></code> value for alternate style tags are supported.</p>
+    			<p class="day">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    			<p class="eval">If the text is italicized, the test passes.</p>
+    		</section>
+			<section id="style-611" class="otest">
+    			<h3><span class="nature">[OPTIONAL]</span> <span class="test-id">style-611</span> <code>night</code></h3>
+    			<p class="desc">Tests whether the <code><a
+                href="http://www.idpf.org/epub/altss-tags/#app-night-version-style-set-tags"
+                >night</a></code> value for alternate style tags are supported.</p>
+    			<p class="night">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    			<p class="eval">In the night mode, if the background is blue and the text is italicized, the test passes.</p>
+    		</section>
+    	</section>
+    </body>
+</html>
