@@ -48,6 +48,11 @@ body {
 	color: rgb(0,0,255);
 }
 
+.test-label-info {
+	display: inline;
+	font-size: 100%
+}
+
 dl.info dt {
     font-weight: bold;
     margin-bottom: 1em;

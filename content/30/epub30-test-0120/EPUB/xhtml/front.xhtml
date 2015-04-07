@@ -1,76 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-    <head>
-    	<title>EPUB 3.0 Compliance Test Suite</title>
-        <meta charset="utf-8" />
-        <link rel="stylesheet" type="text/css" href="../css/base.css" />
-    </head>
-    <body>
-
-    	<section>
-    		<h1>EPUB 3 Media Overlays Test Document: 0120</h1>
-
-    		<section>
-	    		<h2>Status of this Document</h2>
-
-    			<p>This publication is currently considered <span class="status">[UNDER DEVELOPMENT]</span> by the IDPF.</p>
-
-    			<p>This publication is part of version <span class="version">X.X</span> of the EPUB 3.0 Compliance Test Suite released
-    				on <time class="release">TBD</time>.</p>
-
-	    		<p>Before using this publication to evaluate reading systems, testers are strongly encouraged to
-	    			verify that they have the latest release by checking the current release version and date of
-	    			the test suite at <a href="http://idpf.org/">TBD</a></p>
-
-	    		<p>This publication is one of several that currently comprise the EPUB 3 conformance test suite
-	    			for reflowable content. The complete test suite includes all of the following publications:</p>
-
-	    		<ol class="reflow-doc-list">
-	    			<li>.</li>
-	    		</ol>
-    		</section>
-
-    		<section>
-    			<h2>About this Document</h2>
-
-	    		<p>This document focuses on text/audio synchronization via Media Overlays in a
-	    			reflowable context. Tests for fixed-layout content are available in a
-	    			sibling document; refer to
-	    			the <a href="https://github.com/mgylling/epub-testsuite/wiki/Overview">test suite
-	    				wiki</a> (<code>https://github.com/mgylling/epub-testsuite/wiki/Overview</code>) for additional
-	    			information.</p>
-    		</section>
-
-
-    		<section>
-    			<h2>Conventions</h2>
-    			<p>The following conventions are used throughout the document:</p>
-
-    			<dl class="info">
-    				<dt>1. Locating a test</dt>
-    				<dd>
-    					<div class="ctest">
-    						<p>Tests for <em>required</em> Reading System functionality are
-    							preceded by the label: <span class="nature"
-    								style="display: inline; font-size: 100%">[REQUIRED]</span></p>
-    					</div>
-    					<div class="otest">
-    						<p>Tests for <em>optional</em> Reading System functionality are
-    							preceded by the label: <span class="nature"
-    								style="display: inline; font-size: 100%">[OPTIONAL]</span></p>
-    					</div>
-    				</dd>
-    				<dt>2. Performing the test</dt>
-    				<dd>Each test includes a description of its purpose followed by the actual <strong>test statement,
-    					which can always be evaluated to true or false</strong>. These statements typically have the form:
-    					"If [some condition], the test passes".</dd>
-
-    				<dt>3. Scoring in the results form</dt>
-    				<dd>@@@TODO provide info on where to get the results form</dd>
-    			</dl>
-    		</section>
-    	</section>
-
-    </body>
+	<head>
+		<title>EPUB 3.0 Compliance Test Suite</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="../css/base.css" />
+	</head>
+	<body>
+		<section>
+			<h1>EPUB 3 Media Overlays Test Document: 0120</h1>
+			<section>
+				<h2>Abstract</h2>
+				<p>This document focuses on text/audio synchronization via Media Overlays in a reflowable context.
+					Tests for fixed-layout content are available in a sibling document; refer to the <a
+						href="https://github.com/mgylling/epub-testsuite/wiki/Overview">test suite wiki</a>
+						(<code>https://github.com/mgylling/epub-testsuite/wiki/Overview</code>) for additional
+					information.</p>
+			</section>
+			<section>
+				<h2>Status of this Document</h2>
+				<p>This publication is part of <a href="https://github.com/IDPF/epub-testsuite">EPUB 3 Test
+						Suite</a>.</p>
+				<p>Before using this publication to evaluate reading systems, testers are strongly encouraged to
+					verify that they have the latest release by checking the current release date of the test suite
+					at <a href="http://idpf.org/">TBD</a>. This publication should have a date appended to its file
+					name that indicates its release date.</p>
+				<p>This publication is subject to change at any time as new tests are identified and added.</p>
+			</section>
+			<section>
+				<h2>Conventions</h2>
+				<p>The following conventions are used throughout the document:</p>
+				<dl class="info">
+					<dt>1. Locating tests</dt>
+					<dd>
+						<div class="ctest">
+							<p>Tests for <em>required</em> Reading System functionality are preceded by the label:
+									<span class="nature test-label-info">[REQUIRED]</span></p>
+						</div>
+						<div class="otest">
+							<p>Tests for <em>optional</em> Reading System functionality are preceded by the label:
+									<span class="nature test-label-info">[OPTIONAL]</span></p>
+						</div>
+					</dd>
+					<dt>2. Performing tests</dt>
+					<dd>Each test includes a description of its purpose followed by the actual test statement,
+						which can always be evaluated to true or false. These statements typically have the form:
+						"If [some condition], the test passes".</dd>
+					<dt>3. Scoring results</dt>
+					<dd>Results can be recorded and stored by going to <a href="http://www.epubtest.org"
+							>epubtest.org</a> and creating an account. The scored results can be kept private or
+						shared for all users of the site. Scoring is an optional step.</dd>
+				</dl>
+			</section>
+		</section>
+	</body>
 </html>
