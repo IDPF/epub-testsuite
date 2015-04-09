@@ -1,0 +1,30 @@
+{
+  "@context": "http://www.idpf.org/epub/oa/1.0/context.json",
+  "@id": "http://example.org/epub/annotations.json",
+  "@type": "epub:AnnotationCollection",
+  "annotations": [
+    {
+      "@id": "urn:uuid:3c715aa7-1341-4b09-a69f-c4a1594d8064",
+      "@type": "oa:Annotation",
+      "hasTarget": {
+        "@type": "oa:SpecificResource",
+        "hasSelector": {
+          "@type": "oa:FragmentSelector",
+          "value": "epubcfi(/6/6!/4/6/6[a030])"
+        },
+        "hasSource": {
+          "@type": "dctypes:Text",
+          "dc:identifier": "com.github.epub-testsuite.epub30-test-0320",
+          "dcterms:modified": "2015-04-01T14:00:00Z"
+        }
+      },
+      "hasBody": {
+        "@type": "dctypes:Text",
+        "format": "application/xhtml+xml",
+        "chars": "<div xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>PASS</div>",
+        "language": "en"
+      },
+      "motivatedBy": "oa:commenting"
+    }
+  ]
+}
