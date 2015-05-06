@@ -10,7 +10,7 @@
         "@type": "oa:SpecificResource",
         "hasSelector": {
           "@type": "oa:FragmentSelector",
-          "value": "epubcfi(/6/6!/4/6/6[a030])"
+          "value": "epubcfi(/6/6!/4/4/6[a020])"
         },
         "hasSource": {
           "@type": "dctypes:Text",

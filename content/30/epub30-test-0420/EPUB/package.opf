@@ -20,7 +20,6 @@
 		<item href="xhtml/annotations-001.xhtml" id="anno-001" media-type="application/xhtml+xml"/>
 		<item href="xhtml/annotations-002.xhtml" id="anno-002" media-type="application/xhtml+xml"/>
 		<item href="annotations/annotations.json" id="anno-json" media-type="application/ld+json;profile=http://www.idpf.org/epub/oa/1.0/"/>
-		<item href="annotations/annotations.zip" id="anno-zip" media-type="application/zip"/>
 		<item href="css/base.css" media-type="text/css" id="css"/>
 	</manifest>
 	<spine>
