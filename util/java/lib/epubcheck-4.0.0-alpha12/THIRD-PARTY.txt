@@ -1,0 +1,29 @@
+Licenses of third-party dependencies
+------------------------------------
+
+  Guava: Google Core Libraries for Java, 14.0.1
+    The Apache Software License, Version 2.0
+
+  Saxon-HE, 9.5.1-5
+    Mozilla Public License Version 2.0
+
+  Commons Compress, 1.5
+    The Apache Software License, Version 2.0
+
+  Jackson, 1.9.12
+    The Apache Software License, Version 2.0
+
+  Data Mapper for Jackson, 1.9.12
+    The Apache Software License, Version 2.0
+
+  Jing, 20120724.0.0
+    New BSD License
+
+  javatuples, 1.2
+    The Apache Software License, Version 2.0
+
+  Simple API for CSS, 1.3
+    The W3C Software License
+
+
+Copies of the licenses are provided in the 'licenses' directory.

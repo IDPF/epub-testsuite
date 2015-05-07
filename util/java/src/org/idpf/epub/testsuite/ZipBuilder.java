@@ -26,19 +26,30 @@ public class ZipBuilder extends Builder {
 				
 		boolean hadError = false;
 		for(File epubDir : parent.listFiles(dirFilter)) {
+            System.out.println(epubDir.toString());
 			Archive epub = new Archive(epubDir.getAbsolutePath(), false);
 			epub.createArchive();
 			Report report = new DefaultReportImpl(epub.getEpubName());
 			EpubCheck check = new EpubCheck(epub.getEpubFile(), report);
-			if (check.validate()) {
-				System.out.println(Messages.NO_ERRORS__OR_WARNINGS);
-				String name = epub.getEpubName();
-				name = name.replace(".epub", "-"+now+".epub");
-				epub.getEpubFile().renameTo(new File(buildDir,name));
-			} else {
-				hadError = true;
-				System.err.println(Messages.THERE_WERE_ERRORS);
-			}
+
+            int validationResult = check.doValidate();
+            if (validationResult == 0 || validationResult == 1) {
+
+                if (validationResult == 0) {
+                    System.out.println(Messages.get("no_errors__or_warnings"));
+                }
+                else if (validationResult == 1) {
+                    System.err.println(Messages.get("there_were_warnings"));
+                }
+
+                String name = epub.getEpubName();
+                name = name.replace(".epub", "-"+now+".epub");
+                epub.getEpubFile().renameTo(new File(buildDir,name));
+            }
+            else if (validationResult >= 2){
+              System.err.println(Messages.get("there_were_errors"));
+              hadError = true;
+            }
 		}
 		return hadError;
 	}
