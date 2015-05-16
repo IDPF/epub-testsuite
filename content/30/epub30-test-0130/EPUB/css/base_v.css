@@ -257,6 +257,7 @@ img.pagenation {
 
 .topchar {
   -epub-text-combine-horizontal:all;
+  -epub-text-combine: horizontal;
   color:#ff0000;
   font-weight: bold;
 }
@@ -268,6 +269,7 @@ img.pagenation {
 
 .tcy {
   -epub-text-combine-horizontal:all;
+  -epub-text-combine: horizontal;
 }
 
 .upright {
