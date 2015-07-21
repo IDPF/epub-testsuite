@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uid">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
-		<dc:identifier id="uid">com.github.epub-testsuite.epub30-test-0400</dc:identifier>
+		<dc:identifier id="uid">com.github.epub-testsuite.epub30-test-0400-fxl</dc:identifier>
 		<dc:description>Tests for Multiple Renditions [UNDER CONSTRUCTION]</dc:description>
 		<dc:title id="title">EPUBTEST 0400 - Multiple-Rendition Tests</dc:title>
 		<meta refines="title" property="title-type">main</meta>
