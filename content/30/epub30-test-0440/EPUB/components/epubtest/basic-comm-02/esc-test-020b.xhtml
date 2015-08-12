@@ -9,6 +9,9 @@
     	<script>
 	        epubsc.subscribe("basic-comm", function(msg) {
 	            if (msg.data.topicData.status == "pass")
+					while(document.body.childNodes.length >= 1) {
+						document.body.removeChild(document.body.firstChild);
+					}
 					document.body.appendChild(document.createTextNode("PASS"));
 	        });
     	</script>
