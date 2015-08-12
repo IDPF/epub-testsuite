@@ -17,8 +17,11 @@
 	<manifest>
 		<item href="xhtml/front.xhtml" id="front" media-type="application/xhtml+xml"/>
 		<item href="xhtml/nav.xhtml" id="nav" media-type="application/xhtml+xml" properties="nav"/>
-		<item href="xhtml/esc-001.xhtml" id="esc-001" media-type="application/xhtml+xml"/>
+		<item href="xhtml/esc-001.xhtml" id="esc-001" media-type="application/xhtml+xml" properties="scripted"/>
 		<item href="xhtml/esc-test-010.xhtml" id="esc-test-001" media-type="application/xhtml+xml" properties="scripted"/>
+		<item href="components/epubtest/basic-comm/esc-test-020a.xhtml" id="esc-test-002" media-type="application/xhtml+xml" properties="scripted"/>
+		<item href="components/epubtest/basic-comm/esc-test-020b.xhtml" id="esc-test-003" media-type="application/xhtml+xml" properties="scripted"/>
+		<item href="components/epubtest/shared/epubsc_api.js" media-type="text/javascript" id="js01"/>
 		<item href="css/base.css" media-type="text/css" id="css"/>
 	</manifest>
 	<spine>

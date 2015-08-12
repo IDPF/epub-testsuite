@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>ESC 020a Test File</title>
+    	<meta charset="utf-8" />
+    	<link rel="stylesheet" type="text/css" href="../../../css/base.css" />
+        <script src="../shared/epubsc_api.js"></script>
+        <script>
+            function pubsubTest() {
+                var data = { status : "pass" };
+                epubsc.publish("basic-comm", data);
+            }
+        </script>
+    </head>
+    <body>
+    	<button onclick="pubsubTest()">Test</button>
+    </body>
+</html>

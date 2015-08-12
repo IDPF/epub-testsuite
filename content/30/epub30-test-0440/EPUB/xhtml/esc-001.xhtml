@@ -3,8 +3,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
     <head>
         <meta charset="utf-8" />
-    		<title>epub test suite</title>
+   		<title>epub test suite</title>
         <link rel="stylesheet" type="text/css" href="../css/base.css" />
+    	<script src="../components/epubtest/shared/epubsc_api.js"></script>
     </head>
     <body>
     	<section id="esc-010" class="ctest">
@@ -18,6 +19,20 @@
     		
     		<p class="conditional">If this test fails, none of the remaining tests in this section
     			(<code>esc-*</code>) apply and should be given the result <code>Not Supported</code>.</p>
+    	</section>
+    	<section id="esc-020" class="ctest">
+    		<h2><span class="nature">[REQUIRED]</span> <span class="test-id">esc-020</span> Component-to-Component Communication</h2>
+    		
+    		<p class="desc">Tests whether one scriptable component can subscribe to and receive messages from another.</p>
+    		
+    		<div>
+    			<iframe width="90" height="50" style="border: none;" src="../components/epubtest/basic-comm/esc-test-020a.xhtml"></iframe>
+    		</div>
+    		<div>
+    			<iframe width="60" height="35" style="border: none;" src="../components/epubtest/basic-comm/esc-test-020b.xhtml"></iframe>
+    		</div>
+    		
+    		<p class="eval">Press the test button above. If the word "PASS" appears between it and this paragraph, the test passes, otherwise it fails.</p>
     	</section>
     </body>
 </html>

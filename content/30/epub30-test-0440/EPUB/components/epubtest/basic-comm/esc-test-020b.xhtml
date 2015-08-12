@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>ESC 020b Test File</title>
+    	<meta charset="utf-8" />
+    	<link rel="stylesheet" type="text/css" href="../../../css/base.css" />
+    	<script src="../shared/epubsc_api.js"></script>
+    	<script>
+	        epubsc.subscribe("basic-comm", function(msg) {
+	            if (msg.data.topicData.status == "pass")
+					document.body.appendChild(document.createTextNode("PASS"));
+	        });
+    	</script>
+    </head>
+    <body>
+    </body>
+</html>
