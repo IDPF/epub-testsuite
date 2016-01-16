@@ -2,7 +2,7 @@
 <package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uid">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">com.github.epub-testsuite.epub30-test-0140</dc:identifier>
-		<dc:description>Tests for EPUB Content Fragment Identifiers [UNDER CONSTRUCTION]</dc:description>
+		<dc:description>Tests for EPUB Content Fragment Identifiers</dc:description>
 		<dc:title id="title">EPUBTEST 0140 - EPUB Content Fragment Identifier Tests</dc:title>
 		<meta refines="title" property="title-type">main</meta>
 		<dc:rights>Copyright © 2012-2015 International Digital Publishing Forum (IDPF)</dc:rights>

@@ -2,7 +2,7 @@
 <package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uid" prefix="rendition: http://www.idpf.org/vocab/rendition/#">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">com.github.epub-testsuite.epub30-test-0210</dc:identifier>
-		<dc:description>Tests for spine overrides of rendition:orientation property [UNDER CONSTRUCTION]</dc:description>
+		<dc:description>Tests for spine overrides of rendition:orientation property</dc:description>
 		<dc:title id="title">EPUBTEST 0210 - FXL Orientation Spine Override Tests</dc:title>
 		<meta refines="title" property="title-type">main</meta>
 		<dc:rights>Copyright © 2012-2015 International Digital Publishing Forum (IDPF)</dc:rights>
