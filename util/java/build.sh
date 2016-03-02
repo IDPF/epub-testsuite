@@ -1,6 +1,6 @@
 #!/bin/bash
 
-JARS="lib/*:lib/epubcheck-4.0.0-alpha12/*"        
+JARS="lib/*:lib/epubcheck-4.0.1/*"        
 
 echo "compiling..."
 mkdir -p bin
