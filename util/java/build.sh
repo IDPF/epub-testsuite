@@ -2,6 +2,10 @@
 
 JARS="lib/*:lib/epubcheck-4.0.1/*"        
 
+origpwd="$(pwd)"
+root="$(dirname "$0")"
+cd "$root"
+
 echo "compiling..."
 mkdir -p bin
 javac -d bin -cp $JARS -sourcepath src src/org/idpf/epub/testsuite/FormBuilder.java
@@ -10,8 +14,6 @@ javac -d bin -cp $JARS -sourcepath src src/org/idpf/epub/testsuite/ZipBuilder.ja
 #echo "building results form..."
 #java -cp $JARS:bin org.idpf.epub.testsuite.FormBuilder
 
-
-root=$(pwd)
 EPUB_FOLDER="${root}/../../content/30/"
 echo "${EPUB_FOLDER}"
 find "${EPUB_FOLDER}" -name ".DS_Store" -depth -exec rm {} \;
@@ -23,5 +25,7 @@ find "${EPUB_FOLDER}" -name ".DS_Store" -depth -exec rm {} \;
 
 echo "building epubs..."
 java -cp $JARS:bin org.idpf.epub.testsuite.ZipBuilder
+
+cd "$origpwd"
 
 echo "... done."
