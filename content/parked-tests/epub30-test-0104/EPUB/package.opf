@@ -4,7 +4,7 @@
 		<dc:identifier id="uid">com.github.epub-testsuite.epub30-test-0104</dc:identifier>
 		<dc:description>Tests for Text-to-Speech [UNDER CONSTRUCTION]</dc:description>
 		<dc:title id="title">EPUBTEST 0104 - Text-to-Speech Tests</dc:title>
-		<meta refines="title" property="title-type">main</meta>
+		<meta refines="#title" property="title-type">main</meta>
 		<!-- repeat creator element for all contributors -->
 		<dc:creator id="creator1">Markus Gylling</dc:creator>
 		<dc:creator id="creator2">Vincent Gros</dc:creator>
