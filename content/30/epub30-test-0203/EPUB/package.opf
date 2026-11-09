@@ -4,7 +4,7 @@
 		<dc:identifier id="uid">com.github.epub-testsuite.epub30-test-0203</dc:identifier>
 		<dc:description>Tests for synthetic spreads in landscape mode</dc:description>
 		<dc:title id="title">EPUBTEST 0203 - FXL Spreads (landscape) Tests</dc:title>
-		<meta refines="title" property="title-type">main</meta>
+		<meta refines="#title" property="title-type">main</meta>
 		<dc:rights>Copyright © 2012-2015 International Digital Publishing Forum (IDPF)</dc:rights>
 		<meta property="dcterms:license">https://creativecommons.org/licenses/by/4.0/</meta>
 		<!-- repeat creator element for all contributors -->
