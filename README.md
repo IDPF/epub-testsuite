@@ -1,3 +1,11 @@
+> [!WARNING]
+> **This repository is archived.** 
+>
+> A test suite for the [EPUB 3](https://www.w3.org/TR/epub/) W3C Recommendation is now maintained at https://github.com/w3c/epub-tests
+> 
+> An accessibility test suite is now maintained at https://github.com/daisy/epub-accessibility-tests/
+
+
 epub-testsuite
 ==============
 
@@ -32,7 +40,7 @@ You can also clone the project with [Git](http://git-scm.com) by running:
 
 ## Licensing
 
-Copyright © 2012-2015 International Digital Publishing Forum (IDPF)
+Copyright Â© 2012-2015 International Digital Publishing Forum (IDPF)
 
 The EPUB Test Suite by the IDPF is licensed under a Creative Commons 4.0 International License (CC-BY 4.0).
 
